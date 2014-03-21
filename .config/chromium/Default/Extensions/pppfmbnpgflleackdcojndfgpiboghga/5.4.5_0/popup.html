@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <title>Checker Plus for Google Drive - Popup page</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <script type="text/javascript" src="js/jquery.min.js"></script>
+   <script type="text/javascript" src="js/common.js"></script> <!--  must be after settings.js -->
+   <script type="text/javascript" src="js/checkerPlusForDrive.js"></script> <!--  must be after settings.js -->
+   <script type="text/javascript" src="js/popup.js"></script>
+         
+   <style>
+   		::-webkit-scrollbar {width:12px;height:8px} /* must balance width with initFixedArea() right */
+		::-webkit-scrollbar:hover, html.notif ::-webkit-scrollbar {border:1px solid #ccc}
+		::-webkit-scrollbar-thumb {background-color:rgba(0,0,0,0.2);-webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,0.10),inset 0 -1px 0 rgba(0,0,0,0.07);}
+		::-webkit-scrollbar-thumb:hover {background:rgba(0,0,0,0.4)}
+		::-webkit-scrollbar-button {width: 0;height: 0;display: none;}
+		::-webkit-scrollbar-corner {background-color: transparent}
+		
+		.antp body {background:white;min-width:100%;background-image:url(images/icon16.png) repeat}
+		.antp #header {display:none}
+		.antp #antpHeader {display:block;margin:2px 0 0;background:#eee;text-align:center;font-size:12px}
+		.antp #antpHeader a {color:blue;text-decoration:none}
+		.antp #antpHeader a:hover {text-decoration:underline}
+		.antp #antpHeader img {vertical-align:top}
+		.antp #createWrapper {display:none}
+		
+		body {font-family: arial, sans-serif;font-size: 0.8em;margin:0;padding:0}
+		a:hover {text-decoration:underline}
+		img {vertical-align: text-top}
+		
+		html {overflow:hidden;position:relative}				
+		
+		#antpHeader {display:none}
+				
+		.inline-block {display:inline-block}
+		
+		#topRightControls {position:absolute;top:5px;right:5px} /* display:inline-block;float:right */
+		
+		#by {font-size:11px;margin-left:2px}
+		
+		.alwaysHide {display:none !important}
+		
+		.statusMessageWrapper {display:none}
+		
+		.fileCommands {position:absolute;top:3px;right:4px}
+		.fileCommands span {display:none;opacity:0.4;margin-left:3px}
+		.fileCommands span:hover {display:inline;opacity:1;cursor:pointer}
+
+		#files {margin:0 0 0 5px;overflow-x:hidden;overflow-y:auto;max-height:500px;border-left:1px solid #eee;padding-left:15px;min-width:350px}
+		.antp #files {min-width:100%;padding-left:0;border-left:none}
+		.item {white-space: nowrap;position:relative;border-top:1px solid #eee;padding:3px 17px 3px 0}
+		.item:first-child {border-top:none} 
+		.item.unviewed {font-weight:bold}
+		.item.unviewed .fileCommands span.markAsViewed {display:none}
+		.item:hover {background:#ffc}
+		.item:hover .fileCommands span.delete {display:inline}
+		.item.unviewed:hover .fileCommands span.markAsViewed {display:inline}
+		.item.dragging {xxpadding-bottom:1px}
+		.item.dragging .title {background:#eee;outline:1px solid blue}
+		
+		.antp .fileCommands {display:none !important}
+		
+		.title {padding:3px 4px 3px 0}
+		.title:hover {color:blue;text-decoration:underline;cursor:pointer}
+		.folder {}
+		.folder .icon {opacity:0.45;margin-left: -3px;margin-top: -2px}
+		.folderName {xxopacity:0;margin-left:7px;color:#8f8f8f;font-weight:bold;vertical-align: baseline;font-size: 11px;font-family: arial,sans-serif;white-space: nowrap;}
+		
+		#header {font-size:14px;font-weight:bold}
+		#header a {color:blue}
+		#menu {float:right}
+		#menu div {padding:1px 2px 2px 2px}
+		#menu div:hover {cursor:pointer}
+
+		.menuItem {opacity:0.6;width:16px;height:16px;display:inline-block}
+		.menuItem:hover {opacity:1 !important}
+		
+		#options {opacity:0.5}
+		#close {opacity:0.5}
+		
+		.statusMessageWrapper {position:fixed;text-align:center;width:100%;display:none;z-index:5000}
+		.statusMessage {display:inline-block;box-shadow:2px 2px 5px #666;font-family:Arial, sans-serif;font-weight:bold;border-radius:4px;color:black;background:#FFF0A8;font-size: 13px;font-weight: bold;border:1px solid #ccc;padding:1px 10px 3px;}
+		
+		#search {outline:none;margin-top:8px;border-radius:3px;width:120px;padding:3px;font-size:12px}
+		.antp #search {width:65px}
+		
+		#titleArea {xxborder:1px solid #aaa;xxxbox-shadow:1px 1px 5px #555;padding:3px;xxbackground:#eee;xxborder-radius:3px}
+		#googleDriveText {color:blue}
+		#googleDriveText:focus {outline:none}
+		
+		#content {display:flex;margin-top:8px}
+		.antp #content {flex-direction: column;margin:0}
+		#leftNav {margin:10px 10px 10px 10px;width:120px}
+		.antp #leftNav {width:auto;margin:0;background:#eee}
+		.leftNavItem {white-space:nowrap;margin:2px 0;padding:1px 14px;cursor:pointer}
+		.leftNavItem:hover {background:#eee}
+		.leftNavItem.active {color:#dd4b39;font-weight:bold}
+		.antp .leftNavItem {color:blue;font-size:9px;display:inline-block;margin:3px;padding:0}
+		.antp .leftNavItem:hover {text-decoration:underline}
+		.antp .leftNavItem.active {color:#dd4b39;font-weight:normal}		
+
+		#searchWrapper {margin:2px 0 10px 20px}
+		.antp #searchWrapper {display:none}
+		
+		button {margin:1px;border-radius:2px;font-weight:bold;font-size:11px;padding:6px 14px;background-color: #d14836;background-image: -webkit-linear-gradient(top,#dd4b39,#d14836);border: 1px solid transparent;color: #fff;text-shadow: 0 1px rgba(0,0,0,0.1);text-transform: uppercase;}
+		.blueButton {background:#eee;border-radius:3px;border-color:#ccc;background-color:#4387fd !important;cursor:pointer}
+		
+		#create {padding:7px 11px}
+		#upload {padding:5px 6px;vertical-align:top;margin-left:0}
+		
+		#createOptions {box-shadow:3px 3px 2px #eee;display:none;position:absolute;margin-left:-10px;background:white;border:1px solid #bbb;border-radius:3px}
+		.createOption {padding:5px;cursor:pointer}
+		.createOption:hover {background:#eee}
+		.createOption img {vertical-align:middle}
+		
+		#jasonsavard {text-decoration:none}
+		#jasonsavard:hover {text-decoration:underline}
+		
+		#optionsMenu {font-family:arial;font-size:13px;font-weight:normal;box-shadow:0 2px 40px rgba(0,0,0,.4);z-index:5001;margin:0 0 12px 0;top:20px;right:65px;text-align:left;display:none;position:absolute;border:1px solid #ccc;border-radius:5px;background:white}
+		#optionsMenu ul {margin:0;padding:0;list-style-type:none}
+		#optionsMenu a {color:black;text-decoration:none}
+		#optionsMenu li {margin-bottom:1px;padding:2px 25px;white-space: nowrap}
+		#optionsMenu li:hover {cursor:pointer;background:#eee}
+		#optionsMenu li.selected {background-image:url("images/checkmark.png");background-repeat:no-repeat;xxfont-weight:bold}
+		#optionsMenu li.ddSection {padding-left:3px}
+		#optionsMenu li.doNotSelect a {font-style:italic}
+		#optionsMenu li.doNotSelect:hover {background:none;cursor:default}
+		#optionsMenu li.doNotSelect:hover a {cursor:default}
+
+		@-webkit-keyframes spin {
+			to {
+				-webkit-transform: rotate(1turn);
+			}
+		}
+		
+		.rotate {
+			-webkit-animation: spin 1s linear infinite;
+		}
+		
+	</style>
+</head>
+<body id="body">
+
+	<div class="statusMessageWrapper">
+		<div id="statusMessage" class="statusMessage" msg="processing">loading.....</div>
+	</div>
+
+    <div id="header">
+		<div id="titleArea">
+			<span style="color:gray"><img style="margin-top:-1px;width:16px" src="images/icon19.png"/> Checker Plus for <a id="googleDriveText" target="_blank" href="https://drive.google.com">Google Drive</a> <span id="by">by <a id="jasonsavard" target="_blank" href="http://jasonsavard.com?ref=DriveChecker">Jason Savard</a></span></span>
+		    <div id="menu">
+		    	<div id="options" class="menuItem" msgTitle="options"><img src="images/options.png"/></div>
+		        <div id="refresh" class="menuItem" msgTitle="refresh"><img src="images/refresh.png"/></div>
+		        <div id="maximize" class="menuItem" title="Maximize"><img src="images/maximize.png" style="margin-top:-1px"/></div>
+		        <div id="close" class="menuItem" title="Close"><img src="images/close.png"/></div>
+		    </div>
+
+		    <div id="optionsMenu">
+				<ul>
+					<li val="optionsPage"><a msg="options" href="#">Options</a></li>
+					<li val="changelog"><a msg="changelog" href="#">Changelog</a></li>
+					<li val="discoverMyApps"><a msg="discoverMyApps" href="#">Discover my apps</a></li>					
+					<li val="aboutMe"><a msg="aboutMe" href="#">About me</a></li>
+					<li val="help"><a msg="help" href="#">Help</a></li>
+				</ul>
+		    </div>
+		    
+		</div>
+    </div>
+	<div id="antpHeader" class="hide"><a target="_top" href="https://drive.google.com">Checker Plus for Google Drive</a> <img src="images/icon16.png"/></div>
+   
+   	<div id="content">
+   		<div id="leftNav">
+   			<div id="createWrapper" style="margin:0 0 8px 10px">
+   				<button id="create">Create</button><button id="upload"><img src="images/upload.png"/></button>
+   				<input id="uploadInputTag" type="file" style="display:none" />
+	   			<div id="createOptions">
+	   				<div class="createOption" id="documents" link="https://drive.google.com/document/create"><img src="images/createIcons/documents.png"/> Document</div>
+	   				<div class="createOption" id="presentations" link="https://drive.google.com/presentation/create"><img src="images/createIcons/presentations.png"/> Presentation</div>
+	   				<div class="createOption" id="spreadsheets" link="https://docs.google.com/spreadsheet/ccc?new"><img src="images/createIcons/spreadsheets.png"/> Spreadsheets</div>
+	   				<div class="createOption" id="forms" link="https://drive.google.com/forms/create"><img src="images/createIcons/forms.png"/> Forms</div>
+	   				<div class="createOption" id="drawings" link="https://drive.google.com/drawings/create"><img src="images/createIcons/drawings.png"/> Drawings</div>
+	   			</div>
+   			</div>
+	   		<div id="myDrive" class='leftNavItem'>My Drive</div>
+	   		<div id="sharedWithMe" class='leftNavItem'>Shared with Me</div>
+	   		<div id="starred" class='leftNavItem'>Starred</div>
+   			<div id="recent" class='leftNavItem'>Recent</div>
+   		</div>
+   		<div>
+	   		<div id="searchWrapper">
+	    		<input id="search" autofocus="autofocus" autocomplete="off" type="search" placeholder="Search title..."/> <button id="searchAll" class="blueButton" style="display:none">Search All</button>
+	    	</div>
+   			<div id="files"></div>
+   		</div>   		
+   	</div>
+   	
+   	<div id="permissionIsRequired" style="display:none;text-align:center"><button id="grantPermission" class="blueButton">Grant permission</button><div style="margin:10px;color:gray">It can be revoked any time within the options or via <a id="googleAccounts" target="_blank" href="http://support.google.com/accounts/bin/answer.py?answer=41236" style="white-space:nowrap">Google Accounts</a></div></div>
+   
+</body>
+</html>

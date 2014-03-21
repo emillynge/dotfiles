@@ -1,0 +1,764 @@
+{
+   "24hourMode": {
+      "message": "24hodinov\u00E9 zobrazen\u00ED \u010Dasu"
+   },
+   "24hourModeTitle": {
+      "message": "Zobraz\u00ED \u010Das v 24hodinov\u00E9m form\u00E1tu nap\u0159. 18:00"
+   },
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "NEODSTRA\u0147UJTE"
+   },
+   "Xminute": {
+      "message": "$1 minuta"
+   },
+   "Xminutes": {
+      "message": "$1 min"
+   },
+   "Xseconds": {
+      "message": "$1 s."
+   },
+   "aboutMe": {
+      "message": "O m\u011B"
+   },
+   "account": {
+      "message": "\u00DA\u010Det"
+   },
+   "addCalendar": {
+      "message": "P\u0159idat Kalend\u00E1\u0159"
+   },
+   "addCalendarTitle": {
+      "message": "P\u0159idat kalend\u00E1\u0159e pomoc\u00ED soukrom\u00E9 URL"
+   },
+   "addToGoogleCalendar": {
+      "message": "P\u0159idat do Google kalend\u00E1\u0159e"
+   },
+   "addedForSomeday": {
+      "message": "P\u0159id\u00E1no $1 na $2"
+   },
+   "addedForSomedayAt": {
+      "message": "P\u0159id\u00E1no $1 na $2 @ $3"
+   },
+   "addedForToday": {
+      "message": "P\u0159id\u00E1no $1 na dne\u0161ek"
+   },
+   "addedForTodayAt": {
+      "message": "P\u0159id\u00E1no $1 na $2"
+   },
+   "addedForTomorrow": {
+      "message": "P\u0159id\u00E1no $1 na z\u00EDt\u0159ek"
+   },
+   "addedForTomorrowAt": {
+      "message": "P\u0159id\u00E1no $1 na z\u00EDt\u0159ek @ $2"
+   },
+   "agenda": {
+      "message": "Agenda"
+   },
+   "agendaOnly": {
+      "message": "Pouze agenda"
+   },
+   "alertMe": {
+      "message": "nebo mne upozorn\u011Bte ..."
+   },
+   "all": {
+      "message": "V\u0161echny"
+   },
+   "alreadyDonated": {
+      "message": "Ji\u017E p\u0159isp\u011Bl?"
+   },
+   "amount": {
+      "message": "\u010C\u00E1stka"
+   },
+   "andMyExtensions": {
+      "message": "a moje roz\u0161\u00ED\u0159en\u00ED"
+   },
+   "archiveLink": {
+      "message": "Archivovat"
+   },
+   "archiveLinkTitle": {
+      "message": "Archivovat zpr\u00E1vu"
+   },
+   "backgroundOfNotification": {
+      "message": "Barva pozad\u00ED vyskakovac\u00ED bubliny s ozn\u00E1men\u00EDm"
+   },
+   "backgroundOfNotificationTooltip": {
+      "message": "Nastav\u00ED barvu pozad\u00ED ozn\u00E1men\u00ED popup bubliny"
+   },
+   "calendar": {
+      "message": "Kalend\u00E1\u0159"
+   },
+   "calendarHelper": {
+      "message": "kalend\u00E1\u0159 pomocn\u00EDk"
+   },
+   "calendarViewAgenda": {
+      "message": "Zobrazen\u00ED kalend\u00E1\u0159e: Agenda"
+   },
+   "calendarViewAgendaTitle": {
+      "message": "P\u0159i kliknut\u00ED na ikonu kalend\u00E1\u0159e se v\u00E1m uk\u00E1\u017Ee mal\u00FD kalend\u00E1\u0159 s ud\u00E1lostmi vypsan\u00FDmi n\u00ED\u017Ee"
+   },
+   "calendarViewRegular": {
+      "message": "Zobrazen\u00ED kalend\u00E1\u0159e: Pravideln\u00E9"
+   },
+   "calendarViewRegularTitle": {
+      "message": "P\u0159i kliknut\u00ED na ikonu kalend\u00E1\u0159e se v\u00E1m uk\u00E1\u017Ee kalend\u00E1\u0159 s ud\u00E1lostmi"
+   },
+   "calendarViewTitle": {
+      "message": "Vyberte si v\u00FDchoz\u00ED zobrazen\u00ED kalend\u00E1\u0159e"
+   },
+   "changeView": {
+      "message": "Zm\u011Bnit zobrazen\u00ED"
+   },
+   "changingIcon": {
+      "message": "Zm\u011Bna ikony"
+   },
+   "choosePaymentMethod": {
+      "message": "Vyberte si zp\u016Fsob placen\u00ED"
+   },
+   "closePopupsAfterAWhile": {
+      "message": "Zav\u0159\u00EDt upozorn\u011Bn\u00ED automaticky po "
+   },
+   "closePopupsAfterAWhileTitle": {
+      "message": "Zav\u0159\u00EDt vyskakovac\u00ED bublinu automaticky po x minut\u00E1ch"
+   },
+   "composeLinkTitle": {
+      "message": "Napsat novou zpr\u00E1vu"
+   },
+   "contact": {
+      "message": "kontakt"
+   },
+   "contactHelp": {
+      "message": "Kontakt - Pomoc"
+   },
+   "continue": {
+      "message": "Pokra\u010Dovat"
+   },
+   "continueWithoutFeatures": {
+      "message": "Pokra\u010Dovat v pou\u017E\u00EDv\u00E1n\u00ED tohoto roz\u0161\u00ED\u0159en\u00ED, ale bez t\u011Bchto dal\u0161\u00EDch funkc\u00ED."
+   },
+   "contributeToContinue": {
+      "message": "P\u0159isp\u011Bt"
+   },
+   "copyPrivateAddress": {
+      "message": "Zkop\u00EDrujte adresu (XML) kalend\u00E1\u0159e do schr\u00E1nky."
+   },
+   "copyPrivateAddressTitle": {
+      "message": "Ve va\u0161em str\u00E1nku Google Kalend\u00E1\u0159 na lev\u00E9 stran\u011B je kalend\u00E1\u0159 seznam, klepn\u011Bte na dol\u016F-\u0161ipkou vedle kalend\u00E1\u0159e, dle Va\u0161eho v\u00FDb\u011Bru, pot\u00E9 zvolte mo\u017Enost Nastaven\u00ED kalend\u00E1\u0159e. Vedle 'Soukrom\u00E1 adresa' vybrat XML a zkop\u00EDrovat adresu do schr\u00E1nky. Pozn\u00E1mka: Pokud nem\u016F\u017Eete naj\u00EDt 'Soukrom\u00E1 adresa', pak na dom\u00E9n\u011B admin-\u00FArovni, mus\u00EDte zm\u011Bnit nastaven\u00ED slu\u017Eeb-z kalend\u00E1\u0159e"
+   },
+   "createDeleteEvents": {
+      "message": "Vytvo\u0159en\u00ED nebo odstran\u011Bn\u00ED akc\u00ED v m\u011Bs\u00ED\u010Dn\u00EDm pohledu"
+   },
+   "createEvent": {
+      "message": "Vytvo\u0159it ud\u00E1lost"
+   },
+   "creditCardOrPaypal": {
+      "message": "M\u016F\u017Eete pou\u017E\u00EDt kreditn\u00ED kartu nebo PayPal"
+   },
+   "currentPage": {
+      "message": "aktu\u00E1ln\u00ED str\u00E1nky"
+   },
+   "customizeCalendar": {
+      "message": "Zm\u011Bnit v\u00FD\u0161ku, \u0161\u00ED\u0159ku, viditeln\u00E9 kalend\u00E1\u0159e, barvy, atd."
+   },
+   "customizeCalendarTitle": {
+      "message": "V popup kalend\u00E1\u0159i mus\u00EDte zm\u011Bnit 'Pohled' na 'Vlastn\u00ED'"
+   },
+   "customized": {
+      "message": "Vlastn\u00ED"
+   },
+   "d": {
+      "message": "d"
+   },
+   "daysAgo": {
+      "message": "p\u0159ed dny"
+   },
+   "daysLeft": {
+      "message": "zb\u00FDv\u00E1 $1 dn\u016F"
+   },
+   "delete": {
+      "message": "Odstranit"
+   },
+   "deleteLink": {
+      "message": "Smazat"
+   },
+   "deleteLinkTitle": {
+      "message": "Smazat z po\u0161tovn\u00ED schr\u00E1nky"
+   },
+   "description": {
+      "message": "Zobraz\u00ED po\u010Det nep\u0159e\u010Dten\u00FDch zpr\u00E1v ve slo\u017Ece Doru\u010Den\u00E1 po\u0161ta slu\u017Eby Google Mail. Kliknut\u00EDm na tla\u010D\u00EDtko tuto slo\u017Eku otev\u0159ete."
+   },
+   "developingMore": {
+      "message": "a pracuji na n\u011Bkolika va\u0161ich n\u00E1vrz\u00EDch ..."
+   },
+   "dismiss": {
+      "message": "Ukon\u010Dit"
+   },
+   "dismissAll": {
+      "message": "Zru\u0161it v\u0161echno"
+   },
+   "doNotShowNotificationsForAlldayEvents": {
+      "message": "Nezobrazovat upozorn\u011Bn\u00ED pro celodenn\u00ED ud\u00E1losti"
+   },
+   "doNotShowNotificationsForAlldayEventsTitle": {
+      "message": "Nezobrazovat upozorn\u011Bn\u00ED na celodenn\u00ED akce"
+   },
+   "doNotShowNotificationsWhenBrowserClosed": {
+      "message": "Nezobrazovat upozorn\u011Bn\u00ED, kdy\u017E jsou okna prohl\u00ED\u017Ee\u010De uzav\u0159ena"
+   },
+   "doNotShowNotificationsWhenBrowserClosedTooltip": {
+      "message": "Prohl\u00ED\u017Ee\u010D Chrome bude st\u00E1le b\u011B\u017Eet na pozad\u00ED v tray ikon\u011B, ALE ozn\u00E1men\u00ED se NEUK\u00C1\u017D\u00CD!"
+   },
+   "doNotShowPastNotifications": {
+      "message": "Nezobrazovat upozorn\u011Bn\u00ED na prob\u011Bhl\u00E9 ud\u00E1losti"
+   },
+   "doNotShowPastNotificationsTitle": {
+      "message": "Nezobrazovat ozn\u00E1men\u00ED, kter\u00E1 nastala p\u0159ed otev\u0159en\u00ED prohl\u00ED\u017Ee\u010De. U\u017Eite\u010Dn\u00E9, kdy\u017E \u010Dasto p\u0159ech\u00E1z\u00EDte od jednoho po\u010D\u00EDta\u010De k druh\u00E9mu"
+   },
+   "email": {
+      "message": "E-mail:"
+   },
+   "enablePrivateAddressTitle": {
+      "message": "P\u0159ejd\u011Bte na sekci Nastaven\u00ED slu\u017Eby v ovl\u00E1dac\u00EDch panelech, pot\u00E9 zvolte 'Sd\u00EDlet ve\u0161ker\u00E9 informace, a ostatn\u00ED mohou m\u011Bnit volby kalend\u00E1\u0159e"
+   },
+   "enterATitle": {
+      "message": "Zadejte n\u00E1zev!"
+   },
+   "enterAnAmount": {
+      "message": "Mus\u00EDte zadat \u010D\u00E1stku!"
+   },
+   "eventAdded": {
+      "message": "Ud\u00E1lost byla p\u0159id\u00E1na"
+   },
+   "eventCreated": {
+      "message": "Ud\u00E1lost byla vytvo\u0159ena"
+   },
+   "eventDeleted": {
+      "message": "Ud\u00E1lost smaz\u00E1na"
+   },
+   "eventDescription": {
+      "message": "Popis"
+   },
+   "eventsAndSnoozes": {
+      "message": "Ud\u00E1losti a odlo\u017Een\u00ED"
+   },
+   "excludeCalendar": {
+      "message": "Vylou\u010Dit kalend\u00E1\u0159"
+   },
+   "excludeCalendarFrom": {
+      "message": "Vylou\u010Dit kalend\u00E1\u0159 z"
+   },
+   "excludeCalendarFrom2": {
+      "message": "agendy a zobrazen\u00ED kalend\u00E1\u0159e"
+   },
+   "excludeCalendarFrom3": {
+      "message": "Ikona tla\u010D\u00EDtka a ozn\u00E1men\u00ED"
+   },
+   "excludeCalendarFromTitle": {
+      "message": "Klikn\u011Bte na 'zobrazit' skr\u00FDt konkr\u00E9tn\u00ED kalend\u00E1\u0159e z kalend\u00E1\u0159e / agenda n\u00E1zor nebo klikn\u011Bte na 'kontrolu' vylou\u010Dit ud\u00E1losti od tla\u010D\u00EDtka ikonu a upozorn\u011Bn\u00ED z kalend\u00E1\u0159e konkr\u00E9tn\u00EDch"
+   },
+   "excludeCalendarsCheckboxChecking": {
+      "message": "Pros\u00EDm, klikn\u011Bte na odkaz vpravo v t\u00E9to mo\u017Enosti"
+   },
+   "excludeRecurringEventsButtonIcon": {
+      "message": "Nezobrazovat opakuj\u00EDc\u00ED se ud\u00E1losti v ikon\u011B"
+   },
+   "excludeRecurringEventsButtonIconTooltip": {
+      "message": "V\u0161echny ud\u00E1losti nastaven\u00E9 na hodnotu opakovat nebudou zobrazeny v ikon\u011B tla\u010D\u00EDtka, ale o\u010Dek\u00E1vejte upozorn\u011Bn\u00ED"
+   },
+   "excluded": {
+      "message": "Vylou\u010Den\u00E9"
+   },
+   "extraFeatures": {
+      "message": "Dal\u0161\u00ED funkce"
+   },
+   "forSuggestions": {
+      "message": "pro n\u00E1vrhy nebo se v\u00EDce informac\u00ED"
+   },
+   "fullLinkTitle": {
+      "message": "Zobrazit podrobnosti"
+   },
+   "googleAppsCalendars": {
+      "message": "Google Apps kalend\u00E1\u0159e"
+   },
+   "googleAppsCalendarsForce": {
+      "message": "S\u00EDla Google v\u00EDce Sign-in v\u017Edy v\u00FDchoz\u00ED Google Apps Kalend\u00E1\u0159e"
+   },
+   "googleAppsCalendarsTitle": {
+      "message": "Toto nastavujte pouze, pokud m\u00E1te Google Apps pro firmy \u010Di \u0161kolstv\u00ED. Pozor, zak\u00E1\u017E\u00ED se pravideln\u00E9 kontroly Kalend\u00E1\u0159e Google!"
+   },
+   "googleAppsNote": {
+      "message": "T\u00EDmto zak\u00E1\u017Eete pravidelnou kontrolu Kalend\u00E1\u0159e Google"
+   },
+   "h": {
+      "message": "h"
+   },
+   "helpSupport": {
+      "message": "N\u00E1pov\u011Bda podpora autor tohoto prodlou\u017Een\u00ED!"
+   },
+   "highlightCurrentDay": {
+      "message": "Zv\u00FDraznit aktu\u00E1ln\u00ED den"
+   },
+   "highlightCurrentDayTooltip": {
+      "message": "Kdy\u017E se pod\u00EDv\u00E1te do kalend\u00E1\u0159e v pohledu M\u011Bs\u00EDc, aktu\u00E1ln\u00ED den bude kr\u00E1tce pulzovat"
+   },
+   "highlightWeekends": {
+      "message": "Zv\u00FDraznit v\u00EDkendy"
+   },
+   "highlightWeekendsTitle": {
+      "message": "Lehce pozm\u011Bnit odst\u00EDny v\u00EDkendov\u00FDch dn\u016F, ale jen v 'Pravideln\u00E9m' m\u011Bs\u00ED\u010Dn\u00EDm zobrazen\u00ED kalend\u00E1\u0159e"
+   },
+   "hours": {
+      "message": "hodin"
+   },
+   "hoursAgo": {
+      "message": "p\u0159ed $1 hodinami"
+   },
+   "hoursLeft": {
+      "message": "zb\u00FDv\u00E1 $1 hodin"
+   },
+   "hoursRemaining": {
+      "message": "Zobrazit zb\u00FDvaj\u00EDc\u00ED \u010Das do ud\u00E1losti m\u00EDsto konkr\u00E9tn\u00EDho \u010Dasu va\u0161\u00ED akce"
+   },
+   "hoursRemainingTitle": {
+      "message": "Uskute\u010Dn\u00ED-li se ud\u00E1lost do 24hodin, pak se na ikon\u011B zobraz\u00ED hodiny nap\u0159. 4h"
+   },
+   "iconClassic": {
+      "message": "Klasick\u00E1 ikona"
+   },
+   "iconDefault": {
+      "message": "V\u00FDchoz\u00ED ikona"
+   },
+   "iconDefault2WithDate": {
+      "message": "V\u00FDchoz\u00ED ikona s aktu\u00E1ln\u00EDm datem"
+   },
+   "iconMonochrome": {
+      "message": "Monochromatick\u00E1 ikona"
+   },
+   "iconNew": {
+      "message": "Nov\u00E1 ikona"
+   },
+   "iconNew2": {
+      "message": "Tmav\u00E1 ikona"
+   },
+   "iconNew2WithDate": {
+      "message": "Tmav\u00E1 ikona s aktu\u00E1ln\u00EDm datem"
+   },
+   "iconNewWithDate": {
+      "message": "Nov\u00E1 ikona s aktu\u00E1ln\u00EDm datem"
+   },
+   "iconTooltip": {
+      "message": "Ikona pro pou\u017Eit\u00ED s vyskakovac\u00EDm tla\u010D\u00EDtkem"
+   },
+   "inVARhour": {
+      "message": "za $1 hodinu"
+   },
+   "inVARhours": {
+      "message": "za $1 hodin"
+   },
+   "inVARminutes": {
+      "message": "za $1 min"
+   },
+   "languageName": {
+      "message": "\u010Ce\u0161tina"
+   },
+   "largest": {
+      "message": "nejv\u011Bt\u0161\u00ED"
+   },
+   "loading": {
+      "message": "Na\u010D\u00EDt\u00E1n\u00ED ..."
+   },
+   "longerSnoozeTimes": {
+      "message": "Del\u0161\u00ED \u010Dasy odlo\u017Een\u00ED"
+   },
+   "m": {
+      "message": "m"
+   },
+   "maxDaysAhead": {
+      "message": "Po\u010Det dn\u016F, jak dlouho dop\u0159edu se maj\u00ED na ikon\u011B zobrazovat"
+   },
+   "maxDaysAheadTitle": {
+      "message": "Maxim\u00E1ln\u00ED po\u010Det dn\u016F pro zobrazen\u00ED odpo\u010D\u00EDt\u00E1v\u00E1n\u00ED na ikon\u011B"
+   },
+   "min": {
+      "message": "min"
+   },
+   "minimumAmount": {
+      "message": "Mus\u00EDte darovat nejm\u00E9n\u011B $1"
+   },
+   "minutesAgo": {
+      "message": "p\u0159ed $1 minutami"
+   },
+   "minutesLeft": {
+      "message": "zb\u00FDv\u00E1 $1 minut"
+   },
+   "missingOptions": {
+      "message": "Chyb\u00ED V\u00E1m dal\u0161\u00ED mo\u017Enosti? Jsou p\u0159eklady \u0161patn\u00E9? Kontakt"
+   },
+   "missingOptions2": {
+      "message": "pro n\u00E1vrhy!"
+   },
+   "month": {
+      "message": "M\u011Bs\u00EDc"
+   },
+   "monthsArray": {
+      "message": "led,\u00FAno,b\u0159e,dub,kv\u011B,\u010Den,\u010Dec,srp,z\u00E1\u0159,\u0159\u00EDj,lis,pro"
+   },
+   "more": {
+      "message": "v\u00EDce"
+   },
+   "moreInfo": {
+      "message": "V\u00EDce info"
+   },
+   "mustAddCalendar": {
+      "message": "Pokud pou\u017E\u00EDv\u00E1te Google Apps, mus\u00EDte p\u0159idat kalend\u00E1\u0159"
+   },
+   "mustClickShareLinks": {
+      "message": "Pou\u017Eit\u00ED jak\u00E9hokoli pod\u00EDlu na n\u00ED\u017Ee uveden\u00FD odkaz popup kalend\u00E1\u0159 jednou a pak m\u016F\u017Eete odstranit v\u0161echny tady!"
+   },
+   "myPreference": {
+      "message": "Moje nastaven\u00ED"
+   },
+   "needHelp": {
+      "message": "Pot\u0159ebujete pomoc?"
+   },
+   "noUnreadText": {
+      "message": "\u017D\u00E1dn\u00E9 nov\u00E9 zpr\u00E1vy"
+   },
+   "notLoggedIn": {
+      "message": "Nejste p\u0159ihl\u00E1\u0161en"
+   },
+   "notTaxExempt": {
+      "message": "nejsem pl\u00E1tce dan\u011B"
+   },
+   "notificationFontSize": {
+      "message": "Velikost textu ozn\u00E1men\u00ED"
+   },
+   "notificationFontSizeTooltip": {
+      "message": "Nastav\u00ED velikost p\u00EDsma v n\u00E1zvu ud\u00E1losti ve vyskakovac\u00EDm ozn\u00E1men\u00ED. Nastavit nejmen\u0161\u00ED, pokud je n\u00E1zev dlouh\u00FD a naopak nastavit nejv\u011Bt\u0161\u00ED, kdy\u017E je n\u00E1zev ud\u00E1losti kr\u00E1tk\u00FD"
+   },
+   "notificationSound": {
+      "message": "Zvukov\u00E9 ozn\u00E1men\u00ED"
+   },
+   "notificationSoundTitle": {
+      "message": "P\u0159ehraje zvuk pokud v\u00FD\u0161e povol\u00EDte zvukov\u00E9 ozn\u00E1men\u00ED"
+   },
+   "notificationTextToSpeech": {
+      "message": "Hlasov\u00E9 ozn\u00E1men\u00ED"
+   },
+   "notificationTextToSpeechTitle": {
+      "message": "N\u00E1zev va\u0161\u00ED ud\u00E1losti se ozve z reproduktor\u016F pomoc\u00ED p\u0159evodu textu na \u0159e\u010D. Skv\u011Bl\u00E9, kdy\u017E je po\u010D\u00EDta\u010D ve vedlej\u0161\u00ED m\u00EDstnosti!"
+   },
+   "notificationZoom": {
+      "message": "P\u0159ibl\u00ED\u017Een\u00ED oznamovac\u00EDho okna"
+   },
+   "notificationZoomTooltip": {
+      "message": "Pou\u017Eijte toto ke zmen\u0161en\u00ED cel\u00E9ho textu v okn\u011B s upozorn\u011Bn\u00EDm (vhodn\u00E9 pro osoby s vysok\u00FDm m\u011B\u0159\u00EDtkem DPI)"
+   },
+   "offlineMode": {
+      "message": "Offline re\u017Eim"
+   },
+   "offlineModeTitle": {
+      "message": "Upozor\u0148ov\u00E1n\u00ED na ud\u00E1losti bez p\u0159ipojen\u00ED k internetu! Upozorn\u011Bn\u00ED: Ud\u00E1losti budou ulo\u017Eeny v tomto po\u010D\u00EDta\u010Di!"
+   },
+   "oneUnreadText": {
+      "message": "nov\u00E1 zpr\u00E1va"
+   },
+   "onlyPopupsForOwner": {
+      "message": "Zobrazovat pouze upozorn\u011Bn\u00ED na ud\u00E1losti z kalend\u00E1\u0159e jsem vlastn\u00ED"
+   },
+   "onlyPopupsForOwnerTooltip": {
+      "message": "Upozorn\u011Bn\u00ED se zobraz\u00ED pouze z kalend\u00E1\u0159e, kter\u00FD vlastn\u00EDte. To znamen\u00E1 z kalend\u00E1\u0159\u016F ve sloupci 'Moje kalend\u00E1\u0159e', a ne z kalend\u00E1\u0159\u016F, kter\u00E9 jsou sd\u00EDleny nebo jsou v \u010D\u00E1sti 'Ostatn\u00ED kalend\u00E1\u0159e'"
+   },
+   "onlyRemoveAfterDonation": {
+      "message": "Link pro p\u0159isp\u011Bn\u00ED lze odebrat pouze po finan\u010Dn\u00ED podpo\u0159e"
+   },
+   "openCalendar": {
+      "message": "Otev\u0159\u00EDt kalend\u00E1\u0159"
+   },
+   "openLinkTitle": {
+      "message": "Otev\u0159\u00EDt v prohl\u00ED\u017Ee\u010Di"
+   },
+   "option": {
+      "message": "Mo\u017Enost"
+   },
+   "optionToCustomizeWith": {
+      "message": "Pou\u017Eijte"
+   },
+   "options": {
+      "message": "Mo\u017Enosti"
+   },
+   "or": {
+      "message": "nebo"
+   },
+   "orPayUsing_": {
+      "message": "Nebo m\u016F\u017Eete zaplatit pomoc\u00ED"
+   },
+   "password": {
+      "message": "Heslo:"
+   },
+   "pastDays": {
+      "message": "Nechat z\u0161ednout posledn\u00ED dny"
+   },
+   "pastDaysTitle": {
+      "message": "Nechat z\u0161ednout posledn\u00ED dny v kalend\u00E1\u0159i, ale pouze v 'Pravideln\u00E9m' pohledu m\u011Bs\u00ED\u010Dn\u00EDho kalend\u00E1\u0159e"
+   },
+   "pasteHTML": {
+      "message": "a vlo\u017Ete n\u00ED\u017Ee uveden\u00FD k\u00F3d HTML"
+   },
+   "pollingInterval": {
+      "message": "Interval dotazov\u00E1n\u00ED"
+   },
+   "pollingIntervalTooltip": {
+      "message": "Interval, ve kter\u00E9m se budou na\u010D\u00EDtat ud\u00E1losti z Kalend\u00E1\u0159e Google a tla\u010D\u00EDtko aktualizovat"
+   },
+   "popupGoogleCalendarWebsite": {
+      "message": "Nechat tla\u010D\u00EDtko otev\u0159\u00EDt Google Kalend\u00E1\u0159 na webu m\u00EDsto vyskakovac\u00ED bubliny"
+   },
+   "popupGoogleCalendarWebsiteHelpTitle": {
+      "message": "P\u0159i kliknut\u00ED na ikonu tla\u010D\u00EDtka se otev\u0159e Google Kalend\u00E1\u0159 nam\u00EDsto mal\u00E9ho vyskakovac\u00EDho okna. (Dr\u017Een\u00ED kl\u00E1vesy CTRL ud\u011Bl\u00E1 p\u0159i kliknut\u00ED na ikonu tak\u00E9 toto!)"
+   },
+   "popupText": {
+      "message": "Obdr\u017Eeli jste novou zpr\u00E1vu!"
+   },
+   "poweredByGoogle": {
+      "message": "Powered by Google"
+   },
+   "quickAdd": {
+      "message": "Rychle p\u0159idat:"
+   },
+   "quickAddDefaultText": {
+      "message": "nap\u0159. 19 hodin ve\u010Dere u Petra"
+   },
+   "quickAddTitle": {
+      "message": "nap\u0159. Fotbal za\u010D\u00EDn\u00E1 za 20 min."
+   },
+   "readLink": {
+      "message": "P\u0159e\u010Dten\u00E9"
+   },
+   "readLinkTitle": {
+      "message": "Ozna\u010Dit jako p\u0159e\u010Dten\u00E9"
+   },
+   "refresh": {
+      "message": "Aktualizovat"
+   },
+   "refreshLinkTitle": {
+      "message": "Aktualizovat po\u0161tovn\u00ED schr\u00E1nky"
+   },
+   "rememberQuickAdd": {
+      "message": "Pamatovat si p\u0159ihl\u00E1\u0161en\u00ED pro Rychl\u00E9 p\u0159id\u00E1n\u00ED"
+   },
+   "rememberQuickAddTitle": {
+      "message": "Pozn\u00E1mka: Toto ulo\u017E\u00ED jen Google AuthKey ale ne va\u0161e p\u0159ihla\u0161ovac\u00ED \u00FAdaje"
+   },
+   "remindersBeforeEvent": {
+      "message": "Zobrazovat pouze upozorn\u011Bn\u00ED na ud\u00E1losti s"
+   },
+   "remindersBeforeEventHelpTitle": {
+      "message": "Na va\u0161\u00ED str\u00E1nce s Google kalend\u00E1\u0159i je na lev\u00E9 stran\u011B seznam kalend\u00E1\u0159\u016F, klepn\u011Bte na \u0161ipku-dol\u016F vedle v\u00E1mi vybran\u00E9ho kalend\u00E1\u0159e a zvolte 'Upozorn\u011Bn\u00ED'. Potom p\u0159idejte 'Vyskakovac\u00ED' p\u0159ipomenut\u00ED a nastavte \u010Das p\u0159ipomenut\u00ED. Pozn\u00E1mka: M\u016F\u017Eete tak\u00E9 p\u0159epsat tuto mo\u017Enost pro ka\u017Edou ud\u00E1lost p\u0159i p\u0159id\u00E1v\u00E1n\u00ED nebo editaci"
+   },
+   "remindersBeforeEventPopupReminder": {
+      "message": "'Vyskakovac\u00ED' p\u0159ipomenut\u00ED"
+   },
+   "remove": {
+      "message": "Odstranit"
+   },
+   "removeDonationLink": {
+      "message": "Odstranit odkaz vyb\u00EDzej\u00EDc\u00ED k p\u0159isp\u011Bn\u00ED"
+   },
+   "removeDonationLinkTitle": {
+      "message": "T\u00EDm se odstran\u00ED odkaz vyb\u00EDzej\u00EDc\u00ED k finan\u010Dn\u00EDmu daru pod kalend\u00E1\u0159i"
+   },
+   "removeQuickAdd": {
+      "message": "Odebrat 'Rychl\u00E9 p\u0159id\u00E1n\u00ED'"
+   },
+   "removeQuickAddTitle": {
+      "message": "Nezobrazovat funkci 'Rychl\u00E9 p\u0159id\u00E1n\u00ED'"
+   },
+   "removeShareLinks": {
+      "message": "Odebrat sd\u00EDlec\u00ED odkazy"
+   },
+   "removeShareLinksTooltip": {
+      "message": "Odstra\u0148uje Facebook, Twitter apod. odkazy pod popup kalend\u00E1\u0159em"
+   },
+   "removeTitle": {
+      "message": "Odebrat kalend\u00E1\u0159"
+   },
+   "replyLinkTitle": {
+      "message": "Odpov\u011Bd\u011Bt"
+   },
+   "reschedule": {
+      "message": "P\u0159epl\u00E1novat"
+   },
+   "save": {
+      "message": "Ulo\u017Eit"
+   },
+   "saveSettings": {
+      "message": "Ulo\u017Eit nastaven\u00ED"
+   },
+   "saved": {
+      "message": "Ulo\u017Eeno!"
+   },
+   "saving": {
+      "message": "Ukl\u00E1d\u00E1n\u00ED ..."
+   },
+   "securely": {
+      "message": "bezpe\u010Dn\u011B."
+   },
+   "seeVideo": {
+      "message": "Pod\u00EDvat se na video"
+   },
+   "selectACalendar": {
+      "message": "Vyberte kalend\u00E1\u0159"
+   },
+   "selectCalendar": {
+      "message": "Vyberte kalend\u00E1\u0159!"
+   },
+   "severalUnreadText": {
+      "message": "nov\u00FDch zpr\u00E1v"
+   },
+   "showAgendaOptions": {
+      "message": "Zobrazit odkaz na nastaven\u00ED v zobrazen\u00ED agendy"
+   },
+   "showAgendaOptionsTitle": {
+      "message": "Zobrazit odkaz na Nastaven\u00ED v  pohledu agenda"
+   },
+   "showConsoleMessages": {
+      "message": "P\u0159ihl\u00E1\u0161en\u00ED do Javascript konzole"
+   },
+   "showConsoleMessagesTitle": {
+      "message": "Meant for debugging only and may slow down the extension a little bit!"
+   },
+   "showDesktopNotifications": {
+      "message": "Zobrazit upozorn\u011Bn\u00ED na plo\u0161e"
+   },
+   "showDesktopNotificationsTitle": {
+      "message": "Povolte toto, aby se objevilo upozorn\u011Bn\u00ED"
+   },
+   "showEventTimeOnBadge": {
+      "message": "Zobrazit \u010Das ud\u00E1losti na ikon\u011B tla\u010D\u00EDtka"
+   },
+   "showEventTimeOnBadgeTooltip": {
+      "message": "Zobrazit na ikon\u011B \u010Das do dal\u0161\u00ED ud\u00E1losti "
+   },
+   "showHeader": {
+      "message": "Zobrazit z\u00E1hlav\u00ED ve vyskakovac\u00EDm okn\u011B"
+   },
+   "showHeaderTooltip": {
+      "message": "Zobrazuje Rychl\u00E9 p\u0159id\u00E1n\u00ED a dal\u0161\u00ED p\u0159\u00EDkazy v horn\u00ED \u010D\u00E1sti vyskakovac\u00EDho okna"
+   },
+   "showMinutesLeftInBadge": {
+      "message": "Zobraz\u00ED kolik minut je\u0161t\u011B zb\u00FDv\u00E1 do \u010Dasu ud\u00E1losti"
+   },
+   "showMinutesLeftInBadgeTitle": {
+      "message": "Pokud se ud\u00E1lost uskute\u010Dn\u00ED do jedn\u00E9 hodiny, zobraz\u00ED se zb\u00FDvaj\u00EDc\u00ED minuty"
+   },
+   "showOpenCalendar": {
+      "message": "Zobraz\u00ED ikonu otev\u00EDraj\u00EDc\u00ED kalend\u00E1\u0159"
+   },
+   "showOpenCalendarTooltip": {
+      "message": "Zobraz\u00ED otev\u0159en\u00FD kalend\u00E1\u0159"
+   },
+   "showQuickAdd": {
+      "message": "Zobrazit 'Rychl\u00E9 p\u0159id\u00E1n\u00ED'"
+   },
+   "showQuickAddTooltip": {
+      "message": "Zobrazuje rychl\u00E9 p\u0159id\u00E1n\u00ED textu v lev\u00E9m horn\u00EDm rohu"
+   },
+   "showRefresh": {
+      "message": "Zobrazit obnovovac\u00ED ikonu"
+   },
+   "showRefreshTooltip": {
+      "message": "Zobrazuje obnovovac\u00ED ikonu"
+   },
+   "showTimeSpecificEventsBeforeAllDay": {
+      "message": "Zobrazit dob\u011B zvl\u00E1\u0161tn\u00ED ud\u00E1losti p\u0159ed celodenn\u00ED ud\u00E1losti"
+   },
+   "showTimeSpecificEventsBeforeAllDayTooltip": {
+      "message": "Pokud z\u00EDtra m\u00E1te cel\u00FD den akce, a 10 hod. ud\u00E1lost to bude zobrazovat 10 hod., m\u00EDsto 1d"
+   },
+   "showViewDropDown": {
+      "message": "Show view dropdown"
+   },
+   "showViewDropDownTooltip": {
+      "message": "Displays the 'View' dropdown list (Note: You need to see this to change your view initially, afterwards you can hide it :)"
+   },
+   "signIn": {
+      "message": "P\u0159ihl\u00E1sit se"
+   },
+   "smallest": {
+      "message": "nejmen\u0161\u00ED"
+   },
+   "snooze": {
+      "message": "Odlo\u017Eit"
+   },
+   "spamLink": {
+      "message": "Spam"
+   },
+   "spamLinkTitle": {
+      "message": "Ozna\u010Dit jako nevy\u017E\u00E1dan\u00E9"
+   },
+   "ssl": {
+      "message": "V\u017Edy pou\u017E\u00EDvat protokol SSL"
+   },
+   "sslTitle": {
+      "message": "V\u017Edy pou\u017E\u00EDt SSL \u0161ifrov\u00E1n\u00ED p\u0159i p\u0159\u00EDstupu Kalend\u00E1\u0159 Google"
+   },
+   "starLinkTitle": {
+      "message": "Ozna\u010Dit hv\u011Bzdi\u010Dkou"
+   },
+   "staySignedIn": {
+      "message": "Neodhla\u0161ovat"
+   },
+   "successful": {
+      "message": "\u00DAsp\u011B\u0161n\u00FD"
+   },
+   "summaryLinkTitle": {
+      "message": "Skr\u00FDt podrobnosti"
+   },
+   "supportAndRequestsPrioritized": {
+      "message": "za mou podporu budou va\u0161e \u017E\u00E1dosti vy\u0159\u00EDzeny p\u0159ednostn\u011B!"
+   },
+   "timeout": {
+      "message": "\u010Casov\u00E9 zpo\u017Ed\u011Bn\u00ED"
+   },
+   "timeoutTooltip": {
+      "message": "M\u016F\u017Ee odstranit probl\u00E9m s p\u0159ihl\u00E1\u0161en\u00EDm pokud m\u00E1te 10 nebo v\u00EDce kalend\u00E1\u0159\u016F, nebo pokud m\u00E1te v kalend\u00E1\u0159i hodn\u011B ud\u00E1lost\u00ED)"
+   },
+   "toSeeCalendar": {
+      "message": "vid\u011Bt sv\u016Fj kalend\u00E1\u0159!"
+   },
+   "today": {
+      "message": "Dnes"
+   },
+   "tomorrow": {
+      "message": "Z\u00EDtra"
+   },
+   "unlockFeatures": {
+      "message": "Uvolnit tyto vlastnosti za jakoukoli jednor\u00E1zovou \u010D\u00E1stku, a ony budou okam\u017Eit\u011B k dispozici!"
+   },
+   "unreadLink": {
+      "message": "Nep\u0159e\u010Dten\u00E9"
+   },
+   "unreadLinkTitle": {
+      "message": "Ozna\u010Dit jako nep\u0159e\u010Dnet\u00E9"
+   },
+   "view": {
+      "message": "Pohled"
+   },
+   "voiceNotificationOnlyIfIdle": {
+      "message": "Pouze tehdy, pokud jste daleko od po\u010D\u00EDta\u010De po dobu nejm\u00E9n\u011B"
+   },
+   "voiceNotificationOnlyIfIdleTooltip": {
+      "message": "Pou\u017Eijte tuto volbu, pokud chcete sly\u0161et hlas, kdy\u017E po\u010D\u00EDta\u010D nepou\u017E\u00EDv\u00E1te, nebo je ne\u010Dinn\u00FD"
+   },
+   "week": {
+      "message": "T\u00FDden"
+   },
+   "what": {
+      "message": "Co"
+   },
+   "when": {
+      "message": "Kdy\u017E"
+   },
+   "yesterday": {
+      "message": "V\u010Dera"
+   }
+}

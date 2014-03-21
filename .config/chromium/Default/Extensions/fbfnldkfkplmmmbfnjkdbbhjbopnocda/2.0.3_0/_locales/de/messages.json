@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "\u00DCber"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "Los!"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "Suchverlauf l\u00F6schen"
+   },
+   "defaultLocation": {
+      "description": "default location is Berlin",
+      "message": "Berlin"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of Berlin",
+      "message": "52.52"
+   },
+   "defaultLocationLink": {
+      "description": "location link of Berlin",
+      "message": "de/Berlin"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of Berlin",
+      "message": "13.41"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "Leider konnte Ihr aktueller Standort nicht ermittelt werden."
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "Die Ortsangabe ist nicht verst\u00E4ndlich '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Google Maps"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "Findet Orte auf der Karte und entdeckt naheliegende Sehensw\u00FCrdigkeiten"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Google Maps mit Umgebungssuche"
+   },
+   "findMeTitle": {
+      "description": "Zeige meinen Standort",
+      "message": "Show my location"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Von hier aus"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Route berechnen: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.de"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "Hilfe"
+   },
+   "hotspot1": {
+      "message": "Restaurant"
+   },
+   "hotspot2": {
+      "message": "Cafe"
+   },
+   "hotspot3": {
+      "message": "Museum"
+   },
+   "hotspot4": {
+      "message": "Kino"
+   },
+   "hotspot5": {
+      "message": "Hotel"
+   },
+   "hotspot6": {
+      "message": "Bibliothek"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "Sehensw\u00FCrdigkeiten: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "Standort: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Nach hierhin"
+   }
+}

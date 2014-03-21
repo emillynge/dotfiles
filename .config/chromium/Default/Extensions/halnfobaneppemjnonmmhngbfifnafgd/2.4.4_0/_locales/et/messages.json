@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "taust"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Liigu t\u00E4he kaupa tagasi"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Liigu l\u00F5igu kaupa tagasi"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Liigu lause kaupa tagasi"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Liigu s\u00F5na kaupa tagasi"
+   },
+   "chromevis_capitals_text": {
+      "message": "Suurt\u00E4htede jaoks kasuta klahve Shift+[Key]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Vaheta tsentreeritud / joondatud Lens"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "V\u00E4henda teksti suurust"
+   },
+   "chromevis_description": {
+      "message": "Suurendage ja muutke mis tahes valitud teksti v\u00E4rvi. Kasutage hiirt v\u00F5i klaviatuuri valiku teisaldamiseks lehel."
+   },
+   "chromevis_format_text": {
+      "message": "Otseteed peavad olema j\u00E4rgmises vormingus: [Modifier]+[Key]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Liigu t\u00E4he kaupa edasi"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Liigu l\u00F5igu kaupa edasi"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Liigu lause kaupa edasi"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Liigu s\u00F5na kaupa edasi"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Suurenda teksti suurust"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (Google'ilt)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Taasta vaikev\u00E4\u00E4rtused"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Salvesta"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "L\u00FClita Lens sisse/v\u00E4lja"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Vaheta ankurdatud / h\u00F5ljuv Lens"
+   },
+   "chromevis_textcolor_label": {
+      "message": "tekst"
+   },
+   "chromevis_title_text": {
+      "message": "Lensi klaviatuuri otseteed"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "et"
+   }
+}

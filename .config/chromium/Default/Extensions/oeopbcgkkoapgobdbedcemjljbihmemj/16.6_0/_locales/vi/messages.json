@@ -1,0 +1,74 @@
+{
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "NEODSTRA\u0147UJTE"
+   },
+   "archiveLink": {
+      "message": "L\u01B0u tr\u1EEF"
+   },
+   "archiveLinkTitle": {
+      "message": "L\u01B0u tr\u1EEF th\u01B0"
+   },
+   "composeLinkTitle": {
+      "message": "So\u1EA1n th\u01B0 m\u1EDBi"
+   },
+   "deleteLink": {
+      "message": "X\u00F3a"
+   },
+   "deleteLinkTitle": {
+      "message": "X\u00F3a th\u01B0"
+   },
+   "fullLinkTitle": {
+      "message": "Hi\u1EC3n th\u1ECB n\u1ED9i dung \u0111\u1EA7y \u0111\u1EE7"
+   },
+   "languageName": {
+      "message": "Ti\u1EBFng Vi\u1EC7t"
+   },
+   "monthsArray": {
+      "message": "th\u00E1ng 1,th\u00E1ng 2,th\u00E1ng 3,th\u00E1ng 4,th\u00E1ng 5,th\u00E1ng 6,th\u00E1ng 7,th\u00E1ng 8,th\u00E1ng 9,th\u00E1ng 10,th\u00E1ng 11,th\u00E1ng 12"
+   },
+   "noUnreadText": {
+      "message": "Kh\u00F4ng c\u00F3 th\u01B0 ch\u01B0a \u0111\u1ECDc"
+   },
+   "oneUnreadText": {
+      "message": "th\u01B0 ch\u01B0a \u0111\u1ECDc"
+   },
+   "openLinkTitle": {
+      "message": "M\u1EDF ra webmail"
+   },
+   "popupText": {
+      "message": "B\u1EA1n hi\u1EC7n c\u00F3 th\u01B0 m\u1EDBi!"
+   },
+   "readLink": {
+      "message": "Th\u01B0 \u0111\u00E3 \u0111\u1ECDc"
+   },
+   "readLinkTitle": {
+      "message": "\u0110\u00E1nh d\u1EA5u \u0111\u00E3 \u0111\u1ECDc"
+   },
+   "refreshLinkTitle": {
+      "message": "C\u1EADp nh\u1EADt danh s\u00E1ch th\u01B0"
+   },
+   "replyLinkTitle": {
+      "message": "H\u1ED3i \u00E2m"
+   },
+   "severalUnreadText": {
+      "message": "th\u01B0 ch\u01B0a \u0111\u1ECDc"
+   },
+   "spamLink": {
+      "message": "R\u00E1c"
+   },
+   "spamLinkTitle": {
+      "message": "\u0110\u00E1nh d\u1EA5u th\u01B0 r\u00E1c"
+   },
+   "starLinkTitle": {
+      "message": "\u0110\u00E1nh d\u1EA5u sao"
+   },
+   "summaryLinkTitle": {
+      "message": "Hi\u1EC3n th\u1ECB t\u00F3m t\u1EAFt"
+   },
+   "unreadLink": {
+      "message": "Th\u01B0 ch\u01B0a \u0111\u1ECDc"
+   },
+   "unreadLinkTitle": {
+      "message": "\u0110\u00E1nh d\u1EA5u ch\u01B0a \u0111\u1ECDc"
+   }
+}

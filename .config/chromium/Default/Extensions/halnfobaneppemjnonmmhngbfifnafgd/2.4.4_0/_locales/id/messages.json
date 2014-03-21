@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "latar belakang"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Mundur per Karakter"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Mundur per Paragraf"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Mundur per Kalimat"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Mundur per Kata"
+   },
+   "chromevis_capitals_text": {
+      "message": "Untuk huruf kapital, gunakan Shift+[Tombol]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Tengahkan/Imbangkan Lensa"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Kurangi Ukuran Teks"
+   },
+   "chromevis_description": {
+      "message": "Memperbesar dan mengubah warna teks mana pun yang dipilih. Gunakan mouse atau keyboard untuk memindah pilihan di sekitar laman."
+   },
+   "chromevis_format_text": {
+      "message": "Pintasan harus dalam format ini: [Pengubah]+[Tombol]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Maju per Karakter"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Maju per Paragraf"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Maju per Kalimat"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Maju per Kata"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Tambah Ukuran Teks"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (oleh Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Pulihkan Bawaan"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Simpan"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Hidupkan/Matikan Lensa"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Kaitkan/Ambangkan Lensa"
+   },
+   "chromevis_textcolor_label": {
+      "message": "teks"
+   },
+   "chromevis_title_text": {
+      "message": "Pintasan Keyboard Lensa"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "id"
+   }
+}

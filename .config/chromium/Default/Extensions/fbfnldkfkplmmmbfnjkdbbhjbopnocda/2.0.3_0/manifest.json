@@ -1,0 +1,18 @@
+{
+   "browser_action": {
+      "default_icon": "icons/maps19.png",
+      "default_title": "__MSG_extDefaultTitle__",
+      "popup": "map.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "icons/maps128.png",
+      "48": "icons/maps48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCimL6cErsdyaXj4N5RjaeF8sa/V+gpjIIQJMjw/sYLP9tmCvGZddsLmBu9b/Y+MXWhV8JeoQQJVrrT9jpTrrz1ssRs+6it2FHZZ1KE9+v/RANWnjpD/7zQgw8jIb3GdbxcV/P070x3F2IiJVA0NWrH4bOPBFPR1xXkJs7MEJJRGwIDAQAB",
+   "name": "__MSG_extName__",
+   "permissions": [ "geolocation" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.0.3"
+}

@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Screenshot p\u00E5 hela sidan"
+   },
+   "cancel": {
+      "message": "Avbryt"
+   },
+   "canceled": {
+      "message": "Abruten!"
+   },
+   "cannotscroll": {
+      "message": "Kan inte scrolla sidan\u003Cbr\u003E\u003Cbr/\u003EF\u00F6rs\u00F6k att \u00E5ter\u00F6ppna sidan"
+   },
+   "changeheaders": {
+      "message": "\u00C4ndra sidhuvud och sidfot"
+   },
+   "createimage": {
+      "message": "G\u00F6r foto fil..."
+   },
+   "date": {
+      "message": "Datum"
+   },
+   "description": {
+      "message": "Snabb och enkel l\u00F6sning f\u00F6r att spara JPG sk\u00E4rmdumpar av en webbsida. Den f\u00F6rsta f\u00F6rl\u00E4ngningen att f\u00E5nga hela sidan."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Du can g\u00F6ra en Felrapport"
+   },
+   "footer": {
+      "message": "Sidfot"
+   },
+   "header": {
+      "message": "Rubrik"
+   },
+   "height": {
+      "message": "H\u00F6jd"
+   },
+   "imagesize": {
+      "message": "Bildstorlek:"
+   },
+   "likeresult": {
+      "message": "Gillar du resultatet? Du kan skriva en fin kommentar, och ge fem stj\u00E4rnor"
+   },
+   "loadcapturescript": {
+      "message": "Laddar Script..."
+   },
+   "name": {
+      "message": "Print Screen - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "kan inte rulla den h\u00E4r sidan (Till\u00E4gg kan inte arbeta p\u00E5 interna Chrome sidor och inte heller om Chrome f\u00F6rl\u00E4ngningar galleri)"
+   },
+   "noresize": {
+      "message": "Ingen storleks\u00E4ndring"
+   },
+   "openimage": {
+      "message": "Klicka h\u00E4r f\u00F6r att \u00F6ppna bilden"
+   },
+   "or": {
+      "message": "Eller"
+   },
+   "preview": {
+      "message": "F\u00F6rhandsgranska:"
+   },
+   "resize": {
+      "message": "Storleks\u00E4ndra till: "
+   },
+   "resizebefore": {
+      "message": "\u00C4ndra storlek p\u00E5 f\u00F6nster innan bildtagning"
+   },
+   "takecapture": {
+      "message": "Ta bild nu"
+   },
+   "takingcapture": {
+      "message": "Tar foto"
+   },
+   "tosavemessage": {
+      "message": "F\u00F6r att spara bilden, H\u00F6gerklicka p\u00E5 den och v\u00E4lj \"Save Image\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Synlig Screenshot"
+   },
+   "wait": {
+      "message": "V\u00E4nta"
+   },
+   "width": {
+      "message": "Bredd"
+   },
+   "zoom": {
+      "message": "Zooma"
+   }
+}

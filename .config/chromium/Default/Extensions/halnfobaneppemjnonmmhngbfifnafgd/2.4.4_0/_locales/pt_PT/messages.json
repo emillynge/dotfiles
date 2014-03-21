@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "fundo"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Retroceder por car\u00E1cter"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Retroceder por par\u00E1grafo"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Retroceder por frase"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Retroceder por palavra"
+   },
+   "chromevis_capitals_text": {
+      "message": "Para mai\u00FAsculas, utilize Shift+[Tecla]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Activar/desactivar lente centrada/justificada"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Reduzir tamanho do texto"
+   },
+   "chromevis_description": {
+      "message": "Amplia e altera a cor de qualquer texto seleccionado. Utilize o rato ou o teclado para mover a selec\u00E7\u00E3o na p\u00E1gina."
+   },
+   "chromevis_format_text": {
+      "message": "Os atalhos devem ter este formato: [Modificador]+[Tecla]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Avan\u00E7ar por car\u00E1cter"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Avan\u00E7ar por par\u00E1grafo"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Avan\u00E7ar por frase"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Avan\u00E7ar por palavra"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Aumentar tamanho do texto"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (do Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Restaurar predefini\u00E7\u00F5es"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Guardar"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Activar/desactivar lente"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Activar/desactivar lente ancorada/flutuante"
+   },
+   "chromevis_textcolor_label": {
+      "message": "texto"
+   },
+   "chromevis_title_text": {
+      "message": "Atalhos de teclado de lente"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "pt-PT"
+   }
+}

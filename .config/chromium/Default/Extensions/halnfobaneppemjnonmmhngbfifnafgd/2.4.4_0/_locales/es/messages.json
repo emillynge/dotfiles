@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "fondo"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Avanzar car\u00E1cter por car\u00E1cter"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Retroceder p\u00E1rrafo por p\u00E1rrafo"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Retroceder frase por frase"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Retroceder palabra por palabra"
+   },
+   "chromevis_capitals_text": {
+      "message": "Para utilizar may\u00FAsculas, pulsa May\u00FAs+[tecla]."
+   },
+   "chromevis_centerlens_label": {
+      "message": "Centrar o justificar la lupa"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Disminuir el tama\u00F1o del texto"
+   },
+   "chromevis_description": {
+      "message": "Con esta extensi\u00F3n, puedes aumentar el tama\u00F1o de cualquier texto seleccionado y cambiar el color del mismo. Para modificar la selecci\u00F3n de texto, utiliza el rat\u00F3n o el teclado."
+   },
+   "chromevis_format_text": {
+      "message": "El formato de los m\u00E9todos abreviados debe ser el siguiente: [modificador]+[tecla]."
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Avanzar car\u00E1cter por car\u00E1cter"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Avanzar p\u00E1rrafo por p\u00E1rrafo"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Avanzar frase por frase"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Avanzar palabra por palabra"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Aumentar el tama\u00F1o del texto"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (de Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Restaurar valores predeterminados"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Guardar"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Mostrar u ocultar la lupa"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Anclar la lupa o utilizarla como una ventana flotante"
+   },
+   "chromevis_textcolor_label": {
+      "message": "texto"
+   },
+   "chromevis_title_text": {
+      "message": "M\u00E9todos abreviados de teclado de la lupa"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "es"
+   }
+}

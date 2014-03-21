@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "baggrund"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Flyt tilbage efter tegn"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Flyt tilbage efter afsnit"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Flyt tilbage efter s\u00E6tning"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Flyt tilbage efter ord"
+   },
+   "chromevis_capitals_text": {
+      "message": "Store bogstaver: Shift+[tast]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Sl\u00E5 centreret/berettiget linse til/fra"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Formindsk tekstst\u00F8rrelse"
+   },
+   "chromevis_description": {
+      "message": "Forst\u00F8r og skift farve p\u00E5 markeret tekst. Brug musen eller tastaturet til at flytte markeringen rundt p\u00E5 siden."
+   },
+   "chromevis_format_text": {
+      "message": "Genveje b\u00F8r v\u00E6re i dette format: [modifikator]+[tast]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Flyt frem efter tegn"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Flyt frem efter afsnit"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Flyt frem efter s\u00E6tning"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Flyt frem efter ord"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "For\u00F8g tekstst\u00F8rrelse"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (af Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Gendan standarder"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Gem"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Sl\u00E5 linse til/fra"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Sl\u00E5 forankret/sv\u00E6vende linse til/fra"
+   },
+   "chromevis_textcolor_label": {
+      "message": "tekst"
+   },
+   "chromevis_title_text": {
+      "message": "Tastaturgenveje til linse"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "da"
+   }
+}

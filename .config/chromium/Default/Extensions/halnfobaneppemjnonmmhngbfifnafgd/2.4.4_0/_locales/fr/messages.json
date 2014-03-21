@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "arri\u00E8re-plan"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Revenir en arri\u00E8re par caract\u00E8re"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Revenir en arri\u00E8re par paragraphe"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Revenir en arri\u00E8re par phrase"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Revenir en arri\u00E8re par mot"
+   },
+   "chromevis_capitals_text": {
+      "message": "Pour les majuscules, utilisez Maj+[Touche]."
+   },
+   "chromevis_centerlens_label": {
+      "message": "Activer lentille centr\u00E9e/justifi\u00E9e"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "R\u00E9duire la taille du texte"
+   },
+   "chromevis_description": {
+      "message": "Agrandit le texte s\u00E9lectionn\u00E9 et en modifie la couleur. Utilisez la souris ou le clavier pour d\u00E9placer la s\u00E9lection sur la page."
+   },
+   "chromevis_format_text": {
+      "message": "Les raccourcis doivent \u00EAtre tap\u00E9s selon le format suivant\u00A0: [Modificateur]+[Touche]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Avancer par caract\u00E8re"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Avancer par paragraphe"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Avancer par phrase"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Avancer par mot"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Augmenter la taille du texte"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (par Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Restaurer les param\u00E8tres par d\u00E9faut"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Enregistrer"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Activer/d\u00E9sactiver la lentille"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Activer lentille ancr\u00E9e/flottante"
+   },
+   "chromevis_textcolor_label": {
+      "message": "texte"
+   },
+   "chromevis_title_text": {
+      "message": "Raccourcis clavier de la lentille"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "fr"
+   }
+}

@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Imagem da tela toda"
+   },
+   "cancel": {
+      "message": "cancelar"
+   },
+   "canceled": {
+      "message": "Cancelada a a captura!"
+   },
+   "cannotscroll": {
+      "message": "N\u00E3o \u00E9 poss\u00EDvel percorrer a p\u00E1gina\u003Cbr\u003E\u003Cbr/\u003ETente abrir esta guia novamente"
+   },
+   "changeheaders": {
+      "message": "Alterar cabe\u00E7alho e rodap\u00E9"
+   },
+   "createimage": {
+      "message": " Criando o arquivo de imagem..."
+   },
+   "date": {
+      "message": "Data"
+   },
+   "description": {
+      "message": "Solu\u00E7\u00E3o r\u00E1pida e simples para \"fotografar\" a imagem da tela do navegador em JPG. A primeira extens\u00E3o que captura toda a p\u00E1gina."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Voc\u00EA pode nos enviar um relat\u00F3rio de erro"
+   },
+   "footer": {
+      "message": "rodap\u00E9"
+   },
+   "header": {
+      "message": "cabe\u00E7alho"
+   },
+   "height": {
+      "message": "altura"
+   },
+   "imagesize": {
+      "message": "Tamanho da Imagem:"
+   },
+   "likeresult": {
+      "message": "Gostou do resultado? Voc\u00EA pode escrever um bom coment\u00E1rio e nos avaliar com 5 estrelas."
+   },
+   "loadcapturescript": {
+      "message": "Lendo o script de captura..."
+   },
+   "name": {
+      "message": "Fotografia da Tela  - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "N\u00E3o \u00E9 poss\u00EDvel percorrer esta p\u00E1gina (extens\u00F5es podem n\u00E3o funcionar em p\u00E1ginas internas do Chrome nem na galeria de extens\u00F5es do Chrome)"
+   },
+   "noresize": {
+      "message": "Sem redimensionamento"
+   },
+   "openimage": {
+      "message": "Clique aqui para abria a imagem"
+   },
+   "or": {
+      "message": "ou"
+   },
+   "preview": {
+      "message": "Prever:"
+   },
+   "resize": {
+      "message": "Redimensionar para:"
+   },
+   "resizebefore": {
+      "message": "Redimensionar janela antes de fotografar"
+   },
+   "takecapture": {
+      "message": "Fotografar tela agora"
+   },
+   "takingcapture": {
+      "message": "Fotografando a tela"
+   },
+   "tosavemessage": {
+      "message": "Para gravar uma imagem, clique com o bot\u00E3o direito do mouse nela e escolha \"Gravar Imagem\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Imagem da tela vis\u00EDvel"
+   },
+   "wait": {
+      "message": "aguarde"
+   },
+   "width": {
+      "message": "largura"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

@@ -1,0 +1,1001 @@
+{
+   "200": {
+      "message": "Kesik kesik ba\u011Flant\u0131 sorunu, daha sonra yeniden deneyin!"
+   },
+   "24hourMode": {
+      "message": "24 saatlik g\u00F6sterme ekran\u0131"
+   },
+   "24hourModeTitle": {
+      "message": "Zaman\u0131 24 saatlik formatta g\u00F6ster. \u00D6rnek: 18:00"
+   },
+   "401": {
+      "message": "Yetkisiz!"
+   },
+   "403": {
+      "message": "E-posta veya parola do\u011Fru de\u011Fil."
+   },
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "BUNU S\u0130LMEY\u0130N :)"
+   },
+   "Xminute": {
+      "message": "$1 dakika"
+   },
+   "Xminutes": {
+      "message": "$1 dakika"
+   },
+   "Xseconds": {
+      "message": "$1 saniye"
+   },
+   "aboutMe": {
+      "message": "Benim hakk\u0131mda"
+   },
+   "account": {
+      "message": "Hesap"
+   },
+   "addCalendar": {
+      "message": "Takvim ekle"
+   },
+   "addCalendarTitle": {
+      "message": "Takvimi \u00F6zel url ile ekle"
+   },
+   "addToGoogleCalendar": {
+      "message": "Google takvim'e Ekle"
+   },
+   "addedForSomeday": {
+      "message": "Eklenen $1 $2"
+   },
+   "addedForSomedayAt": {
+      "message": "Ek $1 $2 $3"
+   },
+   "addedForToday": {
+      "message": "Bug\u00FCn i\u00E7in $1 eklendi"
+   },
+   "addedForTodayAt": {
+      "message": "Eklendi $1 $2 ye"
+   },
+   "addedForTomorrow": {
+      "message": "Eklenen yar\u0131n i\u00E7in $1"
+   },
+   "addedForTomorrowAt": {
+      "message": "Eklenen $1 $2 ye"
+   },
+   "addedTimedEventInThePast": {
+      "message": "Bu etkinli\u011Fin zaman\u0131 ge\u00E7ti, ayn\u0131 zaman ile yar\u0131na etkilnik olu\u015Fturulmas\u0131n\u0131 ister misiniz?"
+   },
+   "agenda": {
+      "message": "Ajanda"
+   },
+   "agendaOnly": {
+      "message": "Sadece Ajanda"
+   },
+   "alertMe": {
+      "message": "ya da beni uyar..."
+   },
+   "all": {
+      "message": "T\u00FCm"
+   },
+   "allowThisExtensionToReadYourFacebookEvent": {
+      "message": "Bu eklentiye Facebook etkinlikleri i\u00E7in izin verilsin mi?"
+   },
+   "alreadyDonated": {
+      "message": "Zaten ba\u011F\u0131\u015Flad\u0131?"
+   },
+   "amount": {
+      "message": "Tutar"
+   },
+   "andMyExtensions": {
+      "message": "Uzant\u0131 hakk\u0131nda"
+   },
+   "backgroundOfNotification": {
+      "message": "Bildirim pop-up'\u0131n\u0131n arka plan rengi"
+   },
+   "backgroundOfNotificationTooltip": {
+      "message": "Bildirim pop-up'\u0131n\u0131n arka plan rengini ayarlar"
+   },
+   "byEmailSubject": {
+      "message": "e-posta konusu?"
+   },
+   "calendar": {
+      "message": "Takvim"
+   },
+   "calendarHelper": {
+      "message": "Takvim Yard\u0131mc\u0131s\u0131"
+   },
+   "calendarViewAgenda": {
+      "message": "Takvim g\u00F6r\u00FCn\u00FCm\u00FC: Ajanda"
+   },
+   "calendarViewAgendaTitle": {
+      "message": "Takvim ikonuna bas\u0131ld\u0131\u011F\u0131nda size k\u00FC\u00E7\u00FCk takvim ile birlikte etkinlikler Ajanda g\u00F6r\u00FCn\u00FCm\u00FCnde g\u00F6sterilecektir"
+   },
+   "calendarViewRegular": {
+      "message": "Takvim g\u00F6r\u00FCn\u00FCm\u00FC: Normal"
+   },
+   "calendarViewRegularTitle": {
+      "message": "Takvim ikonuna bas\u0131ld\u0131\u011F\u0131nda size k\u00FC\u00E7\u00FCk takvim ile birlikte etkinlikler Normal g\u00F6r\u00FCn\u00FCmde g\u00F6sterilecektir"
+   },
+   "calendarViewTitle": {
+      "message": "Varsay\u0131lan Takvim g\u00F6r\u00FCn\u00FCm\u00FC se\u00E7in"
+   },
+   "canceledInAppPurchase": {
+      "message": "Bunun yerine PayPal'\u0131 deneyin? Veya sorular\u0131n\u0131z i\u00E7in bana ula\u015F\u0131n"
+   },
+   "cannotUpdateEventsInThePast": {
+      "message": "Hata olu\u015Ftu! \u015Eu anda olaylar g\u00FCncelleme yapabilirsiniz bug\u00FCn veya yak\u0131n gelecekte ge\u00E7mi\u015Fte ger\u00E7ekle\u015Fen olaylar\u0131 g\u00FCncelle\u015Ftiremiyor. Sen-ebilmek kullanma Google Takvim Web sayfas\u0131 i\u00E7in ge\u00E7mi\u015F olaylar!"
+   },
+   "changeThisDomain": {
+      "message": "Bu maili \u015Fimdi de\u011Fi\u015Ftirmek i\u00E7in $1"
+   },
+   "changeThisDomain2": {
+      "message": "Oturumu kapat\u0131n ve farkl\u0131 bir kullan\u0131c\u0131 olarak oturum a\u00E7\u0131n"
+   },
+   "changeView": {
+      "message": "G\u00F6r\u00FCn\u00FCm\u00FC De\u011Fi\u015Ftir"
+   },
+   "changingIcon": {
+      "message": "\u0130kon de\u011Fi\u015Ftirme"
+   },
+   "choosePaymentMethod": {
+      "message": "Ile \u00F6deme y\u00F6ntemi se\u00E7in"
+   },
+   "clearCache": {
+      "message": "Uzant\u0131 \u00F6nbelle\u011Fini temizle"
+   },
+   "contact": {
+      "message": "\u0130leti\u015Fim"
+   },
+   "contactHelp": {
+      "message": "\u0130leti\u015Fim - Yard\u0131m"
+   },
+   "continue": {
+      "message": "Devam"
+   },
+   "continueWithoutFeatures": {
+      "message": "Uzant\u0131y\u0131 bu ekstra \u00F6zellikler olmadan kullanmaya devam edin."
+   },
+   "continueWithoutFeaturesHeader": {
+      "message": "\u0130lave \u00F6zellikler olmadan devam"
+   },
+   "contributeToContinue": {
+      "message": "Bir katk\u0131 yap\u0131n"
+   },
+   "copyPrivateAddress": {
+      "message": "Takvim \u00F6zel adresini (xml) Pano'ya kopyalay\u0131n."
+   },
+   "copyPrivateAddressTitle": {
+      "message": "Google Takvim sayfan\u0131zda solda yer alan takvim listenizde etkin takviminizin kulak\u00E7\u0131\u011F\u0131ndan 'Takvim ayarlar\u0131n\u0131' se\u00E7in. \u00D6zel adres yerine xml'i se\u00E7in ve panoya kopyalay\u0131n. Not: E\u011Fer \u00D6zel adresi bulamazsan\u0131z, etki alan\u0131 y\u00F6netici d\u00FCzeyinde servis-ayarlar\u0131n\u0131 de\u011Fi\u015Ftirmeniz gerekir"
+   },
+   "createDeleteEvents": {
+      "message": "Ay g\u00F6r\u00FCn\u00FCm\u00FC i\u00E7inde etkinlik yaratma ve silme"
+   },
+   "createEvent": {
+      "message": "Etkinlik olu\u015Ftur"
+   },
+   "creditCardOrPaypal": {
+      "message": "Kredi kart\u0131 veya PayPal kullanabilirsiniz"
+   },
+   "currentPage": {
+      "message": "Ge\u00E7erli sayfa"
+   },
+   "customizeCalendar": {
+      "message": "Y\u00FCkseklik, geni\u015Flik, g\u00F6r\u00FCn\u00FCr takvimleri, renkleri, vb de\u011Fi\u015Ftirebilirsiniz."
+   },
+   "customizeCalendarTitle": {
+      "message": "Pop-up takviminde '\u00D6zelle\u015Ftirmek' i\u00E7in 'G\u00F6r\u00FCn\u00FCm\u00FC' ayarlamal\u0131s\u0131n\u0131z"
+   },
+   "customized": {
+      "message": "\u00D6zelle\u015Ftir"
+   },
+   "d": {
+      "message": "g"
+   },
+   "daysAgo": {
+      "message": "g\u00FCn \u00F6nce"
+   },
+   "daysLeft": {
+      "message": "$1 g\u00FCn kald\u0131"
+   },
+   "delete": {
+      "message": "Sil"
+   },
+   "developingMore": {
+      "message": "\u00D6nerileriniz \u00FCzerinde daha fazla \u00E7al\u0131\u015F\u0131yorum..."
+   },
+   "dismiss": {
+      "message": "\u0130ptal"
+   },
+   "dismissAll": {
+      "message": "T\u00FCm\u00FCn\u00FC geri al"
+   },
+   "doNotShowNotificationsForAlldayEvents": {
+      "message": "Bildirimleri t\u00FCm g\u00FCnl\u00FCk etkinlikler i\u00E7in '''g\u00F6sterme''' "
+   },
+   "doNotShowNotificationsForAlldayEventsTitle": {
+      "message": "T\u00FCm g\u00FCnl\u00FCk etkinlikler i\u00E7in bildirimleri '''g\u00F6sterme'''"
+   },
+   "doNotShowNotificationsWhenBrowserClosed": {
+      "message": "Taray\u0131c\u0131 penceresi kapat\u0131ld\u0131\u011F\u0131nda bildirimleri g\u00F6sterme"
+   },
+   "doNotShowNotificationsWhenBrowserClosedTooltip": {
+      "message": "Chrome taray\u0131c\u0131s\u0131 kapat\u0131lsa da uzant\u0131 arka planda \u00E7al\u0131\u015Fabilir, ancak bu se\u00E7ene\u011Fi se\u00E7erseniz bildirimler g\u00F6sterilmeyecek!"
+   },
+   "doNotShowPastNotifications": {
+      "message": "Ge\u00E7mi\u015Fteki bildirimleri '''g\u00F6sterme'''"
+   },
+   "doNotShowPastNotificationsTitle": {
+      "message": "Taray\u0131c\u0131n\u0131z a\u00E7\u0131lmadan \u00F6nce olu\u015Fan bildirimleri g\u00F6sterme. S\u0131k s\u0131k bilgisayar de\u011Fi\u015Ftirirken yararl\u0131"
+   },
+   "drawAttentionToBrowser": {
+      "message": "Windows'da g\u00F6rev \u00E7ubu\u011Funda Chrome simgesinin yan\u0131p s\u00F6nmesi ya da Mac'te (Beta) ikonun s\u0131\u00E7rama yapmas\u0131"
+   },
+   "drawAttentionToBrowserTooltip": {
+      "message": "Bu i\u015Flem sadece o s\u0131rada kullan\u0131lan program Chrome de\u011Filse ger\u00E7ekle\u015Fecek. E\u011Fer \u00E7oklu \u00E7al\u0131\u015Fma alan\u0131 kullan\u0131yorsan\u0131z faydal\u0131... Windows: Chrome simgesi yan\u0131p s\u00F6ner. Mac:Chrome simgesi s\u0131\u00E7rama yapar"
+   },
+   "editEventDetails": {
+      "message": "Etkinlik detay\u0131n\u0131 d\u00FCzenle"
+   },
+   "email": {
+      "message": "E-posta:"
+   },
+   "enableLanguageDetection": {
+      "message": "Dil alg\u0131lamas\u0131n\u0131 etkinle\u015Ftir"
+   },
+   "enableLanguageDetectionToolTip": {
+      "message": "Dil alg\u0131lama servisi sayesinde hat\u0131rlat\u0131c\u0131n\u0131z dilinizde konu\u015Fur!"
+   },
+   "enablePrivateAddressTitle": {
+      "message": "Kontrol panelinde takvim servisi se\u00E7eneklerine gidin ve 'B\u00FCt\u00FCn bilgileri payla\u015F ve d\u0131\u015Far\u0131dan bilgilerim de\u011Fi\u015Ftirilebilsin' se\u00E7eneklerini se\u00E7in"
+   },
+   "enterATitle": {
+      "message": "Bir ba\u015Fl\u0131k girmelisiniz!"
+   },
+   "enterAnAmount": {
+      "message": "Bir tutar girmelisiniz!"
+   },
+   "errorAddingEvent": {
+      "message": "Etkinlik eklemede hata olu\u015Ftu! Muhtemelen internet ba\u011Flant\u0131s\u0131 nedeniyle!"
+   },
+   "errorGettingCalendar": {
+      "message": "Takvimi al\u0131rken sorun olu\u015Ftu, URL'yi denetleyin ve yeniden deneyin! (Hata: $1)"
+   },
+   "errorGettingCalendarUnauthorized": {
+      "message": "Yetkisiz! \u00D6nce Google Apps takviminizi yeni bir sekmede a\u00E7man\u0131z gerekir"
+   },
+   "eventAdded": {
+      "message": "Etkinlik ekledi"
+   },
+   "eventCreated": {
+      "message": "Olu\u015Fturulan etkinlik"
+   },
+   "eventDeleted": {
+      "message": "Etkinlik silindi"
+   },
+   "eventDescription": {
+      "message": "A\u00E7\u0131klama"
+   },
+   "eventUpdated": {
+      "message": "Etkinlik g\u00FCncellendi"
+   },
+   "eventsAndSnoozes": {
+      "message": "Etkinlikler ve Geciktirme"
+   },
+   "ex": {
+      "message": "\u00D6rne\u011Fin"
+   },
+   "example": {
+      "message": "\u00D6rnek"
+   },
+   "excludeCalendar": {
+      "message": "Takvimi hari\u00E7 tut"
+   },
+   "excludeCalendarFrom": {
+      "message": "Takvimi \u015Furdan hari\u00E7 tut"
+   },
+   "excludeCalendarFrom2": {
+      "message": "Ajanda ve takvim g\u00F6r\u00FCn\u00FCm\u00FC"
+   },
+   "excludeCalendarFrom3": {
+      "message": "buton ikonu ve bildirimler"
+   },
+   "excludeCalendarFromTitle": {
+      "message": "'Takvim/ajanda g\u00F6r\u00FCn\u00FCm\u00FCnde belirli takvimleri gizlemek i\u00E7in ikonu t\u0131klay\u0131n yada etkinlikleri ikondan ve bildirimlerden hari\u00E7 tutmak i\u00E7in kontrol'e t\u0131klay\u0131n"
+   },
+   "excludeCalendarsCheckboxChecking": {
+      "message": "Bu se\u00E7ene\u011Fin sa\u011F\u0131ndaki linke t\u0131klay\u0131n\u0131z"
+   },
+   "excludeRecurringEventsButtonIcon": {
+      "message": "D\u00FC\u011Fme simgesinde yinelenen olaylar\u0131 hari\u00E7 tut"
+   },
+   "excludeRecurringEventsButtonIconTooltip": {
+      "message": "Tekrar eden herhangi bir olay buton ikonu \u00FCzerinde g\u00F6sterilmeyecektir fakat bildirimler size gelecektir"
+   },
+   "excluded": {
+      "message": "Hari\u00E7"
+   },
+   "extraFeatures": {
+      "message": "Ekstra \u00D6zellikler"
+   },
+   "failureWithInAppPurchase": {
+      "message": "\u0130ptal veya i\u015Flem hatas\u0131! PayPal'\u0131 deneyin?"
+   },
+   "failureWithPayPalPurchase": {
+      "message": "\u0130ptal veya i\u015Flem hatas\u0131! Google Checkout'u deneyin?"
+   },
+   "forProblemSolving": {
+      "message": "Sadece sorun \u00E7\u00F6z\u00FCm\u00FC i\u00E7in"
+   },
+   "forSuggestions": {
+      "message": "\u00F6neriler ya da daha fazla bilgi bulmak i\u00E7in"
+   },
+   "forever": {
+      "message": "Sonsuza kadar"
+   },
+   "googleAppsCalendars": {
+      "message": "Google Apps takvimleri"
+   },
+   "googleAppsCalendarsForce": {
+      "message": "Google Takvim i\u00E7in Google \u00E7oklu giri\u015F \u00F6zelli\u011Fini zorla"
+   },
+   "googleAppsCalendarsTitle": {
+      "message": "Bu kutuyu sadece Google Takvim'i i\u015F yada e\u011Fitim ama\u00E7l\u0131 kulland\u0131\u011F\u0131n\u0131zda i\u015Faretleyin. Not:Bu normal Google Takvim denetimini devre d\u0131\u015F\u0131 b\u0131rak\u0131r!"
+   },
+   "googleAppsNote": {
+      "message": "Bu normal Google takvim denetimini devre d\u0131\u015F\u0131 b\u0131rak\u0131r"
+   },
+   "h": {
+      "message": "s"
+   },
+   "helpMeTranslate": {
+      "message": "Bana \u00E7eviriler i\u00E7in yard\u0131m edebilir misiniz? $1 do\u011Fru olan \u00E7evirileri!"
+   },
+   "helpMeTranslate2": {
+      "message": "Bana e-posta g\u00F6nderin"
+   },
+   "helpSupport": {
+      "message": "Bu uzant\u0131ya destek olmak i\u00E7in!"
+   },
+   "highlightCurrentDay": {
+      "message": "G\u00FCn\u00FC vurgula"
+   },
+   "highlightCurrentDayTooltip": {
+      "message": "Takvim Ay g\u00F6r\u00FCn\u00FCm\u00FCndeyken ge\u00E7erli g\u00FCn\u00FC belirtir."
+   },
+   "highlightWeekends": {
+      "message": "Hafta sonlar\u0131n\u0131 vurgula"
+   },
+   "highlightWeekendsTitle": {
+      "message": "Hafta sonlar\u0131n\u0131 belirgin g\u00F6sterir. Not: Sadece Normal takvim g\u00F6r\u00FCn\u00FCm\u00FCnde \u00E7al\u0131\u015F\u0131r"
+   },
+   "hours": {
+      "message": "Saat"
+   },
+   "hoursAgo": {
+      "message": "$1 saat \u00F6nce"
+   },
+   "hoursLeft": {
+      "message": "$1 saat kald\u0131"
+   },
+   "hoursRemaining": {
+      "message": "Etkinlik zaman\u0131 yerine kalan s\u00FCreyi g\u00F6ster."
+   },
+   "hoursRemainingTitle": {
+      "message": "E\u011Fer etkinlik zaman\u0131na 24 saat'ten az kald\u0131ysa, kalan zaman 4s \u015Feklinde g\u00F6sterilecektir"
+   },
+   "iconClassic": {
+      "message": "Klasik ikon"
+   },
+   "iconDefault": {
+      "message": "Varsay\u0131lan ikon"
+   },
+   "iconDefault2WithDate": {
+      "message": "Ge\u00E7erli tarih ile ge\u00E7erli ikon "
+   },
+   "iconMonochrome": {
+      "message": "Tek renkli ikon"
+   },
+   "iconNew": {
+      "message": "Yeni ikon"
+   },
+   "iconNew2": {
+      "message": "Koyu ikon"
+   },
+   "iconNew2WithDate": {
+      "message": "Ge\u00E7erli tarih ile koyu ikon"
+   },
+   "iconNewWithDate": {
+      "message": "Ge\u00E7erli tarih ile yeni ikon"
+   },
+   "iconTooltip": {
+      "message": "Pop-up butonu i\u00E7in ikon"
+   },
+   "inVARhour": {
+      "message": "$1 saat"
+   },
+   "inVARhours": {
+      "message": "$1 saat i\u00E7inde"
+   },
+   "inVARminutes": {
+      "message": "$1 dakika"
+   },
+   "keepHoveringOverTheBluePlusOne": {
+      "message": "Yaz\u0131 g\u00F6r\u00FCnene kadar mouse'u mavi +1 ikonu \u00FCzerinde tutun, sonra t\u0131klayarak Google+ ile payla\u015F\u0131n"
+   },
+   "language": {
+      "message": "Dil"
+   },
+   "languageToolTip": {
+      "message": "G\u00F6r\u00FCnt\u00FC ve sesli okuma bildirim dilini de\u011Fi\u015Ftirir. Not: Bir seferde \u00E7ok fazla dil se\u00E7ene\u011Fi g\u00F6rebilirsiniz. \u00C7\u00FCnk\u00FC kurallar:  Daha sonra burada se\u00E7ilen dillerin \u00E7evirileri yap\u0131lacakt\u0131r, E\u011Fer baz\u0131 kelimelerin \u00E7evirisini g\u00F6remezseniz, taray\u0131c\u0131daki tercihinize g\u00F6re \u00E7eviriler yap\u0131lacakt\u0131r, E\u011Fer onlar\u0131n \u00E7evirileri yap\u0131lmam\u0131\u015Fsa \u0130ngilizce olarak g\u00F6r\u00FCnecektir. Not: Pop-up i\u00E7indeki Takvim dilini de\u011Fi\u015Ftirmek i\u00E7in Google takvim sayfan\u0131zdaki dil ayar\u0131n\u0131 de\u011Fi\u015Ftirin."
+   },
+   "largest": {
+      "message": "en b\u00FCy\u00FCk"
+   },
+   "licenseOnlyValidFor": {
+      "message": "Lisans sadece kendi Google hesab\u0131yla giri\u015F yapm\u0131\u015F kullan\u0131c\u0131lar i\u00E7in ge\u00E7erlidir"
+   },
+   "loading": {
+      "message": "Y\u00FCkleniyor..."
+   },
+   "logEventsAndSnoozes": {
+      "message": "Etkinlikleri ve gecikmeleri bildir"
+   },
+   "longerSnoozeTimes": {
+      "message": "Uzun erteleme s\u00FCresi"
+   },
+   "m": {
+      "message": "d"
+   },
+   "maxDaysAhead": {
+      "message": "\u0130leriye bakmak i\u00E7in g\u00FCn say\u0131s\u0131"
+   },
+   "maxDaysAheadTitle": {
+      "message": "Geri say\u0131m g\u00F6stermek i\u00E7in maksimum g\u00FCn say\u0131s\u0131"
+   },
+   "meetMe": {
+      "message": "Benimle tan\u0131\u015F\u0131n"
+   },
+   "meetMeTitle": {
+      "message": "Beni videodan izleyin!"
+   },
+   "min": {
+      "message": "dk"
+   },
+   "minimumAmount": {
+      "message": "En az $1 ba\u011F\u0131\u015F gerekir"
+   },
+   "minutesAgo": {
+      "message": "$1 dakika \u00F6nce"
+   },
+   "minutesLeft": {
+      "message": "$1 dakika kald\u0131"
+   },
+   "missingOptions": {
+      "message": "Eksik se\u00E7enekler mi var? \u00C7eviriler k\u00F6t\u00FC olabilir mi? Benimle ba\u011Flant\u0131ya ge\u00E7in"
+   },
+   "missingOptions2": {
+      "message": "\u00F6neriler i\u00E7in!"
+   },
+   "month": {
+      "message": "Ay"
+   },
+   "more": {
+      "message": "daha fazla"
+   },
+   "moreInfo": {
+      "message": "Daha fazla bilgi"
+   },
+   "multipleUserLicense": {
+      "message": "Organizasyonunuz i\u00E7in birden fazla kullan\u0131c\u0131 lisans\u0131 al\u0131n"
+   },
+   "mustAddCalendar": {
+      "message": "Google Apps etkinle\u015Ftirirseniz, bir takvim eklemeniz gerekir!"
+   },
+   "mustClickShareLinks": {
+      "message": "A\u015Fa\u011F\u0131daki payla\u015F\u0131m linklerinden birini bir defa kulland\u0131ktan sonra hepsini kald\u0131rabilirsiniz!"
+   },
+   "mustSignInToPay": {
+      "message": "Google takvim hesab\u0131n\u0131za giri\u015F yapt\u0131ktan sonra uzant\u0131n\u0131n y\u00FCklemesi i\u00E7in beklemelisiniz!"
+   },
+   "myPreference": {
+      "message": "Se\u00E7enekler"
+   },
+   "needHelp": {
+      "message": "Yard\u0131m m\u0131 gerekiyor?"
+   },
+   "noDetails": {
+      "message": "Detay yok"
+   },
+   "noPermissionOnEvent": {
+      "message": "Sorun olu\u015Ftu. Ge\u00E7mi\u015Fte olan olaylar\u0131 de\u011Fi\u015Ftiremiyorum, bug\u00FCn i\u00E7in yada gelecek i\u00E7in olan etkinlikleri g\u00FCncelleyebilirim. Ge\u00E7mi\u015F g\u00FCncellemelerini Google takvim sayfan\u0131zdan yapabilirsiniz!"
+   },
+   "notLoggedIn": {
+      "message": "Giri\u015F Yapmad\u0131n\u0131z"
+   },
+   "notTaxExempt": {
+      "message": "Vergiden muaf bir organizasyon de\u011Filim"
+   },
+   "notificationDateFormat": {
+      "message": "d mmm dddd"
+   },
+   "notificationFontSize": {
+      "message": "Bildirim metninin boyutu"
+   },
+   "notificationFontSizeTooltip": {
+      "message": "Pop-up g\u00F6r\u00FCn\u00FCm\u00FCnde etkinlik ba\u015Fl\u0131\u011F\u0131n\u0131n yaz\u0131 tipi boyutunu ayarlar. Etkinlik ba\u015Fl\u0131\u011F\u0131 uzun oldu\u011Funda k\u00FC\u00E7\u00FCk yada k\u0131sa oldu\u011Funda ba\u015Fl\u0131\u011F\u0131 en b\u00FCy\u00FCk ayarl\u0131yabilirsiniz"
+   },
+   "notificationSound": {
+      "message": "Uyar\u0131 sesi"
+   },
+   "notificationSoundTitle": {
+      "message": "Bildirimleri etkinle\u015Ftirirseniz etkinli\u011Finiz oldu\u011Funda ses \u00E7alar"
+   },
+   "notificationTextToSpeech": {
+      "message": "Sesli bildirim"
+   },
+   "notificationTextToSpeechTitle": {
+      "message": "Etkinlik ba\u015Fl\u0131\u011F\u0131 sesli olarak okunacakt\u0131r, \u00F6zellikle bilgisayar\u0131n\u0131z yan odadayken \u00E7ok kullan\u0131\u015Fl\u0131!"
+   },
+   "notificationZoom": {
+      "message": "Bildirim penceresini yak\u0131nla\u015Ft\u0131rma"
+   },
+   "notificationZoomTooltip": {
+      "message": "Bildirim penceresindeki t\u00FCm yaz\u0131lar\u0131 k\u00FC\u00E7\u00FCltmek i\u00E7in bu se\u00E7ene\u011Fi kullan\u0131n, y\u00FCksek ekran \u00E7\u00F6z\u00FCn\u00FCrl\u00FC\u011F\u00FCnde faydal\u0131d\u0131r"
+   },
+   "offlineMode": {
+      "message": "\u00C7evrimd\u0131\u015F\u0131 modu"
+   },
+   "offlineModeTitle": {
+      "message": "Internet ba\u011Flant\u0131n\u0131z olmadan etkinliklerden haberdar olun! Uyar\u0131: Bu bilgisayarda etkinlikleriniz kaydedilecektir!"
+   },
+   "omniboxDefault": {
+      "message": "7'de ak\u015Fam yeme\u011Fi"
+   },
+   "omniboxDefaultTom": {
+      "message": "8'de uyan\u0131n"
+   },
+   "onlyPopupsForOwner": {
+      "message": "Sadece kendi takvimimdeki etkinlikler i\u00E7in bildirimleri g\u00F6ster"
+   },
+   "onlyPopupsForOwnerTooltip": {
+      "message": "Bildirimler yaln\u0131zca sahibi oldu\u011Funuzu takvim etkinlikleri g\u00F6sterir. Bunlar genellikle 'Benim takvimlerim' alt\u0131nda ve 'Payla\u015F\u0131lan takvimler' veya 'Di\u011Fer takvimler' b\u00F6l\u00FCm\u00FCnden takvimlerdir"
+   },
+   "onlyRemoveAfterDonation": {
+      "message": "Ba\u011F\u0131\u015F ba\u011Flant\u0131s\u0131n\u0131 sadece ba\u011F\u0131\u015F yapt\u0131ktan sonra kald\u0131rabilirsiniz!"
+   },
+   "openCalendar": {
+      "message": "Takvimi A\u00E7"
+   },
+   "option": {
+      "message": "Se\u00E7enek"
+   },
+   "optionToCustomizeWith": {
+      "message": "\u015Eunu kullan"
+   },
+   "options": {
+      "message": "Se\u00E7enekler"
+   },
+   "or": {
+      "message": "veya"
+   },
+   "orPayUsing_": {
+      "message": "\u015Eu \u015Fekilde de \u00F6deme yapabilirsiniz"
+   },
+   "password": {
+      "message": "Parola:"
+   },
+   "pastDays": {
+      "message": "Ge\u00E7mi\u015F g\u00FCnleri soluk renkle g\u00F6ster"
+   },
+   "pastDaysTitle": {
+      "message": "Ge\u00E7mi\u015F g\u00FCnleri soluk renkle g\u00F6sterir. Not: Sadece Normal takvim g\u00F6r\u00FCn\u00FCm\u00FCnde \u00E7al\u0131\u015F\u0131r"
+   },
+   "pasteHTML": {
+      "message": "Html'i a\u015Fa\u011F\u0131ya yap\u0131\u015Ft\u0131r\u0131n"
+   },
+   "pastePrivateAddress": {
+      "message": "Takvimdeki \u00F6zel adresi (xml) yap\u0131\u015Ft\u0131r\u0131n"
+   },
+   "pollingInterval": {
+      "message": "Yoklama aral\u0131\u011F\u0131"
+   },
+   "pollingIntervalTooltip": {
+      "message": "Google takvim etkinlikleri i\u00E7in yoklama aral\u0131\u011F\u0131"
+   },
+   "popupGoogleCalendarWebsite": {
+      "message": "Butona bas\u0131nca pop-up yerine Google Takvim sitesini a\u00E7"
+   },
+   "popupGoogleCalendarWebsiteHelpTitle": {
+      "message": "Butona bas\u0131nca pop-up yerine Google Takvim sitesini a\u00E7ar. (Ctrl ile bas\u0131ld\u0131\u011F\u0131nda da ayn\u0131 i\u015Flevi yapar)"
+   },
+   "poweredByGoogle": {
+      "message": "Powered by Google"
+   },
+   "problemCommunicatingTryAgain": {
+      "message": "Hata: $1, $2 ile ba\u011Flant\u0131 s\u0131ras\u0131nda sorun olu\u015Ftu, l\u00FCtfen tekrar deneyin!"
+   },
+   "problemSigningIn": {
+      "message": "Oturum a\u00E7arken sorun olu\u015Ftu! Muhtemelen internet ba\u011Flant\u0131s\u0131 nedeniyle!"
+   },
+   "processing": {
+      "message": "\u0130\u015Fleniyor"
+   },
+   "quickAdd": {
+      "message": "H\u0131zl\u0131 ekle"
+   },
+   "quickAddDefaultText": {
+      "message": "H\u0131zl\u0131 ekle. \u00D6rne\u011Fin Bob 7 de yemekte"
+   },
+   "quickAddTitle": {
+      "message": "H\u0131zl\u0131 ekle. \u00D6rne\u011Fin 20 dakikada futbol"
+   },
+   "recentlyAddedEvent": {
+      "message": "Sorun olu\u015Ftu. E\u011Fer bu etkinli\u011Fi Google takvim sayfan\u0131zdan g\u00FCncellediyseniz g\u00FCncelle butonuna bas\u0131n yada Google takvim sayfan\u0131z\u0131 kullan\u0131n!"
+   },
+   "refresh": {
+      "message": "Yenile"
+   },
+   "rememberQuickAdd": {
+      "message": "'H\u0131zl\u0131 Ekle' ba\u011Flant\u0131s\u0131n\u0131 unutmay\u0131n"
+   },
+   "rememberQuickAddTitle": {
+      "message": "Not: Bu ayar sadece Google Autkey ayar\u0131n\u0131z\u0131 kaydeder, giri\u015F bilgileriniz saklanmaz"
+   },
+   "remindersBeforeEvent": {
+      "message": "Sadece \u015Funa sahip etkinlikler i\u00E7in bildirimleri g\u00F6ster"
+   },
+   "remindersBeforeEventHelpTitle": {
+      "message": "Google Takvim sayfan\u0131zda solda yer alan takvim listenizde etkin takviminizin kulak\u00E7\u0131\u011F\u0131ndan bildirimleri se\u00E7in. Sonraki sayfada Pop-up hat\u0131rlat\u0131c\u0131 ekleyin. Not: Her etkinlik i\u00E7in bu ayar\u0131 ayr\u0131yetten de\u011Fi\u015Ftirebilirsiniz."
+   },
+   "remindersBeforeEventPopupReminder": {
+      "message": "'pop-up' hat\u0131rlat\u0131c\u0131"
+   },
+   "remove": {
+      "message": "Kald\u0131r"
+   },
+   "removeDonationLink": {
+      "message": "Ba\u011F\u0131\u015F ba\u011Flant\u0131s\u0131n\u0131 kald\u0131r"
+   },
+   "removeDonationLinkTitle": {
+      "message": "Bu, takvim alt\u0131ndaki ba\u011F\u0131\u015F ba\u011Flant\u0131s\u0131n\u0131 kald\u0131racakt\u0131r"
+   },
+   "removeQuickAdd": {
+      "message": "'H\u0131zl\u0131 Ekle' \u00F6zelli\u011Fini kald\u0131r"
+   },
+   "removeQuickAddTitle": {
+      "message": "'H\u0131zl\u0131 Ekle' \u00F6zelli\u011Fini kald\u0131r"
+   },
+   "removeShareLinks": {
+      "message": "Payla\u015F\u0131m ba\u011Flant\u0131lar\u0131n\u0131 kald\u0131r"
+   },
+   "removeShareLinksTooltip": {
+      "message": "Facebook, Twitter vb ba\u011Flant\u0131lar\u0131 kald\u0131r\u0131r"
+   },
+   "removeTitle": {
+      "message": "Takvim kald\u0131rma"
+   },
+   "repeatSound": {
+      "message": "Bildirim sesini tekrar et, her"
+   },
+   "repeatSound2": {
+      "message": "ve sonra durdur"
+   },
+   "repeatSound3": {
+      "message": "kez"
+   },
+   "repeatSoundTooltip": {
+      "message": "E\u011Fer bildirim ekran\u0131 kapat\u0131lmam\u0131\u015Fsa sesli okuma tekrar\u0131 yap\u0131l\u0131r"
+   },
+   "reschedule": {
+      "message": "Yeniden zamanla"
+   },
+   "runInBackground": {
+      "message": "Google Chrome kapat\u0131ld\u0131\u011F\u0131nda arka planda \u00E7al\u0131\u015Ft\u0131r"
+   },
+   "runInBackgroundToolTip": {
+      "message": "Taray\u0131c\u0131n\u0131z\u0131n kapal\u0131yken bile bildirimleri almaya devam edin! Bu yaln\u0131zca ileri d\u00FCzey kullan\u0131c\u0131lar i\u00E7in \u00F6nerilir."
+   },
+   "runInBackgroundWarning1": {
+      "message": "$1 Dikkatlice okuyunuz"
+   },
+   "runInBackgroundWarning1b": {
+      "message": "Arka plan uygulamalar\u0131"
+   },
+   "runInBackgroundWarning2": {
+      "message": "Arka plan uygulamalar\u0131 i\u00E7inde Chrome devre d\u0131\u015F\u0131 b\u0131rak\u0131lm\u0131\u015Fsa $1 okuyarak onlar\u0131 etkinle\u015Ftirebilirsiniz"
+   },
+   "runInBackgroundWarning2b": {
+      "message": "Son t\u0131klanabilir b\u00F6l\u00FCm"
+   },
+   "runInBackgroundWarning3": {
+      "message": "$1'den Gmail giri\u015F sayfas\u0131n\u0131 kullanman\u0131z gerekebilir"
+   },
+   "runInBackgroundWarning3b": {
+      "message": "Ba\u011Fl\u0131 kal"
+   },
+   "save": {
+      "message": "Kaydet"
+   },
+   "saveSettings": {
+      "message": "Ayarlar\u0131 Kaydet"
+   },
+   "saved": {
+      "message": "Kaydedildi!"
+   },
+   "saving": {
+      "message": "Kaydediliyor..."
+   },
+   "securely": {
+      "message": "g\u00FCvenli bir \u015Fekilde."
+   },
+   "seeVideo": {
+      "message": "Video \u0130zle"
+   },
+   "selectACalendar": {
+      "message": "Bir takvim se\u00E7in"
+   },
+   "selectCalendar": {
+      "message": "\u00D6nce bir takvim se\u00E7melisiniz!"
+   },
+   "setDateTime": {
+      "message": "Tarih/Saat ayarla"
+   },
+   "share": {
+      "message": "Payla\u015F"
+   },
+   "showAgendaOptions": {
+      "message": "Ajanda g\u00F6r\u00FCn\u00FCm\u00FCnde se\u00E7enekler ba\u011Flant\u0131s\u0131n\u0131 g\u00F6ster"
+   },
+   "showAgendaOptionsTitle": {
+      "message": "Ajanda g\u00F6r\u00FCn\u00FCm\u00FCn\u00FC se\u00E7enekleri ba\u011Flant\u0131s\u0131n\u0131 g\u00F6ster"
+   },
+   "showButtonTooltip": {
+      "message": "Butonun \u00FCzerine gelindi\u011Finde a\u00E7\u0131klama g\u00F6ster"
+   },
+   "showButtonTooltipTooltip": {
+      "message": "Butonun \u00FCzerine gelindi\u011Finde sonraki etkinli\u011Fin bilgilerini g\u00F6sterir"
+   },
+   "showConsoleMessages": {
+      "message": "Javascript Konsolu'nda iletileri g\u00F6ster"
+   },
+   "showConsoleMessagesTitle": {
+      "message": "Yaln\u0131zca hata ay\u0131klama i\u00E7indir, uzant\u0131y\u0131 yava\u015Flatabilir!"
+   },
+   "showContextMenuItem": {
+      "message": "Sa\u011F t\u0131klay\u0131nca a\u00E7\u0131lan men\u00FCde ba\u011Flant\u0131 g\u00F6ster"
+   },
+   "showContextMenuItemTooltip": {
+      "message": "Bir web sayfas\u0131 i\u00E7indeyken sa\u011F t\u0131klama yapt\u0131\u011F\u0131n\u0131zda a\u00E7\u0131lan men\u00FCye ba\u011Flant\u0131 ekler, bu sayede kolayca takviminize ekleme yapabilirsiniz"
+   },
+   "showDataFeeds": {
+      "message": "Takvim veri ak\u0131\u015Flar\u0131n\u0131 g\u00F6ster"
+   },
+   "showDayOnBadge": {
+      "message": "Ge\u00E7erli haftan\u0131n g\u00FCn\u00FCn\u00FC ikonda g\u00F6ster"
+   },
+   "showDayOnBadgeExceptWhenDaysLeft": {
+      "message": "Sonraki etkinlik bu kadar g\u00FCn kadar sonra ise"
+   },
+   "showDayOnBadgeExceptWhenHoursLeft": {
+      "message": "Sonraki etkinlik bu kadar saat kadar sonra ise"
+   },
+   "showDayOnBadgeExceptWhenMinutesLeft": {
+      "message": "Sonraki etkinlik bu kadar dakika kadar sonra ise"
+   },
+   "showDayOnBadgeTooltip": {
+      "message": "\u0130kon \u00FCzerinde geri say\u0131m\u0131 g\u00F6stermek yerine ge\u00E7erli g\u00FCn\u00FC k\u0131saltma olarak g\u00F6ster!"
+   },
+   "showDesktopNotifications": {
+      "message": "Masa\u00FCst\u00FC bildirimlerini g\u00F6ster"
+   },
+   "showDesktopNotificationsTitle": {
+      "message": "Takviminizde bir etkinlik olu\u015Ftu\u011Funda bildirim g\u00F6stermek i\u00E7in etkinle\u015Ftirin"
+   },
+   "showEventTimeOnBadge": {
+      "message": "Etkinli\u011Fin zaman\u0131n\u0131 ikonda g\u00F6ster"
+   },
+   "showEventTimeOnBadgeTooltip": {
+      "message": "\u0130kon \u00FCzerinde sonraki etkinlik zaman\u0131n\u0131 g\u00F6r\u00FCnt\u00FCler"
+   },
+   "showHeader": {
+      "message": "Pop-up \u00FCst k\u0131sm\u0131nda ba\u015Fl\u0131\u011F\u0131 g\u00F6ster"
+   },
+   "showHeaderTooltip": {
+      "message": "Pop-up \u00FCst k\u0131sm\u0131nda ba\u015Fl\u0131\u011F\u0131 ve reklam\u0131 g\u00F6r\u00FCnt\u00FCler"
+   },
+   "showMinutesLeftInBadge": {
+      "message": "Etkinlik zaman\u0131 yerine kalan dakikay\u0131 g\u00F6ster."
+   },
+   "showMinutesLeftInBadgeTitle": {
+      "message": "Etkinlik zaman\u0131 yak\u0131nda ise kalan dakikay\u0131 g\u00F6ster"
+   },
+   "showOpenCalendar": {
+      "message": "'Takvimi A\u00E7' ikonunu g\u00F6ster"
+   },
+   "showOpenCalendarTooltip": {
+      "message": "'Takvimi A\u00E7' ikonunu g\u00F6sterir"
+   },
+   "showQuickAdd": {
+      "message": "'H\u0131zl\u0131 Ekle' g\u00F6ster"
+   },
+   "showQuickAddTooltip": {
+      "message": "Metin giri\u015F alan\u0131n\u0131n sol \u00FCst k\u0131sm\u0131ndaki 'H\u0131zl\u0131 ekle' ba\u011Flant\u0131s\u0131n\u0131 g\u00F6r\u00FCnt\u00FCler"
+   },
+   "showRefresh": {
+      "message": "'Yenile' ikonunu g\u00F6ster"
+   },
+   "showRefreshTooltip": {
+      "message": "'Yenile' ikonunu g\u00F6sterir"
+   },
+   "showTimeSpecificEventsBeforeAllDay": {
+      "message": "T\u00FCm g\u00FCn etkinliklerinden \u00F6nce zamana ba\u011Fl\u0131 olaylar\u0131 g\u00F6ster"
+   },
+   "showTimeSpecificEventsBeforeAllDayTooltip": {
+      "message": "E\u011Fer yar\u0131n bir tane t\u00FCm g\u00FCn etkinli\u011Fi ve bir tane saat 10'da etkinli\u011Finiz varsa, t\u00FCm g\u00FCn etkinli\u011Fi yerine saat 10'daki etkinli\u011Finiz g\u00F6sterilecek."
+   },
+   "showViewDropDown": {
+      "message": "A\u015Fa\u011F\u0131 a\u00E7\u0131l\u0131r g\u00F6r\u00FCn\u00FCm\u00FC g\u00F6ster"
+   },
+   "showViewDropDownTooltip": {
+      "message": "'A\u015Fa\u011F\u0131 a\u00E7\u0131l\u0131r' g\u00F6r\u00FCn\u00FCm\u00FC g\u00F6sterir. (Not: G\u00F6r\u00FCn\u00FCm\u00FCn\u00FCz\u00FC de\u011Fi\u015Ftirebilmeniz i\u00E7in bunu g\u00F6rmeniz gerekiyor, daha sonra saklayabilirsiniz)"
+   },
+   "signIn": {
+      "message": "Oturum A\u00E7"
+   },
+   "signInAsUserOfOrg": {
+      "message": "$1 ile \u015Firketinizin e-posta gerekir"
+   },
+   "signInAsUserOfOrg2": {
+      "message": "takviminizin oturumunu kapat\u0131p tekrar giri\u015F yap\u0131n"
+   },
+   "smallest": {
+      "message": "en k\u00FC\u00E7\u00FCk"
+   },
+   "snooze": {
+      "message": "Erteleme"
+   },
+   "snoozeAll": {
+      "message": "T\u00FCm\u00FCn\u00FC ertele"
+   },
+   "somedayAt": {
+      "message": "$1 az"
+   },
+   "ssl": {
+      "message": "Her zaman g\u00FCvenli ba\u011Flant\u0131 kullan. Not: SSL"
+   },
+   "sslTitle": {
+      "message": "Google takvim'e girerken her zaman g\u00FCvenli ba\u011Flant\u0131 kullan. Not: SSL"
+   },
+   "staySignedIn": {
+      "message": "Ba\u011Flant\u0131da kal"
+   },
+   "successful": {
+      "message": "Ba\u015Far\u0131l\u0131"
+   },
+   "supportAndRequestsPrioritized": {
+      "message": "Beni desteklemek ve isteklerinizi \u00F6nceli\u011Fe almak i\u00E7in!"
+   },
+   "testDescription": {
+      "message": "Tan\u0131m\u0131 s\u0131na"
+   },
+   "testEvent": {
+      "message": "Etkinli\u011Fi s\u0131na"
+   },
+   "testIt": {
+      "message": "S\u0131nama yap!"
+   },
+   "thankYouForYourContribution": {
+      "message": "\u015Eimdi \u00F6zellikleridir a\u00E7\u0131lm\u0131\u015Ft\u0131r. Katk\u0131n\u0131z i\u00E7in te\u015Fekk\u00FCr ederiz!"
+   },
+   "thankYouForYourContribution2": {
+      "message": "Bu pencereyi kapat\u0131n ve tad\u0131n\u0131 \u00E7\u0131kar\u0131n!"
+   },
+   "timeout": {
+      "message": "Zaman a\u015F\u0131m\u0131"
+   },
+   "timeoutNote": {
+      "message": "E\u011Fer \u00E7ok fazla takvim veya etkinli\u011Finiz varsa de\u011Fi\u015Ftirin"
+   },
+   "timeoutTooltip": {
+      "message": "Giri\u015F sorunu ortaya \u00E7\u0131kma sebepleri, 10 ya da daha fazla takviminiz olabilir veya \u00E7ok fazla etkinlik olabilir)"
+   },
+   "timeoutTryAgain": {
+      "message": "$1 \u0130le ileti\u015Fim kurarken zaman a\u015F\u0131m\u0131 olu\u015Ftu, l\u00FCtfen tekrar deneyin!"
+   },
+   "toSeeCalendar": {
+      "message": "Takviminizi g\u00F6rmek i\u00E7in!"
+   },
+   "today": {
+      "message": "Bug\u00FCn"
+   },
+   "todayAt": {
+      "message": "Bug\u00FCn"
+   },
+   "tom": {
+      "message": "Tom"
+   },
+   "tomorrow": {
+      "message": "Yar\u0131n"
+   },
+   "tomorrowAt": {
+      "message": "Yar\u0131n"
+   },
+   "undo": {
+      "message": "Geri Al"
+   },
+   "unlockFeatures": {
+      "message": "Bu ve gelecek \u00F6zellikler herhangi bir miktarda ba\u011F\u0131\u015F yap\u0131ld\u0131\u011F\u0131nda kullan\u0131labilir!"
+   },
+   "unlockHeader": {
+      "message": "Ekstra \u00F6zellikler olsun"
+   },
+   "view": {
+      "message": "G\u00F6r\u00FCn\u00FCm"
+   },
+   "voiceNotificationOnlyIfIdle": {
+      "message": "Sadece bilgisayardan uzakta oldu\u011Funuzda sesli okuma"
+   },
+   "voiceNotificationOnlyIfIdleTooltip": {
+      "message": "Sadece bilgisayardan uzaktaysan\u0131z yada bilgisayar\u0131n\u0131z bo\u015Fta \u00E7al\u0131\u015Ft\u0131\u011F\u0131nda sesli okuma i\u00E7in bu se\u00E7ene\u011Fi kullan\u0131n"
+   },
+   "volume": {
+      "message": "Ses"
+   },
+   "wantToStaySignedIn": {
+      "message": "Ba\u011Flant\u0131da kalmak ister misiniz?"
+   },
+   "week": {
+      "message": "Hafta"
+   },
+   "what": {
+      "message": "Ne"
+   },
+   "when": {
+      "message": "Ne zaman"
+   },
+   "whyContribute": {
+      "message": "Neden katk\u0131da bulunmal\u0131y\u0131m?"
+   },
+   "whyContributeReason1": {
+      "message": "\u00D6nerileriniz, istekleriniz veya destek vermek amac\u0131yla hatr\u0131 say\u0131l\u0131r zaman \u00E7al\u0131\u015F\u0131yorum"
+   },
+   "whyContributeReason1_1": {
+      "message": "T\u00FCm uzant\u0131lar\u0131m"
+   },
+   "whyContributeReason2": {
+      "message": "$1 \u00FCzerinden \u00F6nerilerinize ve geri d\u00F6n\u00FC\u015Flerinize h\u0131zl\u0131ca yan\u0131t veriyorum :)"
+   },
+   "whyContributeReason2_1": {
+      "message": "Kendi g\u00F6zlemleriniz"
+   },
+   "whyContributeReason3": {
+      "message": "Herhangi bir miktar katk\u0131da bulunabilirseniz, mutluluk duyar\u0131z!"
+   },
+   "whyContributeReason4": {
+      "message": "Bu uzant\u0131 \u00E7ok g\u00FCzel bir geri d\u00F6n\u00FC\u015F al\u0131yor, size te\u015Fekk\u00FCrler!"
+   },
+   "whyContributeReason4_1": {
+      "message": "Geri d\u00F6n\u00FC\u015F"
+   },
+   "whyContributeReason5": {
+      "message": "Hakk\u0131mda daha detayl\u0131 bilgi i\u00E7in $1"
+   },
+   "whyContributeReason5_1": {
+      "message": "JasonSavard.com/bio"
+   },
+   "whyContributeToCalendarReason1": {
+      "message": "Daha etkili bir Google takvim kullan\u0131c\u0131s\u0131 olun"
+   },
+   "whyContributeToCalendarReason2": {
+      "message": "$1'den \u00E7ok daha ucuz"
+   },
+   "whyContributeToCalendarReason2_1": {
+      "message": "Microsoft Outlook"
+   },
+   "writeAboutMe": {
+      "message": "Di\u011Fer pop\u00FCler uzant\u0131lar\u0131m\u0131 deneyin!"
+   },
+   "writeSomethingNice": {
+      "message": "Buraya g\u00FCzel bir yorum yaz\u0131n yada bu uzant\u0131y\u0131 ne ama\u00E7la kulland\u0131\u011F\u0131n\u0131z\u0131 payla\u015F\u0131n"
+   },
+   "yesterday": {
+      "message": "D\u00FCn"
+   }
+}

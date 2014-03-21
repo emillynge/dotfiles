@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "tausta"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Siirry taaksep\u00E4in merkin verran"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Siirry taaksep\u00E4in kappaleen verran"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Siirry taaksep\u00E4in lauseen verran"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Siirry taaksep\u00E4in sanan verran"
+   },
+   "chromevis_capitals_text": {
+      "message": "Saat isoja kirjaimia painamalla Shift+[n\u00E4pp\u00E4in]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Valitse keskitetty / teksti\u00E4 seuraava linssi"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Pienenn\u00E4 tekstin kokoa"
+   },
+   "chromevis_description": {
+      "message": "Voit suurentaa teksti\u00E4 ja muuttaa sen v\u00E4ri\u00E4. Voit liikuttaa valintaa sivulla hiiren tai n\u00E4pp\u00E4imist\u00F6n avulla."
+   },
+   "chromevis_format_text": {
+      "message": "Pikan\u00E4pp\u00E4imien tulee olla t\u00E4ss\u00E4 muodossa: [muokkausn\u00E4pp\u00E4in]+[n\u00E4pp\u00E4in]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Siirry eteenp\u00E4in merkin verran"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Siirry eteenp\u00E4in kappaleen verran"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Siirry eteenp\u00E4in lauseen verran"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Siirry eteenp\u00E4in sanan verran"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Suurenna tekstin kokoa"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Palauta oletusasetukset"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Tallenna"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Ota linssi k\u00E4ytt\u00F6\u00F6n tai poista se k\u00E4yt\u00F6st\u00E4"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Valitse kiinte\u00E4/liikkuva linssi"
+   },
+   "chromevis_textcolor_label": {
+      "message": "teksti"
+   },
+   "chromevis_title_text": {
+      "message": "Linssin pikan\u00E4pp\u00E4imet"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "fi"
+   }
+}

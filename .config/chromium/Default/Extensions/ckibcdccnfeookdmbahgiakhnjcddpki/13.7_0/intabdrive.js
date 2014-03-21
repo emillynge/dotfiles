@@ -1,0 +1,1 @@
+function iGet(a){alert(a.length);$("text").html(a)}chrome.runtime.sendMessage({type:"getScreenshot",id:location.hash},IGet);

@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Zrzut ca\u0142ej strony"
+   },
+   "cancel": {
+      "message": "anuluj"
+   },
+   "canceled": {
+      "message": "Zrzut anulowany!"
+   },
+   "cannotscroll": {
+      "message": "Nie mog\u0119 przewin\u0105\u0107 strony\u003Cbr\u003E\u003Cbr/\u003ESpr\u00F3buj otworzy\u0107 stron\u0119 ponownie"
+   },
+   "changeheaders": {
+      "message": "Zmie\u0144 nag\u0142\u00F3wek i stopk\u0119"
+   },
+   "createimage": {
+      "message": "Tworz\u0119 plik obrazka..."
+   },
+   "date": {
+      "message": "Data"
+   },
+   "description": {
+      "message": "Szybkie i proste narz\u0119dzie do zapisywania zrzut\u00F3w ekranowych dowolnych stron www do formatu JPG. Pierwsze rozszerzenie..."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Mo\u017Cesz przes\u0142a\u0107 raport z b\u0142\u0119dami"
+   },
+   "footer": {
+      "message": "Stopka"
+   },
+   "header": {
+      "message": "Nag\u0142\u00F3wek"
+   },
+   "height": {
+      "message": "wysoko\u015B\u0107"
+   },
+   "imagesize": {
+      "message": "Rozmiar obrazka:"
+   },
+   "likeresult": {
+      "message": "Podoba Ci si\u0119 rezultat? Mo\u017Cesz napisa\u0107 mi\u0142y komentarz i da\u0107 nam 5 gwiazdek"
+   },
+   "loadcapturescript": {
+      "message": "\u0141aduj\u0119 skrypt zrzutu "
+   },
+   "name": {
+      "message": "Screenshot stron www - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "Nie mog\u0119 przewin\u0105\u0107 tej strony (Rozszerzenie mo\u017Ce nie dzia\u0142a\u0107 na wewn\u0119trznych stronach przegl\u0105darki lub w galerii z rozszerzeniami"
+   },
+   "noresize": {
+      "message": "Nie zmieniaj rozmiaru"
+   },
+   "openimage": {
+      "message": "Kliknij tutaj, aby zobaczy\u0107 obraz"
+   },
+   "or": {
+      "message": "albo"
+   },
+   "preview": {
+      "message": "Podgl\u0105d:"
+   },
+   "resize": {
+      "message": "Zmie\u0144 rozmiar na:"
+   },
+   "resizebefore": {
+      "message": "Zmie\u0144 rozmiar okna przed zrzutem"
+   },
+   "takecapture": {
+      "message": "Zr\u00F3b rzut teraz"
+   },
+   "takingcapture": {
+      "message": "Tworz\u0119 zrzut"
+   },
+   "tosavemessage": {
+      "message": "Aby zapisa\u0107 obrazek, kliknij na niego prawym przyciskiem myszy i wybierz \"Zachowaj grafik\u0119 jako...\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Zrzut widocznej cz\u0119\u015Bci strony"
+   },
+   "wait": {
+      "message": "czekaj"
+   },
+   "width": {
+      "message": "szeroko\u015B\u0107"
+   },
+   "zoom": {
+      "message": "Powi\u0119ksz"
+   }
+}

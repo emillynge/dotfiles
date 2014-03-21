@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "Tutto su"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "Vai"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "Cancella gli indirizzi salvati"
+   },
+   "defaultLocation": {
+      "description": "default location is Roma",
+      "message": "Roma"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of Roma",
+      "message": "41.89"
+   },
+   "defaultLocationLink": {
+      "description": "location link of Roma",
+      "message": "it/roma"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of Roma",
+      "message": "12.49"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "Mi spiace, non posso determinare la tua posizione attuale."
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "Non sono in grado di individuare la posizione '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Google Maps"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "Fissa una posizione sulla mappa ed esplora i punti di interesse nelle vicinanze"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Google Maps con ricerca locale"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "Mostra la mia posizione"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Da qui"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Ottieni indicazioni: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.it"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "Guida"
+   },
+   "hotspot1": {
+      "message": "Ristoranti"
+   },
+   "hotspot2": {
+      "message": "Caff\u00E8"
+   },
+   "hotspot3": {
+      "message": "Musei"
+   },
+   "hotspot4": {
+      "message": "Fast Food"
+   },
+   "hotspot5": {
+      "message": "Hotel"
+   },
+   "hotspot6": {
+      "message": "Bancomat"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "Punti di interesse nelle vicinanze: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "Posizione: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "A qui"
+   }
+}

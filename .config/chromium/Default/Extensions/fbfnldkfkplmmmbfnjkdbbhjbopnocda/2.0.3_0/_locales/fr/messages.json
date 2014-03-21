@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "\u00C0 propos"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "Rechercher"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "Effacer l'historique"
+   },
+   "defaultLocation": {
+      "description": "default location is Paris",
+      "message": "Paris"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of Paris",
+      "message": "48.86"
+   },
+   "defaultLocationLink": {
+      "description": "location link of Paris",
+      "message": "fr/Paris"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of Paris",
+      "message": "2.33"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "D\u00E9sol\u00E9, nous n'avons pas pu d\u00E9terminer l'endroit o\u00F9 vous vous trouvez actuellement."
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "Nous n'avons pas pu interpr\u00E9ter l'adresse indiqu\u00E9e '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Google Maps"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "Recherche d'une adresse sur la carte, et exploration des environs."
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Google Maps avec recherches de proximit\u00E9"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "Trouver mon adresse actuelle"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "D\u00E9part"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Itin\u00E9raire: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.fr"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "Aide"
+   },
+   "hotspot1": {
+      "message": "Restaurant"
+   },
+   "hotspot2": {
+      "message": "Caf\u00E9\t"
+   },
+   "hotspot3": {
+      "message": "Mus\u00E9e"
+   },
+   "hotspot4": {
+      "message": "Restauration rapide"
+   },
+   "hotspot5": {
+      "message": "H\u00F4tel"
+   },
+   "hotspot6": {
+      "message": "Distributeur automatique"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "Rechercher \u00E0 proximit\u00E9: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "Adresse: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Arriv\u00E9e"
+   }
+}

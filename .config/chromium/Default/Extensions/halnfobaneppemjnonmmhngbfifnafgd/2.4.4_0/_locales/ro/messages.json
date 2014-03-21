@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "fundal"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "V\u0103 deplasa\u0163i \u00EEnapoi cu un caracter"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "V\u0103 deplasa\u0163i \u00EEnapoi cu un paragraf"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "V\u0103 deplasa\u0163i \u00EEnapoi cu o propozi\u0163ie"
+   },
+   "chromevis_backwardword_label": {
+      "message": "V\u0103 deplasa\u0163i \u00EEnapoi cu un cuv\u00E2nt"
+   },
+   "chromevis_capitals_text": {
+      "message": "Pentru majuscule, utiliza\u0163i Shift+[tast\u0103]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Comuta\u0163i \u00EEntre lup\u0103 centrat\u0103/\u00EEncadrat\u0103 st\u00E2nga-dreapta"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Mic\u015Fora\u0163i dimensiunea textului"
+   },
+   "chromevis_description": {
+      "message": "M\u0103ri\u0163i \u015Fi schimba\u0163i culoarea oric\u0103rui text selectat. Utiliza\u0163i mouse-ul sau tastatura pentru a deplasa selec\u0163ia \u00EEn cadrul paginii."
+   },
+   "chromevis_format_text": {
+      "message": "Comenzile rapide trebuie s\u0103 aib\u0103 acest format: [modificator]+[tast\u0103]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "V\u0103 deplasa\u0163i \u00EEnainte cu un caracter"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "V\u0103 deplasa\u0163i \u00EEnainte cu un paragraf"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "V\u0103 deplasa\u0163i \u00EEnainte cu o propozi\u0163ie"
+   },
+   "chromevis_forwardword_label": {
+      "message": "V\u0103 deplasa\u0163i \u00EEnainte cu un cuv\u00E2nt"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "M\u0103ri\u0163i dimensiunea textului"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (de la Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Restabili\u0163i set\u0103rile prestabilite"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Salva\u0163i"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Activa\u0163i/dezactiva\u0163i lupa"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Comuta\u0163i \u00EEntre lup\u0103 fix\u0103/mobil\u0103"
+   },
+   "chromevis_textcolor_label": {
+      "message": "text"
+   },
+   "chromevis_title_text": {
+      "message": "Comenzi rapide de la tastatur\u0103 pentru lup\u0103"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "ro"
+   }
+}

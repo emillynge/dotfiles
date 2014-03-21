@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "From Dust is the award winning game where you control Nature and master the elements for the survival of your people."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "From Dust"
+   }
+}

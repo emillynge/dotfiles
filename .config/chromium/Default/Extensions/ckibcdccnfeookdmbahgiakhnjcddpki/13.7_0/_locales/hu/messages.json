@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "K\u00E9perny\u0151k\u00E9p az eg\u00E9sz oldalr\u00F3l"
+   },
+   "cancel": {
+      "message": "m\u00E9gsem"
+   },
+   "canceled": {
+      "message": "K\u00E9pk\u00E9sz\u00EDt\u00E9s visszavonva!!"
+   },
+   "cannotscroll": {
+      "message": "Nem lehet g\u00F6rgetni a lapot\u003Cbr\u003E\u003Cbr/\u003EPr\u00F3b\u00E1ld a lapot \u00FAjranyitni"
+   },
+   "changeheaders": {
+      "message": "Fej-, \u00E9s l\u00E1bl\u00E9c csere"
+   },
+   "createimage": {
+      "message": "K\u00E9pf\u00E1jl l\u00E9trehoz\u00E1sa..."
+   },
+   "date": {
+      "message": "D\u00E1tum"
+   },
+   "description": {
+      "message": "Hogy b\u00E1rmely weboldal k\u00E9perny\u0151k\u00E9p\u00E9t JPG form\u00E1tumban elmenthesd. Az els\u0151 kieg\u00E9sz\u00EDt\u00E9s, amely az eg\u00E9sz oldalt k\u00E9pes kif\u00E9nyk\u00E9pezni."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "K\u00FCldhetsz egy hibajelent\u00E9st"
+   },
+   "footer": {
+      "message": "L\u00E1bl\u00E9c"
+   },
+   "header": {
+      "message": "Fejl\u00E9c"
+   },
+   "height": {
+      "message": "magass\u00E1g"
+   },
+   "imagesize": {
+      "message": "K\u00E9p m\u00E9ret:"
+   },
+   "likeresult": {
+      "message": "Tetszik a v\u00E9geredm\u00E9ny? \u00CDrhatsz egy j\u00F3 megjegyz\u00E9st, vagy adhatsz 5 csillagot"
+   },
+   "loadcapturescript": {
+      "message": "K\u00E9perny\u0151k\u00E9p k\u00E9sz\u00EDt\u0151 script bet\u00F6lt\u00E9se..."
+   },
+   "name": {
+      "message": "Weboldal Screenshot k\u00E9sz\u00EDt\u0151 - WP Screenshot"
+   },
+   "noall": {
+      "message": "Nem lehet g\u00F6rgetni a jelenlegi oldalt (A kieg\u00E9sz\u00EDt\u0151 nem m\u0171k\u00F6dik a Chrome be\u00E9p\u00EDtett oldalaival, \u00E9s a kieg\u00E9sz\u00EDt\u0151 gal\u00E9ri\u00E1val sem)"
+   },
+   "noresize": {
+      "message": "Nincs m\u00E9retez\u00E9s"
+   },
+   "openimage": {
+      "message": "Kattints ide a k\u00E9p megnyit\u00E1s\u00E1hoz"
+   },
+   "or": {
+      "message": "vagy"
+   },
+   "preview": {
+      "message": "El\u0151n\u00E9zet:"
+   },
+   "resize": {
+      "message": "\u00C1tm\u00E9retez\u00E9s:"
+   },
+   "resizebefore": {
+      "message": "Ablak \u00E1tm\u00E9retez\u00E9se k\u00E9p k\u00E9sz\u00EDt\u00E9se el\u0151tt"
+   },
+   "takecapture": {
+      "message": "K\u00E9p k\u00E9sz\u00EDt\u00E9se most"
+   },
+   "takingcapture": {
+      "message": "K\u00E9preny\u0151k\u00E9p k\u00E9sz\u00EDt\u00E9se"
+   },
+   "tosavemessage": {
+      "message": "A k\u00E9p ment\u00E9s\u00E9hez jobb klikk r\u00E1 \u00E9s v\u00E1laszd a \"K\u00E9p ment\u00E9se m\u00E1sk\u00E9nt...\" opci\u00F3t"
+   },
+   "url": {
+      "message": "Link"
+   },
+   "visiblescreenshot": {
+      "message": "K\u00E9perny\u0151k\u00E9p a l\u00E1that\u00F3 r\u00E9szr\u0151l"
+   },
+   "wait": {
+      "message": "v\u00E1rj"
+   },
+   "width": {
+      "message": "sz\u00E9less\u00E9g"
+   },
+   "zoom": {
+      "message": "Nagy\u00EDt\u00E1s"
+   }
+}

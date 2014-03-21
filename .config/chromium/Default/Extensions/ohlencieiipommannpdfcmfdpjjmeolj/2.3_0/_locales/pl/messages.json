@@ -1,0 +1,20 @@
+{
+   "browser_tool": {
+      "message": "Narz\u0119dzie Browser"
+   },
+   "options_saved": {
+      "message": "Opcje Zapisano"
+   },
+   "save_button": {
+      "message": "Uratowa\u0107"
+   },
+   "support": {
+      "message": "Wsparcie"
+   },
+   "toolbar_icons": {
+      "message": "Ikony Chrome Toolbar"
+   },
+   "website_button": {
+      "message": "Przycisk WWW"
+   }
+}

@@ -1,0 +1,1052 @@
+{
+   "200": {
+      "message": "Chwilowy problem, spr\u00F3buj jeszcze raz!"
+   },
+   "24hourMode": {
+      "message": "Tryb 24 godzinny"
+   },
+   "24hourModeTitle": {
+      "message": "Wy\u015Bwietlaj czas w trybie 24 godzinnym, np. 18:00"
+   },
+   "401": {
+      "message": "Brak autoryzacji"
+   },
+   "403": {
+      "message": "Wprowadzony email lub has\u0142o s\u0105 niepoprawne."
+   },
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "NIE USUWA\u0106"
+   },
+   "Xminute": {
+      "message": "$1 minuta"
+   },
+   "Xminutes": {
+      "message": "$1 minut"
+   },
+   "Xseconds": {
+      "message": "$1 sekund"
+   },
+   "aboutMe": {
+      "message": "o mnie"
+   },
+   "account": {
+      "message": "Konto"
+   },
+   "addCalendar": {
+      "message": "Dodaj kalendarz"
+   },
+   "addCalendarTitle": {
+      "message": "Dodaj kalendarz przez prywatny URL"
+   },
+   "addSpeechEngines": {
+      "message": "Doda\u0107 aparat\u00F3w mowy"
+   },
+   "addToGoogleCalendar": {
+      "message": "Dodaj do Kalendarza Google"
+   },
+   "addedForSomeday": {
+      "message": "Dodano $1 na $2"
+   },
+   "addedForSomedayAt": {
+      "message": "Dodano $1 na $2 o $3"
+   },
+   "addedForToday": {
+      "message": "Dodano $1 na dzisiaj"
+   },
+   "addedForTodayAt": {
+      "message": "Dodano $1 dla $2"
+   },
+   "addedForTomorrow": {
+      "message": "Dodano $1 na jutro"
+   },
+   "addedForTomorrowAt": {
+      "message": "Dodano $1 na jutro o $2"
+   },
+   "addedTimedEventInThePast": {
+      "message": "Czas tego wydarzenia min\u0105\u0142! Czy chcesz, \u017Cebym zmieni\u0142 na taki sam w dniu jutrzejszym?"
+   },
+   "agenda": {
+      "message": "terminarz"
+   },
+   "agendaOnly": {
+      "message": "tylko terminarz"
+   },
+   "alertMe": {
+      "message": "ostrze\u017C mnie..."
+   },
+   "all": {
+      "message": "Wszystko"
+   },
+   "allowThisExtensionToReadYourFacebookEvent": {
+      "message": "Pozwoli\u0107 temu rozszerzeniu na czytanie Twoich wydarze\u0144 z Facebooka?"
+   },
+   "alreadyDonated": {
+      "message": "Przekaza\u0142e\u015B wsparcie?"
+   },
+   "amount": {
+      "message": "Kwota"
+   },
+   "andMyExtensions": {
+      "message": "i o moich rozszerzeniach"
+   },
+   "backgroundOfNotification": {
+      "message": "Kolor t\u0142a powiadomienia w formie wyskakuj\u0105cego okna"
+   },
+   "backgroundOfNotificationTooltip": {
+      "message": "Ustawia kolor t\u0142a w formie wyskakuj\u0105cego okna"
+   },
+   "byEmailSubject": {
+      "message": "wed\u0142ug tematu maila?"
+   },
+   "calendar": {
+      "message": "Kalendarz"
+   },
+   "calendarHelper": {
+      "message": "pomocy kalendarza"
+   },
+   "calendarViewAgenda": {
+      "message": "Widok kalendarza: terminarz"
+   },
+   "calendarViewAgendaTitle": {
+      "message": "Po klikni\u0119ciu ikony kalendarza pojawi si\u0119 ma\u0142y kalendarz z wydarzeniami umieszczonymi poni\u017Cej w formacie terminarza"
+   },
+   "calendarViewRegular": {
+      "message": "Widok kalendarza: normalny"
+   },
+   "calendarViewRegularTitle": {
+      "message": "Po klikni\u0119ciu ikony kalendarza pojawi si\u0119 kalendarz z wydarzeniami"
+   },
+   "calendarViewTitle": {
+      "message": "Wybierz domy\u015Blny widok"
+   },
+   "canceledInAppPurchase": {
+      "message": "U\u017Cy\u0107 PayPal? lub skontaktuj si\u0119 ze mn\u0105 na "
+   },
+   "cannotUpdateEventsInThePast": {
+      "message": "Problem! Nie mog\u0119 w tej chwili uaktualni\u0107 wydarze\u0144, kt\u00F3re odby\u0142y si\u0119 w przesz\u0142o\u015Bci. Mog\u0119 zaktualizowa\u0107 wydarzenia dzisiejsze lub te w najbli\u017Cszej przysz\u0142o\u015Bci. Dla przesz\u0142ych wydarze\u0144 mo\u017Cesz u\u017Cy\u0107 strony Kalendarza Google!"
+   },
+   "changeThisDomain": {
+      "message": "By zmieni\u0107 teraz domen\u0119 email $1"
+   },
+   "changeThisDomain2": {
+      "message": "wyloguj si\u0119 i zaloguj si\u0119 jako inny u\u017Cytkownik"
+   },
+   "changeView": {
+      "message": "Zmie\u0144 widok"
+   },
+   "changingIcon": {
+      "message": "Zmiana ikony"
+   },
+   "choosePaymentMethod": {
+      "message": "Wybierz metod\u0119 p\u0142atno\u015Bci"
+   },
+   "clearCache": {
+      "message": "Czy\u015Bci pami\u0119\u0107 podr\u0119czn\u0105 rozszerzenia"
+   },
+   "contact": {
+      "message": "kontakt"
+   },
+   "contactHelp": {
+      "message": "Kontakt - Pomoc"
+   },
+   "continue": {
+      "message": "Kontynuuj"
+   },
+   "continueWithoutFeatures": {
+      "message": "Korzystaj nadal z rozszerzenia z wieloma opcjami, ale bez dodatkowych funkcji."
+   },
+   "continueWithoutFeaturesHeader": {
+      "message": "Kontynuuj bez dodatkowych funckji"
+   },
+   "contributeToContinue": {
+      "message": "Przeka\u017C datek"
+   },
+   "copyPrivateAddress": {
+      "message": "Skopiuj prywatny adres (XML) kalendarza do schowka."
+   },
+   "copyPrivateAddressTitle": {
+      "message": "Na stronie swojego Kalendarza Google po lewej jest lista kalendarzy. Kliknij na guzik ze strza\u0142k\u0105 skierowan\u0105 w d\u00F3\u0142 obok wybranego kalendarza, kliknij 'ustawienia kalendarza'. Przy 'adresie prywatnym' wybierz XML i skopiuj adres do schowka. Uwaga: je\u015Bli nie mo\u017Cesz znale\u017A\u0107 'prywatnego adresu', musisz zmieni\u0107 ustawienia kalendarza przy uprawnieniach administratora."
+   },
+   "countryCode": {
+      "message": "USA"
+   },
+   "createDeleteEvents": {
+      "message": "Tworzenie lub usuwanie w ramach widoku miesi\u0105ca"
+   },
+   "createEvent": {
+      "message": "Utw\u00F3rz wydarzenie"
+   },
+   "creditCardOrPaypal": {
+      "message": "Mo\u017Cesz u\u017Cy\u0107 swojej karty kredytowej lub PayPal, aby "
+   },
+   "currentPage": {
+      "message": "obecna strona"
+   },
+   "custom": {
+      "message": "Niestandardowe"
+   },
+   "customizeCalendar": {
+      "message": "Zmie\u0144 wysoko\u015B\u0107, szeroko\u015B\u0107, widoczne kalendarze, itd."
+   },
+   "customizeCalendarTitle": {
+      "message": "W kalendarzu pop-up musisz ustawi\u0107 'Widok' na 'Dostosuj'"
+   },
+   "customized": {
+      "message": "Dostosuj"
+   },
+   "d": {
+      "message": "d"
+   },
+   "daysAgo": {
+      "message": "dni temu"
+   },
+   "daysArray": {
+      "message": "niedziela,poniedzia\u0142ek,wtorek,\u015Broda,czwartek,pi\u0105tek,sobota"
+   },
+   "daysArrayShort": {
+      "message": "niedz.,pon.,wt.,\u015Br.,czw.,pt.,sob."
+   },
+   "daysLeft": {
+      "message": "pozosta\u0142o $1 dni"
+   },
+   "delete": {
+      "message": "Usu\u0144"
+   },
+   "description": {
+      "message": "Zobacz nast\u0119pne spotkanie, otrzymuj przypomnienia na pulpicie, dodawaj wydarzenia w formie wyskakuj\u0105cego okienka"
+   },
+   "developingMore": {
+      "message": "i pracuj\u0119 nad kolejnymi Waszymi sugestiami..."
+   },
+   "ding": {
+      "message": "Ding"
+   },
+   "dismiss": {
+      "message": "Porzu\u0107"
+   },
+   "dismissAll": {
+      "message": "Porzu\u0107 wszystko"
+   },
+   "doNotShowNotificationsForAlldayEvents": {
+      "message": "Nie pokazuj powiadomie\u0144 dla wydarze\u0144 ca\u0142odniowych"
+   },
+   "doNotShowNotificationsForAlldayEventsTitle": {
+      "message": "Nie pokazuj powiadomie\u0144 dla wydarze\u0144 ca\u0142odniowych"
+   },
+   "doNotShowNotificationsWhenBrowserClosed": {
+      "message": "Nie pokazuj powiadomie\u0144 przy zamkni\u0119tym oknie przegl\u0105darki"
+   },
+   "doNotShowNotificationsWhenBrowserClosedTooltip": {
+      "message": "Google Chrome b\u0119dzie dzia\u0142a\u0142 w tle z ikon\u0105 w obszerze powiadomie\u0144, ALE powiadomienia NIE b\u0119d\u0105 pokazywane!"
+   },
+   "doNotShowPastNotifications": {
+      "message": "Nie pokazuj powiadomie\u0144 dla przesz\u0142ych wydarze\u0144"
+   },
+   "doNotShowPastNotificationsTitle": {
+      "message": "Nie pokazuj \u017Cadnych powiadomie\u0144 dla wydarze\u0144, kt\u00F3re mia\u0142y miejsce przed uruchomieniem przegl\u0105darki. Przydatna funckja, je\u015Bli cz\u0119sto u\u017Cywasz r\u00F3\u017Cnych komputer\u00F3w"
+   },
+   "donateButton": {
+      "message": "https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif"
+   },
+   "donationRequired": {
+      "message": "Oddawanie wymagane"
+   },
+   "drawAttentionToBrowser": {
+      "message": "Niech miga ikona Chrome w pasku zada\u0144 w Windows lub niech podskakuje ikona Chrome na Macu (Beta)"
+   },
+   "drawAttentionToBrowserTooltip": {
+      "message": "W\u0142\u0105czy si\u0119 wy\u0142\u0105cznie wtedy, gdy na ekranie nie wida\u0107 przegl\u0105darki. U\u017Cyteczne, je\u015Bli korzysta si\u0119 z wielu przestrzeni roboczych. W Windows: miga ikona Chrome w pasku zada\u0144. Na Macu: ikona Chrome podskakuje"
+   },
+   "editEventDetails": {
+      "message": "Edytuj wydarzenie"
+   },
+   "email": {
+      "message": "Email:"
+   },
+   "enableLanguageDetection": {
+      "message": "W\u0142\u0105cz funkcj\u0119 rozpoznawnaia j\u0119zyka"
+   },
+   "enableLanguageDetectionToolTip": {
+      "message": "M\u00F3w w j\u0119zyku swojego przypominacza dzi\u0119ki u\u017Cyciu tej funkcji rozpoznawania j\u0119zyka!"
+   },
+   "enablePrivateAddressTitle": {
+      "message": "Id\u017A do opcji w Kalendarzu Google. Wybierz opcj\u0119, kt\u00F3ra pozwala na dzielenie kalendarzy ze wszystkimi. Wszyscy mog\u0105 wtedy zmienia\u0107 kalendarze"
+   },
+   "enterATitle": {
+      "message": "Musisz wprowadzi\u0107 tytu\u0142!"
+   },
+   "enterAnAmount": {
+      "message": "Muisz wpisa\u0107 kwot\u0119!"
+   },
+   "errorAddingEvent": {
+      "message": "Problem z dodaniem wydarzenia! Prawdopodobna przyczyna: b\u0142\u0105d po\u0142\u0105czenia!"
+   },
+   "errorGettingCalendar": {
+      "message": "problem z pobraniem kalendarza, sprawd\u017A URL i spr\u00F3buj ponownie! (B\u0142\u0105d: $1)"
+   },
+   "errorGettingCalendarUnauthorized": {
+      "message": "Brak autoryzacji! Najpierw musisz zalogowa\u0107 si\u0119 do Kalendarza Google'a poprzez otwarcie nowej karty"
+   },
+   "eventAdded": {
+      "message": "Dodano wydarzenie"
+   },
+   "eventCreated": {
+      "message": "Utworzono wydarzenie"
+   },
+   "eventDeleted": {
+      "message": "Wydarzenie usuni\u0119te"
+   },
+   "eventDescription": {
+      "message": "Opis"
+   },
+   "eventUpdated": {
+      "message": "Wydarzenie zosta\u0142o zaktualizowane"
+   },
+   "eventsAndSnoozes": {
+      "message": "Wydarzenia i drzemki"
+   },
+   "ex": {
+      "message": "np."
+   },
+   "example": {
+      "message": "przyk\u0142ad"
+   },
+   "excludeCalendar": {
+      "message": "Wyklucz kalendarz"
+   },
+   "excludeCalendarFrom": {
+      "message": "Pomi\u0144 kalendarz w"
+   },
+   "excludeCalendarFrom2": {
+      "message": "widoku terminarza i w widoku normalnym"
+   },
+   "excludeCalendarFrom3": {
+      "message": "z przycisku i wy\u0142\u0105cz powiadomienia"
+   },
+   "excludeCalendarFromTitle": {
+      "message": "Kliknij 'widok', by ukry\u0107 okre\u015Blone kalendarze z widoku kalendarza/terminarza lub kliknij 'zaznaczenie', by wykluczy\u0107 z przycisku wydarzenia z okre\u015Blonych kalendarzy i wy\u0142\u0105czy\u0107 powiadomienia"
+   },
+   "excludeCalendarsCheckboxChecking": {
+      "message": "Prosz\u0119 klikn\u0105\u0107 link po prawej stronie w tej opcji"
+   },
+   "excludeRecurringEventsButtonIcon": {
+      "message": "Nie uwzgl\u0119dniaj na przycisku powtarzaj\u0105cych si\u0119 wydarze\u0144"
+   },
+   "excludeRecurringEventsButtonIconTooltip": {
+      "message": "Powtarzaj\u0105ce si\u0119 wydarzenia nie b\u0119d\u0105 wy\u015Bwietlane na przycisku, ALE b\u0119d\u0105 wy\u015Bwietlane powiadomienia o nich"
+   },
+   "excluded": {
+      "message": "Wykluczony"
+   },
+   "extraFeatures": {
+      "message": "Dodatkowe funckje"
+   },
+   "failureWithInAppPurchase": {
+      "message": "Transakcja anulowana lub wyst\u0105pi\u0142 b\u0142\u0105d! U\u017Cy\u0107 PayPal?"
+   },
+   "failureWithPayPalPurchase": {
+      "message": "Transakcja anulowana lub wyst\u0105pi\u0142 b\u0142\u0105d! U\u017Cy\u0107 Google Wallet?"
+   },
+   "forProblemSolving": {
+      "message": "Tylko przy rozwi\u0105zywaniu problem\u00F3w"
+   },
+   "forSuggestions": {
+      "message": "w celu przes\u0142ania wskaz\u00F3wek lub dowiedzenia si\u0119 wi\u0119cej"
+   },
+   "forever": {
+      "message": "Na zawsze"
+   },
+   "googleAppsCalendars": {
+      "message": "Kalendarze Google Apps"
+   },
+   "googleAppsCalendarsForce": {
+      "message": "Zmu\u015B wielokrotny login Google do tego, by by\u0142 to domy\u015Blny login z Google Apps Calendars"
+   },
+   "googleAppsCalendarsTitle": {
+      "message": "Zaznacz to tylko, je\u015Bli masz i chcesz u\u017Cywa\u0107 swoich Google Apps dla kalendarza biznesowego lub edukacyjnego. Uwaga: to wy\u0142\u0105czy regularne sprawdzanie Kalendarza Google!"
+   },
+   "googleAppsNote": {
+      "message": "To wy\u0142\u0105czy regularne sprawdzanie Kalendarza Google."
+   },
+   "h": {
+      "message": "g"
+   },
+   "helpMeTranslate": {
+      "message": "Mo\u017Cesz pom\u00F3c mi w t\u0142umaczeniach? $1 poprawne!"
+   },
+   "helpMeTranslate2": {
+      "message": "Napisz do mnie maila"
+   },
+   "helpSupport": {
+      "message": "by wesprze\u0107 autora tego rozszerzenia"
+   },
+   "highlightCurrentDay": {
+      "message": "Pod\u015Bwietl dzie\u0144 dzisiejszy"
+   },
+   "highlightCurrentDayTooltip": {
+      "message": "Kiedy w\u0142\u0105czasz kalendarz w widoku miesi\u0105ca, obecny dzie\u0144 b\u0119dzie kr\u00F3tko pulsowa\u0107"
+   },
+   "highlightWeekends": {
+      "message": "Pod\u015Bwietlaj weekendy"
+   },
+   "highlightWeekendsTitle": {
+      "message": "Delikatnie cieniuje weekendy, ale tylko w miesi\u0119cznym widoku normalnym"
+   },
+   "hours": {
+      "message": "godziny"
+   },
+   "hoursAgo": {
+      "message": "$1 godziny temu"
+   },
+   "hoursLeft": {
+      "message": "pozosta\u0142o $1 godzin"
+   },
+   "hoursRemaining": {
+      "message": "Poka\u017C, ile godzin pozosta\u0142o do wydarzenia zamiast jego dok\u0142adnego czasu"
+   },
+   "hoursRemainingTitle": {
+      "message": "Je\u015Bli wydarzenie odb\u0119dzie si\u0119 w przeci\u0105gu 24 godzin, zostanie pokazana liczba godzin do wydarzenia, np. 4 godz."
+   },
+   "iconClassic": {
+      "message": "Ikona klasyczna"
+   },
+   "iconDefault": {
+      "message": "Domy\u015Blna ikona"
+   },
+   "iconDefault2WithDate": {
+      "message": "Domy\u015Blna ikona z dzisiejsz\u0105 dat\u0105"
+   },
+   "iconMonochrome": {
+      "message": "Ikona monochromatyczna"
+   },
+   "iconNew": {
+      "message": "Nowa ikona"
+   },
+   "iconNew2": {
+      "message": "Ciemna ikona"
+   },
+   "iconNew2WithDate": {
+      "message": "Ciemna ikona z dzisiejsz\u0105 dat\u0105"
+   },
+   "iconNewWithDate": {
+      "message": "Nowa ikona z dzisiejsz\u0105 dat\u0105"
+   },
+   "iconTooltip": {
+      "message": "Ikona do u\u017Cycia z przyciskiem popup"
+   },
+   "inVARhour": {
+      "message": "w przeci\u0105gu $1 godziny"
+   },
+   "inVARhours": {
+      "message": "w przeci\u0105gu $1 godziny"
+   },
+   "inVARminutes": {
+      "message": "w przeci\u0105gu $1 minuty"
+   },
+   "keepHoveringOverTheBluePlusOne": {
+      "message": "Najed\u017A na ikon\u0119 +1 i poczekaj, a\u017C wy\u015Bwietli si\u0119 napis i podziel si\u0119 nim na Google+"
+   },
+   "language": {
+      "message": "J\u0119zyk"
+   },
+   "languageToolTip": {
+      "message": "Zmienia j\u0119zyk wy\u015Bwietlania oraz powiadomie\u0144 g\u0142osowych. Uwaga: mo\u017Cesz zobaczy\u0107 naraz wiele j\u0119zyk\u00F3w, bo takie s\u0105 zasady. Wy\u015Bwietli to, co przet\u0142umaczy\u0142em na wybrany tu j\u0119zyk. Je\u015Bli nie przet\u0142umaczy\u0142em jakich\u015B s\u0142\u00F3w, b\u0119dzie ich szuka\u0142 w j\u0119zyku Twojej przegl\u0105darki. Je\u015Bli tych nie przet\u0142umaczy\u0142em, poka\u017Ce angielskie odpowiedniki. Uwaga: by zmieni\u0107 j\u0119zyk w wyskakuj\u0105cym okienku, u\u017Cyj ustawie\u0144 z Kalendarza Google."
+   },
+   "largest": {
+      "message": "najwi\u0119kszy"
+   },
+   "licenseOnlyValidFor": {
+      "message": "Licencja b\u0119dzie wa\u017Cna wy\u0142\u0105cznie dla u\u017Cytkownik\u00F3w, kt\u00F3rzy zaloguj\u0105 sie do swoich Kalendarzy Google przy pomocy"
+   },
+   "loading": {
+      "message": "\u0141aduj\u0119..."
+   },
+   "logEventsAndSnoozes": {
+      "message": "Tworzy log wydarze\u0144 i drzemek"
+   },
+   "longerSnoozeTimes": {
+      "message": "D\u0142u\u017Cszy czas drzemki"
+   },
+   "m": {
+      "message": "m"
+   },
+   "maxDaysAhead": {
+      "message": "Liczba dni pokazywanych do przodu"
+   },
+   "maxDaysAheadTitle": {
+      "message": "Maksymalna liczba dni odliczana w ikonie"
+   },
+   "meetMe": {
+      "message": "Spotkaj si\u0119 ze mn\u0105"
+   },
+   "meetMeTitle": {
+      "message": "Zobacz mnie na wideo!"
+   },
+   "min": {
+      "message": "min."
+   },
+   "minimumAmount": {
+      "message": "Muisz przekaza\u0107 minimum $1"
+   },
+   "minutesAgo": {
+      "message": "$1 minuty temu"
+   },
+   "minutesLeft": {
+      "message": "pozosta\u0142o $1 minut"
+   },
+   "missingOptions": {
+      "message": "Brakuje opcji? T\u0142umaczenie jest z\u0142e? Prze\u015Blij"
+   },
+   "missingOptions2": {
+      "message": "wskaz\u00F3wk\u0119!"
+   },
+   "month": {
+      "message": "Miesi\u0105c"
+   },
+   "more": {
+      "message": "wi\u0119cej"
+   },
+   "moreInfo": {
+      "message": "Wi\u0119cej informacji"
+   },
+   "multipleUserLicense": {
+      "message": "Zdob\u0105d\u017C licencj\u0119 dla wielu u\u017Cytkownik\u00F3w w Twojej firmie"
+   },
+   "mustAddCalendar": {
+      "message": "Je\u015Bli w\u0142\u0105czysz Google Apps, musisz doda\u0107 kalendarz!"
+   },
+   "mustClickShareLinks": {
+      "message": "U\u017Cyj raz jakiegokolwiek linka poni\u017Cej okienka kalendarza, by je st\u0105d usun\u0105\u0107!"
+   },
+   "mustSignInToPay": {
+      "message": "Musisz zalogowa\u0107 sie do swojego Kalendarza Google i poczeka\u0107 na za\u0142adowanie si\u0119 tego rozszerzenia!"
+   },
+   "myPreference": {
+      "message": "moje ustawienie"
+   },
+   "nameNoTM": {
+      "message": "Checker Plus dla Kalendarza Google"
+   },
+   "needHelp": {
+      "message": "Potrzebujesz pomocy?"
+   },
+   "noDetails": {
+      "message": "bez szczeg\u00F3\u0142\u00F3w"
+   },
+   "noPermissionOnEvent": {
+      "message": "K\u0142opot z przeniesieniem wydarzenia. By\u0107 mo\u017Ce nie masz uprawnie\u0144!"
+   },
+   "notLoggedIn": {
+      "message": "Niezalogowany"
+   },
+   "notTaxExempt": {
+      "message": "Nie jestem firm\u0105 zwolnion\u0105 z podatku"
+   },
+   "notificationDateFormat": {
+      "message": "ddd, mmm d"
+   },
+   "notificationFontSize": {
+      "message": "Wielko\u015B\u0107 tekstu powiadomienia"
+   },
+   "notificationFontSizeTooltip": {
+      "message": "Ustawia wielko\u015B\u0107 czcionki tytu\u0142u wydarzenia w powiadomieniu w formie wyskakuj\u0105cego okna. Ustaw najmniejszy rozmiar, je\u015Bli tytu\u0142 jest d\u0142ugi i najwi\u0119kszy rozmiar, je\u015Bli tytu\u0142 jest kr\u00F3tki"
+   },
+   "notificationSound": {
+      "message": "D\u017Awi\u0119k powiadomienia"
+   },
+   "notificationSoundTitle": {
+      "message": "Odtwarza d\u017Awi\u0119k przy zaznaczonej opcji w\u0142\u0105czaj\u0105cej powiadomienia"
+   },
+   "notificationTextToSpeech": {
+      "message": "Powiadomienie mow\u0105"
+   },
+   "notificationTextToSpeechTitle": {
+      "message": "Nazwa wydarzenia zostanie wypowiedziana: znakomita funckja, je\u015Bli Tw\u00F3j komputer jest w drugim pokoju!"
+   },
+   "notificationZoom": {
+      "message": "Powi\u0119kszenie okna powiadomie\u0144"
+   },
+   "notificationZoomTooltip": {
+      "message": "U\u017Cyj tego, by zmniejszy\u0107 tekst w okienku powiadomie\u0144 (przydatne dla tych, kt\u00F3rzy u\u017Cywaj\u0105 du\u017Cego rozmiaru DPI)"
+   },
+   "offlineMode": {
+      "message": "Tryb offline"
+   },
+   "offlineModeTitle": {
+      "message": "Otrzymuj powiadomienia o zdarzeniach bez po\u0142\u0105czenia z internetem! Uwaga: wydarzenia zostan\u0105 zapisane na tym komputerze!"
+   },
+   "omniboxDefault": {
+      "message": "19:00 kolacja"
+   },
+   "omniboxDefaultTom": {
+      "message": "8:00 pobudka"
+   },
+   "onlyPopupsForOwner": {
+      "message": "Pokazuj powiadomienia wy\u0142\u0105cznie dla wydarze\u0144 z moich kalendarzy"
+   },
+   "onlyPopupsForOwnerTooltip": {
+      "message": "Powiadomienia b\u0119d\u0105 dotyczy\u0107 wy\u0142\u0105cznie wydarze\u0144 z Twoich kalendarzy. To oznacza kalendarze z 'Moje kalendarze', a nie kalendarze wsp\u00F3\u0142dzielone lub te z 'Inne kalendarze'"
+   },
+   "onlyRemoveAfterDonation": {
+      "message": "Link do wsparcia mo\u017Cesz usun\u0105\u0107 dopiero po dokonaniu wp\u0142aty!"
+   },
+   "openCalendar": {
+      "message": "Otw\u00F3rz kalendarz"
+   },
+   "option": {
+      "message": "Opcje"
+   },
+   "optionToCustomizeWith": {
+      "message": "U\u017Cyj"
+   },
+   "options": {
+      "message": "Opcje"
+   },
+   "or": {
+      "message": "lub"
+   },
+   "orPayUsing_": {
+      "message": "Mo\u017Cesz tak\u017Ce zap\u0142aci\u0107 u\u017Cywaj\u0105c"
+   },
+   "password": {
+      "message": "Has\u0142o:"
+   },
+   "pastDays": {
+      "message": "Zaznaczaj przesz\u0142e dni na szaro"
+   },
+   "pastDaysTitle": {
+      "message": "Zaznacza przesz\u0142e dni na szaro, ale tylko w miesi\u0119cznym widoku normalnym"
+   },
+   "pasteHTML": {
+      "message": "i wklej poni\u017Cej HTML"
+   },
+   "pastePrivateAddress": {
+      "message": "W tym miejscu wklej prywatny adres (XML) kalendarza"
+   },
+   "pitch": {
+      "message": "Smo\u0142a"
+   },
+   "pollingInterval": {
+      "message": "Cz\u0119stotliwo\u015B\u0107 od\u015Bwie\u017Cania"
+   },
+   "pollingIntervalTooltip": {
+      "message": "Cz\u0119stotliwo\u015B\u0107 pobierania wydarze\u0144 z Twojego kalendarza Google o od\u015Bwie\u017Cania przycisku"
+   },
+   "popupGoogleCalendarWebsite": {
+      "message": "Niech przycisk otwiera Kalendarz Google, a nie wyskakuj\u0105ce okienko"
+   },
+   "popupGoogleCalendarWebsiteHelpTitle": {
+      "message": "Po klikni\u0119ciu otworzy stron\u0119 Kalendarza Google, zamiast ma\u0142ego wyskauj\u0105cego okna. (Przytrzymanie przy klikni\u0119ciu CTRL daje ten sam efekt!)"
+   },
+   "poweredByGoogle": {
+      "message": "Powered by Google"
+   },
+   "problemCommunicatingTryAgain": {
+      "message": "B\u0142\u0105d: $1 Problem z po\u0142\u0105czeniem z $2, spr\u00F3buj jeszcze raz!"
+   },
+   "problemSigningIn": {
+      "message": "Problem z zalogowaniem! Prawdopodobna przyczyna: b\u0142\u0105d po\u0142\u0105czenia!"
+   },
+   "processing": {
+      "message": "Przetwarzanie"
+   },
+   "quickAdd": {
+      "message": "Dodaj szybko"
+   },
+   "quickAddDefaultText": {
+      "message": "np. kolacja u Marka o 19:00"
+   },
+   "quickAddTitle": {
+      "message": "e.g. Mecz za 20 minut"
+   },
+   "rate": {
+      "message": "Stawki"
+   },
+   "rateTitle": {
+      "message": "Szybko\u015B\u0107 mowy: wyrazy na minut\u0119"
+   },
+   "recentlyAddedEvent": {
+      "message": "Problem! Je\u015Bli to wydarzenie zosta\u0142o niedawno dodane przez stron\u0119 internetow\u0105, kliknij ikon\u0119 od\u015Bwie\u017Cenia lub u\u017Cyj strony Kalendarza Google!"
+   },
+   "referToAlreadyDonated": {
+      "message": "Odnosz\u0105 si\u0119 do $1"
+   },
+   "referToAlreadyDonated2": {
+      "message": "ju\u017C podarowane"
+   },
+   "refresh": {
+      "message": "Od\u015Bwie\u017C"
+   },
+   "rememberQuickAdd": {
+      "message": "Pami\u0119taj logowanie dla 'Dodaj szybko'"
+   },
+   "rememberQuickAddTitle": {
+      "message": "Uwaga: to zapisze Tw\u00F3j Google AuthKey, ale nie Twoje dane do logowania"
+   },
+   "remindersBeforeEvent": {
+      "message": "Pokazuj powiadomienia wy\u0142\u0105cznie dla wydarze\u0144 z"
+   },
+   "remindersBeforeEventHelpTitle": {
+      "message": "Na stronie Kalendarza Google po lewej stronie jest lista Twoich kalendarzy, kliknij na strza\u0142k\u0119 skierowan\u0105 w d\u00F3\u0142 obok wybranego kalendarza, wybierz 'powiadomienia'. Dodaj powiadomienie w postaci wyskakuj\u0105cego okienka i ustaw czas. Uwaga: mo\u017Cesz pomin\u0105\u0107 to ustawienie dla ka\u017Cdego wydarzenia, kt\u00F3re tworzysz lub zmieniasz"
+   },
+   "remindersBeforeEventPopupReminder": {
+      "message": "przypomnieniem w postaci wyskakuj\u0105cego okienka"
+   },
+   "remove": {
+      "message": "Usu\u0144"
+   },
+   "removeDonationLink": {
+      "message": "Usu\u0144 link do wsparcia"
+   },
+   "removeDonationLinkTitle": {
+      "message": "To usunie link do wsparcia pod kalendarzem"
+   },
+   "removeQuickAdd": {
+      "message": "Usun 'Dodaj szybko'"
+   },
+   "removeQuickAddTitle": {
+      "message": "Schowaj funkcj\u0119 'Dodaj szybko'"
+   },
+   "removeShareLinks": {
+      "message": "Usu\u0144 linki 'dzielenia si\u0119 z innymi'"
+   },
+   "removeShareLinksTooltip": {
+      "message": "Usuwa linki do Facebooka, Twittera, itd. poni\u017Cej okienka kalendarza"
+   },
+   "removeTitle": {
+      "message": "Usu\u0144 kalendarz"
+   },
+   "repeatSound": {
+      "message": "Powt\u00F3rz d\u017Awi\u0119k powiadomie\u0144 co"
+   },
+   "repeatSound2": {
+      "message": "i wy\u0142\u0105cz po"
+   },
+   "repeatSound3": {
+      "message": "razy"
+   },
+   "repeatSoundTooltip": {
+      "message": "Powtarza powiadomienie lub d\u017Awi\u0119k o ile nie zosta\u0142o odrzucone okienko powiadomie\u0144"
+   },
+   "reschedule": {
+      "message": "Zmie\u0144 czas"
+   },
+   "runInBackground": {
+      "message": "Dzia\u0142anie w tle przy zamnki\u0119tej przegl\u0105darce Google Chrome"
+   },
+   "runInBackgroundToolTip": {
+      "message": "Otrzymuj powiadomienia nawet przy zamnkni\u0119tej przegl\u0105darce! Opcja wy\u0142\u0105cznie dla do\u015Bwiadczonych u\u017Cytkownik\u00F3w."
+   },
+   "runInBackgroundWarning1": {
+      "message": "Przeczytaj uwa\u017Cnie o $1"
+   },
+   "runInBackgroundWarning1b": {
+      "message": "aplikacje dzia\u0142aj\u0105ce w tle"
+   },
+   "runInBackgroundWarning2": {
+      "message": "Je\u015Bli wy\u0142\u0105czysz aplikacje dzia\u0142aj\u0105ce w tle w Google Chrome, mo\u017Cesz je w\u0142\u0105czy\u0107 ponowni czytaj\u0105c $1"
+   },
+   "runInBackgroundWarning2b": {
+      "message": "ostatnia pozycja umo\u017Cliwiaj\u0105ca wybranie opcji"
+   },
+   "runInBackgroundWarning3": {
+      "message": "By\u0107 mo\u017Ce b\u0119dzie potrzebne u\u017Cycie $1 ze strony logowania Gmail"
+   },
+   "runInBackgroundWarning3b": {
+      "message": "nie wylogowuj"
+   },
+   "save": {
+      "message": "Zapisz"
+   },
+   "saveSettings": {
+      "message": "Zapisz ustawienia"
+   },
+   "saved": {
+      "message": "Zapisane!"
+   },
+   "saving": {
+      "message": "Zapisywanie..."
+   },
+   "securely": {
+      "message": "bezpiecznie."
+   },
+   "seeVideo": {
+      "message": "Zobacz wideo"
+   },
+   "selectACalendar": {
+      "message": "Wybierz kalendarz"
+   },
+   "selectCalendar": {
+      "message": "Najpierw wybierz kalendarz!"
+   },
+   "setDateTime": {
+      "message": "Ustaw dat\u0119/czas"
+   },
+   "share": {
+      "message": "Podziel si\u0119"
+   },
+   "showAgendaOptions": {
+      "message": "Poka\u017C link do opcji w widoku terminarza"
+   },
+   "showAgendaOptionsTitle": {
+      "message": "Poka\u017C link do opcji w widoku terminarza"
+   },
+   "showButtonTooltip": {
+      "message": "Poka\u017C podpowied\u017A, kiedy naje\u017Cdzam na ikon\u0119"
+   },
+   "showButtonTooltipTooltip": {
+      "message": "Pokazuje nast\u0119pne wydarzenie, kiedy naje\u017Cdzasz na ikon\u0119"
+   },
+   "showConsoleMessages": {
+      "message": "Zapisuj wiadomo\u015Bci w konsoli Java"
+   },
+   "showConsoleMessagesTitle": {
+      "message": "Opcja do usuwania b\u0142\u0119d\u00F3w i mo\u017Ce troch\u0119 zwolni\u0107 prac\u0119 rozszerzenia!"
+   },
+   "showContextMenuItem": {
+      "message": "Poka\u017C element menu kontekstowego przy prawym klikni\u0119ciu mysz\u0105"
+   },
+   "showContextMenuItemTooltip": {
+      "message": "Dodaje element w menu kontekstowym po klikni\u0119ciu prawym klawiszem myszy na dowolnej stronie, co pozwala doda\u0107 j\u0105 szybko do kalendarza"
+   },
+   "showDataFeeds": {
+      "message": "Poka\u017C \u017Ar\u00F3d\u0142a danych kalendarzy"
+   },
+   "showDayOnBadge": {
+      "message": "Pokazuj dzie\u0144 tygodnia na przycisku"
+   },
+   "showDayOnBadgeExceptWhenDaysLeft": {
+      "message": "Za wyj\u0105tkiem sytuacji, kiedy do nast\u0119pnego wydarzenia pozosta\u0142y dni"
+   },
+   "showDayOnBadgeExceptWhenHoursLeft": {
+      "message": "Za wyj\u0105tkiem sytuacji, kiedy do nast\u0119pnego wydarzenia pozosta\u0142y godziny"
+   },
+   "showDayOnBadgeExceptWhenMinutesLeft": {
+      "message": "Za wyj\u0105tkiem sytuacji, kiedy do nast\u0119pnego wydarzenia pozosta\u0142y minuty "
+   },
+   "showDayOnBadgeTooltip": {
+      "message": "Zamiast wy\u015Bwietlania czasu do nast\u0119pnego wydarzenia, wy\u015Bwietlaj obecny dzie\u0144 tygodnia, np. wtorek, itd. Uwaga: mo\u017Cna ustawi\u0107 wyj\u0105tki!"
+   },
+   "showDesktopNotifications": {
+      "message": "Pokazuj powiadomienia na pulpicie"
+   },
+   "showDesktopNotificationsTitle": {
+      "message": "W\u0142\u0105cz, by otrzymywa\u0107 powiadomienia o wydarzeniach z kalendarza"
+   },
+   "showEventTimeOnBadge": {
+      "message": "Poka\u017C czas wydarzenia na przycisku"
+   },
+   "showEventTimeOnBadgeTooltip": {
+      "message": "Wy\u015Bwietlaj czas do nast\u0119pnego wydarzenia u g\u00F3ry ikony"
+   },
+   "showHeader": {
+      "message": "Poka\u017C nag\u0142\u00F3wek w wyskakuj\u0105cym okienku"
+   },
+   "showHeaderTooltip": {
+      "message": "Wy\u015Bwietla 'Dodaj szybko' i inne polecenia u g\u00F3ry wyskakuj\u0105cego okienka"
+   },
+   "showMinutesLeftInBadge": {
+      "message": "Poka\u017C, ile minut pozosta\u0142o do wydarzenia zamiast jego dok\u0142adnego czasu"
+   },
+   "showMinutesLeftInBadgeTitle": {
+      "message": "Je\u015Bli wydarzenie odb\u0119dzie si\u0119 nied\u0142ugo, poka\u017C pozosta\u0142e minuty"
+   },
+   "showOpenCalendar": {
+      "message": "Poka\u017C ikon\u0119 otwierania kalendarza"
+   },
+   "showOpenCalendarTooltip": {
+      "message": "Pokazuje ikon\u0119 otwierania kalendarza"
+   },
+   "showQuickAdd": {
+      "message": "Poka\u017C 'Dodaj szybko'"
+   },
+   "showQuickAddTooltip": {
+      "message": "Wy\u015Bwietla pole tekstowe dla funkcji 'Dodaj szybko' u g\u00F3ry po lewej stronie"
+   },
+   "showRefresh": {
+      "message": "Poka\u017C ikon\u0119 od\u015Bwie\u017Cenia"
+   },
+   "showRefreshTooltip": {
+      "message": "Pokazuje ikon\u0119 od\u015Bwie\u017Cenia "
+   },
+   "showTimeSpecificEventsBeforeAllDay": {
+      "message": "Pokazuj wydarzenia o okre\u015Blonym czasie przed wydarzeniami ca\u0142odniowymi"
+   },
+   "showTimeSpecificEventsBeforeAllDayTooltip": {
+      "message": "Je\u015Bli jutro masz wydarzenie ca\u0142odzienne i wydarzenie o 10:00, zostanie pokazana 10, a nie 1 d."
+   },
+   "showViewDropDown": {
+      "message": "Poka\u017C opcje widoku"
+   },
+   "showViewDropDownTooltip": {
+      "message": "Wy\u015Bwietla menu 'Widok' w formie listy. Uwaga: musisz to widzie\u0107, by pocz\u0105tkowo zmieni\u0107 widok. Potem mo\u017Cesz to schowa\u0107 :)"
+   },
+   "signIn": {
+      "message": "Zaloguj si\u0119"
+   },
+   "signInAsUserOfOrg": {
+      "message": "Musisz $1 przy pomocy emaila Twojej firmy"
+   },
+   "signInAsUserOfOrg2": {
+      "message": "wylogowa\u0107 si\u0119 i zalogowa\u0107 sie do swojego kalendarza"
+   },
+   "smallest": {
+      "message": "najmniejszy"
+   },
+   "snooze": {
+      "message": "Drzemka"
+   },
+   "snoozeAll": {
+      "message": "Drzemka dla wszystkich"
+   },
+   "somedayAt": {
+      "message": "$1 o"
+   },
+   "sound": {
+      "message": "D\u017Awi\u0119k"
+   },
+   "speechEngine": {
+      "message": "Aparat rozpoznawania mowy"
+   },
+   "ssl": {
+      "message": "Zawsze u\u017Cywaj SSL"
+   },
+   "sslTitle": {
+      "message": "Zawsze u\u017Cywaj po\u0142\u0105czenia SSL przy dost\u0119pie do Kalendarza Google"
+   },
+   "staySignedIn": {
+      "message": "Nie wylogowuj"
+   },
+   "successful": {
+      "message": "OK!"
+   },
+   "supportAndRequestsPrioritized": {
+      "message": "aby mnie wesprze\u0107 i by Twoje pro\u015Bby zosta\u0142y zrealizowane w pierwszej kolejno\u015Bci!"
+   },
+   "testDescription": {
+      "message": "Opis testu"
+   },
+   "testEvent": {
+      "message": "Wydarzenie testowe"
+   },
+   "testIt": {
+      "message": "Wypr\u00F3buj!"
+   },
+   "thankYouForYourContribution": {
+      "message": "Funkcje s\u0105 teraz odblokowane. Dzi\u0119kuj\u0119 za wsparcie!"
+   },
+   "thankYouForYourContribution2": {
+      "message": "Zamknij okno i ciesz si\u0119 korzystaniem z rozszerzenia!"
+   },
+   "timeout": {
+      "message": "Op\u00F3\u017Anienie czasu oczekiwania"
+   },
+   "timeoutNote": {
+      "message": "Zmie\u0144 wy\u0142\u0105cznie, je\u015Bli masz du\u017Co kalendarzy lub wydarze\u0144"
+   },
+   "timeoutTooltip": {
+      "message": "Mo\u017Ce usun\u0105\u0107 problemy z logowaniem. Zwi\u0119ksz, je\u015Bli masz 10 lub wi\u0119cej kalendarzy lub bardzo du\u017Co wydarze\u0144)"
+   },
+   "timeoutTryAgain": {
+      "message": "Przekroczono czas po\u0142\u0105czenia z $1, spr\u00F3buj jeszcze raz!"
+   },
+   "toSeeCalendar": {
+      "message": "by zobaczy\u0107 kalendarz"
+   },
+   "today": {
+      "message": "dzisiaj"
+   },
+   "todayAt": {
+      "message": "dzisiaj o"
+   },
+   "tom": {
+      "message": "jutro"
+   },
+   "tomorrow": {
+      "message": "jutro"
+   },
+   "tomorrowAt": {
+      "message": "jutro o"
+   },
+   "undo": {
+      "message": "Cofnij"
+   },
+   "unlockFeatures": {
+      "message": "Odblokuj te funkcje i przysz\u0142e dzi\u0119ki jednorazowemu wsparciu. B\u0119d\u0105 dost\u0119pne natychmiast!"
+   },
+   "unlockHeader": {
+      "message": "Zdob\u0105d\u017A dodatkowe funkcje"
+   },
+   "view": {
+      "message": "Widok"
+   },
+   "voiceNotificationOnlyIfIdle": {
+      "message": "Wy\u0142\u0105cznie, je\u015Bli nie siedzisz przed komputerem przynajmniej"
+   },
+   "voiceNotificationOnlyIfIdleTooltip": {
+      "message": "U\u017Cyj tej opcji, je\u015Bli chcesz us\u0142ysz\u0107 g\u0142os WY\u0141\u0104CZNIE, je\u015Bli nie u\u017Cywasz komputera, lub jest on w stanie spoczynku"
+   },
+   "volume": {
+      "message": "g\u0142o\u015Bno\u015B\u0107"
+   },
+   "wantToStaySignedIn": {
+      "message": "Nie wylogowywa\u0107?"
+   },
+   "week": {
+      "message": "Tydzie\u0144"
+   },
+   "what": {
+      "message": "Co"
+   },
+   "when": {
+      "message": "Kiedy"
+   },
+   "whyContribute": {
+      "message": "Dlaczego mam pom\u00F3c?"
+   },
+   "whyContributeReason1": {
+      "message": "Po\u015Bwi\u0119ca, wiele godzin na aktualizacje i wsparcie $1 tygodniowo w odpowiedzi na Wasze sugestie"
+   },
+   "whyContributeReason1_1": {
+      "message": "wszystkie moje rozszerzenia"
+   },
+   "whyContributeReason2": {
+      "message": "Czytam i szybko odpowiadam na Wasze komentarze i recenzje przez m\u00F3j $1 :)"
+   },
+   "whyContributeReason2_1": {
+      "message": "monitor recenzji"
+   },
+   "whyContributeReason3": {
+      "message": "Mo\u017Cesz przekaza\u0107 ile chcesz i b\u0119d\u0119 szcz\u0119\u015Bliwy!"
+   },
+   "whyContributeReason4": {
+      "message": "To rozszerzenie otrzymuje \u015Bwietne $1, dzi\u0119ki Tobie!"
+   },
+   "whyContributeReason4_1": {
+      "message": "recezje"
+   },
+   "whyContributeReason5": {
+      "message": "Dowiedz si\u0119 wi\u0119cej o mnie $1"
+   },
+   "whyContributeReason5_1": {
+      "message": "JasonSavard.com/bio"
+   },
+   "whyContributeToCalendarReason1": {
+      "message": "B\u0105d\u017A bardziej efektywnym u\u017Cytkowniekiem Kalendarza Google dla samego siebie i swojej firmy"
+   },
+   "whyContributeToCalendarReason2": {
+      "message": "Znacznie ta\u0144sze ni\u017C $1"
+   },
+   "whyContributeToCalendarReason2_1": {
+      "message": "Microsoft Outlook"
+   },
+   "writeAboutMe": {
+      "message": "Wypr\u00F3buj moje inne popularne rozszerzenia!"
+   },
+   "writeSomethingNice": {
+      "message": "Zast\u0105p ten tekst jakim\u015B mi\u0142ym komentarzem na temat tego rozszerzenia lub w jaki spos\u00F3b i dlaczego go u\u017Cywasz"
+   },
+   "yesterday": {
+      "message": "wczoraj"
+   }
+}

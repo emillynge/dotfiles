@@ -1,0 +1,1193 @@
+{
+   "200": {
+      "message": "Trumpalaikis sutrikimas, pra\u0161ome pabandyti dar kart\u0105!"
+   },
+   "24hourMode": {
+      "message": "24 valand\u0173 laikrodis"
+   },
+   "24hourModeTitle": {
+      "message": "Laik\u0105 rodyti 24 valand\u0173 laikrodyje, pvz., 18: 00"
+   },
+   "401": {
+      "message": "U\u017Edrausta!"
+   },
+   "403": {
+      "message": "Neteisingai \u012Fvestas el. pa\u0161tas arba slapta\u017Eodis."
+   },
+   "EOM": {
+      "message": "EOM"
+   },
+   "EOMToolTip": {
+      "message": "\u017Dinut\u0117s pabaiga"
+   },
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "DO NOT REMOVE"
+   },
+   "NAME_says": {
+      "message": "$1 sako"
+   },
+   "Xday": {
+      "message": "diena"
+   },
+   "Xdays": {
+      "message": "$1 dien\u0173"
+   },
+   "Xhour": {
+      "message": "$1 valand\u0173"
+   },
+   "Xhours": {
+      "message": "$1 valand\u0173"
+   },
+   "Xline": {
+      "message": "$1 eilut\u0117"
+   },
+   "Xlines": {
+      "message": "$1 eilut\u0117s"
+   },
+   "Xminute": {
+      "message": "$1 minutes"
+   },
+   "Xminutes": {
+      "message": "$1 minu\u010Di\u0173"
+   },
+   "Xseconds": {
+      "message": "$1 sekund\u017Ei\u0173"
+   },
+   "account": {
+      "message": "Paskyra"
+   },
+   "accounts": {
+      "message": "Paskyros"
+   },
+   "actionButtons": {
+      "message": "Veiksm\u0173 mygtukai i\u0161\u0161okan\u010Diame ir i\u0161pl\u0117stiniame languose"
+   },
+   "addSpeechEngines": {
+      "message": "Prid\u0117ti kalbos generatorius"
+   },
+   "advancedNotification": {
+      "message": "I\u0161pl\u0117stinis prane\u0161imo langas"
+   },
+   "advancedNotificationToolTip": {
+      "message": "Prane\u0161ama apie VISUS neskaitytus lai\u0161kus, galima skaityti vis\u0105 lai\u0161k\u0105 ar i\u0161trinti neatidarant nar\u0161ykl\u0117je Gmail kortel\u0117s! \u00A0skaityti vis\u0105 elektroninio pa\u0161to adres\u0105 ar j\u012F panaikinti neatidarydami nar\u0161ykl\u0117s arba Gmail tab! I\u0161 esm\u0117s auk\u0161tai esan\u010Dio mygtuko funkcionalumas priskiriamas ir i\u0161\u0161okan\u010Dio prane\u0161imo langeliui rodomam apa\u010Dioje!"
+   },
+   "advancedNotificationTryItOut": {
+      "message": "I\u0161bandyk!"
+   },
+   "advancedNotificationTryItOutInstructions": {
+      "message": "Demonstracijai pa\u017Eenklinkite vien\u0105 (arba bent du) lai\u0161kus kaip neskaitytus, tada spustel\u0117kite \u010Dia ir palauk\u0119 pamatysite langel\u012F, kur galima i\u0161m\u0117ginti i\u0161pl\u0117stin\u012F prane\u0161imo lang\u0105 ir viso elektroninio pa\u0161to per\u017Ei\u016Br\u0105 paspaudus ant elektroninio pa\u0161to santraukos!"
+   },
+   "all": {
+      "message": "Visi"
+   },
+   "allMail": {
+      "message": "Visi lai\u0161kai"
+   },
+   "alreadyDonated": {
+      "message": "Jau paaukota?"
+   },
+   "alsoExtraFeaturesForGoogleCalendar": {
+      "message": "Syk\u012F paaukokite ir naudosit\u0117s papildomomis $1 funkcijomis"
+   },
+   "alsoExtraFeaturesForGoogleCalendar2": {
+      "message": "Checker Plus for Google Calendar"
+   },
+   "alsoTryMy": {
+      "message": "Taip pat i\u0161bandykite ir mano"
+   },
+   "alwaysDisplayExternalContent": {
+      "message": "Visada \u012Fkelti i\u0161orin\u012F turin\u012F (pvz., paveiksl\u0117lius)"
+   },
+   "alwaysDisplayExternalContentToolTip": {
+      "message": "Atsidarius lai\u0161k\u0105, kuriame \u012Fterpta i\u0161ori\u0161kai susiet\u0173 paveiksl\u0117li\u0173, Gmail paprastai automati\u0161kai nerodo paveiksl\u0117li\u0173. Taip nustatyta siekiant apsaugoti j\u016Bs\u0173 privatum\u0105; automati\u0161kai rodant paveiksl\u0117lius, siunt\u0117jas galimai gali sekti atsisiun\u010Diamus paveiksl\u0117lius ir taip \u017Einos jog prane\u0161imas buvo perskaitytas. \u003Cb\u003EPastaba\u003C/b\u003E: \u003Cspan style='text-decoration:underline'\u003E neverta pergyventi\u003C/span\u003E, jei neatsidar\u0117te lai\u0161ko per\u017Ei\u016Bros arba jei pa\u017Eymite, kaip skaityt\u0105 arba nukreipiate \u012F \u0161lam\u0161t\u0105 lai\u0161ko net neper\u017Ei\u016Br\u0117j\u0119"
+   },
+   "amount": {
+      "message": "Suma"
+   },
+   "archiveLink": {
+      "message": "Archyvuoti"
+   },
+   "archiveLinkTitle": {
+      "message": "Archyvuoti lai\u0161kus"
+   },
+   "archive_read": {
+      "message": "Perkeliant \u012F archyv\u0105 \u017Eenklinama kaip perskaityta"
+   },
+   "archive_readToolTip": {
+      "message": "Lai\u0161k\u0105 \u017Eym\u0117ti skaitytu j\u012F perk\u0117lus \u012F archyv\u0105"
+   },
+   "autoAdjust": {
+      "message": "Automatinis reguliavimas"
+   },
+   "autoAdjustAndImages": {
+      "message": "Automatin\u0161kai sureguliuoti paveiksl\u0117lius"
+   },
+   "autoDetectAccounts": {
+      "message": "Programa savaranki\u0161kai aptiks paskyras prie kuri\u0173 prisijung\u0117te"
+   },
+   "back": {
+      "message": "Atgal"
+   },
+   "backToInbox": {
+      "message": "Atgal \u012F aplank\u0105 Gautieji"
+   },
+   "backgroundOfNotification": {
+      "message": "Prane\u0161imo fono spalva"
+   },
+   "backgroundOfNotificationTooltip": {
+      "message": "Nustato i\u0161kylan\u010Di\u0173\u00A0prane\u0161imo\u00A0fono spalv\u0105"
+   },
+   "brightness": {
+      "message": "Ry\u0161kumas"
+   },
+   "button": {
+      "message": "Mygtukas"
+   },
+   "buttonClickAction": {
+      "message": "Mygtuko paspaudimo veiksmas"
+   },
+   "byEmailSubject": {
+      "message": "pagal lai\u0161ko temos laukel\u012F?"
+   },
+   "canceledInAppPurchase": {
+      "message": "Pabandykite su PayPal arba susisiekite su manimi"
+   },
+   "changeSummary": {
+      "message": "Pakeisti santraukos format\u0105"
+   },
+   "changeTheme": {
+      "message": "Keisti tem\u0105"
+   },
+   "changeThisDomain": {
+      "message": "Norint pakeisti el. pa\u0161to domen\u0105 dabar $1"
+   },
+   "changeThisDomain2": {
+      "message": "atsijungti ir prisijungiant kitu vartotoju"
+   },
+   "changingIcon": {
+      "message": "Keisti piktogram\u0105"
+   },
+   "chime": {
+      "message": "Varpelis"
+   },
+   "chooseEndColor": {
+      "message": "Pasirinkite pabaigos spalv\u0105"
+   },
+   "choosePaymentMethod": {
+      "message": "Pasirinkite mok\u0117jimo b\u016Bd\u0105"
+   },
+   "chooseStartColor": {
+      "message": "Pasirinkite pradin\u0119 spalv\u0105"
+   },
+   "clickToPreviewEmail": {
+      "message": "Spustel\u0117jus per\u017Ei\u016Br\u0117site lai\u0161k\u0105"
+   },
+   "close": {
+      "message": "U\u017Edaryti"
+   },
+   "closeAfterX": {
+      "message": "U\u017Edaryti po"
+   },
+   "colorMessage": {
+      "message": "Norint \u012Fra\u0161yti \u0161ias spalvas b\u016Btina paaukoti!"
+   },
+   "colorSubject": {
+      "message": "Parodyti bandom\u0105j\u012F lai\u0161ko prane\u0161im\u0105"
+   },
+   "colors": {
+      "message": "Spalvos"
+   },
+   "commaSeparatedEmails": {
+      "message": "atskirta kableliais, t.y."
+   },
+   "compose": {
+      "message": "Ra\u0161yti lai\u0161k\u0105"
+   },
+   "composeLinkTitle": {
+      "message": "Ra\u0161yti nauj\u0105 lai\u0161k\u0105"
+   },
+   "contactHelp": {
+      "message": "Kontaktai - Pagalba"
+   },
+   "contacts": {
+      "message": "Kontaktai"
+   },
+   "contactsHome": {
+      "message": "H"
+   },
+   "contactsMessage": {
+      "message": "Nuotraukas padidinsite u\u017Eved\u0119 ant j\u0173 pel\u0117s \u017Eymekl\u012F"
+   },
+   "contactsMobile": {
+      "message": "M"
+   },
+   "contactsOther": {
+      "message": "O"
+   },
+   "contactsWork": {
+      "message": "W"
+   },
+   "continue": {
+      "message": "T\u0119sti"
+   },
+   "continueToOptions": {
+      "message": "Toliau parinktys"
+   },
+   "continueWithoutFeatures": {
+      "message": "Toliau naudotis \u0161iuo pl\u0117tiniu turin\u010Diu daug galimybi\u0173, bet be \u0161i\u0173 papildom\u0173 funkcij\u0173."
+   },
+   "continueWithoutFeaturesHeader": {
+      "message": "T\u0119sti be papildom\u0173 funkcij\u0173"
+   },
+   "contrast": {
+      "message": "Kontrastas"
+   },
+   "contributeToContinue": {
+      "message": "Prisid\u0117ti"
+   },
+   "conversationView": {
+      "message": "Pokalbi\u0173 rodinys"
+   },
+   "conversationViewToolTip": {
+      "message": "Nurodoma ar t\u0105 pa\u010Di\u0105 tem\u0105 turin\u010Dius lai\u0161kus sugrupuoti"
+   },
+   "creditCardOrPaypal": {
+      "message": "Galite saugiai pasinaudoti savo kredito kortele arba PayPal"
+   },
+   "currentPage": {
+      "message": "dabartinis puslapis"
+   },
+   "custom": {
+      "message": "Pasirinktiniai"
+   },
+   "customButtonsToolTip": {
+      "message": "Nustatykite spalv\u0105 pagal save"
+   },
+   "d": {
+      "message": "diena"
+   },
+   "dark": {
+      "message": "Tamsi"
+   },
+   "darkToolTip": {
+      "message": "Tamsus kontrastas"
+   },
+   "dayAgo": {
+      "message": "prie\u0161 $1 dien\u0105"
+   },
+   "daysAgo": {
+      "message": "prie\u0161 $1 dienas"
+   },
+   "daysLeft": {
+      "message": "liko $1 dien\u0173"
+   },
+   "delete": {
+      "message": "Trinti"
+   },
+   "deleteLink": {
+      "message": "Trinti"
+   },
+   "deleteLinkTitle": {
+      "message": "Trinti lai\u0161kus"
+   },
+   "developingMore": {
+      "message": "ir a\u0161 toliau dirbu su j\u016Bs\u0173 pasi\u016Blymais..."
+   },
+   "ding": {
+      "message": "Skambutis"
+   },
+   "display": {
+      "message": "Rodyti"
+   },
+   "displayImagesBelow": {
+      "message": "Rodyti \u017Eemiau pateiktus paveiksl\u0117lius"
+   },
+   "doNotShowNotificationsWhenBrowserClosed": {
+      "message": "Nerodyti prane\u0161im\u0173, kai nar\u0161ykl\u0117 u\u017Edaryta"
+   },
+   "doNotShowNotificationsWhenBrowserClosedTooltip": {
+      "message": "Chrome nar\u0161ykl\u0117 toliau veiks fone \u012Fd\u0117kl\u0117je rodys piktogram\u0105, BET prane\u0161imai NEBUS rodomi!"
+   },
+   "donate": {
+      "message": "Paaukoti"
+   },
+   "donationRequired": {
+      "message": "Reikalinga parama"
+   },
+   "drawAttentionToBrowser": {
+      "message": "Mirks\u0117ti Chrome piktogram\u0105 Windows u\u017Eduo\u010Di\u0173 juostoje arba \u0161ok\u010Dioti Mac kompiuteriuose (beta versija)"
+   },
+   "drawAttentionToBrowserTooltip": {
+      "message": "Tai bus vykdoma tik jei nar\u0161ykl\u0117 neaktyvi. Praver\u010Dia kai naudojama keletas darbalauki\u0173. Windows: mirksi Chrome mygtukas u\u017Eduo\u010Di\u0173 juostoje. Mac: \u0161ok\u010Dioja Chrome piktograma"
+   },
+   "dropshadow": {
+      "message": "\u0160e\u0161\u0117lis"
+   },
+   "duplicateLabelWarning": {
+      "message": "Rekomenduojama pasirinkti 1 i\u0161 3 pagrindini\u0173 etike\u010Di\u0173 (Gautieji, Svarb\u016Bs, Visi lai\u0161kai) antraip prane\u0161imai gali dubliuotis!"
+   },
+   "email": {
+      "message": "El. pa\u0161tas:"
+   },
+   "emailFrom_NAME": {
+      "message": "lai\u0161kas nuo $1"
+   },
+   "emailPreview": {
+      "message": "Elektroninio pa\u0161to per\u017Ei\u016Bra"
+   },
+   "emailPreviewToolTip": {
+      "message": "Jei nustatymas \u003Cb\u003Epa\u017Eym\u0117tas\u003C/b\u003E ir bet kur paspausite prane\u0161imo lange (tarkim, ant santraukos), bus atvertas didesnis lai\u0161ko per\u017Ei\u016Bros langas.\u003Cbr\u003Ejei \u003Cb\u003Enepa\u017Eym\u0117ta\u003C/b\u003E tada paspaudimas atidarys lai\u0161k\u0105 pa\u010Diame Gmail puslapyje"
+   },
+   "emailSummary": {
+      "message": "Elektroninio pa\u0161to santrauka"
+   },
+   "emailSummaryToolTip": {
+      "message": "Ma\u017Ea kiekvieno lai\u0161ko i\u0161karpa, kuri rodoma i\u0161\u0161okan\u010Diame lange kiekvieno lai\u0161ko pirmosios kelios eilut\u0117s"
+   },
+   "enableLanguageDetection": {
+      "message": "Atpa\u017Einti elektroninio lai\u0161ko kalb\u0105"
+   },
+   "enableLanguageDetectionToolTip": {
+      "message": "Kalb\u0117ti nustatyta kalba pagal elektronin\u012F lai\u0161k\u0105, naudojantis detectlanguage.com tarnyba!"
+   },
+   "enjoyingThisApp": {
+      "message": "... patinka mano programa? Tada $1 apie j\u0105"
+   },
+   "enterAnAmount": {
+      "message": "B\u016Btina \u012Fvesti sum\u0105!"
+   },
+   "ex": {
+      "message": "pvz.,"
+   },
+   "example": {
+      "message": "pavyzdys"
+   },
+   "extraFeatures": {
+      "message": "Papildomos funkcijos"
+   },
+   "failureWithInAppPurchase": {
+      "message": "Tranzakcija at\u0161aukta arba nepavyko! Ar norite pam\u0117ginti PayPal?"
+   },
+   "failureWithPayPalPurchase": {
+      "message": "Tranzakcija at\u0161aukta arba nepavyko! Ar norite pam\u0117ginti Google Checkout?"
+   },
+   "fetchContactsEvery": {
+      "message": "Kontaktus atsisi\u0173sti kas"
+   },
+   "fetchContactsIntervalToolTip": {
+      "message": "Nustatykite didesn\u0119 reik\u0161m\u0119, jei kontakt\u0173 daug arba internetas l\u0117tas"
+   },
+   "forever": {
+      "message": "Neapibr\u0117\u017Etai"
+   },
+   "fullLinkTitle": {
+      "message": "Rodyti vis\u0105 prane\u0161im\u0105"
+   },
+   "general": {
+      "message": "Bendrosios"
+   },
+   "grantAccessAgain": {
+      "message": "Dar kart\u0105 suteikti prieig\u0105"
+   },
+   "grantAccessAgainToolTip": {
+      "message": "Praver\u010Dia jei turima keletas paskyr\u0173 ir nuotraukoms reikia suteikti teises kiekvienai j\u0173"
+   },
+   "grantedTo": {
+      "message": "Suteikta"
+   },
+   "grayscale": {
+      "message": "Nespalvota"
+   },
+   "green": {
+      "message": "\u017Dalia"
+   },
+   "greenToolTip": {
+      "message": "Mano \"\u017Ealioji\" tema!"
+   },
+   "groupByLabels": {
+      "message": "Lai\u0161kus rikiuoti pagal etiketes"
+   },
+   "groupByLabelsToolTip": {
+      "message": "Neskaitytus lai\u0161kus sugrupuoti ir i\u0161r\u016B\u0161iuoti pagal stebimas etiketes. I\u0161\u0161okan\u010Diame prane\u0161imo lange ir atsidarius i\u0161pl\u0117stin\u012F rodin\u012F lai\u0161ko antra\u0161t\u0117je bus rodoma ma\u017Ea etiket\u0117, pavyzd\u017Eiui 'Gautieji' ir pana\u0161iai"
+   },
+   "h": {
+      "message": "val"
+   },
+   "hearEmailMessage": {
+      "message": "I\u0161klausyti lai\u0161ko turin\u012F"
+   },
+   "hearEmailSubject": {
+      "message": "I\u0161klausyti lai\u0161ko tem\u0105"
+   },
+   "helpMeTranslate": {
+      "message": "Gal galite pad\u0117ti man su vertimais \u012F kitas kalbas? Pataisykite $1 teisingai!"
+   },
+   "helpMeTranslate2": {
+      "message": "Para\u0161ykite man"
+   },
+   "helpSupport": {
+      "message": "Pad\u0117kite paremdami \u0161io pl\u0117tinio autori\u0173!"
+   },
+   "hideSentFrom": {
+      "message": "Sl\u0117pti elektroninio pa\u0161to para\u0161us suvestin\u0117se, pana\u0161ius \u012F 'Sent from my...'"
+   },
+   "hideSentFromToolTip": {
+      "message": "Pa\u017Eym\u0117kite \u010Dia nor\u0117dami pa\u0161alinti el. lai\u0161k\u0173 para\u0161us, kai siun\u010Diami i\u0161 \u012Frengini\u0173, pvz., 'Sent from my iPhone ar Blackberry ir pan."
+   },
+   "hideUnreadCount": {
+      "message": "Sl\u0117pti neskaityt\u0173 lai\u0161k\u0173 skai\u010Di\u0173"
+   },
+   "hideUnreadCountToolTip": {
+      "message": "Sl\u0117pti neskaityt\u0173 lai\u0161k\u0173 skai\u010Di\u0173 nar\u0161ykl\u0117s piktogramoje"
+   },
+   "hourAgo": {
+      "message": "prie\u0161 $1 valandas"
+   },
+   "hours": {
+      "message": "valand\u0173"
+   },
+   "hoursAgo": {
+      "message": "prie\u0161 $1 valandas"
+   },
+   "hoursLeft": {
+      "message": "liko $1 valand\u0173"
+   },
+   "icon": {
+      "message": "Piktograma"
+   },
+   "iconClassic": {
+      "message": "Klasikin\u0117 piktograma"
+   },
+   "iconDefault": {
+      "message": "Numatytoji piktograma"
+   },
+   "iconDefault2WithDate": {
+      "message": "Numatytoji piktograma su \u0161iandien data"
+   },
+   "iconMonochrome": {
+      "message": "Dvispalv\u0117 piktograma"
+   },
+   "iconNew": {
+      "message": "Nauja piktograma"
+   },
+   "iconNew2": {
+      "message": "Tamsi piktograma"
+   },
+   "iconNew2WithDate": {
+      "message": "Tamsi piktograma su dabartine data"
+   },
+   "iconNewWithDate": {
+      "message": "Nauja dabartin\u0117s datos piktograma"
+   },
+   "iconTooltip": {
+      "message": "Piktograma naudojama prane\u0161imo mygtukui"
+   },
+   "identifyEmailAccountsWithColors": {
+      "message": "Elektroninio pa\u0161to paskyroms nustatyti savo spalvas"
+   },
+   "ignoreTheseAccounts": {
+      "message": "Nepaisyti \u0161i\u0173 paskyr\u0173"
+   },
+   "imagesAreNotDisplayed": {
+      "message": "Paveiksliukai nerodomi."
+   },
+   "importantMail": {
+      "message": "Svarb\u016Bs lai\u0161kai"
+   },
+   "inVARhour": {
+      "message": "prie\u0161 $1 valandas"
+   },
+   "inVARhours": {
+      "message": "prie\u0161 $1 valand\u0173"
+   },
+   "inVARminutes": {
+      "message": "prie\u0161 $1 min"
+   },
+   "inbox": {
+      "message": "Gautieji"
+   },
+   "inboxFor": {
+      "message": "$1"
+   },
+   "invert": {
+      "message": "Sukeistos"
+   },
+   "keepHoveringOverTheBluePlusOne": {
+      "message": "U\u017Eveskite \u017Eymikl\u012F vir\u0161 +1 iki kol atsiras tekstas tada spustel\u0117kite j\u012F ol tekstas, tada spustel\u0117kite j\u012F ir pasidalinsite Google+"
+   },
+   "labels": {
+      "message": "Etiket\u0117s"
+   },
+   "language": {
+      "message": "Kalba"
+   },
+   "languageName": {
+      "message": "Angl\u0173"
+   },
+   "languageToolTip": {
+      "message": "Pakei\u010Diama rodymo ir kalb\u0117senos kalba. Pastaba: vienu metu galite matyti daug kalb\u0173, nes taisykl\u0117s tokios: bus rodoma kas i\u0161versta kalboje kuri\u0105 pasirinkote \u010Dia, jeigu nei\u0161versti kai kurie \u017Eod\u017Eiai, bus pateikiama atsi\u017Evelgiant \u012F nar\u0161ykl\u0117s kalb\u0105, jeigu i\u0161verstas nebuvo, tada bus pateikiama angl\u0173 kalba."
+   },
+   "largest": {
+      "message": "did\u017Eiausias"
+   },
+   "licenseOnlyValidFor": {
+      "message": "Licencija bus galiojanti tik vartotojams, kurie jungsis prie savo Google paskyros naudodamiesi"
+   },
+   "linesInSummary": {
+      "message": "Santrumpos formatas"
+   },
+   "linesInSummaryToolTip": {
+      "message": "\u003Cb\u003EJokio\u003C/b\u003E - nebus rodoma santrauka vir\u0161utiniame i\u0161\u0161okan\u010Diame prane\u0161imo ar i\u0161pl\u0117stin\u0117s per\u017Ei\u016Bros languose.\u003Cbr\u003E\u003Cb\u003EAutomati\u0161kai pritaikyti\u003C/b\u003E - bus nurodytas eilu\u010Di\u0173 skai\u010Dius geriausiai tinkantis pateikti neskaitytus lai\u0161kus i\u0161\u0161okan\u010Diame prane\u0161imo lange ir jei reikia pateiks ma\u017E\u0105 paslinkties langel\u012F santraukai\u003Cbr\u003E\u003Cb\u003EAutomati\u0161kai pritaikyti + paveiksl\u0117liai\u003C/b\u003E - santraukoje rodomi ir paveiksl\u0117liai. NEREKOMENDUOTINA d\u0117l saugumo sumetim\u0173, nes siunt\u0117jas galimai gali su\u017Einoti kada atsidar\u0117te jo lai\u0161k\u0105, nes santrauka \u003Cspan style='text-decoration:underline'\u003Eautomati\u0161kai\u003C/span\u003E pateikiama apatiniame i\u0161\u0161okan\u010Dio prane\u0161imo lange arba paspaudus mygtuko piktrogram\u0105"
+   },
+   "listenToYourEmail": {
+      "message": "Perklausyti savo el.pa\u0161t\u0105"
+   },
+   "loading": {
+      "message": "\u012Ekeliama..."
+   },
+   "loadingSettings": {
+      "message": "\u012Ek\u0117limo parametrai"
+   },
+   "m": {
+      "message": "min"
+   },
+   "mailtoLinks": {
+      "message": "Atidarin\u0117ti mailto nuorodas naudojant Gmail"
+   },
+   "mailtoLinksToolTip": {
+      "message": "Paspaudus ant mailto: nuorod\u0173 (\u012Fpaprastos elektroninio pa\u0161to nuorodos) bus atidarytas Gmail, vietoj \u012Fprastinio pa\u0161to kliento. Kai kuriose lankomose svetain\u0117se gali prireikti papildom\u0173 teisi\u0173"
+   },
+   "man": {
+      "message": "Vyras"
+   },
+   "markAllAsRead": {
+      "message": "\u017Dym\u0117ti visus kaip skaitytus"
+   },
+   "markAllAsReadTitle": {
+      "message": "\u017Dym\u0117ti visus kaip skaitytus"
+   },
+   "me": {
+      "message": "man"
+   },
+   "meetMe": {
+      "message": "Susitikime"
+   },
+   "meetMeTitle": {
+      "message": "\u017Di\u016Br\u0117kit mano vaizdo \u012Fra\u0161us!"
+   },
+   "min": {
+      "message": "min"
+   },
+   "minimumAmount": {
+      "message": "Reikia paremti ma\u017Eiausiai $1"
+   },
+   "minutesAgo": {
+      "message": "prie\u0161 $1 minutes"
+   },
+   "minutesLeft": {
+      "message": "liko $1 minu\u010Di\u0173"
+   },
+   "monitorThisLabel": {
+      "message": "Steb\u0117ti \u0161ias etiketes"
+   },
+   "monitorThisLabelToolTip": {
+      "message": "Nustato pl\u0117tiniui, kurias pa\u0161to etiketes steb\u0117ti"
+   },
+   "monthsArray": {
+      "message": "sau,vas,kov,bal,geg,bir,lie,rgp,rgs,spa,lap,grd"
+   },
+   "more": {
+      "message": "daugiau"
+   },
+   "moreInfo": {
+      "message": "Daugiau informacijos"
+   },
+   "multipleSelectionMac": {
+      "message": "Nor\u0117dami nurodyti kelet\u0105 parink\u010Di\u0173 laikykite nuspaud\u0119 valdymo mygtuk\u0105"
+   },
+   "multipleSelectionWindows": {
+      "message": "Laikykite nuspaud\u0119 valdymo (ctrl) mygtuk\u0105, nor\u0117dami nurodyti kelet\u0105 parink\u010Di\u0173."
+   },
+   "multipleUserLicense": {
+      "message": "\u012Esigykite licencijas keletui vartotoj\u0173 savo \u012Fmon\u0117je"
+   },
+   "mustSignInToPay": {
+      "message": "Turite prisijungti prie savo Gmail ir palaukti, kol pl\u0117tinys pasikraus!"
+   },
+   "muteVoice": {
+      "message": "Nutildyti bals\u0105"
+   },
+   "muteVoiceForToday": {
+      "message": "Nutildyti dienai"
+   },
+   "muteVoiceForTodayToolTip": {
+      "message": "Nutildyti balsus iki rytojaus 7 ryto"
+   },
+   "muteVoiceForXh": {
+      "message": "Nutildyti, $1 valandoms"
+   },
+   "muteVoiceForXm": {
+      "message": "Nutildyti $1 minut\u0117ms"
+   },
+   "muteVoiceWhileSleeping": {
+      "message": "Nutildyti bals\u0105 miego laiku"
+   },
+   "muteVoiceWhileSleepingToolTip": {
+      "message": "Tiems, kas palieka kompiuter\u012F ir garso kolon\u0117les \u012Fjungtus per nakt\u012F, \u0161is nustatymas leid\u017Eia nutildyti balso prane\u0161imus pasirinktomis valandomis"
+   },
+   "native": {
+      "message": "nepakeista"
+   },
+   "needHelp": {
+      "message": "Reikia pagalbos?"
+   },
+   "never": {
+      "message": "Niekada"
+   },
+   "newFeature": {
+      "message": "Nauja funkcija!"
+   },
+   "next": {
+      "message": "Paskesnis"
+   },
+   "noUnreadText": {
+      "message": "Neskaityt\u0173 lai\u0161k\u0173 n\u0117ra"
+   },
+   "none": {
+      "message": "Jokio"
+   },
+   "notLoggedIn": {
+      "message": "Nesate prisijung\u0119s"
+   },
+   "notSignedIn": {
+      "message": "Neprisiregistruota"
+   },
+   "notWorking": {
+      "message": "Neveikia?"
+   },
+   "notificationFontSize": {
+      "message": "Prane\u0161imo teksto dydis"
+   },
+   "notificationFontSizeTooltip": {
+      "message": "Nustatomas \u012Fvykio pavadinimo \u0161rifto dydis i\u0161\u0161okan\u010Diame prane\u0161ime. Nustatykite ma\u017Eiausi\u0105, kai antra\u0161t\u0117 ilga ir did\u017Eiausi\u0105, kai antra\u0161t\u0117 trumpa."
+   },
+   "notificationSound": {
+      "message": "Garsiniai prane\u0161imai"
+   },
+   "notificationTextToSpeech": {
+      "message": "Balso prane\u0161imai"
+   },
+   "notificationZoom": {
+      "message": "Prane\u0161imo lango didinimas"
+   },
+   "notificationZoomTooltip": {
+      "message": "Suspausti 'vis\u0105' tekst\u0105 prane\u0161imo lange (praver\u010Dia kas naudoja didel\u012F DPI mastel\u012F)"
+   },
+   "notifications": {
+      "message": "Prane\u0161imai"
+   },
+   "of": {
+      "message": "i\u0161"
+   },
+   "oneUnreadText": {
+      "message": "Neskaityti lai\u0161kai"
+   },
+   "onlyRemoveAfterDonation": {
+      "message": "Donation mygtuk\u0105 pa\u0161alinsite tiktai par\u0117m\u0119 projekt\u0105!"
+   },
+   "open": {
+      "message": "Atidaryti"
+   },
+   "openComposeInTab": {
+      "message": "Naujai ra\u0161omam lai\u0161kui atverti nauj\u0105 kortel\u0119"
+   },
+   "openComposeInTabToolTip": {
+      "message": "Naujai ra\u0161omam lai\u0161kui atverti nauj\u0105 kortel\u0119 vietoj ma\u017Eo i\u0161\u0161okan\u010Dio lango (taip pat taikoma ir mailto: nuorodoms)"
+   },
+   "openGmailTab": {
+      "message": "Atidaryti Gmail skirtuk\u0105"
+   },
+   "openGmailTabToolTip": {
+      "message": "Atjungiamas i\u0161\u0161okantis per\u017Ei\u016Bros langas (nerekomenduojama) ir atidaroma arba pasirenkama pirma Gmail paskyra kurioje yra neskaityt\u0173 lai\u0161k\u0173"
+   },
+   "openLabel": {
+      "message": "Atverti etiket\u0119"
+   },
+   "openLinkTitle": {
+      "message": "Atidaryti el.pa\u0161to puslapyje"
+   },
+   "openPopupPreview": {
+      "message": "Atidaryti i\u0161\u0161okant\u012F lang\u0105 per\u017Ei\u016Brai"
+   },
+   "openPopupPreviewIfUnread": {
+      "message": "Atidaryti i\u0161\u0161okan\u010Dio lango per\u017Ei\u016Br\u0105 (kai yra neskaityt\u0173 lai\u0161k\u0173)"
+   },
+   "openPopupPreviewIfUnreadToolTip": {
+      "message": "Per\u017Ei\u016Bros langas rodomas tik kai yra neskaityt\u0173 lai\u0161k\u0173"
+   },
+   "openPopupPreviewToolTip": {
+      "message": "Visada rodomas per\u017Ei\u016Bros langas"
+   },
+   "openReply": {
+      "message": "Atidaryti (Atsakyti)"
+   },
+   "openThisLabel": {
+      "message": "Atidaryti nurodyt\u0105 etiket\u0119"
+   },
+   "openThisLabelToolTip": {
+      "message": "Nustatoma kur nukreipti vartotoj\u0105 spustel\u0117jus ant el. pa\u0161to paskyros arba pl\u0117tinio piktogramos"
+   },
+   "option": {
+      "message": "Parinktis"
+   },
+   "options": {
+      "message": "Pasirinkimai"
+   },
+   "or": {
+      "message": "arba"
+   },
+   "original": {
+      "message": "Originali"
+   },
+   "paragraph": {
+      "message": "paragrafas"
+   },
+   "password": {
+      "message": "Slapta\u017Eodis:"
+   },
+   "pitch": {
+      "message": "Tonas"
+   },
+   "pollNow": {
+      "message": "Tikrinti dabar"
+   },
+   "pollingAccounts": {
+      "message": "Tikrinamos paskyros"
+   },
+   "pollingInterval": {
+      "message": "Tikrinimo interval\u0105"
+   },
+   "pollingIntervalTooltip": {
+      "message": "Lai\u0161k\u0173 gavimo tikrinimo intervalas"
+   },
+   "popupText": {
+      "message": "J\u016Bs gavote nauj\u0105 lai\u0161k\u0105!"
+   },
+   "preview": {
+      "message": "Per\u017Ei\u016Bra"
+   },
+   "previewingMarksAsRead": {
+      "message": "Perskai\u010Dius pa\u017Eymimas kaip skaitytas"
+   },
+   "previewingMarksAsReadToolTip": {
+      "message": "Lai\u0161k\u0105 \u017Eym\u0117ti skaitytu, kai per\u017Ei\u016Brimas i\u0161\u0161okan\u010Diame lange"
+   },
+   "previous": {
+      "message": "Ankstesnis"
+   },
+   "priorityInbox": {
+      "message": "Pirmenybin\u0117 d\u0117\u017Eut\u0117"
+   },
+   "processing": {
+      "message": "Apdorojama"
+   },
+   "rate": {
+      "message": "Greitis"
+   },
+   "rateTitle": {
+      "message": "Kalb\u0117jimo greitis: \u017Eod\u017Ei\u0173 per minut\u0119"
+   },
+   "readLink": {
+      "message": "\u017Dym\u0117ti kaip skaityt\u0105"
+   },
+   "readLinkTitle": {
+      "message": "\u017Dym\u0117ti kaip skaityt\u0105"
+   },
+   "readLinkTitleShort": {
+      "message": ""
+   },
+   "referToAlreadyDonated": {
+      "message": "Perduodama $1"
+   },
+   "referToAlreadyDonated2": {
+      "message": "jau paaukota"
+   },
+   "refresh": {
+      "message": "Atnaujinti"
+   },
+   "refreshLinkTitle": {
+      "message": "Atnaujinti visas pa\u0161to d\u0117\u017Eutes"
+   },
+   "repeatSound": {
+      "message": "Prane\u0161imo gars\u0105 kartoti kas"
+   },
+   "repeatSound2": {
+      "message": "ir sustabdyti po"
+   },
+   "repeatSound3": {
+      "message": "kart\u0173"
+   },
+   "repeatSoundTooltip": {
+      "message": "Pakartojamas prane\u0161imas arba balso \u012Fra\u0161as, jei i\u0161\u0161okantis prane\u0161imo langas nebuvo atmestas"
+   },
+   "reply": {
+      "message": "Atsakyti"
+   },
+   "replyLinkTitle": {
+      "message": "Atsakyti \u012F lai\u0161k\u0105"
+   },
+   "replyingMarksAsRead": {
+      "message": "Atsakymas pa\u017Eenklina kaip skaityt\u0105"
+   },
+   "replyingMarksAsReadToolTip": {
+      "message": "Spustel\u0117jus atsakymo mygtuk\u0105 lai\u0161kas bus pa\u017Eym\u0117tas kaip perskaitytas"
+   },
+   "runInBackground": {
+      "message": "Veikti fone, kai Google Chrome u\u017Edaroma"
+   },
+   "runInBackgroundToolTip": {
+      "message": "Gaukite prane\u0161imus apie naujus el. lai\u0161kus net kai nar\u0161ykl\u0117 nepaleista! Rekomenduotina tik patyrusiems vartotojams."
+   },
+   "runInBackgroundWarning1": {
+      "message": "Pra\u0161ome atid\u017Eiai perskaityti apie $1"
+   },
+   "runInBackgroundWarning1b": {
+      "message": "fonin\u0117s programos"
+   },
+   "runInBackgroundWarning2": {
+      "message": "Jei atjung\u0117te fonin\u012F Chrome pl\u0117tini\u0173 veikim\u0105, j\u012F v\u0117l \u012Fjungsite perskait\u0119 $1"
+   },
+   "runInBackgroundWarning2b": {
+      "message": "paskutinis skirsnis kur\u012F galima spustelti"
+   },
+   "runInBackgroundWarning3": {
+      "message": "Gali tekti pasinaudoti $1 Gmail prisijungimo puslapyje"
+   },
+   "runInBackgroundWarning3b": {
+      "message": "likti prisijungus"
+   },
+   "saturation": {
+      "message": "Sodrumas"
+   },
+   "save": {
+      "message": "\u012Era\u0161yti"
+   },
+   "saved": {
+      "message": "\u012Era\u0161yta!"
+   },
+   "search": {
+      "message": "Paie\u0161ka"
+   },
+   "securely": {
+      "message": "saugiai."
+   },
+   "seeVideo": {
+      "message": "Pa\u017Ei\u016Br\u0117ti video med\u017Eiag\u0105"
+   },
+   "selectQuickActionButtons": {
+      "message": "Rodyti ar sl\u0117pti veiksm\u0173 mygtukus"
+   },
+   "selectQuickActionButtonsToolTip": {
+      "message": "Pastaba: Tai nepasl\u0117ps mygtuk\u0173 viso lai\u0161ko rodinyje!"
+   },
+   "sendPageLinkTitle": {
+      "message": "Si\u0173sti puslapio nuorod\u0105"
+   },
+   "sepia": {
+      "message": "Sepija"
+   },
+   "setDateTime": {
+      "message": "Nustatyti dat\u0105/laik\u0105"
+   },
+   "severalUnreadText": {
+      "message": "Neskaityti lai\u0161kai"
+   },
+   "share": {
+      "message": "Dalytis"
+   },
+   "shareSmallCase": {
+      "message": "dalintis"
+   },
+   "shareTitle": {
+      "message": "Spauskite \u010Dia, kad papasakotum\u0117te draugams apie \u0161i\u0105 puiki\u0105 program\u0105 pasirink\u0119 socialinio tinklapio dalinimosi mygtuk\u0105. Pastaba: prane\u0161imas i\u0161nyks paspaudus \u010Dia."
+   },
+   "showActionButtonsOnHover": {
+      "message": "I\u0161\u0161okan\u010Dio prane\u0161imo lange veiksmo mygtukus rodyti tik u\u017Evedus \u017Eymikl\u012F"
+   },
+   "showActionButtonsOnHoverToolTip": {
+      "message": "Rekomenduotina \u0161i nuostata, bet jei naudojate Mac, galite tekti nuimkite \u017Eym\u0117jim\u0105, nes kartais funkcija suveikia u\u017Evedus \u017Eymikl\u012F, kai Chrome langas n\u0117ra aktyvus"
+   },
+   "showButtonTooltip": {
+      "message": "Rodyti sufler\u012F u\u017Evedus \u017Eymikl\u012F vir\u0161 mygtuko piktogramos"
+   },
+   "showButtonTooltipTooltip": {
+      "message": "Rodyti tolesnius \u012Fvykius, kai \u017Eymiklis u\u017Evedamas vir\u0161 mygtuko piktogramos"
+   },
+   "showContactPhoto": {
+      "message": "Rodyti el.pa\u0161to kontakt\u0173 nuotraukas"
+   },
+   "showContactPhotoToolTip": {
+      "message": "Jei kontaktas turi nuotrauk\u0105, ji bus rodoma, arba galite \u012Fkelti savo turim\u0105 nuotrauk\u0105 tam kontaktui arba tiesiog u\u017Eveskite \u017Eymikl\u012F vir\u0161 nuotraukos atsidar\u0119 Gmail, jei norite pakeisti paveiksliuk\u0105.Jei nuotrauka neparinkta, bus rodoma standartin\u0117 piktograma. Norint naudotis savo kontakt\u0173 nuotraukomis reikalingos tam tikros teis\u0117s."
+   },
+   "showDesktopNotifications": {
+      "message": "Darbalaukio prane\u0161imai"
+   },
+   "showDetails": {
+      "message": "Rodyti smulkiau"
+   },
+   "showEOM": {
+      "message": "Prid\u0117ti \u017Eym\u0119 pa\u0161to santraukos pabaigoje [EOM]"
+   },
+   "showEOMToolTip": {
+      "message": "EOM - lai\u0161ko pabaiga. Praver\u010Dia kai gaunama daug greit\u0173 ma\u017Eos apimties lai\u0161k\u0173, nes nereikia spausti santraukos mygtuko norint pasi\u017Ei\u016Br\u0117ti ar visas lai\u0161kas perskaitytas"
+   },
+   "showEmailAccount": {
+      "message": "Visada rodyti pa\u0161to paskyros Gautieji"
+   },
+   "showEmailAccountToolTip": {
+      "message": "Praver\u010Dia jei tikrinamos 2 ar daugiau paskyr\u0173. Parodoma tos paskyros Gautieji, kurioje yra naujas neskaitytas prane\u0161imas"
+   },
+   "showIconAnimation": {
+      "message": "Rodyti piktogramos animacij\u0105"
+   },
+   "showIconAnimationToolTip": {
+      "message": "Naujiems lai\u0161kams piktograma animuota"
+   },
+   "showLabelsTitle": {
+      "message": "Rodyti etiketes"
+   },
+   "showLeftColumnWhenPreviewingEmail": {
+      "message": "Rodyti stulpel\u012F kair\u0117je, i\u0161\u0161okan\u010Diame lange per\u017Ei\u016Brint elektronini\u012F pa\u0161t\u0105"
+   },
+   "showLeftColumnWhenPreviewingEmailToolTip": {
+      "message": "Pastaba: stulpelis automati\u0161kai bus pasl\u0117ptas, kai elektroninis lai\u0161kas pernelyg platus ir jam atvaizduoti reikia daugiau erdv\u0117s"
+   },
+   "showNotificationsForOlderDateEmails": {
+      "message": "Prane\u0161imus rodyti ir senesniems prane\u0161imams (praver\u010Dia naudojantiems POP3)"
+   },
+   "showNotificationsForOlderDateEmailsToolTip": {
+      "message": "Jei \u003Cb\u003Enepa\u017Eym\u0117ta\u003C/b\u003E i\u0161\u0161okantys prane\u0161imai pateiks tik naujausias lai\u0161kus (rekomenduojama), nors kartais tikrinantis naudojantis POP3 lai\u0161kas bus pristatytas \u012F pa\u0161to d\u0117\u017Eut\u0119 v\u0117liau naujesni\u0173 lai\u0161k\u0173, o atsiduria aplanko viduryje, nes nurodoma senesn\u0117 gavimo data. \u003Cb\u003EPa\u017Eym\u0117jus \u010Dia\u003C/b\u003E lai\u0161kai taip pat bus rodomi i\u0161\u0161okan\u010Di\u0173 prane\u0161im\u0173 langeliuose, bet ne daugiau kaip 20 neskaityt\u0173 lai\u0161k\u0173. Pastaba: lai\u0161kai pa\u017Eym\u0117ti kaip neskaityti taip pat parodomi i\u0161\u0161okan\u010Dio prane\u0161imo lange pakartotinai!"
+   },
+   "showOptionsButton": {
+      "message": "Rodyti parink\u010Di\u0173 mygtuk\u0105"
+   },
+   "showRefresh": {
+      "message": "Rodyti atnaujinimo piktogram\u0105"
+   },
+   "showRefreshTooltip": {
+      "message": "Rodyti atnaujinimo piktogram\u0105"
+   },
+   "signIn": {
+      "message": "Prisijungti"
+   },
+   "signInAsUserOfOrg": {
+      "message": "Reikia $1 naudojantis j\u016Bs\u0173 \u012Fmon\u0117s el. pa\u0161to d\u0117\u017Eute"
+   },
+   "signInAsUserOfOrg2": {
+      "message": "i\u0161siregistruoti ir prisijungti prie savo Gmail"
+   },
+   "signInToYourAccount": {
+      "message": "Pirma prisijunkite prie savo paskyros (-\u0173), tada i\u0161 naujo \u012Fkelkite \u0161\u012F puslap\u012F!"
+   },
+   "smallest": {
+      "message": "ma\u017Eiausias"
+   },
+   "somedayAt": {
+      "message": "$1\u00A0"
+   },
+   "sound": {
+      "message": "Garsai"
+   },
+   "spamLink": {
+      "message": "\u0160lam\u0161tas"
+   },
+   "spamLinkTitle": {
+      "message": "\u017Dym\u0117ti kaip \u0161lam\u0161t\u0105"
+   },
+   "speechEngine": {
+      "message": "Kalbos modulis"
+   },
+   "spokenWordsLimit": {
+      "message": "Riboti sakomus \u017Eod\u017Eius"
+   },
+   "spokenWordsLimitToolTip": {
+      "message": "Kalb\u0117jim\u0105 galima bet kokiu momentu stabdyti paspaud\u017Eiant mygtuk\u0105 ar u\u017Evedus \u017Eymikl\u012F vir\u0161 i\u0161\u0161okan\u010Dio prane\u0161imo langelio. Pastaba: kai kurie kalb\u0117senos generatoriai gali taikyti savo i\u0161tart\u0173 \u017Eod\u017Ei\u0173 limitus"
+   },
+   "standardNotification": {
+      "message": "Standartinis prane\u0161imo langas"
+   },
+   "standardNotificationToolTip": {
+      "message": "Prane\u0161a apie paskutin\u012F neskaityt\u0105 lai\u0161k\u0105 su pagrindiniais veiksmo mygtukais"
+   },
+   "starLinkTitle": {
+      "message": "\u017Dym\u0117ti \u017Evaig\u017Edute"
+   },
+   "staySignedIn": {
+      "message": "Likti prisijungus"
+   },
+   "summary": {
+      "message": "santrauka"
+   },
+   "summaryLinkTitle": {
+      "message": "Rodyti suvestin\u0119"
+   },
+   "supportAndRequestsPrioritized": {
+      "message": "paremsite mane, o \u012F j\u016Bs\u0173 klausimai bus pimenybiniai!"
+   },
+   "testIt": {
+      "message": "I\u0161bandykite!"
+   },
+   "thankYouForYourContribution": {
+      "message": "Funkcijos dabar atrakintos. D\u0117kojame u\u017E j\u016Bs\u0173 ind\u0117l\u012F!"
+   },
+   "thankYouForYourContribution2": {
+      "message": "U\u017Everkite \u0161\u012F lang\u0105 ir m\u0117gaukit\u0117s!"
+   },
+   "theme": {
+      "message": "Tema"
+   },
+   "timeout": {
+      "message": "Skirtas laikas"
+   },
+   "timeoutTryAgain": {
+      "message": "Susijungimui su $1 skirtas laikas baig\u0117si, pam\u0117ginkite dar kart\u0105!"
+   },
+   "to": {
+      "message": "kam"
+   },
+   "today": {
+      "message": "\u0160iandien"
+   },
+   "todayAt": {
+      "message": "\u0160iandien"
+   },
+   "tom": {
+      "message": "rytoj"
+   },
+   "tomorrow": {
+      "message": "Rytoj"
+   },
+   "tomorrowAt": {
+      "message": "Rytoj"
+   },
+   "tooManyUnread": {
+      "message": "Gaila, bet pa\u017Eym\u0117ti galima tik $1 ar ma\u017Eiau lai\u0161k\u0173 vienu kartu. Naudokit\u0117s GMail svetaine"
+   },
+   "turnOffRegularGmailChecking": {
+      "message": "Atjunkite pastov\u0173 Gmail tikrinim\u0105, o tikrinti tiktai Google Apps"
+   },
+   "turnOffRegularGmailCheckingToolTip": {
+      "message": "Nustato nesekti j\u016Bs\u0173 @gmail.com paskyr\u0173"
+   },
+   "undo": {
+      "message": "At\u0161aukti"
+   },
+   "unlockFeatures": {
+      "message": "\u012Egalinkite \u0161ias ir b\u016Bsimas funkcijas vienkartine parama bet kokio dyd\u017Eio suma, o funkcijos kaipmat bus \u012Fjungtos!"
+   },
+   "unlockHeader": {
+      "message": "Naudokit\u0117s papildomomis funkcijomis, kartu paremdami autori\u0173"
+   },
+   "unmuteVoice": {
+      "message": "Pagarsinti bals\u0105"
+   },
+   "unreadLink": {
+      "message": "Neskaitytieji"
+   },
+   "unreadLinkTitle": {
+      "message": "\u017Dym\u0117ti kaip neskaityt\u0105"
+   },
+   "unreadLinkTitleShort": {
+      "message": "Neskaitytas"
+   },
+   "unreadMail": {
+      "message": "Neskaityti lai\u0161kai"
+   },
+   "useTheseColors": {
+      "message": "Naudoti \u0161ias spalvas"
+   },
+   "useTheseColorsToolTip": {
+      "message": "Eksperimentuokite su \u012Fvairiais spalv\u0173 deriniais arba nusistatykite t\u0105 pa\u010Di\u0105 spalv\u0105. Pam\u0117ginkite spalvas suderinti su savo Gmail d\u0117\u017Eut\u0117s naudojama tema arba j\u016Bs\u0173 \u012Fmon\u0117s logotipo spalvomis. Tada pa\u017Eym\u0117j\u0119 laukel\u012F \u017Eemiau nustatymai bus \u012Fjungti. \u010Cia pakei\u010Diama i\u0161\u0161okan\u010Di\u0173 prane\u0161imo langeli\u0173 ir i\u0161pl\u0117stin\u0117s per\u017Ei\u016Bros lango spalvos"
+   },
+   "voiceNotificationOnlyIfIdle": {
+      "message": "Tik kai pasitraukiate nuo kompiuterio ne trumpiau nei"
+   },
+   "voiceNotificationOnlyIfIdleTooltip": {
+      "message": "Naudokite \u0161i\u0105 parinkt\u012F, jei norite gird\u0117ti balsa, kai nesinaudojante kompiuteriu, nesate \u0161alia jo arba jis dirba tu\u0161\u010Diai ir t. t. Rekomenduoju:)"
+   },
+   "volume": {
+      "message": "Garsas"
+   },
+   "voythas": {
+      "message": "Voythas"
+   },
+   "voythasToolTip": {
+      "message": "Piktogramas suk\u016Br\u0117 VoYtHAs"
+   },
+   "wantToStaySignedIn": {
+      "message": "Norite likti prisijung\u0119?"
+   },
+   "welcomeMessage": {
+      "message": "Sveiki,\u003Cbr\u003E\u003Cbr\u003ESkirkite kelet\u0105 dien\u0173 \u0161iam pl\u0117tiniui ir jo \u012Fvairiems nustatymams patyrin\u0117ti...\u003Cbr\u003E\u003Cbr\u003EJei kyla koki\u0173 problem\u0173, \u003Cu\u003Ekol dar nera\u0161\u0117te\u003C/u\u003E ap\u017Evalgos, kvie\u010Diu susisiekti su manimi paspaud\u017Eiant Pagalbos nuorod\u0105 nustatym\u0173 lange - grei\u010Diausiai, kad gal\u0117siu jums pad\u0117ti :)"
+   },
+   "what": {
+      "message": "Kas"
+   },
+   "when": {
+      "message": "Kada"
+   },
+   "wholeEmail": {
+      "message": "visas adresas"
+   },
+   "whyContribute": {
+      "message": "Kod\u0117l tur\u0117\u010Diau prisid\u0117ti?"
+   },
+   "whyContributeReason1": {
+      "message": "Per savait\u0119 \u012Fdedu daug valand\u0173 savo laiko atnaujindamas ir koreguodamas $1 atsi\u017Evelgdamas \u012F j\u016Bs\u0173 pasi\u016Blymus"
+   },
+   "whyContributeReason1_1": {
+      "message": "visus mano pl\u0117tinius"
+   },
+   "whyContributeReason2": {
+      "message": "Perskaitau ir greitai atsakau \u012F j\u016Bs\u0173 pasteb\u0117jimus ir atsiliepimus:)"
+   },
+   "whyContributeReason3": {
+      "message": "Galite paremti bet kokia suma - a\u0161 b\u016Bsiu laimingas!"
+   },
+   "whyContributeReason4": {
+      "message": "Pl\u0117tinys gauna daug $1. A\u010Di\u016B jums!"
+   },
+   "whyContributeReason4_1": {
+      "message": "d\u0117mesio"
+   },
+   "whyContributeReason5": {
+      "message": "Apie mane daugiau su\u017Einosite $1"
+   },
+   "whyContributeReason5_1": {
+      "message": "JasonSavard.com/bio"
+   },
+   "whyContributeToCalendarReason1": {
+      "message": "D\u0117l sav\u0119s ar savo veiklos b\u016Bkite dar produktyvesni Google vartotojai"
+   },
+   "whyContributeToCalendarReason2": {
+      "message": "Daug pigiau nei $1"
+   },
+   "whyContributeToCalendarReason2_1": {
+      "message": "Microsoft Outlook"
+   },
+   "woman": {
+      "message": "Moteris"
+   },
+   "writeAboutMe": {
+      "message": "I\u0161bandykite ir kitus mano sukurtus populiarius pl\u0117tinius!"
+   },
+   "writeSomethingNice": {
+      "message": "Pakeiskite \u0161\u012F tekst\u0105 gra\u017Eiu komentaru apie \u0161i\u0105 program\u0105 arba kaip ir kod\u0117l ja naudojat\u0117s"
+   },
+   "yesterday": {
+      "message": "vakar"
+   },
+   "zoom": {
+      "message": "Keisti mastel\u012F"
+   }
+}

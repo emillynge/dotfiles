@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "About"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "Go"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "Clear history"
+   },
+   "defaultLocation": {
+      "description": "default location is New York",
+      "message": "New York City"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of New York",
+      "message": "40.71"
+   },
+   "defaultLocationLink": {
+      "description": "location link of New York",
+      "message": "usa/ny/new york"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of New York",
+      "message": "-74.00"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "Sorry, I could not determine your current location."
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "I cannot understand the location '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Mini Maps"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "Look up locations on Google Maps, and explore nearby places of interest"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Mini Maps"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "Show my location"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "From Here"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Get Directions: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.com"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "Help"
+   },
+   "hotspot1": {
+      "message": "Restaurant"
+   },
+   "hotspot2": {
+      "message": "Cafe"
+   },
+   "hotspot3": {
+      "message": "Museum"
+   },
+   "hotspot4": {
+      "message": "Fast Food"
+   },
+   "hotspot5": {
+      "message": "Hotel"
+   },
+   "hotspot6": {
+      "message": "ATM"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "Nearby points of interest: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "Location: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "To Here"
+   }
+}

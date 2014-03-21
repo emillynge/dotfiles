@@ -1,0 +1,100 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "\u05D0\u05D5\u05D3\u05D5\u05EA"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "\u05E1\u05E2 \u05DC\u05D9\u05E2\u05D3"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "\u05E0\u05E7\u05D4 \u05D4\u05D9\u05E1\u05D8\u05D5\u05E8\u05D9\u05D4"
+   },
+   "defaultLocation": {
+      "description": "default location is Tel Aviv",
+      "message": "\u05EA\u05DC \u05D0\u05D1\u05D9\u05D1"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of Tel Aviv",
+      "message": "32.05"
+   },
+   "defaultLocationLink": {
+      "description": "location link of Tel Aviv",
+      "message": "\u05EA\u05DC \u05D0\u05D1\u05D9\u05D1"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of Tel Aviv",
+      "message": "34.76"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "\u05DE\u05E6\u05D8\u05E2\u05E8, \u05DC\u05D0 \u05DE\u05E6\u05D0\u05EA\u05D9 \u05D0\u05EA \u05DE\u05D9\u05E7\u05D5\u05DE\u05DA \u05D4\u05E0\u05D5\u05DB\u05D7\u05D9"
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "\u05DC\u05D0 \u05DE\u05D5\u05E6\u05D0 \u05D0\u05EA \u05DB\u05EA\u05D5\u05D1\u05EA \u05D4\u05D9\u05E2\u05D3"
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "\u05D2\u05D5\u05D2\u05DC \u05DE\u05E4\u05D5\u05EA"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "\u05D7\u05E4\u05E9 \u05DE\u05D9\u05E7\u05D5\u05DE\u05D9\u05DD \u05D1\u05DE\u05E4\u05D4 \u05D5\u05D7\u05E7\u05D5\u05E8 \u05DE\u05E7\u05D5\u05DE\u05D5\u05EA \u05E7\u05E8\u05D5\u05D1\u05D9\u05DD \u05DC\u05E4\u05D9 \u05E0\u05E7\u05D5\u05D3\u05D5\u05EA \u05E2\u05E0\u05D9\u05D9\u05DF"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "\u05D2\u05D5\u05D2\u05DC \u05DE\u05E4\u05D5\u05EA \u05E2\u05DD \u05D7\u05D9\u05E4\u05D5\u05E9 \u05DE\u05E7\u05D5\u05DE\u05D9"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "\u05D4\u05E8\u05D0\u05D4 \u05D0\u05EA \u05DE\u05D9\u05E7\u05D5\u05DE\u05D9"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "\u05DE\u05DB\u05D0\u05DF"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": " :\u05DE\u05E6\u05D0 \u05DE\u05E1\u05DC\u05D5\u05DC"
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.com"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "\u05E2\u05D6\u05E8\u05D4"
+   },
+   "hotspot1": {
+      "message": "\u05DE\u05E1\u05E2\u05D3\u05D4"
+   },
+   "hotspot2": {
+      "message": "\u05E7\u05E4\u05D4"
+   },
+   "hotspot3": {
+      "message": "\u05E1\u05D5\u05E9\u05D9 \u05D1\u05E8"
+   },
+   "hotspot4": {
+      "message": "\u05DE\u05D6\u05D5\u05DF \u05DE\u05D4\u05D9\u05E8"
+   },
+   "hotspot5": {
+      "message": "\u05D1\u05D9\u05EA \u05DE\u05DC\u05D5\u05DF"
+   },
+   "hotspot6": {
+      "message": "\u05DB\u05E1\u05E4\u05D5\u05DE\u05D8"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": " :\u05DE\u05E7\u05D5\u05DE\u05D5\u05EA \u05E2\u05E0\u05D9\u05D9\u05DF \u05E7\u05E8\u05D5\u05D1\u05D9\u05DD"
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "\u05DE\u05D9\u05E7\u05D5\u05DD: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "\u05DC\u05DB\u05D0\u05DF"
+   }
+}

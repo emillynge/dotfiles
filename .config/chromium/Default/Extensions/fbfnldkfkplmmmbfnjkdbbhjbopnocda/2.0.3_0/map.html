@@ -1,0 +1,561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="http://www.google.com/jsapi?key=ABQIAAAA1XbMiDxx_BTCY2_FkPh06RRaGTYH6UMl8mADNa0YKuWNNa8VNxQEerTAUcfkyrr6OwBovxn7TDAH5Q"></script>
+<style>
+body{ margin:0; padding:6px 6px 2px 6px;font-family: arial, sans-serif;color:#000}
+a{color:#00F; text-decoration:underline}
+a:hover{ color:#000; text-decoration:none}
+.noBorderTable{ border:none; border-collapse:collapse; border-spacing:0;}
+.noBorderTable td{ padding:0}
+.search_box{ height:50px; position:relative}
+#find_me{ padding:2px 15px 2px 8px; float:left; cursor:pointer}
+.input_title{ font-size:18px; font-weight:bold;}
+.input_comm{ font-size:12px; color: #999;}
+#input_place{ width:320px; margin-right:8px;}
+#change_place{ float:right;}
+#autocomplete{ position:absolute;top:46px;left:43px; width:333px; list-style:none; margin:0; padding:0; z-index:999;opacity:1;}
+#autocomplete li{ padding:0 5px; height:20px; background-color:#fff;line-height:20px; font-size:12px; cursor:pointer}
+#hint{ position:absolute; top:0; width:450px;text-align:center}
+#hint span{ background-color:#FFF1A8; font-size:14px; font-weight:bold;padding:4px 10px; border-radius:3px;}
+#result_list{width:300px; padding:51px 6px 0 0;display:none;}
+#map{ height:273px; width:450px; border:solid 1px #000}
+.interest{margin-top:3px}
+#hotspot{ font-size:12px}
+#hotspot a{ cursor:pointer}
+.foot{text-align:right; font-size:12px}
+.place_marker{font-family:arial, sans-serif;font-size:13px; margin-top:5px; width: 225px; color:#676767;/* class used in function: go2Dest */}
+.place_marker a{ color:#77c}
+.marker_title{ font-family:arial, sans-serif; font-size:13px}
+</style>
+</head>
+
+<body onunload="google.maps.Unload()">
+<table class="noBorderTable">
+	<tr>
+		<td id="result_list"></td>
+        <td>
+			<!-- top search begin -->
+			<div class="search_box">
+			   	<span class="input_title" id="location_input_label"></span><span class="input_comm" id="now_addr"></span>
+				<div id="hint"></div>
+				<div>
+					<img id="find_me" src="images/locate.png" />
+					<input id="input_place" type="text" />
+					<input id="change_place" type="button" />
+					<ul id="autocomplete"></ul>
+				</div>
+			</div>
+			<!-- top search end -->
+			<div id="map"></div>
+			<!-- hotspots begin -->
+			<div class="interest input_title" id="hotspot_title"></div>
+			<table id="hotspot"><tr>
+				<td><a id="hotspot1"></a></td><td>-</td>
+				<td><a id="hotspot2"></a></td><td>-</td>
+				<td><a id="hotspot3"></a></td><td>-</td>				
+				<td><a id="hotspot4"></a></td><td>-</td>
+				<td><a id="hotspot5"></a></td><td>-</td>
+				<td><a id="hotspot6"></a></td>
+			</tr></table>
+			<!-- hotspots end -->
+			<div class="foot"><a id="about" target="_blank" href="https://chrome.google.com/extensions/detail/fbfnldkfkplmmmbfnjkdbbhjbopnocda"></a>&nbsp;|&nbsp;<a id="help" target="_blank" href="http://getsatisfaction.com/ookong/"></a>&nbsp;|&nbsp;<a id="translate" target="_blank" href="http://spreadsheets.google.com/viewform?formkey=dHhua2RwcnEtU0h3bW5TSzA1a1NUdGc6MQ">Translate</a></div>
+        </td>
+    </tr>
+</table>
+
+<script>
+( function(){
+	google.load( 'maps', '2', { 'nooldnames': true} );
+
+	var map, geocoder, geolocation_options = {
+		maximumAge: 604800000  // default one week
+	};
+
+	function $( id){
+		return document.getElementById( id);
+	}
+
+	function trim( str){
+		return ( str || '').replace( /^(\s|\u00A0)+|(\s|\u00A0)+$/g, '');
+	}
+		function in_array( value, arr){
+		for( var i = 0, len = arr.length; i < len; i++){
+			if( value === arr[ i]){
+				return true;
+			}
+		}
+		return false;
+	}
+
+	function getElementsByClassName( clsName, tagName){
+		var elements = document.getElementsByTagName( tagName);
+		var i, len, classes, cls_str, results = [];
+		for( i = 0, len = elements.length; i < len; i++){
+			cls_str = elements[ i].getAttribute( 'class');
+			cls_str = trim( cls_str);
+			if( cls_str ){
+				classes = cls_str.split( /\s+/);	
+				if( in_array( clsName, classes) ){
+					results.push( elements[ i]);
+				}
+			}
+		}
+		return results;
+	}
+	// localize the interface
+	function localizeWindow(){
+		$('find_me').title = chrome.i18n.getMessage('findMeTitle');
+		$('location_input_label').innerText = chrome.i18n.getMessage('locationInputLabel');
+		$('change_place').value = chrome.i18n.getMessage('changePlaceButton');		
+		$('hotspot_title').innerText = chrome.i18n.getMessage('hotspotTitle');	
+		$('hotspot1').innerText = chrome.i18n.getMessage('hotspot1');
+		$('hotspot2').innerText = chrome.i18n.getMessage('hotspot2');
+		$('hotspot3').innerText = chrome.i18n.getMessage('hotspot3');
+		$('hotspot4').innerText = chrome.i18n.getMessage('hotspot4');
+		$('hotspot5').innerText = chrome.i18n.getMessage('hotspot5');
+		$('hotspot6').innerText = chrome.i18n.getMessage('hotspot6');
+		
+		$('about').innerText = chrome.i18n.getMessage('about');
+		$('help').innerText = chrome.i18n.getMessage('help');
+	}
+	
+
+	function init(){ // init Gmap Object
+		drawMap();
+		bindEvent();
+	}
+
+	function drawMap(){
+		localizeWindow();
+		map = new google.maps.Map2( document.getElementById('map'), {
+			googleBarOptions: {
+				style: 'new',
+				resultList: document.getElementById( 'result_list' ),
+				adsOptions: {
+					client: "pub-1043931872151083",
+					channel: "3575364099",
+					adsafe: "high"
+				},
+				onSearchCompleteCallback: function(){
+
+					try{ // google-analysis 
+						_gaq.push(['_trackEvent', 'GoogleBar Search', 'clicked']);
+					}catch( e){
+						//
+					}
+
+					$( 'result_list').style.display = 'block';
+				},
+				onIdleCallback: function(){ // click 'Clear results'
+					$( 'result_list').style.display = 'none';
+				}
+			}														
+		} );
+		geocoder = new google.maps.ClientGeocoder();
+
+		// saved address -> ip -> NY
+		var loca, now_addr, link_addr;
+		if( window.localStorage && // // have saved address before
+			localStorage.lat &&
+			localStorage.lng &&
+			localStorage.zoom ){ 
+				loca = {
+					latitude: localStorage.lat - 0,
+					longitude: localStorage.lng - 0,
+					zoom: localStorage.zoom - 0				
+				};
+				now_addr = link_addr = localStorage.lastLocation;
+				setMapCenter( loca, now_addr, link_addr);
+		} else{ 
+			// use default address
+			loca = {
+				latitude: chrome.i18n.getMessage('defaultLocationLat'),
+				longitude: chrome.i18n.getMessage('defaultLocationLng'),
+				zoom: 10
+			}
+			now_addr = chrome.i18n.getMessage('defaultLocation');
+			link_addr = chrome.i18n.getMessage('defaultLocationLink');
+			setMapCenter( loca, now_addr, link_addr);
+			}
+			
+		}
+	function setMapCenter( loca, now_addr, link_addr){
+		var latlng = new google.maps.LatLng( loca.latitude, loca.longitude);
+		map.setCenter( latlng, ( loca.zoom ? loca.zoom : 10 ));	
+		var marker = new google.maps.Marker( latlng );
+		if( arguments.length == 3){ // do not need to request for address
+			marker.openInfoWindowHtml( concateInfoHtml( now_addr, link_addr, loca.latitude, loca.longitude) );
+			showNowAddr( now_addr );
+		}else{
+			geocoder.getLocations( latlng, function( response){
+				var o, country, province, now_addr, link_addr;
+				try{
+					o = response.Placemark[ 0].AddressDetails.Country; // the first one is the accuratest
+					country = o.CountryName;
+					country_code = o.CountryNameCode;
+					province = o.AdministrativeArea.AdministrativeAreaName;
+					city = o.AdministrativeArea.Locality.LocalityName;
+					now_addr = [ city, province, country_code].join( ',');
+					link_addr = [ country_code, province, city].join( '/');
+					marker.openInfoWindowHtml( concateInfoHtml( now_addr, link_addr, loca.latitude, loca.longitude) );
+					showNowAddr( [ city, province, country].join( ',') );
+				}catch( e){ 
+					showNowAddr( '');
+				}
+			})
+		}		
+		map.addOverlay( marker ); // marker
+		map.setUIToDefault();
+		map.enableGoogleBar();
+		showNowAddr( now_addr );
+		
+		geocoder = new google.maps.ClientGeocoder();
+	}
+
+	function showNowAddr( addr){
+		if( addr && addr.length > 70){
+			addr = addr.slice( 0, 70) + ' ...';
+		}
+		$( 'now_addr').innerText =  addr;	
+	}
+
+	function showError( str){
+		var err_ele = $( 'hint');
+		err_ele.innerHTML = '<span>' + str + '</span>';
+		var opacity = 1;
+
+		function fadeOut( ele){
+			if( opacity >= 0){
+				opacity -= 0.02;
+				ele.style.opacity = opacity;
+				setTimeout( function(){
+					fadeOut( ele)
+				}, 40)
+			}
+		}
+
+		setTimeout( function(){
+			fadeOut( err_ele );
+		}, 1500)
+	}
+
+	function findMe(){
+		if( navigator.geolocation ){
+			navigator.geolocation.getCurrentPosition( function( position){
+				var loca = position.coords;
+				map.clearOverlays();
+				setMapCenter( loca);
+				$( 'result_list').style.display = 'none';
+			}, function(){
+				showError( chrome.i18n.getMessage('errFindme'));
+				localizeWindow();
+				showNowAddr( '');
+			}, geolocation_options);
+		}else{
+			showError( chrome.i18n.getMessage('errFindme'));
+		}
+		$( 'input_place').value = '';
+	}
+
+
+	var autoComplete = function (){ // closure to store info
+		var ul = $( 'autocomplete'), selectIndex = -1;
+
+		return function( event){
+			if( window.localStorage && localStorage.historyLocations ){
+				try{
+					var history_loca = JSON.parse( localStorage.historyLocations );
+				}catch( e){
+					console.log( 'parse "localStorage.history"( Format JSON) error!')
+				}
+				var key = event.keyCode;
+				if( ! ( ( key >= 48 && key <= 57 ) || // 0 - 9
+						( key >= 65 && key <= 90 ) ||  // A - Z
+						 key == 38 || key == 40 || // left, up, right, down
+						 key == 32 || // space
+						 key == 13 ||  // enter
+						 key == 8) ){ // backspace
+					return;
+				} // keys trigger allowed
+				if( key == 8){
+					selectIndex = -1;
+				}
+				var len =  history_loca.length;
+				if( key == 13 ){ 
+					if( selectIndex == len ){ // clear history location
+						$( 'input_place').value = '';
+						window.localStorage.historyLocations = '';
+					}
+					selectIndex = -1;// 'Enter', clean up the autocomplete
+					ul.innerHTML = ''; // and event will fall back to 'keyup'
+					return;
+				}
+				var li;
+				ul.innerHTML = '';
+				for( i = len - 1; i >= 0; i--){
+					li = document.createElement( 'li');
+					li.innerText = history_loca[ i];
+					li.addEventListener( 'mouseover', function( idx){
+						return function(){
+							try{
+								ul_lis[ selectIndex ].style.backgroundColor = '';
+							}catch( e){
+								//
+							}
+							this.style.backgroundColor = '#ccc';
+							$( 'input_place').value = this.innerText;
+							selectIndex = idx;				
+						}
+					}( len - i - 1));
+					li.addEventListener( 'mouseout', function( idx){
+						this.style.backgroundColor = '#fff';
+					});
+					li.addEventListener( 'click', function(){
+						selectIndex = -1;
+						go2Dest();
+					} )
+					ul.appendChild( li);
+
+					if( len > 0 && i == 0){ // clear history
+						li = document.createElement( 'li');
+						li.style.textAlign = 'right';
+						li.innerHTML = '<a>' + chrome.i18n.getMessage('clearHistory') + '</a>';
+						li.addEventListener( 'click', function(){
+							window.localStorage.historyLocations = '';
+						})
+						ul.appendChild( li);
+					}
+				}
+
+				var i, ul_lis = ul.childNodes;
+				len = ul_lis.length;
+				if( key == 40 ){ // down
+					for( i = 0; i < len; i++){
+						ul_lis[ i].style.backgroundColor = '';
+					}
+					selectIndex = ++selectIndex % len;
+					ul_lis[ selectIndex].style.backgroundColor = '#ccc';
+					if( selectIndex + 1 != len){
+						$( 'input_place').value = ul_lis[ selectIndex].innerText;
+					}
+					
+
+					return;
+				}
+				if( key == 38){ // up
+					for( i = 0; i < len; i++){
+						ul_lis[ i].style.backgroundColor = '';
+					}
+					selectIndex = ( --selectIndex < 0 ? len - 1 : selectIndex );
+					ul_lis[ selectIndex].style.backgroundColor = '#ccc';
+					if( selectIndex + 1 != len){
+						$( 'input_place').value = ul_lis[ selectIndex].innerText;
+					}
+					return;
+				}
+			}		
+		};
+	}(); // run 
+
+	function bindEvent(){
+		$( 'input_place').addEventListener( 'keyup', function( event){ // change place
+			if( event.keyCode == 13){
+				go2Dest();
+			}
+		});
+		$( 'change_place').addEventListener( 'click', go2Dest ); // change place
+
+		$( 'input_place').addEventListener( 'keydown', autoComplete ) // bind autoComplete
+		$( 'input_place').addEventListener( 'focus', function(){
+			autoComplete({ keyCode: 8}) // imitate BackSpace to triger autocomplete
+		})
+		$( 'input_place').addEventListener( 'blur', function(){
+			setTimeout( function(){
+				$( 'autocomplete').innerHTML = '';
+			}, 150)
+			
+		} );
+		
+		$( 'find_me').addEventListener( 'click', findMe )
+		
+		bindHotspot();
+	}
+
+		function bindHotspot(){
+		var hotspots = $( 'hotspot').getElementsByTagName( 'a');
+		for( var i = 0; i < hotspots.length; i++){
+			hotspots[ i].addEventListener( 'click', function( t){
+				return function(){
+					var i, len, elements = getElementsByClassName( 'gels-input', 'input');
+					for( i = 0, len = elements.length; i < len; i++){
+						elements[ i].value = t;
+					}
+					try{
+						getElementsByClassName( 'gels-button', 'input')[ 0].click();
+					}catch( e){}
+					//$( ':0:inputId').value = t; // Google's id
+					//$( ':0:buttonId').click(); // imitate click event			
+				}	
+			}( hotspots[ i].innerText ) )
+		}
+	}
+
+
+	function go2Dest(){
+		var dest = $( 'input_place').value;
+		dest = trim( dest);
+		if( dest){
+			geocoder.getLatLng(
+				dest,
+				function(point) {
+					if (!point) {
+						showError( chrome.i18n.getMessage('errGo2Dest', dest));
+					} else {
+						map.clearOverlays();
+						map.setCenter(point, 13);
+						var marker = new google.maps.Marker(point);
+						map.addOverlay(marker);
+						// concate html string
+						var html = concateInfoHtml( dest, dest, point.lat(), point.lng() );
+						marker.openInfoWindowHtml( html);
+
+						showNowAddr( dest);
+						$( 'result_list').style.display = 'none';
+						saveLocation( dest);
+					}
+	          }
+			)
+		}
+	}
+
+	function concateInfoHtml( addr, link_addr, lat, lng){
+		var html = '<a class="marker_title" href="' + chrome.i18n.getMessage('googleMapURL') +'/maps/place/' +
+					encodeURI( link_addr)  + 
+					'" target="_blank">' +
+					addr +
+					'</a>';
+		html += '<div class="place_marker">';
+		html += chrome.i18n.getMessage('getDirectionLabel') +  '<br/><a href="' + chrome.i18n.getMessage('googleMapURL') +'/maps?source=uds&daddr=' +
+				encodeURIComponent( lat + ',' + lng ) + 
+				'&iwstate1=dir:to" target="_blank">' + chrome.i18n.getMessage('toHereLabel') + '</a> - '; // to
+		html += '<a href="' + chrome.i18n.getMessage('googleMapURL') +'/maps?source=uds&saddr=' +
+				encodeURIComponent( lat + ',' + lng ) + 
+				'&iwstate1=dir:from" target="_blank">' + chrome.i18n.getMessage('fromHereLabel') + '</a>'; // from
+		html += '</div>';
+		
+		return html;
+	}
+
+	function saveLocation( addr ){
+		var pointer = map.getCenter();
+		var history_loca;
+		if( window.localStorage ){
+			localStorage.lat = pointer.lat();
+			localStorage.lng = pointer.lng();
+			localStorage.zoom = map.getZoom();
+			localStorage.lastLocation = addr;
+			/**
+			 * localStorage.historyLocations Array( 10) -> Stack
+			 */ 
+			if( localStorage.historyLocations ){
+				try{
+					history_loca = JSON.parse( localStorage.historyLocations );				
+				}catch( e){
+					console.log( 'history locations error!');
+					return;
+				}
+				var i, len = history_loca.length;
+				if( Array.prototype.indexOf ){ // feature test: does function 'indexOf' exist
+					if( ( i = history_loca.indexOf( addr) ) !== -1 ){ // exist
+						history_loca.splice( i, 1); // delete it
+					}else{ // not exist
+					}
+				}else{
+					for( i = 0 ; i < len; i++){
+						if( history_loca[ i] == addr){
+							break;
+						}
+					}
+					if( i !== len ){ // exist, len always > 0
+						history_loca.splice( i, 1);
+					}else{ // not exist
+					}
+				}
+				if( 10 == len ){ // Stack Full
+					history_loca.shift();
+				}
+				history_loca.push( addr);
+				
+				localStorage.historyLocations = JSON.stringify( history_loca );
+			}else{ // first search
+				localStorage.historyLocations = JSON.stringify( [ addr ] );
+			}
+		}
+	}
+
+	google.setOnLoadCallback( function(){
+		setTimeout( init, 0)
+	}); // when Gmap Object is ready
+
+})();
+
+// google analysis code
+
+var isMac = /^Mac/.test(window.navigator.platform);
+var isUnix= /lin|unix|x11/i.test(window.navigator.platform);
+
+if (isMac || isUnix) {
+} // do nothing
+else {
+	var _gaq = _gaq || []; // outside for google bar Search
+	(function(){
+		_gaq.push(['_setAccount', 'UA-15655963-2']);
+		_gaq.push(['_trackPageview']);
+		
+		// the other track is in function 'drawMap'
+		// event track 
+		document.getElementById('find_me').addEventListener('click', function(){
+			_gaq.push(['_trackEvent', 'Find me', 'clicked']);
+		}); // show my location
+		document.getElementById('change_place').addEventListener('click', function(){
+			if ((document.getElementById('input_place').value || '').replace(/^\s+|\s+$/g, '')) {
+				_gaq.push(['_trackEvent', 'Change place', 'clicked']);
+			}
+		}); // change place
+		document.getElementById('hotspot').addEventListener('click', function(event){
+			if (event.target.tagName.toLowerCase() == 'a') {
+				_gaq.push(['_trackEvent', (event.target.innerText || 'hotspot'), 'clicked']);
+			}
+		}); // hotspot
+	})();
+	
+	(function(){
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = 'https://ssl.google-analytics.com/ga.js';
+		(document.getElementsByTagName('head')[0] ||
+		document.getElementsByTagName('body')[0]).appendChild(ga);
+	})();
+}
+</script>
+<script>
+function startUp() {
+   var currentVersion = '2.0';
+   var version = localStorage["version"];
+   if ( typeof version == "undefined" || version != currentVersion) {
+       var url = "http://www.ookong.com/extension/google-maps";
+       var language = window.navigator.language|| window.navigator.userLanguage;
+       if ( language.match(/^zh/) ) {
+           url = "http://zhushou007.com/extension/google-maps.html";
+       }
+       chrome.tabs.create({ url: url, selected: true });
+       localStorage["version"] = currentVersion;
+   }
+}
+startUp();
+</script>
+</body>
+</html>

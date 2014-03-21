@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Tam sayfa ekran g\u00F6r\u00FCnt\u00FCs\u00FC"
+   },
+   "cancel": {
+      "message": "iptal"
+   },
+   "canceled": {
+      "message": "G\u00F6r\u00FCnt\u00FC yakalama iptal edildi!"
+   },
+   "cannotscroll": {
+      "message": "Bu sayfa s\u00FCr\u00FCklenemez\u003Cbr\u003E\u003Cbr/\u003EBu sekmeyi yeniden a\u00E7may\u0131 deneyin"
+   },
+   "changeheaders": {
+      "message": "Header ve Footer de\u011Fi\u015Ftir"
+   },
+   "createimage": {
+      "message": " G\u00F6r\u00FCnt\u00FC dosyas\u0131 olu\u015Fturuluyor..."
+   },
+   "date": {
+      "message": "Tarih"
+   },
+   "description": {
+      "message": "Herhangi bir sayfan\u0131n ekran g\u00F6r\u00FCnt\u00FCs\u00FCn\u00FC JPG...yakalamak i\u00E7in h\u0131zl\u0131&basit bir \u00E7\u00F6z\u00FCm.T\u00FCm sayfa g\u00F6r\u00FCnt\u00FCs\u00FCn\u00FC yakalayabilen ilk uzant\u0131."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Hata raporu bildirebilirsiniz."
+   },
+   "footer": {
+      "message": "Footer"
+   },
+   "header": {
+      "message": "Header"
+   },
+   "height": {
+      "message": "y\u00FCkseklik"
+   },
+   "imagesize": {
+      "message": "\u0130maj boyutu:"
+   },
+   "likeresult": {
+      "message": "Sonucu be\u011Fendiniz mi? Ho\u015F bir yorum yaz\u0131p, 5 y\u0131ld\u0131z verebilirsiniz."
+   },
+   "loadcapturescript": {
+      "message": "Y\u00FCkleniyor..."
+   },
+   "name": {
+      "message": "Web sayfas\u0131 g\u00F6r\u00FCnt\u00FCs\u00FC yakala - WP Screenshot"
+   },
+   "noall": {
+      "message": "Bu sayfa s\u00FCr\u00FCklenemez (Uzant\u0131lar i\u00E7 Chrome sayfalar\u0131nda ve Chrome uzant\u0131lar galerisinde \u00E7al\u0131\u015Fmaz)"
+   },
+   "noresize": {
+      "message": "Boyutland\u0131rma yok"
+   },
+   "openimage": {
+      "message": "Dosyay\u0131 a\u00E7mak i\u00E7in buraya t\u0131klay\u0131n."
+   },
+   "or": {
+      "message": "veya"
+   },
+   "preview": {
+      "message": "\u00D6nizleme:"
+   },
+   "resize": {
+      "message": "\u015Euna boyutland\u0131r: "
+   },
+   "resizebefore": {
+      "message": "G\u00F6r\u00FCnt\u00FC yakalamadan \u00F6nce pencereyi yeniden boyutland\u0131r"
+   },
+   "takecapture": {
+      "message": "\u015Eimdi G\u00F6r\u00FCnt\u00FC Yakala"
+   },
+   "takingcapture": {
+      "message": "G\u00F6r\u00FCnt\u00FC yakalan\u0131yor"
+   },
+   "tosavemessage": {
+      "message": "G\u00F6r\u00FCnt\u00FCy\u00FC kaydetmek i\u00E7in, sa\u011F t\u0131klay\u0131n ve \"Save Image\" se\u00E7in."
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "G\u00F6r\u00FCnen ekran g\u00F6r\u00FCnt\u00FCs\u00FC"
+   },
+   "wait": {
+      "message": "bekle"
+   },
+   "width": {
+      "message": "geni\u015Flik"
+   },
+   "zoom": {
+      "message": "Yak\u0131nla\u015Ft\u0131r"
+   }
+}

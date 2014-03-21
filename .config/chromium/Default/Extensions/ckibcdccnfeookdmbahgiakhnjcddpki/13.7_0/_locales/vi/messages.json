@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "To\u00E0n b\u1ED9 trang web"
+   },
+   "cancel": {
+      "message": "H\u1EE7y"
+   },
+   "canceled": {
+      "message": "\u0110\u00E3 h\u1EE7y!"
+   },
+   "cannotscroll": {
+      "message": "Kh\u00F4ng th\u1EC3 cu\u1ED9n trang\u003Cbr\u003E\u003Cbr/\u003EH\u00E3y th\u1EED m\u1EDF l\u1EA1i tab n\u00E0y "
+   },
+   "changeheaders": {
+      "message": "\u0110\u1ED5i n\u1ED9i dung tr\u00EAn \u0111\u1EA7u v\u00E0 d\u01B0\u1EDBi ch\u00E2n"
+   },
+   "createimage": {
+      "message": " \u0110ang t\u1EA1o \u1EA3nh..."
+   },
+   "date": {
+      "message": "ng\u00E0y"
+   },
+   "description": {
+      "message": "Ch\u1EE5p b\u1EA5t c\u1EE9 trang web th\u00E0nh m\u1ED9t h\u00ECnh JPG m\u1ED9t c\u00E1ch nhanh ch\u00F3ng v\u00E0 \u0111\u01A1n gi\u1EA3n. Ph\u1EA7n m\u1EDF r\u1ED9ng \u0111\u1EA7u ti\u00EAn \u0111\u1EC3 ch\u1EE5p to\u00E0n b\u1ED9 trang web."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "B\u1EA1n c\u00F3 th\u1EC3 b\u00E1o c\u00E1o l\u1ED7i"
+   },
+   "footer": {
+      "message": "D\u01B0\u1EDBi ch\u00E2n"
+   },
+   "header": {
+      "message": "Tr\u00EAn \u0111\u1EA7u"
+   },
+   "height": {
+      "message": "chi\u1EC1u cao"
+   },
+   "imagesize": {
+      "message": "K\u00EDch th\u01B0\u1EDBc h\u00ECnh:"
+   },
+   "likeresult": {
+      "message": "Th\u00EDch k\u1EBFt qu\u1EA3 n\u00E0y? B\u1EA1n c\u00F3 th\u1EC3 vi\u1EBFt m\u1ED9t b\u00ECnh lu\u1EADn v\u00E0 cho 5 sao"
+   },
+   "loadcapturescript": {
+      "message": "\u0110ang n\u1EA1p \u1EA3nh"
+   },
+   "name": {
+      "message": "Ch\u1EE5p h\u00ECnh trang web - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "Kh\u00F4ng th\u1EC3 cu\u1ED9n trang n\u00E0y (Ph\u1EA7n m\u1EDF r\u1ED9ng kh\u00F4ng th\u1EC3 ho\u1EA1t \u0111\u1ED9ng tr\u00EAn m\u1ED9t trang b\u00EAn trong Chrome c\u0169ng nh\u01B0 th\u01B0 vi\u1EC7n c\u00E1c ph\u1EA7n m\u1EDF r\u1ED9ng Chrome"
+   },
+   "noresize": {
+      "message": "Gi\u1EEF nguy\u00EAn"
+   },
+   "openimage": {
+      "message": "Nh\u1EA5p v\u00E0o \u0111\u00E2y \u0111\u1EC3 m\u1EDF h\u00ECnh"
+   },
+   "or": {
+      "message": "ho\u1EB7c"
+   },
+   "preview": {
+      "message": "Xem tr\u01B0\u1EDBc:"
+   },
+   "resize": {
+      "message": "Ch\u1EC9nh l\u1EA1i \u0111\u1EBFn: "
+   },
+   "resizebefore": {
+      "message": "Ch\u1EC9nh k\u00EDch th\u01B0\u1EDBc c\u1EEDa s\u1ED5 tr\u01B0\u1EDBc khi ch\u1EE5p"
+   },
+   "takecapture": {
+      "message": "Ch\u1EE5p H\u00ECnh Ngay"
+   },
+   "takingcapture": {
+      "message": "\u0110ang ch\u1EE5p"
+   },
+   "tosavemessage": {
+      "message": "\u0110\u1EC3 l\u01B0u \u1EA3nh, nh\u1EA5p chu\u1ED9t ph\u1EA3i v\u00E0o n\u00F3 ch\u1ECDn \"L\u01B0u h\u00ECnh \u1EA3nh th\u00E0nh\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Ch\u1EC9 trang \u0111ang th\u1EA5y tr\u00EAn m\u00E0n h\u00ECnh"
+   },
+   "wait": {
+      "message": "xin ch\u1EDD"
+   },
+   "width": {
+      "message": "chi\u1EC1u r\u1ED9ng"
+   },
+   "zoom": {
+      "message": "Ph\u00F3ng to"
+   }
+}

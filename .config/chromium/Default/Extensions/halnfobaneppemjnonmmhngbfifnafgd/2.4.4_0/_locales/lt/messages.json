@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "fonas"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Eiti atgal po simbol\u012F"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Eiti atgal po pastraip\u0105"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Eiti atgal po sakin\u012F"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Eiti atgal po \u017Eod\u012F"
+   },
+   "chromevis_capitals_text": {
+      "message": "Jei norite, kad raid\u0117s b\u016Bt\u0173 did\u017Eiosios, naudokite Shift + [klavi\u0161as]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Jungin\u0117ti centruot\u0105 / abipus\u0117s lygiuot\u0117s didinam\u0105j\u012F stikl\u0105"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Suma\u017Einti teksto dyd\u012F"
+   },
+   "chromevis_description": {
+      "message": "Didinkite bet kur\u012F pasirinkt\u0105 tekst\u0105 ar keiskite jo spalv\u0105. Naudokite pel\u0119 ar klaviat\u016Br\u0105 ir perkelkite pasirinkim\u0105 \u012F bet kuri\u0105 puslapio viet\u0105."
+   },
+   "chromevis_format_text": {
+      "message": "Spartieji klavi\u0161ai turi b\u016Bti tokio formato: [modifikatorius] + [klavi\u0161as]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Eiti \u012F priek\u012F po simbol\u012F"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Eiti \u012F priek\u012F po pastraip\u0105"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Eiti \u012F priek\u012F po sakin\u012F"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Eiti \u012F priek\u012F po \u017Eod\u012F"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Padidinti teksto dyd\u012F"
+   },
+   "chromevis_name": {
+      "message": "\u201EChromeVis\u201C (\u201EGoogle\u201C)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Atkurti numatytuosius nustatymus"
+   },
+   "chromevis_savebutton_label": {
+      "message": "I\u0161saugoti"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "\u012Ejungti / i\u0161jungti didinam\u0105j\u012F stikl\u0105"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Jungin\u0117ti \u012Ftvirtint\u0105 / laisv\u0105 didinam\u0105j\u012F stikl\u0105"
+   },
+   "chromevis_textcolor_label": {
+      "message": "tekstas"
+   },
+   "chromevis_title_text": {
+      "message": "Spartieji didinamojo stiklo klavi\u0161ai"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "lt"
+   }
+}

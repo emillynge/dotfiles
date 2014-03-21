@@ -1,0 +1,149 @@
+<html>
+<head>
+  <style>
+    body, iframe, form {
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+    }
+    form {
+      display: none;
+    }
+    .max-height {
+      height: 580px;
+    }
+    /* height of five jewel-list items plus header and footer */
+    .five-height-plus {
+      height: 370px;
+    }
+    .max-width {
+      width: 780px;
+    }
+    .half-width {
+      width: 390px;
+    }
+    /* half-width is messed on login form */
+    .half-width-plus {
+      width: 420px;
+    }
+    /* jewel-list-item width */
+    .jewel-list-width {
+      width: 330px;
+    }
+    .loading {
+      background-image: url('/images/indicator_white_large.gif');
+      background-attachment:fixed;
+      background-repeat:no-repeat;
+      background-position: center center;
+    }
+    .error {
+      margin: 1em;
+      padding: 0 0.5em;
+      display: none;
+      border: 1px solid red;
+      font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    }
+  </style>
+  <script src="js/options.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    window.options.init();
+    var current = window.options.current;
+
+    var DesktopNotifications =
+      window.chrome.extension.getBackgroundPage().DesktopNotifications;
+
+    function resizeWindow(height) {
+      var iframe = document.getElementById('iframe');
+      // necessary to dynamically resize
+      iframe.style.height =
+        document.body.style.height =
+          document.documentElement.style.height = height + 'px';
+    }
+
+    function updateUnreadCounter() {
+      DesktopNotifications.fetchServerInfo(
+        DesktopNotifications.handleServerInfo,
+        DesktopNotifications.showInactiveIcon,
+        true // no_cache after clicking popup
+      );
+    }
+
+    function loadIframe() {
+      var iframe = document.getElementById('iframe');
+      var source = current.protocol + current.domain + current.popupEndpoint;
+      source += current.markAsRead ? '?mark_as_read=1' : '?mark_as_read=0';
+      source += '&fb_dtsg=' + DesktopNotifications.fb_dtsg || '';
+      iframe.onload = updateUnreadCounter;
+      iframe.src = source;
+      return iframe;
+    }
+
+    function loadIframeByPost() {
+      var iframe = document.getElementById('iframe');
+      var form = document.getElementById('form');
+
+      var fb_dtsg = document.getElementById('fb_dtsg');
+      fb_dtsg.value = DesktopNotifications.fb_dtsg || '';
+
+      var mark_as_read = document.getElementById('mark_as_read');
+      mark_as_read.value = current.markAsRead || '';
+
+      var type = document.getElementById('type');
+      type.value = (DesktopNotifications.getPopupType &&
+        DesktopNotifications.getPopupType()) || '';
+
+      var source = current.protocol + current.domain + current.popupEndpoint;
+      form.setAttribute('action', source);
+
+      iframe.onload = updateUnreadCounter;
+      form.submit();
+      return iframe;
+    }
+
+    function displayError(e) {
+      var error = document.getElementsByClassName('error')[0];
+      error.style.display = 'block';
+      var errormsg = document.getElementById('errormsg');
+      errormsg.innerHTML = 'An error occurred: ' + e;
+      var iframe = document.getElementById('iframe');
+      iframe.style.display = 'none';
+    }
+  </script>
+</head>
+<body class="jewel-list-width five-height-plus">
+  <form id="form" action="#" method="post" target="iframe">
+    <input type="hidden" name="fb_dtsg" id="fb_dtsg" value="">
+    <input type="hidden" name="mark_as_read" id="mark_as_read" value="">
+    <input type="hidden" name="type" id="type" value="">
+  </form>
+  <iframe
+    id="iframe"
+    name="iframe"
+    scrolling="auto"
+    class="loading jewel-list-width five-height-plus">
+  </iframe>
+  <div class="error">
+    <p id="errormsg">
+    <p>
+      <a href="https://www.facebook.com/help/contact_us.php?id=171958222896786" target="_blank">Report this error</a> so we can fix it.
+    </p>
+  </div>
+  <script type="text/javascript" charset="utf-8">
+    try {
+      // Get CSRF token if necessary. It is updated along with counts.
+      if (!DesktopNotifications.fb_dtsg) {
+        DesktopNotifications.fetchServerInfo(
+          function(serverInfo) {
+            DesktopNotifications.handleServerInfo(serverInfo);
+            loadIframeByPost();
+          },
+          DesktopNotifications.showInactiveIcon);
+      } else {
+        loadIframeByPost();
+      }
+    } catch (e) {
+      displayError(e);
+    }
+  </script>
+</body>
+</html>

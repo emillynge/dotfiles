@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+		function popup_center( pageURL, title, w, h ) {
+			var left = ( screen.width / 2 ) - ( w / 2 );
+			var top = ( screen.height / 2 ) - ( h / 2 );
+
+			var targetWin = window.open ( pageURL, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left );
+		}
+
+		function onRequest(request, sender, callback) {
+			if (request.action == 'injectJavascript')
+				chrome.tabs.executeScript( sender.tab.id, { file: request.src } );
+			else if (request.action == 'getURL')
+				callback( chrome.extension.getURL( request.src ) );
+		};
+
+		// Called when the url of a tab changes.
+		function checkForValidUrl( tabId, changeInfo, tab ) {
+			var url = tab.url;
+			// If the url ends with .txt, .doc or .pdf
+			var ext = url.toLowerCase().substring( url.length - 4 );
+			
+			if ( ext == '.doc' || ext == '.pdf' || ext == '.txt' || ext == '.jpg' || ext == 'jpeg' ) {
+				// ... show the page action.
+				chrome.pageAction.show( tabId );
+			}
+		};
+
+		// Listen for any changes to the URL of any tab.
+		chrome.tabs.onUpdated.addListener( checkForValidUrl );
+		chrome.extension.onRequest.addListener(onRequest);
+		
+		
+		
+		//Version Check
+		function onInstall() {
+			//Thanks for installing :)
+		}
+
+		function onUpdate() {
+			//popup_center( chrome.extension.getURL( 'update.0.3.html' ), 'Print Using Google Cloud Print has been updated', 260, 500 );
+		}
+		
+		function getVersion() {
+			var version = 'NaN';
+			var xhr = new XMLHttpRequest();
+			xhr.open('GET', chrome.extension.getURL('manifest.json'), false);
+			xhr.send(null);
+			var manifest = JSON.parse(xhr.responseText);
+			return manifest.version;
+		}
+
+		// Check if the version has changed.
+		var currVersion = getVersion();
+		var prevVersion = localStorage['version'];
+		if (currVersion != prevVersion) {
+			// Check if we just installed this extension.
+			if (typeof prevVersion == 'undefined') {
+				onInstall();
+			} else {
+				onUpdate();
+			}
+			
+			localStorage['version'] = currVersion;
+		}
+    </script>
+  </head>
+</html>

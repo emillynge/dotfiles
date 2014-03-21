@@ -1,0 +1,45 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/icons/icon-19_empty.png",
+      "default_popup": "popup.html",
+      "default_title": "Checker Plus for Google Calendar\u2122"
+   },
+   "commands": {
+      "dismissEvent": {
+         "description": "Dismiss all events in notification window",
+         "suggested_key": {
+            "default": "Ctrl+D",
+            "mac": "MacCtrl+Shift+D"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/jquery.min.js", "js/common.js", "js/checkerPlusForCalendar.js", "js/content_script.js" ],
+      "matches": [ "*://*.google.com/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://www.google.com https://wallet.google.com https://www.paypalobjects.com https://jasonsavard.com https://apps.jasonsavard.com https://omahaproxy.appspot.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/icons/icon-128.png",
+      "16": "images/icons/icon-16.png",
+      "32": "images/icons/icon-32_default.png",
+      "48": "images/icons/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2G3FhLiIdfGJnNdt4KLc53t7R8rMAe5Fl4ffg2lebQVBbz1i561A/LtARLMTSB8FYKTDUS5D+iXB8XEhy8qOE+PCqe6YuuyYrarMZZg2c/F7hdYnw9vpVbdSkOqkinfRg2uf+gRKuY5Vj26E/d6rS+b/uION6DytChgRpHHQkJQIDAQAB",
+   "manifest_version": 2,
+   "name": "Checker Plus for Google Calendar\u2122",
+   "omnibox": {
+      "keyword": "cal"
+   },
+   "optional_permissions": [ "background", "*://*.facebook.com/*", "*://*.detectlanguage.com/*" ],
+   "options_page": "options.html",
+   "permissions": [ "alarms", "storage", "contextMenus", "tts", "idle", "tabs", "notifications", "cookies", "*://*.google.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "17.3.9",
+   "web_accessible_resources": [ "widget.html", "options.html", "donate.html", "images/bell-48.png", "images/icons/icon-48.png", "images/icons/icon-128.png" ]
+}

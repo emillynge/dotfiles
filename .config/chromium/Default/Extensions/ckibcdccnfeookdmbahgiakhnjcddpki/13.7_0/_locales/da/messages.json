@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Billede af hele siden"
+   },
+   "cancel": {
+      "message": "annull\u00E9r"
+   },
+   "canceled": {
+      "message": "Sk\u00E6rm dumpning annull\u00E9ret!"
+   },
+   "cannotscroll": {
+      "message": "Kan ikke rulle p\u00E5 siden\u003Cbr\u003E\u003Cbr/\u003EPr\u00F8v at gen\u00E5bne denne fane"
+   },
+   "changeheaders": {
+      "message": "Skift sidehoved og sidefod"
+   },
+   "createimage": {
+      "message": " Laver billedfil..."
+   },
+   "date": {
+      "message": "Dato"
+   },
+   "description": {
+      "message": "Hurtig og simpel l\u00F8sning til at gemme JPG screenshot af enhver hjemmeside. Den f\u00F8rste udvidelse der f\u00E5r hele siden med."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Du kan rapportere en fejl"
+   },
+   "footer": {
+      "message": "Sidefod"
+   },
+   "header": {
+      "message": "Sidehoved"
+   },
+   "height": {
+      "message": "h\u00F8jde"
+   },
+   "imagesize": {
+      "message": "Billedst\u00F8rrelse:"
+   },
+   "likeresult": {
+      "message": "Kan du lide resultatet? Du kan skrive en fed kommentar og give 5 stjerner"
+   },
+   "loadcapturescript": {
+      "message": "Henter Koden..."
+   },
+   "name": {
+      "message": "Hjemmeside udvidelse - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "Kan ikke rulle p\u00E5 denne side (Udvidelserne virker ikke p\u00E5 interne Chrome sider eller p\u00E5 Chrome udvidelses galleriet)"
+   },
+   "noresize": {
+      "message": "Ingen st\u00F8rrelses \u00E6ndring"
+   },
+   "openimage": {
+      "message": "Klik her for at \u00E5bne billedet"
+   },
+   "or": {
+      "message": "eller"
+   },
+   "preview": {
+      "message": "Eksempel::"
+   },
+   "resize": {
+      "message": "\u00C6ndre st\u00F8rrelse til:: "
+   },
+   "resizebefore": {
+      "message": "Skift st\u00F8rrelse p\u00E5 billede inden det tages"
+   },
+   "takecapture": {
+      "message": "Tag sk\u00E6rmbillede nu"
+   },
+   "takingcapture": {
+      "message": "Tager sk\u00E6rmbillede"
+   },
+   "tosavemessage": {
+      "message": "For at gemme billedet, h\u00F8jreklik p\u00E5 det og v\u00E6lg \"Gem Billede som...\""
+   },
+   "url": {
+      "message": "Adresse"
+   },
+   "visiblescreenshot": {
+      "message": "Synligt sk\u00E6rmbillede"
+   },
+   "wait": {
+      "message": "vent"
+   },
+   "width": {
+      "message": "bredde"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "Hakk\u0131nda"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "Git"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "Ge\u00E7mi\u015Fi Sil"
+   },
+   "defaultLocation": {
+      "description": "default location is \u0130stanbul",
+      "message": "\u0130stanbul"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of \u0130stanbul",
+      "message": "41.01"
+   },
+   "defaultLocationLink": {
+      "description": "location link of \u0130stanbul",
+      "message": "tr/\u0130stanbul"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of \u0130stanbul",
+      "message": "28.98"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "\u00DCzg\u00FCn\u00FCm, \u015Fu anda konumunuzu belirleyemiyorum."
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "Yer bilgisi anla\u015F\u0131lamad\u0131 '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Google Maps"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "Harita \u00FCzerinde arama yap\u0131n, etraf\u0131n\u0131zdaki mekanlar hakk\u0131nda bilgi edinin"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Google Maps"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "Bulundu\u011Fum konumu g\u00F6ster"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Buradan"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Yol tarifi al: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.com"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "Yard\u0131m"
+   },
+   "hotspot1": {
+      "message": "Restoran"
+   },
+   "hotspot2": {
+      "message": "Kafe"
+   },
+   "hotspot3": {
+      "message": "M\u00FCze"
+   },
+   "hotspot4": {
+      "message": "Fast Food"
+   },
+   "hotspot5": {
+      "message": "Otel"
+   },
+   "hotspot6": {
+      "message": "ATM"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "Etraf\u0131mda neler var? "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "Yer: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Buraya"
+   }
+}

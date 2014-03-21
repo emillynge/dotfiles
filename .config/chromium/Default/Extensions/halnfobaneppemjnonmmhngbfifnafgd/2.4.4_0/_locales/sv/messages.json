@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "bakgrund"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Flytta bak\u00E5t ett tecken"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Flytta bak\u00E5t ett stycke"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Flytta bak\u00E5t en mening"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Flytta bak\u00E5t ett ord"
+   },
+   "chromevis_capitals_text": {
+      "message": "Tryck Shift + [Tangent] f\u00F6r versaler"
+   },
+   "chromevis_centerlens_label": {
+      "message": "V\u00E4xla mellan centrerad och verifierad lins"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Minska textstorleken"
+   },
+   "chromevis_description": {
+      "message": "F\u00F6rst\u00E4rk och \u00E4ndra f\u00E4rgen p\u00E5 markerad text. Flytta markeringen p\u00E5 sidan med hj\u00E4lp av musen eller tangentbordet."
+   },
+   "chromevis_format_text": {
+      "message": "Kortkommandon ska ha formatet [L\u00E5stangent] + [Tangent]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Flytta fram\u00E5t ett tecken"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Flytta fram\u00E5t ett stycke"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Flytta fram\u00E5t en mening"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Flytta fram\u00E5t ett ord"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "\u00D6ka textstorleken"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (fr\u00E5n Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "\u00C5terst\u00E4ll standardv\u00E4rden"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Spara"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Aktivera/inaktivera linsen"
+   },
+   "chromevis_stylelens_label": {
+      "message": "V\u00E4xla mellan fast och r\u00F6rlig lins"
+   },
+   "chromevis_textcolor_label": {
+      "message": "text"
+   },
+   "chromevis_title_text": {
+      "message": "Kortkommandon f\u00F6r linstangentbord"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "se"
+   }
+}

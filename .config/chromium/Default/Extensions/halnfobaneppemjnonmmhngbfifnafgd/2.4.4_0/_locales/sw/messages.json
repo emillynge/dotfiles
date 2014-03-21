@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "usuli"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Sogeza Nyuma kwa Kibambo Kimoja"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Sogeza Nyuma kwa Aya Moja"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Sogeza Nyuma kwa Sentensi Moja"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Sogeza Nyuma kwa Neno Moja"
+   },
+   "chromevis_capitals_text": {
+      "message": "Kwa herufi kubwa, tumia 'Shift'+[Key]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Geuza kati ya Lenzi Iliyopangiliwa Katikati/Iliyosawazishwa"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Punguza Ukubwa wa Maandishi"
+   },
+   "chromevis_description": {
+      "message": "Kuza na ubadilishe rangi ya maandishi yaliyoteuliwa. Tumia puku au kibodi kusogezasogeza uteuzi kwenye ukurasa."
+   },
+   "chromevis_format_text": {
+      "message": "Mikato inastahili kuwa katika fomati hii: [Modifier]+[Key]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Sogeza Mbele kwa Kibambo Kimoja"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Sogeza Mbele kwa Aya Moja"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Sogeza Mbele kwa Sentensi Moja"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Sogeza Mbele kwa Neno Moja"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Ongeza Ukubwa wa Maandishi"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (by Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Rejesha Misingi"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Hifadhi"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Geuza kati ya Kuwasha/Kuzima Lenzi"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Geuza kati ya Lenzi Ku"
+   },
+   "chromevis_textcolor_label": {
+      "message": "maandishi"
+   },
+   "chromevis_title_text": {
+      "message": "Mikato ya Kibodi ya Lenzi"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "sw"
+   }
+}

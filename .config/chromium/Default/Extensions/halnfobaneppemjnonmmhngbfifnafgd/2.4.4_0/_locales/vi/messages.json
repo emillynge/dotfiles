@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "n\u1EC1n"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "L\u00F9i l\u1EA1i theo K\u00FD t\u1EF1"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "L\u00F9i l\u1EA1i theo \u0110o\u1EA1n"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "L\u00F9i l\u1EA1i theo C\u00E2u"
+   },
+   "chromevis_backwardword_label": {
+      "message": "L\u00F9i l\u1EA1i theo T\u1EEB"
+   },
+   "chromevis_capitals_text": {
+      "message": "\u0110\u1ED1i v\u1EDBi ch\u1EEF hoa, s\u1EED d\u1EE5ng Shift+[Key]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Chuy\u1EC3n \u0111\u1ED5i gi\u1EEFa Th\u1EA5u k\u00EDnh Gi\u1EEFa/C\u0103n \u0111\u1EC1u"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Gi\u1EA3m K\u00EDch th\u01B0\u1EDBc V\u0103n b\u1EA3n"
+   },
+   "chromevis_description": {
+      "message": "Ph\u00F3ng \u0111\u1EA1i v\u00E0 thay \u0111\u1ED5i m\u00E0u s\u1EAFc c\u1EE7a b\u1EA5t k\u1EF3 v\u0103n b\u1EA3n n\u00E0o \u0111\u01B0\u1EE3c ch\u1ECDn. S\u1EED d\u1EE5ng chu\u1ED9t ho\u1EB7c b\u00E0n ph\u00EDm \u0111\u1EC3 di chuy\u1EC3n v\u0103n b\u1EA3n \u0111\u01B0\u1EE3c ch\u1ECDn xung quanh trang."
+   },
+   "chromevis_format_text": {
+      "message": "Ph\u00EDm t\u1EAFt ph\u1EA3i \u1EDF \u0111\u1ECBnh d\u1EA1ng sau: [Modifier]+[Key]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Ti\u1EBFn l\u00EAn theo K\u00FD t\u1EF1"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Ti\u1EBFn l\u00EAn theo \u0110o\u1EA1n"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Ti\u1EBFn l\u00EAn theo C\u00E2u"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Ti\u1EBFn l\u00EAn theo T\u1EEB"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "T\u0103ng K\u00EDch th\u01B0\u1EDBc V\u0103n b\u1EA3n"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (c\u1EE7a Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Kh\u00F4i ph\u1EE5c M\u1EB7c \u0111\u1ECBnh"
+   },
+   "chromevis_savebutton_label": {
+      "message": "L\u01B0u"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Chuy\u1EC3n Th\u1EA5u k\u00EDnh gi\u1EEFa ch\u1EBF \u0111\u1ED9 B\u1EADt/T\u1EAFt"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Chuy\u1EC3n \u0111\u1ED5i gi\u1EEFa Th\u1EA5u k\u00EDnh Neo/N\u1ED5i"
+   },
+   "chromevis_textcolor_label": {
+      "message": "v\u0103n b\u1EA3n"
+   },
+   "chromevis_title_text": {
+      "message": "Ph\u00EDm t\u1EAFt d\u00E0nh cho Th\u1EA5u k\u00EDnh"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "vi"
+   }
+}

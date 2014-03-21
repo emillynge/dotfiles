@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "pozadie"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Posun\u00FA\u0165 dozadu o znak"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Posun\u00FA\u0165 dozadu o odsek"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Posun\u00FA\u0165 dozadu o vetu"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Posun\u00FA\u0165 dozadu o slovo"
+   },
+   "chromevis_capitals_text": {
+      "message": "Ak chcete p\u00EDsa\u0165 ve\u013Ek\u00E9 p\u00EDsmen\u00E1, stla\u010Dte Shift+[Kl\u00E1ves]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Prepn\u00FA\u0165 medzi vycentrovanou / zarovnanou lupou"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Zmen\u0161i\u0165 ve\u013Ekos\u0165 textu"
+   },
+   "chromevis_description": {
+      "message": "Zv\u00E4\u010D\u0161ite ak\u00FDko\u013Evek vybrat\u00FD text a zme\u0148te jeho farbu. Pres\u00FAvajte v\u00FDber textu na str\u00E1nke my\u0161ou alebo pomocou kl\u00E1vesnice."
+   },
+   "chromevis_format_text": {
+      "message": "Kl\u00E1vesov\u00E9 skratky by mali ma\u0165 tak\u00FDto form\u00E1t: [Modifik\u00E1tor]+[Kl\u00E1ves]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Posun\u00FA\u0165 dopredu o znak"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Posun\u00FA\u0165 dopredu o odsek"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Posun\u00FA\u0165 dopredu o vetu"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Posun\u00FA\u0165 dopredu o slovo"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Zv\u00E4\u010D\u0161i\u0165 ve\u013Ekos\u0165 textu"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (od spolo\u010Dnosti Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Obnovi\u0165 predvolen\u00E9"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Ulo\u017Ei\u0165"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Vypn\u00FA\u0165 / Zapn\u00FA\u0165 lupu"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Prepn\u00FA\u0165 medzi ukotvenou / pl\u00E1vaj\u00FAcou lupou"
+   },
+   "chromevis_textcolor_label": {
+      "message": "text"
+   },
+   "chromevis_title_text": {
+      "message": "Kl\u00E1vesov\u00E9 skratky lupy"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "sk"
+   }
+}

@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "h\u00E1tt\u00E9r"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Ugr\u00E1s vissza szavank\u00E9nt"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Ugr\u00E1s vissza bekezd\u00E9senk\u00E9nt"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Ugr\u00E1s vissza mondatonk\u00E9nt"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Ugr\u00E1s vissza szavank\u00E9nt"
+   },
+   "chromevis_capitals_text": {
+      "message": "Nagybet\u0171kh\u00F6z nyomja meg a Shift+[Billenty\u0171] billenty\u0171kombin\u00E1ci\u00F3t"
+   },
+   "chromevis_centerlens_label": {
+      "message": "V\u00E1lt\u00E1s k\u00F6z\u00E9pre igaz\u00EDtott \u00E9s sorkiz\u00E1rt lencs\u00E9k k\u00F6z\u00F6tt"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Sz\u00F6vegm\u00E9ret cs\u00F6kkent\u00E9se"
+   },
+   "chromevis_description": {
+      "message": "A kiv\u00E1lasztott sz\u00F6veg nagy\u00EDt\u00E1sa \u00E9s sz\u00EDn\u00E9nek megv\u00E1ltoztat\u00E1sa. Haszn\u00E1lja az egeret vagy a billenty\u0171zetet a kiv\u00E1laszt\u00E1s mozgat\u00E1s\u00E1hoz az oldalon bel\u00FCl."
+   },
+   "chromevis_format_text": {
+      "message": "A parancsikonoknak ezt a form\u00E1tumot kell k\u00F6vetnie: [M\u00F3dos\u00EDt\u00F3]+[Billenty\u0171]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Ugr\u00E1s el\u0151re karakterenk\u00E9nt"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Ugr\u00E1s el\u0151re bekezd\u00E9senk\u00E9nt"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Ugr\u00E1s el\u0151re mondatonk\u00E9nt"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Ugr\u00E1s el\u0151re szavank\u00E9nt"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Sz\u00F6vegm\u00E9ret n\u00F6vel\u00E9se"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (a Google-t\u00F3l)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Alap\u00E9rtelmez\u00E9sek vissza\u00E1ll\u00EDt\u00E1sa"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Ment\u00E9s"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "V\u00E1lt\u00E1s a lencs\u00E9k be- \u00E9s kikapcsol\u00E1sa k\u00F6z\u00F6tt"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Lehorgonyzott \u00E9s lebeg\u0151 lencse v\u00E1lt\u00E1sa"
+   },
+   "chromevis_textcolor_label": {
+      "message": "sz\u00F6veg"
+   },
+   "chromevis_title_text": {
+      "message": "Lencse-billenty\u0171k\u00F3dok"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "hu"
+   }
+}

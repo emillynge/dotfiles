@@ -1,0 +1,23 @@
+{
+   "background_page": "chromevis/background.html",
+   "browser_action": {
+      "default_icon": "chromevis/cvis_19.png"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "chromevis/chromeVis_loader.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_chromevis_description__",
+   "icons": {
+      "128": "chromevis/cvis_128.png",
+      "48": "chromevis/cvis_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnJtf/7mjxUv26uD0E+g72REyJyJwCynw5Tm0qnyu4kw+JMenNU/iRZ+OaUG06+OSn5zugqGcdX/cfXAUdf8VoywAoudG/Er46xm+V/2DYQHZ60VnMKXVJKKyMV4scw9T3P8Sa1xL30Ax3wG91X+iZ4KsKutnD2+8PqjW3c7gsRwIDAQAB",
+   "name": "__MSG_chromevis_name__",
+   "options_page": "chromevis/options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.4.4"
+}

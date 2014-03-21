@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "T\u00E4psemalt"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "Mine"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "Kustuta ajalugu"
+   },
+   "defaultLocation": {
+      "description": "default location is Tallinn",
+      "message": "Tallinn"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of Tallinn",
+      "message": "59.44"
+   },
+   "defaultLocationLink": {
+      "description": "location link of Tallinn",
+      "message": "ee/Tallinn"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of Tallinn",
+      "message": "24.75"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "Vabandust, sinu praegune asukoht on m\u00E4\u00E4ramatu."
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "Ma ei saa kohast aru '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Google Kaart"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "Otsi kaardil asukoht ja vaata huvitavaid kohti ligiduses"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Google Kaart kohaliku otsinguga"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "N\u00E4ita minu asukohta"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Siit"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Hangi suunised: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.ee"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "Abi"
+   },
+   "hotspot1": {
+      "message": "Restoran"
+   },
+   "hotspot2": {
+      "message": "Kohvik"
+   },
+   "hotspot3": {
+      "message": "Muuseum"
+   },
+   "hotspot4": {
+      "message": "Kiirtoit"
+   },
+   "hotspot5": {
+      "message": "Hotell"
+   },
+   "hotspot6": {
+      "message": "Rahaautomaat"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "L\u00E4himad huvipunktid: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "Asukoht: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Sinna"
+   }
+}

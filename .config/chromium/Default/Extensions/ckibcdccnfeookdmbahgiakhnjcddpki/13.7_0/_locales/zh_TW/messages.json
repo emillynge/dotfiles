@@ -1,0 +1,101 @@
+{
+   "allpage": {
+      "message": "\u6293\u4E0B\u6574\u500B\u7DB2\u9801\u7684\u5FEB\u7167"
+   },
+   "cancel": {
+      "message": "\u53D6\u6D88"
+   },
+   "canceled": {
+      "message": "\u5DF2\u53D6\u6D88!"
+   },
+   "cannotscroll": {
+      "message": "\u4E0D\u80FD\u5411\u4E0B\u6372\u52D5\u672C\u7DB2\u9801! \u003Cbr\u003E\u003Cbr/\u003E\u8ACB\u5617\u8A66\u91CD\u65B0\u958B\u555F\u8A72\u9801\u3002"
+   },
+   "changeheaders": {
+      "message": "\u6539\u8B8A\u9801\u9996\u548C\u9801\u5C3E"
+   },
+   "createimage": {
+      "message": "\u88FD\u9020\u5F71\u50CF\u4E2D\u2026"
+   },
+   "date": {
+      "message": "\u65E5\u671F"
+   },
+   "description": {
+      "message": "\u5FEB\u901F\u548C\u7C21\u55AE\u5730\u5132\u5B58\u4E00\u5F35JPG\u7684\u7DB2\u9801\u5FEB\u7167\u3002\u7B2C\u4E00\u500B\u63D2\u4EF6\u80FD\u5920\u6293\u4E0B\u6574\u500B\u7DB2\u9801!"
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "\u4F60\u53EF\u4EE5\u50B3\u9001\u4E00\u500B\u932F\u8AA4\u5831\u544A"
+   },
+   "footer": {
+      "message": "\u9801\u5C3E"
+   },
+   "header": {
+      "message": "\u9801\u9996"
+   },
+   "height": {
+      "message": "\u9AD8"
+   },
+   "imagesize": {
+      "message": "\u5716\u7247\u5927\u5C0F:"
+   },
+   "likeresult": {
+      "message": "\u8A8D\u70BA\u6548\u679C\u597D\u55CE? \u4F60\u53EF\u4EE5\u5BEB\u4E0B\u4E00\u500B\u597D\u7684\u610F\u898B\uFF0C\u7D66\u62115\u661F\u4E5F\u884C"
+   },
+   "loadcapturescript": {
+      "message": "\u7A0B\u5F0F\u78BC\u8F09\u5165\u4E2D\u2026"
+   },
+   "name": {
+      "message": "\u7DB2\u9801\u5FEB\u7167 - Webpage Screenshot"
+   },
+   "new": {
+      "message": "\u65B0"
+   },
+   "noall": {
+      "message": "\u4E0D\u80FD\u5411\u4E0B\u6372\u52D5\u672C\u7DB2\u9801! (\u65BCchrome://\u7684\u9801\u9762\u548CGoogle\u64F4\u5145\u63D2\u4EF6\u5EAB\u9801\u4E0A\u4E0D\u80FD\u4F7F\u7528)"
+   },
+   "noresize": {
+      "message": "\u4E0D\u80FD\u6539\u8B8A\u5927\u5C0F"
+   },
+   "openimage": {
+      "message": "\u6309\u6B64\u958B\u555F\u5716\u7247"
+   },
+   "or": {
+      "message": "\u6216"
+   },
+   "preview": {
+      "message": "\u9810\u89BD:"
+   },
+   "resize": {
+      "message": "\u6539\u8B8A\u5927\u5C0F\u81F3: "
+   },
+   "resizebefore": {
+      "message": "\u6293\u4E0B\u5716\u7247\u524D\u6539\u8B8A\u5927\u5C0F"
+   },
+   "takecapture": {
+      "message": "\u7ACB\u5373\u6293\u4E0B\u5716\u7247"
+   },
+   "takingcapture": {
+      "message": "\u6293\u4E0B\u7DB2\u9801\u5FEB\u7167\u4E2D\u2026"
+   },
+   "tosavemessage": {
+      "message": "\u8981\u5132\u5B58\u5716\u7247\uFF0C\u8ACB\u5728\u5716\u7247\u4E0A\u6309\u4E00\u4E0B\u53F3\u9375\u7136\u5F8C\u6309\u300C\u53E6\u5B58\u5F71\u50CF\u70BA\u2026\u300D"
+   },
+   "url": {
+      "message": "\u7DB2\u5740"
+   },
+   "visiblescreenshot": {
+      "message": "\u6293\u4E0B\u7DB2\u9801\u4E2D\u80FD\u898B\u7BC4\u570D\u7684\u5FEB\u7167"
+   },
+   "wait": {
+      "message": "\u8ACB\u7A0D\u7B49"
+   },
+   "width": {
+      "message": "\u5BEC"
+   },
+   "zoom": {
+      "message": "\u653E\u5927"
+   }
+}

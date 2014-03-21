@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Volledige pagina beeldafdruk"
+   },
+   "cancel": {
+      "message": "annuleer"
+   },
+   "canceled": {
+      "message": "Screenshot is geannuleerd!"
+   },
+   "cannotscroll": {
+      "message": "Kan niet de pagina scrollen\u003Cbr\u003E\u003Cbr/\u003EProbeer deze tap opnieuw te openen"
+   },
+   "changeheaders": {
+      "message": "Verander kop en voettekst"
+   },
+   "createimage": {
+      "message": " Bezig met het maken van het plaatje bestand..."
+   },
+   "date": {
+      "message": "Datum"
+   },
+   "description": {
+      "message": "Een  simpele oplossing om van een webpagina een schermafdruk te maken. Dit is de eerste uitbreiding dat de hele pagina meeneemt."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Je kan een bug rapport sturen"
+   },
+   "footer": {
+      "message": "Voettekst"
+   },
+   "header": {
+      "message": "Koptekst"
+   },
+   "height": {
+      "message": "hoogte"
+   },
+   "imagesize": {
+      "message": "Beeldgrootte:"
+   },
+   "likeresult": {
+      "message": "Wat vind je van het resultaat? Je kan een aardig commentaar schrijven en 5 sterren geven."
+   },
+   "loadcapturescript": {
+      "message": "Laden van het script...."
+   },
+   "name": {
+      "message": "Screenshot - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "Deze pagina kan je niet scrollen (uitbreidingen werken niet op interne Chrome pagina's of in de uitbreidingen gallerij)"
+   },
+   "noresize": {
+      "message": "Geen herschaling"
+   },
+   "openimage": {
+      "message": "Klik hier om het plaatje te openen"
+   },
+   "or": {
+      "message": "of"
+   },
+   "preview": {
+      "message": "Voorvertoning:"
+   },
+   "resize": {
+      "message": "Vergroten/verkleinen naar:"
+   },
+   "resizebefore": {
+      "message": "Pas het scherm aan voor het schieten van het plaatje"
+   },
+   "takecapture": {
+      "message": "Schiet nu het scherm plaatje"
+   },
+   "takingcapture": {
+      "message": "Neem screenshot"
+   },
+   "tosavemessage": {
+      "message": "Om het plaatje op te slaan, druk op de rechtermuis knop en kies voor \"Sla plaatje op\""
+   },
+   "url": {
+      "message": "Webadres"
+   },
+   "visiblescreenshot": {
+      "message": "Zichtbare screenshot"
+   },
+   "wait": {
+      "message": "waitwacht"
+   },
+   "width": {
+      "message": "breedte"
+   },
+   "zoom": {
+      "message": "Vergroten/verkleinen"
+   }
+}

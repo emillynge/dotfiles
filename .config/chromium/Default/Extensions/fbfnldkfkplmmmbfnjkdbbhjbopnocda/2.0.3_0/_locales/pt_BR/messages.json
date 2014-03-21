@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "Sobre"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "Ir"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "Limpar Hist\u00F3rico"
+   },
+   "defaultLocation": {
+      "description": "default location is S\u00E3o Paulo",
+      "message": "S\u00E3o Paulo"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of S\u00E3o Paulo",
+      "message": "-23.54"
+   },
+   "defaultLocationLink": {
+      "description": "location link of S\u00E3o Paulo",
+      "message": "br/S\u00E3o Paulo"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of S\u00E3o Paulo",
+      "message": "-46.63"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "Desculpe, n\u00E3o pudemos determinar sua localiza\u00E7\u00E3o atual."
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "N\u00E3o podemos entender a localiza\u00E7\u00E3o '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Google Maps"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "Veja locais no mapa e explore locais de interesse ao seu redor"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Google Maps com Busca Local"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "Mostrar meu Local"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Daqui"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Rota: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.com.br"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "Ajuda"
+   },
+   "hotspot1": {
+      "message": "Restaurante"
+   },
+   "hotspot2": {
+      "message": "Caf\u00E9"
+   },
+   "hotspot3": {
+      "message": "Museu"
+   },
+   "hotspot4": {
+      "message": "Fast Food"
+   },
+   "hotspot5": {
+      "message": "Hotel"
+   },
+   "hotspot6": {
+      "message": "Caixa Eletr\u00F4nico"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "Pontos de interesse ao seu redor: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "Localiza\u00E7\u00E3o: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Para C\u00E1"
+   }
+}

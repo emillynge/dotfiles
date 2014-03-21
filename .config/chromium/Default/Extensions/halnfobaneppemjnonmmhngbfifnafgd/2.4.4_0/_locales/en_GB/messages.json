@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "background"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Move Backwards by Character"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Move Backwards by Paragraph"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Move Backwards by Sentence"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Move Backwards by Word"
+   },
+   "chromevis_capitals_text": {
+      "message": "For capital letters, use Shift+[Key]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Toggle Centred/Justified Lens"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Decrease Text Size"
+   },
+   "chromevis_description": {
+      "message": "Magnify and change the colour of any text selected. Use the mouse or the keyboard to move the selection around the page."
+   },
+   "chromevis_format_text": {
+      "message": "Shortcuts should be in this format: [Modifier]+[Key]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Move Forwards by Character"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Move Forwards by Paragraph"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Move Forwards by Sentence"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Move Forwards by Word"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Increase Text Size"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (by Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Restore Defaults"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Save"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Toggle Lens On/Off"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Toggle Anchored/Floating Lens"
+   },
+   "chromevis_textcolor_label": {
+      "message": "text"
+   },
+   "chromevis_title_text": {
+      "message": "Lens Keyboard Shortcuts"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "en"
+   }
+}

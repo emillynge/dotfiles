@@ -1,0 +1,143 @@
+{
+   "allpage": {
+      "message": "All page screenshot"
+   },
+   "before_taking_screenshot": {
+      "message": "before taking screenshot"
+   },
+   "cancel": {
+      "message": "cancel"
+   },
+   "canceled": {
+      "message": "Taking capture canceled!"
+   },
+   "cannotscroll": {
+      "message": "Cannot scroll the page\u003Cbr\u003E\u003Cbr/\u003ETry to reopen this tab"
+   },
+   "changeheaders": {
+      "message": "Change Header and Footer"
+   },
+   "createimage": {
+      "message": " Creating the image file..."
+   },
+   "date": {
+      "message": "Date"
+   },
+   "description": {
+      "message": "The most powerful and freeware app for capture entire page, Save & Edit & Annotate & Print & Share"
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "disable": {
+      "message": "Disable"
+   },
+   "enable": {
+      "message": "Enable"
+   },
+   "filebug": {
+      "message": "File a bug report"
+   },
+   "footer": {
+      "message": "Footer"
+   },
+   "header": {
+      "message": "Header"
+   },
+   "height": {
+      "message": "height"
+   },
+   "imagesize": {
+      "message": "Image Size:"
+   },
+   "likeresult": {
+      "message": "Like? write a nice comment, and give 5 stars"
+   },
+   "loadcapturescript": {
+      "message": "Loading Capture Script..."
+   },
+   "must_reload_tabs": {
+      "message": "Must reload every page, before take effects"
+   },
+   "name": {
+      "message": "Webpage Screenshot"
+   },
+   "name_sb": {
+      "message": "Webpage Screenshot Bar"
+   },
+   "new": {
+      "message": "NEW"
+   },
+   "noall": {
+      "message": "Cannot scroll this page (Extensions cannot work on internal Chrome pages nor on Chrome extensions gallery)"
+   },
+   "nolocal": {
+      "message": "To Capture whole screen of local files, you must install a small plugin"
+   },
+   "noresize": {
+      "message": "No resize"
+   },
+   "on_this_page": {
+      "message": "on this page"
+   },
+   "open": {
+      "message": "OPEN"
+   },
+   "openimage": {
+      "message": "Click here to open the image"
+   },
+   "or": {
+      "message": "or"
+   },
+   "preview": {
+      "message": "Preview:"
+   },
+   "resize": {
+      "message": "Resize to: "
+   },
+   "resizebefore": {
+      "message": "Resize window before the capture"
+   },
+   "save": {
+      "message": "SAVE"
+   },
+   "screenshot_delay": {
+      "message": "Screenshot Delay"
+   },
+   "seconds": {
+      "message": "seconds"
+   },
+   "selectionbar_help": {
+      "message": "You are testing a new extension \"Webpage Screenshot Bar\" - WSB;.\r\n\r\nThis is a new tool, to help you do thing quickly.\r\n\r\nWe are working on this extension daily, so if you find any issue, don't disable it, \u003Ca target=_blank href=https://docs.google.com/forms/d/1ITSsWIETYMygUEfVcBJZ4-GkUfM16GCXJQ6hlINXxQc/viewform\u003Eplease fill this form\u003C/a\u003E, and we will fix it ASAP (less than 12 hours).\r\n\r\nDo you have a great idea to WSB?  \u003Ca target=_blank href=https://docs.google.com/forms/d/1ITSsWIETYMygUEfVcBJZ4-GkUfM16GCXJQ6hlINXxQc/viewform\u003ETell us! \u003C/a\u003E\r\nTo Disable WSB on this page, click on the extension icon.\r\n"
+   },
+   "settings": {
+      "message": "settings"
+   },
+   "share": {
+      "message": "SHARE"
+   },
+   "takecapture": {
+      "message": "Take Capture Now"
+   },
+   "takingcapture": {
+      "message": "Taking capture"
+   },
+   "tosavemessage": {
+      "message": "To save the Image, right click on it and choose \"Save Image\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Visible screenshot"
+   },
+   "wait": {
+      "message": "wait"
+   },
+   "width": {
+      "message": "width"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

@@ -1,0 +1,1490 @@
+{
+   "200": {
+      "message": "\u906D\u9047\u9593\u6B47\u6027\u554F\u984C\uFF0C\u8ACB\u91CD\u8A66\u4E00\u6B21\uFF01"
+   },
+   "24hourMode": {
+      "message": "\u986F\u793A 24 \u5C0F\u6642\u5236"
+   },
+   "24hourModeTitle": {
+      "message": "\u6642\u9593\u5C07\u4EE5 24 \u5C0F\u6642\u5236\u986F\u793A\u3002\u5982\uFF1A18:00"
+   },
+   "401": {
+      "message": "\u672A\u6388\u6B0A\uFF01"
+   },
+   "403": {
+      "message": "\u60A8\u8F38\u5165\u7684 Email \u4F4D\u5740\u6216\u5BC6\u78BC\u4E0D\u6B63\u78BA\u3002"
+   },
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "\u8ACB\u52FF\u522A\u9664"
+   },
+   "NAME_says": {
+      "message": "$1\u8AAA\uFF1A"
+   },
+   "Xday": {
+      "message": "\u4E00\u5929"
+   },
+   "Xdays": {
+      "message": "$1 \u5929"
+   },
+   "Xhour": {
+      "message": "$1 \u5C0F\u6642"
+   },
+   "Xhours": {
+      "message": "$1 \u5C0F\u6642"
+   },
+   "Xminute": {
+      "message": "$1 \u5206\u9418"
+   },
+   "Xminutes": {
+      "message": "$1 \u5206\u9418"
+   },
+   "Xseconds": {
+      "message": "$1\u79D2"
+   },
+   "aboutMe": {
+      "message": "\u4F5C\u8005\u8A0A\u606F"
+   },
+   "account": {
+      "message": "\u5E33\u865F"
+   },
+   "accounts": {
+      "message": "\u5E33\u865F"
+   },
+   "actionButtons": {
+      "message": "\u5FEB\u986F\u8996\u7A97\u53CA\u9032\u968E\u901A\u77E5\u8996\u7A97\u7684\u6309\u9215\u52D5\u4F5C"
+   },
+   "addCalendar": {
+      "message": "\u65B0\u589E\u65E5\u66C6"
+   },
+   "addCalendarTitle": {
+      "message": "\u4EE5\u79C1\u4EBA\u7DB2\u5740\u65B0\u589E\u65E5\u66C6"
+   },
+   "addSpeechEngines": {
+      "message": "\u65B0\u589E\u8A9E\u97F3\u5F15\u64CE"
+   },
+   "addToGoogleCalendar": {
+      "message": "\u589E\u52A0\u81F3 Google \u65E5\u66C6"
+   },
+   "addedForSomeday": {
+      "message": "$1 \u5DF2\u65BC $2 \u65B0\u589E"
+   },
+   "addedForSomedayAt": {
+      "message": "$1 \u5DF2\u65BC $2\u65E5 $3\u6642 \u65B0\u589E"
+   },
+   "addedForToday": {
+      "message": "$1 \u5DF2\u65BC\u4ECA\u5929\u65B0\u589E"
+   },
+   "addedForTodayAt": {
+      "message": "$1 \u5DF2\u65BC $2 \u65B0\u589E"
+   },
+   "addedForTomorrow": {
+      "message": "$1 \u5DF2\u65BC\u660E\u5929\u65B0\u589E"
+   },
+   "addedForTomorrowAt": {
+      "message": "$1 \u5DF2\u65BC\u660E\u5929 $2 \u65B0\u589E"
+   },
+   "addedTimedEventInThePast": {
+      "message": "\u6B64\u4E8B\u4EF6\u7684\u6642\u9593\u5DF2\u7D93\u904E\u53BB \uFF01\u4F60\u60F3\u8981\u6211\u5C07\u5176\u8B8A\u66F4\u70BA\u660E\u5929\u540C\u4E00\u6642\u9593\u55CE\uFF1F"
+   },
+   "advancedNotification": {
+      "message": "\u9032\u968E\u7684\u901A\u77E5\u8996\u7A97"
+   },
+   "advancedNotificationToolTip": {
+      "message": "\u901A\u77E5\u60A8\u5168\u90E8\u7684\u672A\u8B80\u90F5\u4EF6\uFF0C\u95B1\u8B80\u6574\u500B\u4FE1\u7BB1\uFF0C\u6216\u5C07\u5176\u522A\u9664\u800C\u4E0D\u958B\u555F\u60A8\u7684\u700F\u89BD\u5668\u6216 Gmail \u5206\u9801 \uFF01\u57FA\u672C\u4E0A\u4F7F\u7528\u5FEB\u986F\u8996\u7A97\u5230\u5E95\u90E8\u901A\u77E5\u8996\u7A97\u7684\u529F\u80FD\uFF01"
+   },
+   "advancedNotificationTryItOut": {
+      "message": "\u6E2C\u8A66\u4E00\u4E0B \uFF01"
+   },
+   "advancedNotificationTryItOutInstructions": {
+      "message": "\u6A19\u793A\u4E00\u500B \uFF08\u6216\u591A\u500B\uFF09 \u70BA\u672A\u8B80\u7684\u90F5\u4EF6\u7136\u5F8C\u9EDE\u9078\u9019\u88E1\u4E26\u7B49\u5F85\u9032\u968E\u901A\u77E5\u8996\u7A97\uFF0C\u5617\u8A66\u9EDE\u9078\u90F5\u4EF6\u6458\u8981\u4E26\u9810\u89BD\uFF01"
+   },
+   "agenda": {
+      "message": "\u8FF7\u4F60\u65E5\u66C6\u8207\u5F85\u8FA6\u4E8B\u9805"
+   },
+   "agendaOnly": {
+      "message": "\u53EA\u6709\u5F85\u8FA6\u4E8B\u9805"
+   },
+   "alertMe": {
+      "message": "\u6216\u63D0\u793A\u6211..."
+   },
+   "all": {
+      "message": "\u5168\u90E8"
+   },
+   "allMail": {
+      "message": "\u5168\u90E8\u90F5\u4EF6"
+   },
+   "alreadyDonated": {
+      "message": "\u5DF2\u7D93\u6350\u904E\u6B3E\u4E86\uFF1F"
+   },
+   "alsoExtraFeaturesForGoogleCalendar": {
+      "message": "\u6350\u6B3E\u4E00\u6B21\u53EF\u89E3\u9664\u9396\u5B9A\u7684\u984D\u5916\u529F\u80FD\u4EE5\u53CA\u6211\u7684 $1"
+   },
+   "alsoExtraFeaturesForGoogleCalendar2": {
+      "message": "Checker Plus for Google Calendar"
+   },
+   "alsoTryMy": {
+      "message": "\u4E5F\u5617\u8A66\u6211\u7684"
+   },
+   "amount": {
+      "message": "\u91D1\u984D"
+   },
+   "andMyExtensions": {
+      "message": "\u548C\u6211\u7684\u64F4\u5145\u529F\u80FD\u4F5C\u54C1"
+   },
+   "archiveLink": {
+      "message": "\u5C01\u5B58"
+   },
+   "archiveLinkTitle": {
+      "message": "\u90F5\u4EF6\u5C01\u5B58"
+   },
+   "archive_read": {
+      "message": "\u5C01\u5B58\u90F5\u4EF6\u6A19\u793A\u70BA\u5DF2\u8B80\u53D6"
+   },
+   "archive_readToolTip": {
+      "message": "\u7576\u60A8\u5C01\u5B58\u90F5\u4EF6\u6642\u5C07\u5176\u6A19\u793A\u70BA\u5DF2\u8B80\u53D6"
+   },
+   "autoDetectAccounts": {
+      "message": "\u6B64\u5957\u7528\u7A0B\u5F0F\u5C07\u81EA\u52D5\u5075\u6E2C\u60A8\u767B\u5165\u7684\u5E33\u865F\u3002"
+   },
+   "back": {
+      "message": "\u50B3\u56DE"
+   },
+   "backToInbox": {
+      "message": "\u50B3\u56DE\u5230\u6536\u4EF6\u5323"
+   },
+   "backgroundOfNotification": {
+      "message": "\u5F48\u51FA\u5F0F\u684C\u9762\u901A\u77E5\u80CC\u666F\u8272\u5F69"
+   },
+   "backgroundOfNotificationTooltip": {
+      "message": "\u8A2D\u5B9A\u684C\u9762\u901A\u77E5\u7684\u80CC\u666F\u8272\u5F69"
+   },
+   "button": {
+      "message": "\u6309\u9215"
+   },
+   "buttonClickAction": {
+      "message": "\u6309\u9215\u6309\u4E0B\u52D5\u4F5C"
+   },
+   "byEmailSubject": {
+      "message": "\u900F\u904E\u4FE1\u7BB1\u7684\u4E3B\u65E8\uFF1F"
+   },
+   "calendar": {
+      "message": "\u65E5\u66C6"
+   },
+   "calendarHelper": {
+      "message": "\u65E5\u66C6\u52A9\u624B"
+   },
+   "calendarViewAgenda": {
+      "message": "\u65E5\u66C6\u6AA2\u8996\uFF1A\u5F85\u8FA6\u4E8B\u9805"
+   },
+   "calendarViewAgendaTitle": {
+      "message": "\u9EDE\u9078\u65E5\u66C6\u5716\u793A\u6642\uFF0C\u4EE5\u5F85\u8FA6\u4E8B\u9805\u683C\u5F0F\u6AA2\u8996\u4F5C\u7528\u4E2D\u5217\u8868"
+   },
+   "calendarViewRegular": {
+      "message": "\u65E5\u66C6\u6AA2\u8996\uFF1A\u4E00\u822C"
+   },
+   "calendarViewRegularTitle": {
+      "message": "\u9EDE\u9078\u65E5\u66C6\u5716\u793A\u6642\uFF0C\u4EE5\u65E5\u66C6\u683C\u5F0F\u6AA2\u8996\u4F5C\u7528\u4E2D\u6E05\u55AE"
+   },
+   "calendarViewTitle": {
+      "message": "\u9078\u53D6\u9810\u8A2D\u65E5\u66C6\u6AA2\u8996\u578B\u614B"
+   },
+   "canceledInAppPurchase": {
+      "message": "\u8A66\u8A66 PayPal \u4F86\u4EE3\u66FF\u5462\uFF1F\u6216\u8207\u6211\u6D3D\u8A62\u7684\u554F\u984C"
+   },
+   "cannotUpdateEventsInThePast": {
+      "message": "\u51FA\u73FE\u554F\u984C \uFF01\u6211\u76EE\u524D\u4E0D\u80FD\u66F4\u65B0\u767C\u751F\u5728\u904E\u53BB\uFF0C\u6211\u53EF\u4EE5\u5728\u4ECA\u5929\u6216\u5728\u4E0D\u4E45\u7684\u5C07\u4F86\u66F4\u65B0\u4E8B\u4EF6\u7684\u4E8B\u4EF6\u3002\u60A8\u53EF\u4EE5\u4F7F\u7528 Google \u65E5\u66C6\u7DB2\u9801\u70BA\u904E\u53BB\u7684\u4E8B \uFF01"
+   },
+   "changeThisDomain": {
+      "message": "\u7ACB\u5373\u8B8A\u66F4\u6B64\u4FE1\u7BB1\u7DB2\u57DF $1"
+   },
+   "changeThisDomain2": {
+      "message": "\u96E2\u958B\u4E26\u70BA\u4E0D\u540C\u7684\u4F7F\u7528\u8005\u8A3B\u518A"
+   },
+   "changeView": {
+      "message": "\u8B8A\u66F4\u6AA2\u8996\u578B\u614B"
+   },
+   "changingIcon": {
+      "message": "\u8B8A\u66F4\u5716\u793A"
+   },
+   "chime": {
+      "message": "Chime"
+   },
+   "choosePaymentMethod": {
+      "message": "\u9078\u64C7\u4ED8\u6B3E\u65B9\u5F0F"
+   },
+   "clearCache": {
+      "message": "\u660E\u78BA\u64F4\u5145\u5FEB\u53D6"
+   },
+   "clickToPreviewEmail": {
+      "message": "\u6309\u4E00\u4E0B\u4EE5\u9810\u89BD\u4FE1\u7BB1"
+   },
+   "close": {
+      "message": "\u95DC\u9589"
+   },
+   "closeAfterX": {
+      "message": "\u95DC\u9589\u6642\u9593"
+   },
+   "closePopupsAfterAWhile": {
+      "message": "\u5F8C\u81EA\u52D5\u95DC\u9589\u901A\u77E5"
+   },
+   "closePopupsAfterAWhileTitle": {
+      "message": "\u5F48\u51FA\u5F0F\u684C\u9762\u901A\u77E5\u5C07\u65BC x \u5206\u9418\u5F8C\u81EA\u52D5\u95DC\u9589"
+   },
+   "commaSeparatedEmails": {
+      "message": "\u9017\u865F\u5206\u9694\uFF0C\u4F8B\u5982."
+   },
+   "compose": {
+      "message": "\u64B0\u5BEB"
+   },
+   "composeLinkTitle": {
+      "message": "\u64B0\u5BEB\u65B0\u90F5\u4EF6"
+   },
+   "contact": {
+      "message": "\u6D3D\u8A62\u4F5C\u8005"
+   },
+   "contactHelp": {
+      "message": "\u806F\u7D61 - \u8AAA\u660E"
+   },
+   "contacts": {
+      "message": "\u9023\u7D61\u4EBA"
+   },
+   "continue": {
+      "message": "\u7E7C\u7E8C"
+   },
+   "continueWithoutFeatures": {
+      "message": "\u7E7C\u7E8C\u4F7F\u7528\u6B64\u64F4\u5145\u529F\u80FD\uFF0C\u4F46\u6C92\u6709\u4EE5\u4E0B\u984D\u5916\u9078\u9805"
+   },
+   "continueWithoutFeaturesHeader": {
+      "message": "\u7E7C\u7E8C\u800C\u4E0D\u4F7F\u7528\u984D\u5916\u7684\u529F\u80FD"
+   },
+   "contributeToContinue": {
+      "message": "\u6350\u6B3E"
+   },
+   "conversationView": {
+      "message": "\u5DE5\u4F5C\u968E\u6BB5\u6AA2\u8996"
+   },
+   "conversationViewToolTip": {
+      "message": "\u8A2D\u5B9A\u76F8\u540C\u4E3B\u65E8\u7684\u90F5\u4EF6\u5206\u7FA4\u7D44\u5728\u4E00\u8D77"
+   },
+   "copyPrivateAddress": {
+      "message": "\u5C07\u65E5\u66C6\u7684\u79C1\u4EBA\u7DB2\u5740\uFF08XML\uFF09\u8986\u5236\u5230\u526A\u8CBC\u7C3F\u3002"
+   },
+   "copyPrivateAddressTitle": {
+      "message": "\u60A8\u53EF\u4EE5\u5F9E Google \u65E5\u66C6\u5DE6\u5074\u7684\u65E5\u66C6\u6E05\u55AE\u4E2D\uFF0C\u9EDE\u9078\u60A8\u60F3\u8981\u4F7F\u7528\u65E5\u66C6\u53F3\u5074\u7684\u5411\u4E0B\u7BAD\u982D\uFF0C\u7136\u5F8C\u9078\u53D6\u300C\u65E5\u66C6\u8A73\u7D30\u8CC7\u6599\u300D\u3002\u9078\u53D6\u300C\u79C1\u4EBA\u7DB2\u5740\u300D\u4E2D\u7684 XML\uFF0C\u4E26\u5C07\u8A72\u7DB2\u5740\u8907\u88FD\u5230\u526A\u8CBC\u7C3F\u3002\u6CE8\u610F\uFF1A\u82E5\u60A8\u627E\u4E0D\u5230\u300C\u79C1\u4EBA\u7DB2\u5740\u300D\uFF0C\u5247\u5728\u540D\u7DB2\u7DB2\u57DF\u7BA1\u7406\u54E1\u9019\u4E00\u7D1A\u4E0A\uFF0C\u60A8\u5FC5\u9808\u8B8A\u66F4\u8A72\u65E5\u66C6\u7684\u5171\u4EAB\u8A2D\u5B9A"
+   },
+   "countryCode": {
+      "message": "TWN"
+   },
+   "createDeleteEvents": {
+      "message": "\u65BC\u6708\u6AA2\u8996\u578B\u614B\u4E2D\u5EFA\u7ACB\u6216\u522A\u9664\u4F5C\u7528\u4E2D"
+   },
+   "createEvent": {
+      "message": "\u5EFA\u7ACB\u4E8B\u4EF6"
+   },
+   "creditCardOrPaypal": {
+      "message": "\u60A8\u53EF\u4EE5\u4F7F\u7528\u4FE1\u7528\u5361\u6216 PayPal \u4F86\u652F\u4ED8"
+   },
+   "currencyCode": {
+      "message": "TWD"
+   },
+   "currencySymbol": {
+      "message": "NT$"
+   },
+   "currentPage": {
+      "message": "\u76EE\u524D\u9801"
+   },
+   "custom": {
+      "message": "\u81EA\u8A02"
+   },
+   "customizeCalendar": {
+      "message": "\u6539\u8B8A\u9AD8\u5EA6\u3001\u5BEC\u5EA6\u3001\u53EF\u8996\u65E5\u66C6\u3001\u8272\u5F69\u7B49"
+   },
+   "customizeCalendarTitle": {
+      "message": "\u60A8\u5FC5\u9808\u5728\u5F48\u51FA\u5F0F\u65E5\u66C6\u8996\u7A97\u4E2D\u6539\u8B8A\u6AA2\u8996\u578B\u614B\u70BA\u300C\u81EA\u8A02\u300D"
+   },
+   "customized": {
+      "message": "\u81EA\u8A02"
+   },
+   "d": {
+      "message": "d"
+   },
+   "dayAgo": {
+      "message": "$1 \u5929\u524D"
+   },
+   "daysAgo": {
+      "message": "\u5929\u524D"
+   },
+   "daysLeft": {
+      "message": "\u5C1A\u9918 $1 \u5929"
+   },
+   "delete": {
+      "message": "\u522A\u9664"
+   },
+   "deleteLink": {
+      "message": "\u522A\u9664"
+   },
+   "deleteLinkTitle": {
+      "message": "\u522A\u9664\u8A72\u90F5\u4EF6"
+   },
+   "developingMore": {
+      "message": "\u6211\u6B63\u5728\u8655\u7406\u4F60\u5011\u7684\u5EFA\u8B70..."
+   },
+   "ding": {
+      "message": "Ding"
+   },
+   "dismiss": {
+      "message": "\u89E3\u6563"
+   },
+   "dismissAll": {
+      "message": "\u53D6\u6D88\u5168\u90E8"
+   },
+   "display": {
+      "message": "\u986F\u793A"
+   },
+   "doNotShowNotificationsForAlldayEvents": {
+      "message": "\u4E0D\u986F\u793A\u5168\u5929\u4F5C\u7528\u4E2D\u7684\u901A\u77E5"
+   },
+   "doNotShowNotificationsForAlldayEventsTitle": {
+      "message": "\u4E0D\u986F\u793A\u5168\u5929\u4F5C\u7528\u4E2D\u7684\u901A\u77E5"
+   },
+   "doNotShowNotificationsWhenBrowserClosed": {
+      "message": "\u7576\u700F\u89BD\u5668\u8996\u7A97\u95DC\u9589\u6642\uFF0C\u4E0D\u986F\u793A\u901A\u77E5"
+   },
+   "doNotShowNotificationsWhenBrowserClosedTooltip": {
+      "message": "\u60A8\u7684 Chrome \u700F\u89BD\u5668\u5C07\u5728\u80CC\u666F\u57F7\u884C\uFF0C\u4E26\u65BC\u7CFB\u7D71\u5323\u986F\u793A\u5716\u793A\uFF0C\u4F46\u684C\u9762\u901A\u77E5\u5C07\u4E0D\u6703\u986F\u793A\uFF01"
+   },
+   "doNotShowPastNotifications": {
+      "message": "\u4E0D\u986F\u793A\u904E\u53BB\u4F5C\u7528\u4E2D\u7684\u901A\u77E5"
+   },
+   "doNotShowPastNotificationsTitle": {
+      "message": "\u4E0D\u986F\u793A\u60A8\u958B\u555F\u700F\u89BD\u5668\u524D\u767C\u751F\u7684\u4E8B\u4EF6\u901A\u77E5\u3002\u9069\u7528\u65BC\u7D93\u5E38\u66F4\u63DB\u96FB\u8166\u8005\u3002"
+   },
+   "donate": {
+      "message": "\u6350\u6B3E"
+   },
+   "donateButton": {
+      "message": "https://www.paypal.com/zh_TW/i/btn/btn_donate_SM.gif"
+   },
+   "donationRequired": {
+      "message": "\u9700\u8981\u6350\u6B3E"
+   },
+   "drawAttentionToBrowser": {
+      "message": "\u5728 Windows \u5DE5\u4F5C\u5217\u4E2D\u7684\u8996\u7A97\u9583\u720D\u6216 Mac \uFF08\u6E2C\u8A66\u7248\uFF09 \u4E0A\u5F48\u8DF3 Chrome \u5716\u793A"
+   },
+   "drawAttentionToBrowserTooltip": {
+      "message": "\u53EA\u6709\u7576\u7126\u9EDE\u4E0D\u5728\u700F\u89BD\u5668\u4E0A\u624D\u767C\u751F\u3002\u5982\u679C\u4F7F\u7528\u591A\u500B\u5DE5\u4F5C\u5340\u6642\u6709\u7528\uFF0C\u5728 Windows \u4E2D\uFF1A \u5728\u5DE5\u4F5C\u5217\u4E2D\u9583\u720D Chrome\u3002\u5728 Mac \u4E0A\uFF1A \u8DF3\u52D5\u5716\u793A"
+   },
+   "editEventDetails": {
+      "message": "\u7DE8\u8F2F\u4F5C\u7528\u4E2D\u8A73\u7D30\u8CC7\u8A0A"
+   },
+   "email": {
+      "message": "Email \u4F4D\u5740\uFF1A"
+   },
+   "emailFrom_NAME": {
+      "message": "\u4F86\u81EA$1\u7684\u4FE1\u7BB1"
+   },
+   "enableLanguageDetection": {
+      "message": "\u5075\u6E2C\u4FE1\u7BB1\u4E2D\u8A9E\u7CFB"
+   },
+   "enableLanguageDetectionToolTip": {
+      "message": "\u5728\u4FE1\u7BB1\u4E2D\u4F7F\u7528 detectlanguage.com \u670D\u52D9\u5075\u6E2C\u8AAA\u8A71\u7684\u8A9E\u7CFB\uFF01"
+   },
+   "enablePrivateAddressTitle": {
+      "message": "\u524D\u5F80\u63A7\u5236\u53F0\u4E2D\u7684\u300C\u5171\u4EAB\u6B64\u65E5\u66C6\u300D\uFF0C\u4E26\u9078\u53D6\u300C\u516C\u958B\u6B64\u65E5\u66C6\uFF0C\u4E14\u5168\u90E8\u4EBA\u80FD\u8B8A\u66F4\u6B64\u65E5\u66C6\u300D\u9078\u9805"
+   },
+   "enterATitle": {
+      "message": "\u60A8\u5FC5\u9808\u8F38\u5165\u6A19\u984C\uFF01"
+   },
+   "enterAnAmount": {
+      "message": "\u60A8\u5FC5\u9808\u8F38\u5165\u91D1\u984D\uFF01"
+   },
+   "errorAddingEvent": {
+      "message": "\u5EFA\u7ACB\u4E8B\u4EF6\u6642\u767C\u751F\u932F\u8AA4\uFF01\u53EF\u80FD\u672A\u9023\u4E0A\u7DB2\u969B\u7DB2\u8DEF\uFF01"
+   },
+   "errorGettingCalendar": {
+      "message": "\u53D6\u5F97\u65E5\u66C6\u6642\u767C\u751F\u554F\u984C\uFF0C\u8ACB\u6AA2\u67E5\u7DB2\u5740\u5F8C\u91CD\u8A66\u4E00\u6B21\uFF01\uFF08\u932F\u8AA4\uFF1A$1\uFF09"
+   },
+   "errorGettingCalendarUnauthorized": {
+      "message": "\u672A\u7D93\u6388\u6B0A\uFF01\u60A8\u5FC5\u9808\u5148\u958B\u65B0\u6A19\u7C64\u9801\u4E26\u767B\u5165\u60A8\u7684 Google \u5957\u7528\u670D\u52D9\u65E5\u66C6"
+   },
+   "eventAdded": {
+      "message": "\u4E8B\u4EF6\u5DF2\u65B0\u589E"
+   },
+   "eventCreated": {
+      "message": "\u5EFA\u7ACB\u4E8B\u4EF6"
+   },
+   "eventDeleted": {
+      "message": "\u4E8B\u4EF6\u5DF2\u522A\u9664"
+   },
+   "eventDescription": {
+      "message": "\u63CF\u8FF0"
+   },
+   "eventUpdated": {
+      "message": "\u60A8\u7684\u4E8B\u4EF6\u5DF2\u66F4\u65B0"
+   },
+   "eventsAndSnoozes": {
+      "message": "\u4E8B\u4EF6\u548C\u5EF6\u6642\u901A\u77E5"
+   },
+   "ex": {
+      "message": "\u4F8B\u5982"
+   },
+   "example": {
+      "message": "\u7BC4\u4F8B"
+   },
+   "excludeCalendar": {
+      "message": "\u6392\u9664\u65E5\u66C6"
+   },
+   "excludeCalendarFrom": {
+      "message": "\u6392\u9664\u7684\u65E5\u66C6"
+   },
+   "excludeCalendarFrom2": {
+      "message": "\u5F85\u8FA6\u4E8B\u9805\u548C\u65E5\u66C6\u6AA2\u8996"
+   },
+   "excludeCalendarFrom3": {
+      "message": "\u6309\u9215\u5716\u793A\u548C\u901A\u77E5"
+   },
+   "excludeCalendarFromTitle": {
+      "message": "\u6309\u4E0B\u300C\u6AA2\u8996\u300D\u5F9E\u65E5\u66C6/\u5F85\u8FA6\u4E8B\u9805\u6AA2\u8996\u4E2D\u96B1\u85CF\u7279\u5B9A\u65E5\u66C6\uFF0C\u6216\u9EDE\u9078\u300C\u52FE\u9078\u300D\u4EE5\u5F9E\u6309\u9215\u5716\u793A\u548C\u901A\u77E5\u4E2D\u96B1\u85CF\u7279\u5B9A\u65E5\u66C6\u4E2D\u7684\u4F5C\u7528\u4E2D"
+   },
+   "excludeCalendarsCheckboxChecking": {
+      "message": "\u8ACB\u9EDE\u9078\u6B64\u9078\u9805\u4E2D\u53F3\u908A\u7684\u9023\u7D50"
+   },
+   "excludeRecurringEventsButtonIcon": {
+      "message": "\u5F9E\u6309\u9215\u5716\u793A\u4E2D\u6392\u9664\u91CD\u8907\u4E8B\u4EF6"
+   },
+   "excludeRecurringEventsButtonIconTooltip": {
+      "message": "\u4EFB\u4F55\u4E8B\u4EF6\u8A2D\u5B9A\u70BA\u91CD\u8907\u5C07\u4E0D\u986F\u793A\u5728\u6309\u9215\u5716\u793A\uFF0C\u4F46\u60A8\u4ECD\u7136\u6703\u6536\u5230\u4ED6\u5011\u7684\u901A\u77E5"
+   },
+   "excluded": {
+      "message": "\u6392\u9664"
+   },
+   "extraFeatures": {
+      "message": "\u984D\u5916\u529F\u80FD"
+   },
+   "failureWithInAppPurchase": {
+      "message": "\u5DF2\u53D6\u6D88\u6216\u5931\u6557\u7684\u4EA4\u6613 \uFF01\u8A66\u8A66 PayPal \u4F86\u4EE3\u66FF\u5462\uFF1F"
+   },
+   "failureWithPayPalPurchase": {
+      "message": "\u5DF2\u53D6\u6D88\u6216\u5931\u6557\u7684\u4EA4\u6613 \uFF01\u8A66\u8A66 Google Checkout \u4F86\u4EE3\u66FF\u5462\uFF1F"
+   },
+   "fetchContactsEvery": {
+      "message": "\u8B80\u53D6\u6BCF\u500B\u806F\u7D61\u4EBA"
+   },
+   "fetchContactsIntervalToolTip": {
+      "message": "\u5982\u679C\u4F60\u6709\u5F88\u591A\u7684\u806F\u7D61\u4EBA\u6216\u7DE9\u6162\u7684\u7DB2\u8DEF\uFF0C\u8A2D\u5B9A\u70BA\u8F03\u9AD8\u7684\u6578\u503C"
+   },
+   "forProblemSolving": {
+      "message": "\u53EA\u6709\u89E3\u6C7A\u554F\u984C"
+   },
+   "forSuggestions": {
+      "message": "\u63D0\u51FA\u5EFA\u8B70\u6216\u9032\u4E00\u6B65\u77AD\u89E3"
+   },
+   "forever": {
+      "message": "\u6C38\u9060"
+   },
+   "fullLinkTitle": {
+      "message": "\u986F\u793A\u5168\u6587"
+   },
+   "general": {
+      "message": "\u4E00\u822C"
+   },
+   "googleAppsCalendars": {
+      "message": "Google \u5957\u7528\u670D\u52D9\u65E5\u66C6"
+   },
+   "googleAppsCalendarsForce": {
+      "message": "\u5F37\u8FEB Google \u591A\u91CD\u767B\u5165\u9810\u8A2D\u5230\u60A8\u7684 Google \u5957\u7528\u670D\u52D9\u65E5\u66C6"
+   },
+   "googleAppsCalendarsTitle": {
+      "message": "\u82E5\u60A8\u8981\u4F7F\u7528 Google \u5957\u7528\u670D\u52D9\u7684\u4F01\u696D\u6216\u6559\u80B2\u65E5\u66C6\uFF0C\u624D\u9700\u52FE\u9078\u6B64\u9078\u9805\u3002\u6CE8\u610F\uFF1A\u9019\u5C07\u95DC\u9589\u4E00\u822C Google \u65E5\u66C6\u7684\u6AA2\u67E5\u529F\u80FD\uFF01"
+   },
+   "googleAppsNote": {
+      "message": "\u9019\u5C07\u95DC\u9589\u4E00\u822C Google \u65E5\u66C6\u7684\u6AA2\u67E5\u529F\u80FD"
+   },
+   "grantAccessAgain": {
+      "message": "\u518D\u6B21\u6388\u4E88\u7684\u5B58\u53D6\u6388\u6B0A"
+   },
+   "grantAccessAgainToolTip": {
+      "message": "\u7576\u60A8\u6709\u591A\u500B\u767B\u5165\u5E33\u865F\u4E14\u60A8\u60F3\u8981\u6388\u6B0A\u6BCF\u500B\u7684\u7167\u7247\u6B0A\u9650"
+   },
+   "grantedTo": {
+      "message": "\u6388\u6B0A"
+   },
+   "green": {
+      "message": "\u7DA0\u8272"
+   },
+   "greenToolTip": {
+      "message": "\u6211\u7684\u56DE\u6536\u4E3B\u984C!"
+   },
+   "h": {
+      "message": "h"
+   },
+   "hearEmailMessage": {
+      "message": "\u807D\u53D6\u4FE1\u7BB1\u8A0A\u606F"
+   },
+   "hearEmailSubject": {
+      "message": "\u807D\u53D6\u4FE1\u7BB1\u4E3B\u65E8"
+   },
+   "helpMeTranslate": {
+      "message": "\u4F60\u80FD\u5E6B\u6211\u7FFB\u8B6F\u55CE\uFF1F$1 \u6B63\u78BA\u7684 \uFF01"
+   },
+   "helpMeTranslate2": {
+      "message": "\u4FE1\u7BB1\u901A\u77E5\u6211"
+   },
+   "helpSupport": {
+      "message": "\u652F\u63F4\u6B64\u64F4\u5145\u529F\u80FD\u7684\u4F5C\u8005\uFF01"
+   },
+   "hideUnreadCount": {
+      "message": "\u96B1\u85CF\u672A\u8B80\u7684\u90F5\u4EF6\u8A08\u6578"
+   },
+   "hideUnreadCountToolTip": {
+      "message": "\u5F9E\u700F\u89BD\u5668\u64CD\u4F5C\u5716\u793A\u96B1\u85CF\u672A\u8B80\u90F5\u4EF6\u7684\u8A08\u6578\u6578\u76EE"
+   },
+   "highlightCurrentDay": {
+      "message": "\u9EDE\u4EAE\u7576\u5929\u65E5\u671F"
+   },
+   "highlightCurrentDayTooltip": {
+      "message": "\u5728\u6708\u6AA2\u8996\u578B\u614B\u4E2D\u6296\u52D5\u7576\u5929\u65E5\u671F"
+   },
+   "highlightWeekends": {
+      "message": "\u52A0\u4EAE\u986F\u793A\u9031\u672B"
+   },
+   "highlightWeekendsTitle": {
+      "message": "\u9031\u672B\u5C07\u4EE5\u6DE1\u9670\u5F71\u6A19\u793A\uFF0C\u53EA\u6709\u5728\u4E00\u822C\u6708\u6AA2\u8996\u578B\u614B\u6709\u6548"
+   },
+   "hourAgo": {
+      "message": "$1 \u5C0F\u6642\u524D"
+   },
+   "hours": {
+      "message": "\u5C0F\u6642"
+   },
+   "hoursAgo": {
+      "message": "$1 \u5C0F\u6642\u524D"
+   },
+   "hoursLeft": {
+      "message": "\u5C1A\u9918 $1 \u5C0F\u6642"
+   },
+   "hoursRemaining": {
+      "message": "\u4EE5\u5269\u4E0B\u5C0F\u6642\u6578\u53D6\u4EE3\u4E8B\u4EF6\u6642\u9593\u986F\u793A"
+   },
+   "hoursRemainingTitle": {
+      "message": "\u82E5\u4F5C\u7528\u4E2D\u5C07\u65BC 24 \u5C0F\u6642\u4E4B\u5167\u958B\u59CB\uFF0C\u5247\u986F\u793A\u958B\u59CB\u524D\u5269\u4E0B\u7684\u5C0F\u6642\u6578\uFF0C\u4F8B\u5982\uFF1A4h"
+   },
+   "icon": {
+      "message": "\u5716\u793A"
+   },
+   "iconClassic": {
+      "message": "\u7D93\u5178\u5716\u793A"
+   },
+   "iconDefault": {
+      "message": "\u9810\u8A2D\u5716\u793A"
+   },
+   "iconDefault2WithDate": {
+      "message": "\u9810\u8A2D\u5716\u793A\u53CA\u7576\u5929\u65E5\u671F"
+   },
+   "iconMonochrome": {
+      "message": "\u55AE\u8272\u5716\u793A"
+   },
+   "iconNew": {
+      "message": "\u65B0\u7248\u5716\u793A"
+   },
+   "iconNew2": {
+      "message": "\u6697\u8272\u5716\u793A"
+   },
+   "iconNew2WithDate": {
+      "message": "\u6697\u8272\u5716\u793A\u53CA\u7576\u5929\u65E5\u671F"
+   },
+   "iconNewWithDate": {
+      "message": "\u65B0\u7248\u5716\u793A\u53CA\u7576\u5929\u65E5\u671F"
+   },
+   "iconTooltip": {
+      "message": "\u986F\u793A\u65BC\u5F48\u51FA\u5F0F\u6309\u9215\u4E0A\u7684\u5716\u793A"
+   },
+   "ignoreTheseAccounts": {
+      "message": "\u5FFD\u7565\u9019\u4E9B\u5E33\u6236"
+   },
+   "importantMail": {
+      "message": "\u91CD\u8981\u90F5\u4EF6"
+   },
+   "inVARhour": {
+      "message": "$1 \u5C0F\u6642\u5F8C"
+   },
+   "inVARhours": {
+      "message": "$1 \u5C0F\u6642\u5F8C"
+   },
+   "inVARminutes": {
+      "message": "$1 \u5206\u9418\u5F8C"
+   },
+   "inbox": {
+      "message": "\u6536\u4EF6\u5323"
+   },
+   "inboxFor": {
+      "message": "$1 \u7684\u6536\u4EF6\u5323"
+   },
+   "keepHoveringOverTheBluePlusOne": {
+      "message": "\u6301\u7E8C\u66AB\u7559\u65BC\u85CD\u8272 +1 \u4E0A\u76F4\u5230\u986F\u793A\u7D14\u6587\u5B57\uFF0C\u7136\u5F8C\u6309\u4E00\u4E0B\u5B83\u5206\u4EAB\u5230 Google+ \u4E0A"
+   },
+   "labels": {
+      "message": "\u6A19\u7C64"
+   },
+   "language": {
+      "message": "\u8A9E\u7CFB"
+   },
+   "languageName": {
+      "message": "\u7E41\u9AD4\u4E2D\u6587"
+   },
+   "languageToolTip": {
+      "message": "\u8B8A\u66F4\u7684\u986F\u793A\u548C\u8A9E\u97F3\u901A\u77E5\u8A9E\u7CFB\u3002\u8A3B\uFF1A \u60A8\u53EF\u80FD\u56E0\u70BA\u9019\u4E9B\u898F\u5247\u800C\u4E00\u6B21\u770B\u5230\u8A31\u591A\u8A9E\u8A00\uFF1A \u5B83\u6240\u986F\u793A\u4F60\u9078\u53D6\u7684\u8A9E\u7CFB\u6A94\u662F\u6211\u5DF2\u7FFB\u8B6F\u597D\u7684\uFF0C\u5982\u679C\u6709\u4E9B\u55AE\u5B57\u6211\u9084\u6C92\u6709\u7FFB\u8B6F\uFF0C\u5B83\u6703\u5728\u60A8\u7684\u700F\u89BD\u5668\u8A9E\u7CFB\u5C0B\u627E\u5B83\uFF0C\u5982\u679C\u6211\u9084\u6C92\u6709\u8F49\u63DB\u90A3\u4E9B\u8A9E\u7CFB\u6A94\u6848\u5B83\u6703\u4EE5\u82F1\u8A9E\u986F\u793A\u3002"
+   },
+   "largest": {
+      "message": "\u6700\u5927\u7684"
+   },
+   "licenseOnlyValidFor": {
+      "message": "\u6388\u6B0A\u53EA\u5C0D\u4F7F\u7528\u8005\u767B\u5165\u4ED6\u5011\u7684 Google \u5E33\u6236\u6709\u6548"
+   },
+   "listenToYourEmail": {
+      "message": "\u807D\u53D6\u60A8\u7684\u90F5\u4EF6"
+   },
+   "loading": {
+      "message": "\u8F09\u5165\u4E2D..."
+   },
+   "loadingSettings": {
+      "message": "\u8F09\u5165\u8A2D\u5B9A"
+   },
+   "logEventsAndSnoozes": {
+      "message": "\u65E5\u8A8C\u4E8B\u4EF6\u548C\u5EF6\u671F"
+   },
+   "longerSnoozeTimes": {
+      "message": "\u5EF6\u9577\u901A\u77E5\u6642\u9593\u66F4\u9577"
+   },
+   "m": {
+      "message": "m"
+   },
+   "mailtoLinks": {
+      "message": "\u4EE5 Gmail \u958B\u555F mailto \u9023\u7D50"
+   },
+   "mailtoLinksToolTip": {
+      "message": "\u6309\u4E00\u4E0B mailto \u9023\u7D50 \uFF08\u901A\u5E38\u662F\u4FE1\u7BB1\u9023\u7D50\uFF09 \u5C07 Gmail \u958B\u555F\u4EE3\u66FF\u60A8\u4E00\u822C\u7684\u90F5\u4EF6\u4F7F\u7528\u8005\u7AEF\u3002\u9700\u8981\u984D\u5916\u7684\u6B0A\u9650\u4F86\u5206\u6790\u60A8\u6240\u5B58\u53D6\u7684\u7DB2\u7AD9\u4E0A\u9019\u4E9B\u9023\u7D50\u3002"
+   },
+   "man": {
+      "message": "\u7537\u5B50"
+   },
+   "maxDaysAhead": {
+      "message": "\u5411\u524D\u770B\u5929\u6578"
+   },
+   "maxDaysAheadTitle": {
+      "message": "\u5728\u5716\u793A\u4E0A\u986F\u793A\u5012\u6578\u8A08\u6642\u7684\u6700\u5927\u5929\u6578"
+   },
+   "me": {
+      "message": "\u6211"
+   },
+   "meetMe": {
+      "message": "\u806F\u7E6B\u6211"
+   },
+   "meetMeTitle": {
+      "message": "\u5728\u8996\u8A0A\u4E2D\u770B\u5230\u6211 \uFF01"
+   },
+   "min": {
+      "message": "\u5206\u9418"
+   },
+   "minimumAmount": {
+      "message": "\u4F60\u81F3\u5C11\u9700\u6350 $1"
+   },
+   "minimumDonation": {
+      "message": "15"
+   },
+   "minimumDonationForGoogleCheckout": {
+      "message": "0.50"
+   },
+   "minimumDonationPaypalReduced": {
+      "message": "15"
+   },
+   "minutesAgo": {
+      "message": "$1 \u5206\u9418\u524D"
+   },
+   "minutesLeft": {
+      "message": "\u5C1A\u9918 $1 \u5206\u9418"
+   },
+   "missingOptions": {
+      "message": "\u662F\u5426\u7F3A\u5C11\u60A8\u60F3\u8981\u7684\u9078\u9805\uFF1F\u7FFB\u8B6F\u662F\u5426\u4E0D\u5B8C\u5584\uFF1F\u8ACB\u6D3D\u8A62\u6211"
+   },
+   "missingOptions2": {
+      "message": "\u63D0\u51FA\u5EFA\u8B70\uFF01"
+   },
+   "monitorThisLabel": {
+      "message": "\u76E3\u8996\u9019\u4E9B\u6A19\u7C64"
+   },
+   "monitorThisLabelToolTip": {
+      "message": "\u6C7A\u5B9A\u54EA\u4E9B\u6A19\u7C64\u6703\u88AB\u64F4\u5145\u529F\u80FD\u6AA2\u5BDF\u65B0\u90F5\u4EF6"
+   },
+   "month": {
+      "message": "\u6708"
+   },
+   "monthsArray": {
+      "message": "\u4E00\u6708,\u4E8C\u6708,\u4E09\u6708,\u56DB\u6708,\u4E94\u6708,\u516D\u6708,\u4E03\u6708,\u516B\u6708,\u4E5D\u6708,\u5341\u6708,\u5341\u4E00\u6708,\u5341\u4E8C\u6708"
+   },
+   "more": {
+      "message": "\u66F4\u591A"
+   },
+   "moreInfo": {
+      "message": "\u66F4\u591A\u8A0A\u606F"
+   },
+   "multipleSelectionMac": {
+      "message": "\u6309\u4F4F\u547D\u4EE4\u6309\u9215\u4EE5\u9078\u53D6\u591A\u500B\u9078\u9805"
+   },
+   "multipleSelectionWindows": {
+      "message": "\u6309\u4F4F ctrl \u6309\u9215\u4EE5\u9078\u53D6\u591A\u500B\u9078\u9805\u3002"
+   },
+   "multipleUserLicense": {
+      "message": "\u70BA\u60A8\u7684\u7D44\u7E54\u53D6\u5F97\u591A\u91CD\u4F7F\u7528\u8005\u6388\u6B0A"
+   },
+   "mustAddCalendar": {
+      "message": "\u82E5\u60A8\u4F7F\u7528 Google \u5957\u7528\u670D\u52D9\uFF0C\u60A8\u5FC5\u9808\u5148\u589E\u52A0\u4E00\u500B\u65E5\u66C6\uFF01"
+   },
+   "mustClickShareLinks": {
+      "message": "\u4E00\u6B21\u4F7F\u7528\u5F48\u51FA\u5F0F\u65E5\u66C6\u4E0B\u9762\u7684\u4EFB\u4F55\u5171\u4EAB\u9023\u7D50\uFF0C\u7136\u5F8C\u60A8\u53EF\u4EE5\u5C07\u5B83\u5011\u522A\u9664\u5168\u90E8\u5728\u9019\u88E1 \uFF01"
+   },
+   "mustSignInToPay": {
+      "message": "\u4F60\u5FC5\u9808\u767B\u5165\u5230\u4F60\u7684 Gmail\uFF0C\u7B49\u5F85\u8F09\u5165\u6B64\u64F4\u5145\u529F\u80FD\uFF01"
+   },
+   "myPreference": {
+      "message": "\u6211\u7684\u504F\u597D"
+   },
+   "needHelp": {
+      "message": "\u9700\u8981\u8AAA\u660E\uFF1F"
+   },
+   "never": {
+      "message": "\u5F9E\u4E0D"
+   },
+   "newFeature": {
+      "message": "\u65B0\u529F\u80FD\uFF01"
+   },
+   "next": {
+      "message": "\u4E0B\u4E00\u5C01"
+   },
+   "noDetails": {
+      "message": "\u6C92\u6709\u8A73\u7D30\u8CC7\u8A0A"
+   },
+   "noPermissionOnEvent": {
+      "message": "\u79FB\u52D5\u6B64\u4E8B\u4EF6\u767C\u751F\u554F\u984C\uFF0C\u60A8\u53EF\u80FD\u6C92\u6709\u6B0A\u9650 \uFF01"
+   },
+   "noUnreadText": {
+      "message": "\u7121\u672A\u8B80\u53D6\u90F5\u4EF6"
+   },
+   "notLoggedIn": {
+      "message": "\u5C1A\u672A\u767B\u5165"
+   },
+   "notSignedIn": {
+      "message": "\u672A\u767B\u5165"
+   },
+   "notTaxExempt": {
+      "message": "\u6211\u4E0D\u662F\u514D\u7A05\u7FA4\u7D44\u7E54"
+   },
+   "notWorking": {
+      "message": "\u7121\u52D5\u4F5C\u55CE\uFF1F"
+   },
+   "notificationFontSize": {
+      "message": "\u684C\u9762\u901A\u77E5\u6587\u5B57\u5927\u5C0F"
+   },
+   "notificationFontSizeTooltip": {
+      "message": "\u8A2D\u5B9A\u5F48\u51FA\u5F0F\u684C\u9762\u901A\u77E5\u7684\u6A19\u984C\u6587\u5B57\u5927\u5C0F"
+   },
+   "notificationSound": {
+      "message": "\u901A\u77E5\u97F3\u6548"
+   },
+   "notificationSoundTitle": {
+      "message": "\u986F\u793A\u684C\u9762\u901A\u77E5\u6642\u64AD\u653E\u97F3\u6548"
+   },
+   "notificationTextToSpeech": {
+      "message": "\u8A9E\u97F3\u901A\u77E5"
+   },
+   "notificationTextToSpeechTitle": {
+      "message": "\u60A8\u7684\u4E8B\u4EF6\u6A19\u984C\u5C07\u8F49\u70BA\u8A9E\u97F3\u5927\u8072\u64AD\u653E\uFF0C\u82E5\u60A8\u7684\u96FB\u8166\u5728\u9694\u58C1\u623F\u9593\u7684\u8A71\u5341\u5206\u6709\u7528\uFF01"
+   },
+   "notificationZoom": {
+      "message": "\u901A\u77E5\u8996\u7A97\u7E2E\u653E"
+   },
+   "notificationZoomTooltip": {
+      "message": "\u4F7F\u7528\u6B64\u7E2E\u5C0F\u901A\u77E5\u8996\u7A97\u4E2D\u5168\u90E8\u7D14\u6587\u5B57 \uFF08\u5C0D\u65BC\u90A3\u4E9B\u9AD8 DPI \u7E2E\u653E\u6BD4\u4F8B\u5F88\u6709\u7528\uFF09"
+   },
+   "notifications": {
+      "message": "\u901A\u77E5"
+   },
+   "of": {
+      "message": "\u7684"
+   },
+   "offlineMode": {
+      "message": "\u96E2\u7DDA\u578B\u614B"
+   },
+   "offlineModeTitle": {
+      "message": "\u672A\u9023\u4E0A\u7DB2\u969B\u7DB2\u8DEF\u6642\u4ECD\u53EF\u5F97\u5230\u4F5C\u7528\u4E2D\u901A\u77E5\u3002\u8B66\u544A\uFF1A\u60A8\u7684\u4F5C\u7528\u4E2D\u5C07\u5132\u5B58\u65BC\u9019\u53F0\u96FB\u8166\u4E0A\uFF01"
+   },
+   "omniboxDefault": {
+      "message": "\uFF1A20 \u5206\u9418\u5F8C\u53BB\u770B\u8DB3\u7403\u8CFD"
+   },
+   "omniboxDefaultTom": {
+      "message": "8 \u4E0A\u5348\u9192\u4F86"
+   },
+   "oneUnreadText": {
+      "message": "\u5C01\u65B0\u90F5\u4EF6\u3002"
+   },
+   "onlyPopupsForOwner": {
+      "message": "\u53EA\u986F\u793A\u6211\u7684\u65E5\u66C6\u901A\u77E5"
+   },
+   "onlyPopupsForOwnerTooltip": {
+      "message": "\u53EA\u6709\u986F\u793A\u4F60\u7684\u65E5\u66C6\u901A\u77E5\u3002\u9019\u5167\u542B\u5168\u90E8\u986F\u793A\u5728\u300C\u6211\u7684\u65E5\u66C6\u300D\u6E05\u55AE\u4E2D\u7684\u65E5\u66C6\uFF0C\u800C\u975E\u5206\u4EAB\u6216\u986F\u793A\u5728\u300C\u5176\u5B83\u65E5\u66C6\u300D\u6E05\u55AE\u4E2D\u8005"
+   },
+   "onlyRemoveAfterDonation": {
+      "message": "\u60A8\u53EA\u6709\u5728\u6350\u6B3E\u5F8C\u624D\u80FD\u522A\u9664\u6350\u6B3E\u9023\u7D50\uFF01"
+   },
+   "open": {
+      "message": "\u958B\u555F"
+   },
+   "openCalendar": {
+      "message": "\u958B\u555F\u65E5\u66C6"
+   },
+   "openComposeInTab": {
+      "message": "\u958B\u555F\u64B0\u5BEB\u65B0\u90F5\u4EF6\u65BC\u5206\u9801\u4E2D"
+   },
+   "openComposeInTabToolTip": {
+      "message": "\u958B\u555F\u64B0\u5BEB\u65B0\u90F5\u4EF6\u65BC\u5206\u9801\u4E2D\uFF0C\u800C\u4E0D\u662F\u4E00\u500B\u5C0F\u7684\u5FEB\u986F\u8996\u7A97\u4E2D\u958B\u555F\uFF08\u9069\u7528\u65BC mailto \u9023\u7D50\uFF09"
+   },
+   "openGmailTab": {
+      "message": "\u958B\u555F Gmail \u5206\u9801"
+   },
+   "openGmailTabToolTip": {
+      "message": "\u505C\u7528\u9810\u89BD\u5FEB\u986F\u8996\u7A97 \uFF08\u4E0D\u63A8\u85A6\uFF09\uFF0C\u4E26\u4EE5\u5206\u9801\u4E2D\u7B2C\u4E00\u500B Gmail \u5E33\u6236\u958B\u555F\u6216\u9078\u53D6\u672A\u8B80\u53D6 \u90F5\u4EF6"
+   },
+   "openLinkTitle": {
+      "message": "\u5728\u7DB2\u9801\u4E2D\u958B\u555F"
+   },
+   "openPopupPreview": {
+      "message": "\u958B\u555F\u5FEB\u986F\u8996\u7A97\u9810\u89BD"
+   },
+   "openPopupPreviewIfUnread": {
+      "message": "\u958B\u555F\u5FEB\u986F\u8996\u7A97\u9810\u89BD \uFF08\u5982\u679C\u6709\u672A\u8B80\u53D6\u7684\u90F5\u4EF6\uFF09"
+   },
+   "openPopupPreviewIfUnreadToolTip": {
+      "message": "\u7576\u6709\u672A\u8B80\u53D6\u7684\u90F5\u4EF6\u6642\uFF0C\u53EA\u986F\u793A\u9810\u89BD\u8996\u7A97"
+   },
+   "openPopupPreviewToolTip": {
+      "message": "\u7E3D\u662F\u986F\u793A\u9810\u89BD\u8996\u7A97"
+   },
+   "openReply": {
+      "message": "\u958B\u555F (\u56DE\u8986)"
+   },
+   "openThisLabel": {
+      "message": "\u958B\u555F\u6B64\u6A19\u7C64"
+   },
+   "openThisLabelToolTip": {
+      "message": "\u6C7A\u5B9A\u4F7F\u7528\u8005\u6309\u4E0B\u6536\u4EF6\u5323\u6A19\u7C64\u6216\u64F4\u5145\u529F\u80FD\u5716\u793A\u6642\u5C07\u88AB\u8F49\u5411"
+   },
+   "option": {
+      "message": "\u9078\u9805"
+   },
+   "optionToCustomizeWith": {
+      "message": "\u4F7F\u7528"
+   },
+   "options": {
+      "message": "\u9078\u9805"
+   },
+   "or": {
+      "message": "\u6216"
+   },
+   "orPayUsing_": {
+      "message": "\u6216\u662F\uFF0C\u60A8\u53EF\u4EE5\u4F7F\u7528\u652F\u4ED8"
+   },
+   "original": {
+      "message": "\u539F\u59CB"
+   },
+   "paragraph": {
+      "message": "\u6BB5\u843D"
+   },
+   "password": {
+      "message": "\u5BC6\u78BC\uFF1A"
+   },
+   "pastDays": {
+      "message": "\u904E\u53BB\u7684\u65E5\u5B50\u4EE5\u7070\u8272\u8868\u793A"
+   },
+   "pastDaysTitle": {
+      "message": "\u5C07\u65E5\u66C6\u4E2D\u5DF2\u904E\u53BB\u7684\u65E5\u5B50\u4EE5\u7070\u8272\u986F\u793A\uFF0C\u53EA\u6709\u5728\u4E00\u822C\u6708\u6AA2\u8996\u578B\u614B\u6709\u6548"
+   },
+   "pasteHTML": {
+      "message": "\u4E26\u8CBC\u4E0A\u4E0A\u4EE5\u4E0B\u7684 HTML \u539F\u59CB\u78BC"
+   },
+   "pastePrivateAddress": {
+      "message": "\u5728\u6B64\u8655\u8CBC\u4E0A\u65E5\u66C6\u7684\u79C1\u4EBA\u7DB2\u5740\uFF08XML\uFF09"
+   },
+   "pitch": {
+      "message": "\u97F3\u8ABF"
+   },
+   "pollNow": {
+      "message": "\u7ACB\u5373\u8F2A\u8A62"
+   },
+   "pollingAccounts": {
+      "message": "\u8F2A\u8A62\u5E33\u865F"
+   },
+   "pollingInterval": {
+      "message": "\u8F2A\u8A62\u983B\u7387"
+   },
+   "pollingIntervalTooltip": {
+      "message": "\u7372\u53D6\u96FB\u5B50\u90F5\u4EF6\u7684\u6642\u9593\u9593\u9694"
+   },
+   "popupGoogleCalendarWebsite": {
+      "message": "\u6309\u4E0B\u6309\u9215\u6642\u76F4\u63A5\u958B\u555F Google \u65E5\u66C6\u7DB2\u7AD9\u800C\u4E0D\u5F48\u51FA"
+   },
+   "popupGoogleCalendarWebsiteHelpTitle": {
+      "message": "\u7576\u9EDE\u9078\u6309\u9215\u5716\u793A\u6642\u958B\u555F Google \u65E5\u66C6\u7DB2\u7AD9\uFF0C\u800C\u975E\u5FEB\u986F\u8996\u7A97\u3002\uFF08\u6309\u8457 Ctrl \u4E26\u9EDE\u9078\u5716\u793A\u6709\u76F8\u540C\u529F\u80FD\uFF09"
+   },
+   "popupText": {
+      "message": "\u60A8\u6709\u65B0\u90F5\u4EF6 !"
+   },
+   "poweredByGoogle": {
+      "message": "\u57FA\u65BCGoogle\u5E73\u53F0"
+   },
+   "previewingMarksAsRead": {
+      "message": "\u9810\u89BD\u90F5\u4EF6\u6642\u6A19\u793A\u70BA\u5DF2\u8B80\u53D6"
+   },
+   "previewingMarksAsReadToolTip": {
+      "message": "\u5728\u5FEB\u986F\u8996\u7A97\u4E2D\u9810\u89BD\u90F5\u4EF6\u6642\uFF0C\u5C07\u5176\u6A19\u793A\u70BA\u5DF2\u8B80\u53D6\u3002"
+   },
+   "previous": {
+      "message": "\u4E0A\u4E00\u9801"
+   },
+   "priorityInbox": {
+      "message": "\u512A\u5148\u7684\u6536\u4EF6\u5323"
+   },
+   "problemCommunicatingTryAgain": {
+      "message": "\u932F\u8AA4\uFF1A$1 \u8207 $2 \u9023\u7DDA\u6642\u767C\u751F\u554F\u984C\uFF0C\u8ACB\u91CD\u8A66\u4E00\u6B21\uFF01"
+   },
+   "problemSigningIn": {
+      "message": "\u767B\u5165\u6642\u767C\u751F\u932F\u8AA4\uFF01\u53EF\u80FD\u672A\u9023\u4E0A\u7DB2\u969B\u7DB2\u8DEF\uFF01"
+   },
+   "processing": {
+      "message": "\u8655\u7406"
+   },
+   "quickAdd": {
+      "message": "\u5FEB\u901F\u52A0\u5165\uFF1A"
+   },
+   "quickAddDefaultText": {
+      "message": "\u4F8B\u5982\uFF1A\u665A\u4E0A 7 \u9EDE\u5728\u9B91\u52C3\u9910\u9928\u5403\u98EF"
+   },
+   "quickAddTitle": {
+      "message": "\u4F8B\u5982\uFF1A20 \u5206\u9418\u5F8C\u53BB\u770B\u8DB3\u7403\u8CFD"
+   },
+   "rate": {
+      "message": "\u983B\u7387"
+   },
+   "rateTitle": {
+      "message": "\u8B1B\u8A71\u901F\u5EA6\uFF1A \u6BCF\u5206\u9418\u5E7E\u500B\u5B57"
+   },
+   "readLink": {
+      "message": "\u5DF2\u8B80\u53D6"
+   },
+   "readLinkTitle": {
+      "message": "\u6A19\u793A\u70BA\u5DF2\u8B80\u53D6"
+   },
+   "readLinkTitleShort": {
+      "message": ""
+   },
+   "recentlyAddedEvent": {
+      "message": "\u51FA\u73FE\u554F\u984C \uFF01\u5982\u679C\u60A8\u6700\u8FD1\u65B0\u589E\u6B64\u4E8B\u4EF6\u900F\u904E\u7DB2\u9801\u7136\u5F8C\u6309\u4E00\u4E0B\u6E05\u7406\u5716\u793A\u5426\u5247\u8ACB\u4F7F\u7528\u8C37\u6B4C\u65E5\u66C6\u7DB2\u9801 \uFF01"
+   },
+   "referToAlreadyDonated": {
+      "message": "\u8ACB\u53C3\u95B1 $1"
+   },
+   "referToAlreadyDonated2": {
+      "message": "\u5DF2\u7D93\u6350\u6B3E"
+   },
+   "refresh": {
+      "message": "\u66F4\u65B0"
+   },
+   "refreshLinkTitle": {
+      "message": "\u6E05\u7406\u4FE1\u7BB1"
+   },
+   "rememberQuickAdd": {
+      "message": "\u8A18\u4F4F\u300C\u5FEB\u901F\u65B0\u589E\u300D\u767B\u5165"
+   },
+   "rememberQuickAddTitle": {
+      "message": "\u6CE8\u610F\uFF1A\u9019\u53EA\u6703\u5132\u5B58 Google \u5BC6\u9470\uFF0C\u800C\u975E\u60A8\u7684\u5E33\u865F\u5BC6\u78BC"
+   },
+   "remindersBeforeEvent": {
+      "message": "\u53EA\u6709\u986F\u793A\u6709\u8A2D\u5B9A"
+   },
+   "remindersBeforeEventHelpTitle": {
+      "message": "\u60A8\u53EF\u4EE5\u5F9E Google \u65E5\u66C6\u5DE6\u5074\u7684\u65E5\u66C6\u6E05\u55AE\u4E2D\uFF0C\u9EDE\u9078\u60A8\u60F3\u8981\u4F7F\u7528\u65E5\u66C6\u53F3\u5074\u7684\u5411\u4E0B\u7BAD\u982D\uFF0C\u7136\u5F8C\u9078\u53D6\u300C\u901A\u77E5\u300D\u3002\u5728\u300C\u4F5C\u7528\u4E2D\u63D0\u793A\u300D\u4E2D\u5EFA\u7ACB\u300C\u5F48\u51FA\u5F0F\u8996\u7A97\u300D\u5F0F\u4F5C\u7528\u4E2D\uFF0C\u4E26\u8A2D\u5B9A\u63D0\u793A\u7684\u6642\u9593\u3002\u6CE8\u610F\uFF1A\u60A8\u5728\u65B0\u589E\u6216\u7DE8\u8F2F\u500B\u5225\u4F5C\u7528\u4E2D\u7684\u4F5C\u7528\u4E2D\u63D0\u793A\u6642\uFF0C\u5176\u8A2D\u5B9A\u5C07\u512A\u5148\u65BC\u65E5\u66C6\u8A2D\u5B9A\u3002"
+   },
+   "remindersBeforeEventPopupReminder": {
+      "message": "\u300C\u5F48\u51FA\u5F0F\u8996\u7A97\u300D\u63D0\u793A\u7684\u4F5C\u7528\u4E2D"
+   },
+   "remove": {
+      "message": "\u522A\u9664"
+   },
+   "removeDonationLink": {
+      "message": "\u522A\u9664\u6350\u6B3E\u9023\u7D50"
+   },
+   "removeDonationLinkTitle": {
+      "message": "\u6B64\u9078\u9805\u5C07\u522A\u9664\u65E5\u66C6\u4E0B\u65B9\u7684\u6350\u6B3E\u9023\u7DDA"
+   },
+   "removeQuickAdd": {
+      "message": "\u522A\u9664\u300C\u5FEB\u901F\u65B0\u589E\u300D"
+   },
+   "removeQuickAddTitle": {
+      "message": "\u96B1\u85CF\u300C\u5FEB\u901F\u65B0\u589E\u300D\u529F\u80FD"
+   },
+   "removeShareLinks": {
+      "message": "\u522A\u9664Facebook,Twitter\u5206\u4EAB\u9023\u7D50"
+   },
+   "removeShareLinksTooltip": {
+      "message": "\u522A\u9664 Facebook\u3001 Twitter \u7B49\u5F48\u51FA\u5F0F\u65E5\u66C6\u4E0B\u9762\u7684\u9023\u7D50"
+   },
+   "removeTitle": {
+      "message": "\u522A\u9664\u65E5\u66C6"
+   },
+   "repeatSound": {
+      "message": "\u91CD\u8907\u901A\u77E5\u97F3\u6548"
+   },
+   "repeatSound2": {
+      "message": "\u505C\u6B62\u5F8C"
+   },
+   "repeatSound3": {
+      "message": "\u6B21"
+   },
+   "repeatSoundTooltip": {
+      "message": "\u5982\u679C\u901A\u77E5\u5FEB\u986F\u8996\u7A97\u4ECD\u7136\u9084\u4FDD\u6301\uFF0C\u91CD\u8907\u901A\u77E5\u6216\u97F3\u6548"
+   },
+   "reply": {
+      "message": "\u56DE\u8986"
+   },
+   "replyLinkTitle": {
+      "message": "\u56DE\u8986"
+   },
+   "replyingMarksAsRead": {
+      "message": "\u56DE\u8986\u6A19\u793A\u70BA\u5DF2\u8B80\u53D6"
+   },
+   "replyingMarksAsReadToolTip": {
+      "message": "\u6309\u4E00\u4E0B\u56DE\u8986\u6309\u9215\u6703\u5C07\u6A19\u793A\u90F5\u4EF6\u70BA\u5DF2\u8B80\u53D6"
+   },
+   "reschedule": {
+      "message": "\u91CD\u65B0\u5B89\u6392"
+   },
+   "runInBackground": {
+      "message": "Google \u700F\u89BD\u5668\u95DC\u9589\u6642\u5728\u80CC\u666F\u57F7\u884C"
+   },
+   "runInBackgroundToolTip": {
+      "message": "\u60A8\u7684\u700F\u89BD\u5668\u95DC\u9589\u6642\u7E7C\u7E8C\u63A5\u6536\u65B0\u7684\u4FE1\u7BB1\u901A\u77E5\uFF01\u6211\u63A8\u85A6\u9032\u968E\u4F7F\u7528\u8005\u4F7F\u7528\u672C\u529F\u80FD\u3002"
+   },
+   "runInBackgroundWarning1": {
+      "message": "\u8ACB\u4ED4\u7D30\u95B1\u8B80 $1"
+   },
+   "runInBackgroundWarning1b": {
+      "message": "\u80CC\u666F\u7A0B\u5F0F"
+   },
+   "runInBackgroundWarning2": {
+      "message": "\u5982\u679C\u60A8\u505C\u7528 Chrome \u80CC\u666F\u7A0B\u5F0F\u4F60\u53EF\u4EE5\u85C9\u7531\u8B80\u53D6 $1 \u91CD\u65B0\u555F\u7528\u4ED6\u5011"
+   },
+   "runInBackgroundWarning2b": {
+      "message": "\u6700\u5F8C\u53EF\u9EDE\u64CA\u5340\u6BB5"
+   },
+   "runInBackgroundWarning3": {
+      "message": "\u60A8\u53EF\u80FD\u5FC5\u9808\u5F9E Gmail \u7684\u767B\u5165\u9801\u4F7F\u7528 $1 "
+   },
+   "runInBackgroundWarning3b": {
+      "message": "\u4FDD\u6301\u767B\u5165\u72C0\u614B"
+   },
+   "save": {
+      "message": "\u5132\u5B58"
+   },
+   "saveSettings": {
+      "message": "\u5132\u5B58\u8A2D\u5B9A"
+   },
+   "saved": {
+      "message": "\u5DF2\u5132\u5B58\uFF01"
+   },
+   "saving": {
+      "message": "\u5132\u5B58\u4E2D..."
+   },
+   "securely": {
+      "message": "\u5B89\u5168\u5730"
+   },
+   "seeVideo": {
+      "message": "\u89C0\u8CDE\u5F71\u7247"
+   },
+   "selectACalendar": {
+      "message": "\u9078\u53D6\u65E5\u66C6"
+   },
+   "selectCalendar": {
+      "message": "\u60A8\u5FC5\u9808\u5148\u9078\u53D6\u4E00\u500B\u65E5\u66C6\uFF01"
+   },
+   "selectQuickActionButtons": {
+      "message": "\u986F\u793A/\u96B1\u85CF\u6309\u9215\u5FEB\u986F\u9078\u55AE\u548C\u9032\u968E\u7684\u901A\u77E5\u8996\u7A97"
+   },
+   "selectQuickActionButtonsToolTip": {
+      "message": "\u6CE8\u610F\uFF1A\u9019\u4E0D\u6703\u96B1\u85CF\u7684\u5B8C\u6574\u7684\u4FE1\u7BB1\u6AA2\u8996\u4E2D\u7684\u6309\u9215 \uFF01"
+   },
+   "sendPageLinkTitle": {
+      "message": "\u767C\u9001\u9801\u9762\u9023\u7D50"
+   },
+   "setDateTime": {
+      "message": "\u8A2D\u5B9A\u65E5\u671F/\u6642\u9593"
+   },
+   "severalUnreadText": {
+      "message": "\u5C01\u90F5\u4EF6"
+   },
+   "share": {
+      "message": "\u5171\u4EAB"
+   },
+   "showAgendaOptions": {
+      "message": "\u5728\u5F85\u8FA6\u4E8B\u9805\u6AA2\u8996\u578B\u614B\u4E2D\u986F\u793A\u9078\u9805\u9023\u7D50"
+   },
+   "showAgendaOptionsTitle": {
+      "message": "\u5728\u5F85\u8FA6\u4E8B\u9805\u6AA2\u8996\u578B\u614B\u4E2D\u986F\u793A\u9078\u9805\u9023\u7D50"
+   },
+   "showButtonTooltip": {
+      "message": "\u7576\u66AB\u7559\u6309\u9215\u5716\u793A\u6642\u986F\u793A\u5DE5\u5177\u63D0\u793A"
+   },
+   "showButtonTooltipTooltip": {
+      "message": "\u7576\u66AB\u7559\u6309\u9215\u5716\u793A\u6642\u986F\u793A\u4E0B\u4E00\u500B\u4E8B\u4EF6"
+   },
+   "showConsoleMessages": {
+      "message": "\u5728 Javascript \u63A7\u5236\u53F0\u8A18\u9304\u65E5\u8A8C\u8A0A\u606F\uFF08\u53EA\u6709\u6E2C\u8A66\uFF09"
+   },
+   "showConsoleMessagesTitle": {
+      "message": "\u53EA\u6709\u7528\u65BC\u6E2C\u8A66\u578B\u614B\uFF0C\u53EF\u80FD\u7A0D\u5FAE\u6E1B\u7DE9\u6B64\u64F4\u5145\u529F\u80FD\u7684\u901F\u5EA6\uFF01"
+   },
+   "showContactPhoto": {
+      "message": "\u986F\u793A\u4FE1\u7BB1\u806F\u7D61\u4EBA\u7684\u7167\u7247"
+   },
+   "showContactPhotoToolTip": {
+      "message": "\u5982\u679C\u60A8\u7684\u806F\u7D61\u4EBA\u6709\u7167\u7247\u5C07\u6703\u986F\u793A\u5B83\uFF0C\u6216\u60A8\u66FF\u4ED6\u5011\u5728\u60A8\u7684 Google \u806F\u7D61\u4EBA\u65B0\u589E\u60A8\u81EA\u5DF1\u7684\u7167\u7247\u6216\u53EA\u6D6E\u73FE\u4ED6\u5011\u5728 Gmail \u7A7A\u767D\u7167\u7247\u4EE5\u65B0\u589E\u5716\u7247\u3002\u5982\u679C\u6C92\u6709\u627E\u5230\u7167\u7247\u5C07\u4F7F\u7528\u9810\u8A2D\u6A19\u8A8C\u3002\u53D6\u5F97\u60A8\u806F\u7D61\u4EBA\u7684\u7167\u7247\u9700\u8981\u6B0A\u9650\u3002"
+   },
+   "showContextMenuItem": {
+      "message": "\u53F3\u9375\u6309\u4E00\u4E0B\u6642\u986F\u793A\u53F3\u9375\u9078\u55AE\u9805\u76EE"
+   },
+   "showContextMenuItemTooltip": {
+      "message": "\u7576\u60A8\u53F3\u9375\u6309\u4E00\u4E0B\u4EFB\u4F55\u7DB2\u9801\u6216\u4FE1\u7BB1\u7DB2\u9801\u5FEB\u901F\u5C07\u5176\u65B0\u589E\u5230\u60A8\u7684\u65E5\u66C6\u4E2D\u65B0\u589E\u529F\u80FD\u8868\u5C08\u6848"
+   },
+   "showDataFeeds": {
+      "message": "\u986F\u793A\u65E5\u66C6\u8CC7\u6599\u994B\u9001"
+   },
+   "showDayOnBadge": {
+      "message": "\u6309\u9215\u5716\u793A\u4E0A\u986F\u793A\u76EE\u524D\u65E5\u671F\u7684\u4E00\u5468"
+   },
+   "showDayOnBadgeExceptWhenDaysLeft": {
+      "message": "\u4E0B\u4E00\u6B21\u7684\u4E8B\u4EF6\u662F\u5929\u7684\u8DDD\u96E2\u6642\u9664\u5916"
+   },
+   "showDayOnBadgeExceptWhenHoursLeft": {
+      "message": "\u4E0B\u4E00\u500B\u4E8B\u4EF6\u5C0F\u6642\u8DEF\u7A0B\u6642\u9664\u5916"
+   },
+   "showDayOnBadgeExceptWhenMinutesLeft": {
+      "message": "\u4E0B\u4E00\u500B\u4E8B\u4EF6\u5206\u9418\u7684\u8DEF\u7A0B\u6642\u9664\u5916"
+   },
+   "showDayOnBadgeTooltip": {
+      "message": "\u800C\u4E0D\u662F\u50CF '\u661F\u671F\u4E8C' \u5468\u7576\u5929\u4E0B\u4E00\u4E8B\u4EF6\u986F\u793A\u5012\u6578\u8A08\u6642\u7B49\u3002\u8A3B\uFF1A \u60A8\u4E5F\u53EF\u4EE5\u5217\u51FA\u4F8B\u5916 \uFF01"
+   },
+   "showDesktopNotifications": {
+      "message": "\u986F\u793A\u684C\u9762\u901A\u77E5"
+   },
+   "showDesktopNotificationsTitle": {
+      "message": "\u958B\u555F\u6B64\u958B\u95DC\u4F7F\u5728\u60A8\u65E5\u66C6\u4E2D\u6709\u4E8B\u4EF6\u767C\u751F\u6642\u80FD\u986F\u793A\u684C\u9762\u901A\u77E5"
+   },
+   "showDetails": {
+      "message": "\u986F\u793A\u8A73\u7D30\u8CC7\u8A0A"
+   },
+   "showEmailAccount": {
+      "message": "\u7E3D\u662F\u986F\u793A\u6536\u4EF6\u5323\u4E2D\u7684\u4FE1\u7BB1\u5E33\u865F"
+   },
+   "showEmailAccountToolTip": {
+      "message": "\u5982\u679C\u60A8\u6AA2\u67E5\u5169\u500B\u6216\u591A\u500B\u4EE5\u4E0A\u5E33\u865F\u5F88\u6709\u7528\u3002\u986F\u793A\u76EE\u524D\u4FE1\u7BB1\u5E33\u865F\u7684\u6536\u4EF6\u5323\u6536\u5230\u65B0\u7684\u672A\u8B80\u53D6\u4FE1\u4EF6\u901A\u77E5"
+   },
+   "showEventTimeOnBadge": {
+      "message": "\u65BC\u6309\u9215\u5716\u793A\u4E0A\u986F\u793A\u4F5C\u7528\u4E2D\u6642\u9593"
+   },
+   "showEventTimeOnBadgeTooltip": {
+      "message": "\u5728\u6309\u9215\u5716\u793A\u4E0A\u986F\u793A\u6642\u9593\u76F4\u5230\u986F\u793A\u4E0B\u500B\u4F5C\u7528\u4E2D\u7684\u958B\u59CB\u6642\u9593"
+   },
+   "showHeader": {
+      "message": "\u65BC\u5FEB\u986F\u8996\u7A97\u4E0A\u65B9\u986F\u793A\u984C\u982D"
+   },
+   "showHeaderTooltip": {
+      "message": "\u65BC\u5FEB\u986F\u8996\u7A97\u5DE6\u4E0A\u65B9\u986F\u793A\u300C\u5FEB\u901F\u65B0\u589E\u300D\u548C\u5176\u5B83\u6307\u4EE4"
+   },
+   "showIconAnimation": {
+      "message": "\u986F\u793A\u5716\u793A\u52D5\u756B"
+   },
+   "showIconAnimationToolTip": {
+      "message": "\u7576\u6709\u65B0\u90F5\u4EF6\u6642\u986F\u793A\u52D5\u756B\u6548\u679C\u5716\u793A"
+   },
+   "showLabelsTitle": {
+      "message": "\u986F\u793A\u6A19\u7C64"
+   },
+   "showLeftColumnWhenPreviewingEmail": {
+      "message": "\u9810\u89BD\u4FE1\u4EF6\u6642\u986F\u793A\u5DE6\u908A\u5074\u908A\u6B04\u5FEB\u986F\u8996\u7A97"
+   },
+   "showLeftColumnWhenPreviewingEmailToolTip": {
+      "message": "\u6CE8\u610F\uFF1A\u82E5\u4FE1\u4EF6\u592A\u5BEC\u53CA\u9700\u8981\u66F4\u591A\u7A7A\u9593\u6642\u6B64\u5074\u908A\u6B04\u5C07\u81EA\u52D5\u96B1\u85CF"
+   },
+   "showMinutesLeftInBadge": {
+      "message": "\u4EE5\u5269\u4E0B\u5206\u9418\u6578\u53D6\u4EE3\u4F5C\u7528\u4E2D\u6642\u9593\u986F\u793A"
+   },
+   "showMinutesLeftInBadgeTitle": {
+      "message": "\u82E5\u4E8B\u4EF6\u5373\u5C07\u958B\u59CB\uFF0C\u5247\u986F\u793A\u5269\u4E0B\u7684\u5206\u9418\u6578"
+   },
+   "showOpenCalendar": {
+      "message": "\u986F\u793A\u958B\u555F\u65E5\u66C6\u5716\u793A"
+   },
+   "showOpenCalendarTooltip": {
+      "message": "\u986F\u793A\u958B\u555F\u65E5\u66C6\u5716\u793A"
+   },
+   "showQuickAdd": {
+      "message": "\u986F\u793A\u300C\u5FEB\u901F\u65B0\u589E\u300D"
+   },
+   "showQuickAddTooltip": {
+      "message": "\u65BC\u5FEB\u986F\u8996\u7A97\u5DE6\u4E0A\u89D2\u986F\u793A\u5FEB\u901F\u65B0\u589E\u8F38\u5165\u6B04\u4F4D\u4F4D\u5143"
+   },
+   "showRefresh": {
+      "message": "\u986F\u793A\u6E05\u7406\u5716\u793A"
+   },
+   "showRefreshTooltip": {
+      "message": "\u986F\u793A\u6E05\u7406\u5716\u793A"
+   },
+   "showTimeSpecificEventsBeforeAllDay": {
+      "message": "\u524D\u4E00\u5929\u7684\u5168\u90E8\u4E8B\u4EF6\u7684\u6642\u9593\u986F\u793A\u7279\u5B9A\u4E8B\u4EF6"
+   },
+   "showTimeSpecificEventsBeforeAllDayTooltip": {
+      "message": "\u5982\u679C\u660E\u5929\u4F60\u6709 10 \u4E0A\u5348\u4E8B\u4EF6\u548C\u5168\u5929\u4E8B\u4EF6\uFF0C\u5B83\u5C07\u986F\u793A 10 \u4E0A\u5348 1 d \u800C\u4E0D\u662F"
+   },
+   "showViewDropDown": {
+      "message": "\u986F\u793A\u6AA2\u8996\u578B\u614B\u4E0B\u62C9\u9078\u9805"
+   },
+   "showViewDropDownTooltip": {
+      "message": "\u65BC\u5FEB\u986F\u8996\u7A97\u53F3\u4E0A\u89D2\u986F\u793A\u6AA2\u8996\u578B\u614B\u4E0B\u62C9\u9078\u9805\uFF08\u6CE8\u610F\uFF1A\u60A8\u5FC5\u9808\u986F\u793A\u6B64\u9078\u9805\u4EE5\u8B8A\u66F4\u6AA2\u8996\u578B\u614B\uFF0C\u4E4B\u5F8C\u53EF\u5C07\u5B83\u96B1\u85CF\uFF09"
+   },
+   "signIn": {
+      "message": "\u767B\u5165"
+   },
+   "signInAsUserOfOrg": {
+      "message": "\u4F60\u5FC5\u9808 $1 \u60A8\u7D44\u7E54\u7684\u4FE1\u7BB1"
+   },
+   "signInAsUserOfOrg2": {
+      "message": "\u767B\u51FA\u548C\u767B\u5165\u5230\u4F60\u7684 Gmail"
+   },
+   "signInToYourAccount": {
+      "message": "\u767B\u5165\u5230\u60A8\u7684\u5E33\u865F\uFF0C\u7136\u5F8C\u91CD\u65B0\u8F09\u5165\u6B64\u9801 \uFF01"
+   },
+   "smallest": {
+      "message": "\u6700\u5C0F\u7684"
+   },
+   "snooze": {
+      "message": "\u5EF6\u6642\u901A\u77E5"
+   },
+   "snoozeAll": {
+      "message": "\u5EF6\u6642\u5168\u90E8"
+   },
+   "somedayAt": {
+      "message": "$1 \u65BC"
+   },
+   "sound": {
+      "message": "\u97F3\u6548"
+   },
+   "spamLink": {
+      "message": "\u5783\u573E\u90F5\u4EF6"
+   },
+   "spamLinkTitle": {
+      "message": "\u6A19\u793A\u70BA\u5783\u573E\u90F5\u4EF6"
+   },
+   "speechEngine": {
+      "message": "\u8A9E\u97F3\u5F15\u64CE"
+   },
+   "spokenWordsLimit": {
+      "message": "\u9650\u5236\u53EF\u8AAA\u8A71\u5B57\u6578"
+   },
+   "spokenWordsLimitToolTip": {
+      "message": "\u900F\u904E\u6309\u4E00\u4E0B\u6309\u9215\u6216\u5C07\u6ED1\u9F20\u66AB\u7559\u5728\u901A\u77E5\u8996\u7A97\uFF0C\u60A8\u53EF\u4EE5\u96A8\u6642\u505C\u6B62\u8B1B\u8A71\u3002\u8A3B\uFF1A\u67D0\u4E9B\u8A9E\u97F3\u5F15\u64CE\u53EF\u589E\u52A0\u81EA\u5DF1\u53E3\u8A9E\u7684\u55AE\u5B57\u9650\u5236"
+   },
+   "ssl": {
+      "message": "\u7E3D\u662F\u4F7F\u7528 SSL"
+   },
+   "sslTitle": {
+      "message": "\u7E3D\u662F\u4F7F\u7528 SSL \u52A0\u5BC6\u4F86\u9023\u7D50 Google \u65E5\u66C6"
+   },
+   "standardNotification": {
+      "message": "\u6A19\u6E96\u901A\u77E5\u8996\u7A97"
+   },
+   "standardNotificationToolTip": {
+      "message": "\u4EE5\u57FA\u672C\u52D5\u4F5C\u6309\u9215\u901A\u77E5\u60A8\u4E0A\u6B21\u672A\u8B80\u4FE1\u7BB1"
+   },
+   "starLinkTitle": {
+      "message": "\u52A0\u661F\u865F"
+   },
+   "staySignedIn": {
+      "message": "\u7DAD\u6301\u767B\u5165\u72C0\u614B"
+   },
+   "successful": {
+      "message": "\u6210\u529F"
+   },
+   "summary": {
+      "message": "\u6458\u8981"
+   },
+   "summaryLinkTitle": {
+      "message": "\u986F\u793A\u6458\u8981"
+   },
+   "supportAndRequestsPrioritized": {
+      "message": "\u8ACB\u652F\u63F4\u6211\u4E26\u512A\u5148\u8655\u7406\u60A8\u7684\u8981\u6C42\uFF01"
+   },
+   "testDescription": {
+      "message": "\u6E2C\u8A66\u8AAA\u660E"
+   },
+   "testEvent": {
+      "message": "\u6E2C\u8A66\u4E8B\u4EF6"
+   },
+   "testIt": {
+      "message": "\u6E2C\u8A66\u4E00\u4E0B \uFF01"
+   },
+   "thankYouForYourContribution": {
+      "message": "\u529F\u80FD\u73FE\u5728\u5DF2\u89E3\u9396\u3002\u8B1D\u8B1D\u4F60\u7684\u6350\u6B3E\uFF01"
+   },
+   "thankYouForYourContribution2": {
+      "message": "\u95DC\u9589\u6B64\u8996\u7A97\u4E26\u958B\u59CB\u4F7F\u7528\uFF01"
+   },
+   "theme": {
+      "message": "\u4E3B\u984C"
+   },
+   "timeout": {
+      "message": "\u903E\u6642\u5EF6\u9072"
+   },
+   "timeoutNote": {
+      "message": "\u53EA\u662F\u5982\u679C\u4F60\u6709\u5F88\u591A\u7684\u65E5\u66C6\u6216\u4E8B\u4EF6\u8B8A\u66F4\u5B83"
+   },
+   "timeoutTooltip": {
+      "message": "\u53EF\u89E3\u6C7A\u767B\u5165\u554F\u984C\uFF0C\u82E5\u60A8\u64C1\u6709 10 \u500B\u4EE5\u4E0A\u7684\u65E5\u66C6\u6216\u975E\u5E38\u591A\u7684\u4F5C\u7528\u4E2D\u6642\uFF0C\u624D\u9700\u8ABF\u9AD8\u6B64\u9078\u9805"
+   },
+   "timeoutTryAgain": {
+      "message": "\u8207 $1 \u9023\u7DDA\u903E\u6642\uFF0C\u8ACB\u91CD\u8A66\u4E00\u6B21\uFF01"
+   },
+   "to": {
+      "message": "\u81EA"
+   },
+   "toSeeCalendar": {
+      "message": "\u770B\u60A8\u7684\u65E5\u66C6\uFF01"
+   },
+   "today": {
+      "message": "\u4ECA\u5929"
+   },
+   "todayAt": {
+      "message": "\u65BC\u4ECA\u5929"
+   },
+   "tom": {
+      "message": "\u6E6F\u59C6"
+   },
+   "tomorrow": {
+      "message": "\u660E\u5929"
+   },
+   "tomorrowAt": {
+      "message": "\u65BC\u660E\u5929"
+   },
+   "turnOffRegularGmailChecking": {
+      "message": "\u95DC\u9589\u4E00\u822C Gmail \u5E33\u865F\u6AA2\u67E5\u4E26\u53EA\u6AA2\u67E5 Google Apps \u5E33\u865F"
+   },
+   "turnOffRegularGmailCheckingToolTip": {
+      "message": "\u9019\u5C07\u6703\u5FFD\u7565\u4F60\u7684 @gmail.com \u5E33\u6236 \uFF01"
+   },
+   "undo": {
+      "message": "\u9084\u539F"
+   },
+   "unlockFeatures": {
+      "message": "\u53EA\u8981\u6350\u4E00\u6B21\u4EFB\u4F55\u91D1\u984D\u7684\u6B3E\u9805\uFF0C\u4FBF\u80FD\u4F7F\u7528\u76EE\u524D\u8207\u672A\u4F86\u5C07\u65B0\u589E\u7684\u984D\u5916\u529F\u80FD\u3002\u9019\u5C07\u7ACB\u5373\u751F\u6548\uFF01"
+   },
+   "unlockHeader": {
+      "message": "\u53D6\u5F97\u984D\u5916\u7684\u529F\u80FD\u4E26\u652F\u6301\u958B\u767C\u6210\u54E1"
+   },
+   "unreadLink": {
+      "message": "\u672A\u8B80\u53D6"
+   },
+   "unreadLinkTitle": {
+      "message": "\u6A19\u793A\u70BA\u672A\u8B80\u53D6"
+   },
+   "unreadLinkTitleShort": {
+      "message": "\u672A\u8B80\u53D6"
+   },
+   "unreadMail": {
+      "message": "\u672A\u8B80\u53D6\u7684\u90F5\u4EF6"
+   },
+   "view": {
+      "message": "\u6AA2\u8996"
+   },
+   "voiceNotificationOnlyIfIdle": {
+      "message": "\u53EA\u6709\u7576\u4F60\u9060\u96E2\u96FB\u8166\u6642"
+   },
+   "voiceNotificationOnlyIfIdleTooltip": {
+      "message": "\u7576\u4F60\u60F3\u807D\u5230\u97F3\u6548\u800C\u4F60\u537B\u6C92\u6709\u4F7F\u7528\u4F60\u7684\u96FB\u8166\u6216\u4E0D\u5728\u96FB\u8166\u524D\u6216\u662F\u96FB\u8166\u6B63\u5728\u8655\u7406\u4E2D\uFF0C\u6211\u5EFA\u8B70\u4F60\u4F7F\u7528\u6B64\u9078\u9805! :)"
+   },
+   "volume": {
+      "message": "\u97F3\u91CF"
+   },
+   "wantToStaySignedIn": {
+      "message": "\u60F3\u8981\u4FDD\u6301\u767B\u5165\u72C0\u614B\u55CE\uFF1F"
+   },
+   "week": {
+      "message": "\u5468"
+   },
+   "what": {
+      "message": "\u4EC0\u9EBC"
+   },
+   "when": {
+      "message": "\u7576"
+   },
+   "wholeEmail": {
+      "message": "\u6574\u500B\u90F5\u4EF6"
+   },
+   "whyContribute": {
+      "message": "\u6211\u70BA\u4EC0\u9EBC\u61C9\u8A72\u6350\u6B3E\uFF1F"
+   },
+   "whyContributeReason1": {
+      "message": "\u6211\u6703\u7D93\u5E38\u66F4\u65B0\u548C\u652F\u63F4 $1 \u6BCF\u9031\u56DE\u61C9\u60A8\u7684\u5EFA\u8B70"
+   },
+   "whyContributeReason1_1": {
+      "message": "\u6211\u5168\u90E8\u7684\u64F4\u5145\u529F\u80FD"
+   },
+   "whyContributeReason2": {
+      "message": "\u6211\u6703\u8B80\u53D6\u60A8\u7684\u610F\u898B\u548C\u8A55\u8AD6\u4E26\u63D0\u4F9B\u5FEB\u901F\u53CD\u994B:\uFF09"
+   },
+   "whyContributeReason3": {
+      "message": "\u60A8\u6240\u6350\u7684\u4EFB\u4F55\u6B3E\u984D\uFF0C\u6211\u90FD\u5F88\u958B\u5FC3\uFF01"
+   },
+   "whyContributeReason4": {
+      "message": "\u6B64\u64F4\u5145\u8D8A\u4F86\u8D8A\u8301\u58EF $1\uFF0C\u591A\u8667\u4E86\u4F60 \uFF01"
+   },
+   "whyContributeReason4_1": {
+      "message": "\u8A55\u8AD6"
+   },
+   "whyContributeReason5": {
+      "message": "\u77AD\u89E3\u66F4\u591A\u6709\u95DC\u6211\u5728 $1"
+   },
+   "whyContributeReason5_1": {
+      "message": "JasonSavard.com/bio"
+   },
+   "whyContributeToCalendarReason1": {
+      "message": "\u70BA\u60A8\u81EA\u5DF1\u6216\u60A8\u7684\u4F01\u696D\u6210\u70BA\u66F4\u6709\u6548\u7387 Google \u7684\u4F7F\u7528\u8005"
+   },
+   "whyContributeToCalendarReason2": {
+      "message": "\u6BD4 $1 \u9084\u8981\u5BE6\u60E0"
+   },
+   "whyContributeToCalendarReason2_1": {
+      "message": "Microsoft Outlook"
+   },
+   "woman": {
+      "message": "\u5973\u5B50"
+   },
+   "writeAboutMe": {
+      "message": "\u8A66\u8A66\u6211\u5176\u4ED6\u7684\u64F4\u5145\u529F\u80FD"
+   },
+   "writeSomethingNice": {
+      "message": "\u4EE5\u4F60\u70BA\u4F55\u6216\u5982\u4F55\u4F7F\u7528\u6B64\u7A0B\u5F0F\u7684\u8A55\u8AD6\u53D6\u4EE3\u6B64\u7D14\u6587\u5B57"
+   },
+   "yesterday": {
+      "message": "\u6628\u5929"
+   },
+   "zoom": {
+      "message": "\u7E2E\u653E"
+   }
+}

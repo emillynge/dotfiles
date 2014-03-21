@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Capturar p\u00E1gina completa"
+   },
+   "cancel": {
+      "message": "cancelar"
+   },
+   "canceled": {
+      "message": "\u00A1Captura cancelada!"
+   },
+   "cannotscroll": {
+      "message": "No se puede desplazar la p\u00E1gina.\u003Cbr\u003E\u003Cbr /\u003EIntente despu\u00E9s de actualizar esta pesta\u00F1a"
+   },
+   "changeheaders": {
+      "message": "Cambiar encabezado o pie de p\u00E1gina"
+   },
+   "createimage": {
+      "message": " Creando imagen..."
+   },
+   "date": {
+      "message": "Fecha"
+   },
+   "description": {
+      "message": "Este es la mejor aplicaci\u00F3n para crear archivos de imagen de p\u00E1ginas web.Puedes guardar el archivo, compartirlo, postearlo en Fac.."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Puede enviar un informe de error"
+   },
+   "footer": {
+      "message": "Pie de p\u00E1gina"
+   },
+   "header": {
+      "message": "Encabezado"
+   },
+   "height": {
+      "message": "alto"
+   },
+   "imagesize": {
+      "message": "Tama\u00F1o de la imagem:"
+   },
+   "likeresult": {
+      "message": "\u00A1le gusta el resultado? Puede escribirnos un comentario y puntuarnos con 5 estrellas"
+   },
+   "loadcapturescript": {
+      "message": "Cargando c\u00F3digo para captura..."
+   },
+   "name": {
+      "message": "Capturador de P\u00E1ginas Web-Webpage Screenshot"
+   },
+   "noall": {
+      "message": "No puedo desplazar la ventana (las extensiones no pueden trabajar con p\u00E1ginas internas de Chrome ni en la galer\u00EDa de extensiones)"
+   },
+   "noresize": {
+      "message": "Tama\u00F1o normal"
+   },
+   "openimage": {
+      "message": "Pulse aqu\u00ED para abrir la imagen"
+   },
+   "or": {
+      "message": "o"
+   },
+   "preview": {
+      "message": "Previsualizar:"
+   },
+   "resize": {
+      "message": "Redimensionar a:"
+   },
+   "resizebefore": {
+      "message": "Redimensionar ventana antes de capturar"
+   },
+   "takecapture": {
+      "message": "Capturar Ahora"
+   },
+   "takingcapture": {
+      "message": "Capturando..."
+   },
+   "tosavemessage": {
+      "message": "Para guardar la imagen, pulse el bot\u00F3n derecho y seleccione \"Guardar Imagen como...\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Capturar ventana"
+   },
+   "wait": {
+      "message": "esper"
+   },
+   "width": {
+      "message": "ancho"
+   },
+   "zoom": {
+      "message": "Aumentar"
+   }
+}

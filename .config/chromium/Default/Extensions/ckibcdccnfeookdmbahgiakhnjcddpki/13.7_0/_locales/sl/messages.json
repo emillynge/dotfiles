@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Zajemi celotno spletno stran"
+   },
+   "cancel": {
+      "message": "prekli\u010Di"
+   },
+   "canceled": {
+      "message": "Zajemanje preklicano!"
+   },
+   "cannotscroll": {
+      "message": "Zajem celotne strani ni mogo\u010D \u003Cbr\u003E\u003Cbr/\u003EPoskusite ponovno nalo\u017Eiti stran"
+   },
+   "changeheaders": {
+      "message": "Spremenite glavo in nogo"
+   },
+   "createimage": {
+      "message": " Ustvarjam slikovno datoteko..."
+   },
+   "date": {
+      "message": "Datum"
+   },
+   "description": {
+      "message": "Hitra in enostavna re\u0161itev za zajem JPG slike katerekoli spletne strani. Prva raz\u0161iritev, ki zajame celotno stran!"
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Nam po\u0161ljete poro\u010Dilo napake"
+   },
+   "footer": {
+      "message": "Noga"
+   },
+   "header": {
+      "message": "Glava"
+   },
+   "height": {
+      "message": "vi\u0161ina"
+   },
+   "imagesize": {
+      "message": "Velikost slike:"
+   },
+   "likeresult": {
+      "message": "Vam je v\u0161e\u010D razultat? Lahko objavite komentar in nam podarite 5 zvezdic"
+   },
+   "loadcapturescript": {
+      "message": "Nalagam skripti..."
+   },
+   "name": {
+      "message": "Zajemalec spletne strani - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "Zajem celotne spletne strani ni mogo\u010D (Raz\u0161iritev ne deluje na Chromovih lokalnih straneh ter galerij raz\u0161eritev)"
+   },
+   "noresize": {
+      "message": "Ne spremeni velikosti"
+   },
+   "openimage": {
+      "message": "Kliknite tukaj da odprete sliko"
+   },
+   "or": {
+      "message": "ali"
+   },
+   "preview": {
+      "message": "Predogled:"
+   },
+   "resize": {
+      "message": "Spremeni velikost: "
+   },
+   "resizebefore": {
+      "message": "Spremenite izbiro pred zajemom"
+   },
+   "takecapture": {
+      "message": "Zajemite sliko sedaj"
+   },
+   "takingcapture": {
+      "message": "Zajemam sliko"
+   },
+   "tosavemessage": {
+      "message": "Za shranitev slike, kliknite z desno tipko in izberite \"Shrani sliko\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Zajemi le kar trenutno vidi\u0161"
+   },
+   "wait": {
+      "message": "po\u010Dakajte"
+   },
+   "width": {
+      "message": "\u0161irina"
+   },
+   "zoom": {
+      "message": "Pribli\u017Eaj"
+   }
+}

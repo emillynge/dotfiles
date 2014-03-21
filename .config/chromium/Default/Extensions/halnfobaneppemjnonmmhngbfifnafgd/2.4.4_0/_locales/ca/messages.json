@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "fons"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Retrocedeix per car\u00E0cter"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Retrocedeix per par\u00E0graf"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Retrocedeix per frase"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Retrocedeix per paraula"
+   },
+   "chromevis_capitals_text": {
+      "message": "Per a les maj\u00FAscules, utilitzeu Maj+[Tecla]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Canvia entre lent centrada i justificada"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Redueix la mida del text"
+   },
+   "chromevis_description": {
+      "message": "Augmenteu i canvieu el color de qualsevol text seleccionat. Utilitzeu el ratol\u00ED o el teclat per moure la selecci\u00F3 per la p\u00E0gina."
+   },
+   "chromevis_format_text": {
+      "message": "Les dreceres han de tenir el format seg\u00FCent: [Modificador]+[Tecla]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Avan\u00E7a per car\u00E0cter"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Avan\u00E7a per par\u00E0graf"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Avan\u00E7a per frase"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Avan\u00E7a per paraula"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Augmenta la mida del text"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (de Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Restaura els valors predeterminats"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Desa"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Activa/Desactiva la lent"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Canvia entre lent ancorada i flotant"
+   },
+   "chromevis_textcolor_label": {
+      "message": "text"
+   },
+   "chromevis_title_text": {
+      "message": "Tecles de drecera de la lent"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "ca"
+   }
+}

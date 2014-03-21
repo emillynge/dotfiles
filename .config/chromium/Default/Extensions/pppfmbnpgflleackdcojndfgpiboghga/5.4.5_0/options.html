@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Checker Plus for Google Drive&trade; - Options</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/checkerPlusForDrive.js"></script>
+		<script type="text/javascript" src="js/options.js"></script>
+		<style>
+			body {font-family: arial, sans-serif;font-size: 80%;background:#777;color: #fff;}
+			body a, body a:visited {color: #fff;text-decoration: none;border-bottom: 1px dotted #fff}
+			body a:hover {border-bottom: 1px solid #fff;}
+			
+			.hide {display:none}
+			
+		  	#headerLogo {-webkit-filter:drop-shadow(1px 1px 5px #333)}
+	  		#title {text-shadow: 1px 1px 4px #222;font-size:22px;font-weight:bold;color:white}
+	  		#options {padding:0 0px 20px 20px;color:black;background:white;border-radius:5px;width:500px;margin:0 auto;text-align:left}
+	  		#options a {color:blue;border-bottom:1px dotted blue}	
+		</style>
+   </head>
+<body>
+
+<div style="text-align:center">
+	<div style="font-size:20px;padding:20px">
+		<img id="headerLogo" src="images/48-drive-white.png" align="absmiddle"> <span id="title">Checker Plus for Google Drive</span>
+	</div>
+	
+	<div id="options">
+		<div style="float:right;margin:2px 4px 0 0"><a href="http://jasonsavard.com/wiki/Checker_Plus_for_Google_Drive">Help/Contact</a></div>
+		<br><br>
+		<div><input id="desktopNotifications" storage="desktopNotifications" type="checkbox"/> <label for="desktopNotifications">Desktop notifications for modified files</label></div>
+		<div><input id="excludeFolders" storage="excludeFolders" type="checkbox"/> <label for="excludeFolders">Exclude folders from search</label></div>
+		<div><label>Maximum items to display:</label> 
+			<select id="maxItemsToDisplay" storage="maxItemsToDisplay">
+				<option>20</option>
+				<option>100</option>
+				<option>200</option>
+				<option>500</option>
+			</select>			
+		</div>
+		<!--div class="option">
+			<input type="checkbox" id="runInBackground" storage="runInBackground" /> <label for="runInBackground" msg="runInBackground">runin backgrojd</label>
+			<div id="backgroundAppsWarning" class="hide">
+				<ol>
+					<li msg="runInBackgroundWarning1">Please read carefully aboutttt <a target="_blank" href="http://support.google.com/chrome/bin/answer.py?answer=1184722" msg="runInBackgroundWarning1b">background appssss</a></li>
+					<li msg="runInBackgroundWarning2">If you disabled background apps in Chrome you can reeeee-enable them by reading the <a target="_blank" href="http://support.google.com/chrome/bin/answer.py?answer=1184722" msg="runInBackgroundWarning2b">last clickable section</a></li>
+					<li msg="runInBackgroundWarning3">You might have to use theeee <a target="_blank" href="http://support.google.com/mail/bin/answer.py?answer=8494" msg="runInBackgroundWarning3b">stay signed innnn</a> from the Gmaillll login page</li>
+				</ol>
+			</div>
+		</div-->
+		<br>
+		<div>
+			<a id="revokePermissions" href="#">Revoke permissions</a>
+		</div>
+	</div>
+	
+	<div style="margin-top:30px">Try out my other <a href="http://jasonsavard.com?ref=DriveCheckerOptions">great apps!</a></div>
+</div>
+
+</body>
+</html>

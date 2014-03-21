@@ -1,0 +1,104 @@
+{
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "DO NOT REMOVE"
+   },
+   "agenda": {
+      "message": "Napt\u00E1r"
+   },
+   "agendaOnly": {
+      "message": "Napirend csak"
+   },
+   "alertMe": {
+      "message": "vagy a riaszt\u00E1si nekem ..."
+   },
+   "calendarViewTitle": {
+      "message": "V\u00E1lassza ki az alap\u00E9rtelmezett napt\u00E1r n\u00E9zet"
+   },
+   "changeView": {
+      "message": "N\u00E9zet m\u00F3dos\u00EDt\u00E1sa"
+   },
+   "customized": {
+      "message": "Testreszabott"
+   },
+   "d": {
+      "message": "n"
+   },
+   "daysAgo": {
+      "message": "napja"
+   },
+   "daysLeft": {
+      "message": "$1 nap van h\u00E1tra"
+   },
+   "description": {
+      "message": "Gyors betekint\u00E9st ad az \u00F6sszes Google Napt\u00E1rod esem\u00E9nyeibe, amelyekr\u0151l asztali eml\u00E9keztet\u0151t is k\u00E9rhetsz 'szundi'-funkci\u00F3val"
+   },
+   "h": {
+      "message": "\u00F3"
+   },
+   "helpSupport": {
+      "message": "a seg\u00EDts\u00E9gk\u00E9r\u00E9s a szerz\u0151 e meghosszabb\u00EDt\u00E1s!"
+   },
+   "hoursAgo": {
+      "message": "$1 \u00F3r\u00E1ja"
+   },
+   "hoursLeft": {
+      "message": "$1 \u00F3ra van h\u00E1tra"
+   },
+   "inVARhour": {
+      "message": "$1 \u00F3ra alatt"
+   },
+   "inVARhours": {
+      "message": "$1 \u00F3ra"
+   },
+   "inVARminutes": {
+      "message": "$1 perc"
+   },
+   "m": {
+      "message": "p"
+   },
+   "min": {
+      "message": "perc"
+   },
+   "minutesAgo": {
+      "message": "$1 perce"
+   },
+   "minutesLeft": {
+      "message": "$1 perc van h\u00E1tra"
+   },
+   "month": {
+      "message": "H\u00F3nap"
+   },
+   "openCalendar": {
+      "message": "Napt\u00E1r megnyit\u00E1s\u00E1hoz"
+   },
+   "quickAdd": {
+      "message": "Gyors hozz\u00E1ad\u00E1sa"
+   },
+   "quickAddDefaultText": {
+      "message": "e.g., 7pm vacsora Bob"
+   },
+   "refresh": {
+      "message": "Friss\u00EDt\u00E9s"
+   },
+   "save": {
+      "message": "Ment\u00E9s"
+   },
+   "showAgendaOptions": {
+      "message": "Megjelen\u00EDt\u00E9s be\u00E1ll\u00EDt\u00E1sok link napirendre tekintettel"
+   },
+   "today": {
+      "message": "Ma"
+   },
+   "tomorrow": {
+      "message": "Holnap"
+   },
+   "view": {
+      "message": "N\u00E9zd meg"
+   },
+   "week": {
+      "message": "H\u00E9t"
+   },
+   "yesterday": {
+      "message": "tegnap"
+   }
+}

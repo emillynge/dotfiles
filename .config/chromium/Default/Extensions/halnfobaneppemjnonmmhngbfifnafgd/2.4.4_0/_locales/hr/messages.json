@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "pozadina"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Pomicanje unatrag po znaku"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Pomicanje unatrag po odlomku"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Pomicanje unatrag po re\u010Denici"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Pomicanje unatrag po rije\u010Di"
+   },
+   "chromevis_capitals_text": {
+      "message": "Za velika slova koristite Shift+[tipka]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Prebacivanje izme\u0111u centriranog/obostranog pove\u0107ala"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Smanjenje veli\u010Dine teksta"
+   },
+   "chromevis_description": {
+      "message": "Pove\u0107ajte i promijenite boju bilo kojeg odabranog teksta. Koristite mi\u0161 ili tipkovnicu za pomicanje odabira po stranici."
+   },
+   "chromevis_format_text": {
+      "message": "Pre\u010Daci bi trebali biti u ovom formatu: [modifikator]+[tipka]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Pomicanje unaprijed po znaku"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Pomicanje unaprijed po odlomku"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Pomicanje unaprijed po re\u010Denici"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Pomicanje unaprijed po rije\u010Di"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Pove\u0107anje veli\u010Dine teksta"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (od Googlea)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Vrati zadano"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Spremi"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Uklju\u010Divanje/isklju\u010Divanje pove\u0107ala"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Prebacivanje izme\u0111u usidrenog/pomi\u010Dnog pove\u0107ala"
+   },
+   "chromevis_textcolor_label": {
+      "message": "tekst"
+   },
+   "chromevis_title_text": {
+      "message": "Tipkovni\u010Dki pre\u010Daci za pove\u0107alo"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "hr"
+   }
+}

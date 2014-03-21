@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "O spolo\u010Dnosti"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "Vyh\u013Eadaj"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "Vyma\u017E hist\u00F3riu"
+   },
+   "defaultLocation": {
+      "description": "default location is Bratislava ",
+      "message": "Bratislava"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of New York",
+      "message": "48.15"
+   },
+   "defaultLocationLink": {
+      "description": "location link of New York",
+      "message": "/sk/Bratislava"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of New York",
+      "message": "17.10"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "Bohu\u017Eial, nepodarilo sa n\u00E1js\u0165 Va\u0161u aktualnu polohu."
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "Neplatn\u00E9 miesto '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Google Mapy"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "N\u00E1jdite miesta na mape a objavte zauj\u00EDmavosti v ich okol\u00ED"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Goolge mapy s preh\u013Ead\u00E1van\u00EDm okolia"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "Uk\u00E1\u017E moju polohu"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Odtia\u013Eto"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Zisti\u0165 trasu: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.sk"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "Pomocn\u00EDk"
+   },
+   "hotspot1": {
+      "message": "Re\u0161taur\u00E1cia"
+   },
+   "hotspot2": {
+      "message": "Kaviare\u0148"
+   },
+   "hotspot3": {
+      "message": "M\u00FAzeum"
+   },
+   "hotspot4": {
+      "message": "R\u00FDchle Ob\u010Derstvenie"
+   },
+   "hotspot5": {
+      "message": "Noc\u013Eah"
+   },
+   "hotspot6": {
+      "message": "Bankomat"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "Zauj\u00EDmavosti v okol\u00ED: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "N\u00E1jdi: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Sem"
+   }
+}

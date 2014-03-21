@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Capture Page Compl\u00E8te"
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "canceled": {
+      "message": "Capture annul\u00E9e !"
+   },
+   "cannotscroll": {
+      "message": "Ne peut pas faire d\u00E9filer cette page\u003Cbr\u003E\u003Cbr/\u003EEssaies de rouvrir l'onglet"
+   },
+   "changeheaders": {
+      "message": "Changer l'en-t\u00EAte et le pied de page"
+   },
+   "createimage": {
+      "message": "Cr\u00E9ation du fichier image..."
+   },
+   "date": {
+      "message": "Date"
+   },
+   "description": {
+      "message": "Solution simple et rapide pour enregistrer des captures de n'importe quelle page web.La premier extension qui capture toute la page"
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Tu peux d\u00E9poser un rapport de bug"
+   },
+   "footer": {
+      "message": "Pied de page"
+   },
+   "header": {
+      "message": "En-t\u00EAte"
+   },
+   "height": {
+      "message": "hauteur"
+   },
+   "imagesize": {
+      "message": "Taille de l'image:"
+   },
+   "likeresult": {
+      "message": "Aimes-tu le r\u00E9sultat ? Tu peux \u00E9crire un commentaire sympa, et donner 5 \u00E9toiles"
+   },
+   "loadcapturescript": {
+      "message": "Chargement du Script de Capture..."
+   },
+   "name": {
+      "message": "Capture de Page Web - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "D\u00E9filement impossible pour cette page (les extensions ne fonctionnent pas sur les pages internes de Chrome, ni sur la galerie d'extensions Chrome)"
+   },
+   "noresize": {
+      "message": "Ne pas changer la taille"
+   },
+   "openimage": {
+      "message": "Cliques ici pour ouvrir l'image"
+   },
+   "or": {
+      "message": "ou"
+   },
+   "preview": {
+      "message": "Aper\u00E7u:"
+   },
+   "resize": {
+      "message": "Changer la taille en :"
+   },
+   "resizebefore": {
+      "message": "Changer la taille de l'\u00E9cran avant capture"
+   },
+   "takecapture": {
+      "message": "Capture en cours"
+   },
+   "takingcapture": {
+      "message": "Capturer"
+   },
+   "tosavemessage": {
+      "message": "Pour sauver l'image, cliquer droit dessus et choisir \"Sauvegarder l'image\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Capture Page Visible"
+   },
+   "wait": {
+      "message": "Attends"
+   },
+   "width": {
+      "message": "largeur"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

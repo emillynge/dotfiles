@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "\u0639\u0646"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "\u0627\u0630\u0647\u0628"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "\u0627\u0645\u0633\u062D \u0627\u0644\u0630\u0627\u0643\u0631\u0629"
+   },
+   "defaultLocation": {
+      "description": "default location is Mecca",
+      "message": "\u0645\u0643\u0651\u0629 \u0627\u0644\u0645\u0643\u0631\u0645\u0629\u200E"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of Mecca",
+      "message": "21.422"
+   },
+   "defaultLocationLink": {
+      "description": "location link of Mecca",
+      "message": "sa/Mecca"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of Mecca",
+      "message": "39.826"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "\u0645\u0639\u0630\u0631\u0629\u060C \u0644\u0645 \u0623\u0633\u062A\u0637\u0639 \u0627\u0644\u0639\u062B\u0648\u0631 \u0639\u0644\u0649 \u0627\u0644\u0645\u0648\u0642\u0639"
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "\u0644\u0627 \u0623\u0633\u062A\u0637\u064A\u0639 \u0627\u0644\u062A\u0639\u0631\u0641 \u0639\u0644\u0649 \u0627\u0644\u0645\u0648\u0642\u0639",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "\u062E\u0631\u0627\u0626\u0637 \u063A\u0648\u063A\u0644"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "\u0634\u0627\u0647\u062F \u0627\u0644\u0645\u0648\u0642\u0639 \u0648\u0627\u0643\u062A\u0634\u0641 \u0627\u0644\u0646\u0642\u0627\u0637 \u0627\u0644\u0645\u062C\u0627\u0648\u0631\u0629"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "\u062E\u0631\u0627\u0626\u0637 \u063A\u0648\u063A\u0644"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "\u0645\u0648\u0642\u0639 \u0628\u0644\u062F\u064A"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "\u0645\u0646 \u0647\u0646\u0627"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "\u0627\u0644\u0637\u0631\u064A\u0642 \u0625\u0644\u0649 \u0627\u0644\u0645\u0648\u0642\u0639: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.com"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "\u0645\u0633\u0627\u0639\u062F\u0629"
+   },
+   "hotspot1": {
+      "message": "\u0645\u0637\u0639\u0645"
+   },
+   "hotspot2": {
+      "message": "\u0645\u0642\u0647\u0649"
+   },
+   "hotspot3": {
+      "message": "\u0645\u062A\u062D\u0641"
+   },
+   "hotspot4": {
+      "message": "\u0648\u062C\u0628\u0627\u062A \u0633\u0631\u064A\u0639\u0629"
+   },
+   "hotspot5": {
+      "message": "\u0641\u0646\u062F\u0642"
+   },
+   "hotspot6": {
+      "message": "\u0633\u062D\u0628 \u0622\u0644\u064A"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "\u0623\u0645\u0627\u0643\u0646 \u0645\u062C\u0627\u0648\u0631\u0629 \u0645\u0641\u064A\u062F\u0629 "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "\u0627\u0644\u0645\u0648\u0642\u0639:"
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "\u0625\u0644\u0649 \u0647\u0646\u0627"
+   }
+}

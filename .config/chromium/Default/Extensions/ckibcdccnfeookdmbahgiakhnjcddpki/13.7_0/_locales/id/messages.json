@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Seluruh halaman web"
+   },
+   "cancel": {
+      "message": "Batal"
+   },
+   "canceled": {
+      "message": "Penyimpanan Gambar dibatalkan!"
+   },
+   "cannotscroll": {
+      "message": "Tidak dapat mengeser halaman web\u003Cbr\u003E\u003Cbr/\u003ESilahkan coba untuk membuka kembali halaman ini"
+   },
+   "changeheaders": {
+      "message": "Ubah Header dan Footer"
+   },
+   "createimage": {
+      "message": "Menyimpan file gambar..."
+   },
+   "date": {
+      "message": "Tanggal"
+   },
+   "description": {
+      "message": "Solusi Cepat dan Sederhana untuk menyimpan halaman web dalam bentuk JPG. Komponen extension pertama yang menyimpan seluruh halam..."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Anda dapat melaporkan bug yang terjadi."
+   },
+   "footer": {
+      "message": "Fotter"
+   },
+   "header": {
+      "message": "Header"
+   },
+   "height": {
+      "message": "Tinggi"
+   },
+   "imagesize": {
+      "message": "Ukuran Gambar:"
+   },
+   "likeresult": {
+      "message": "Senang dengan Hasilnya? Silahkan tulis komentar anda, dan berikan 5 bintang "
+   },
+   "loadcapturescript": {
+      "message": "Menyiapkan skrip penyimpanan..."
+   },
+   "name": {
+      "message": "Gambar Halaman Web - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "Tidak dapat mengeser ke halaman web ini (Extension tidak dapat bekerja di halaman Chrome internal dan Halaman koleksi extension Chrome) "
+   },
+   "noresize": {
+      "message": "Tidak perlu perubahan ukuran"
+   },
+   "openimage": {
+      "message": "Klik disini untuk melihat gambar"
+   },
+   "or": {
+      "message": "atau"
+   },
+   "preview": {
+      "message": "Tinjauan Singkat:"
+   },
+   "resize": {
+      "message": "Ubah ukuran menjadi: "
+   },
+   "resizebefore": {
+      "message": "Ubah ukuran window sebelum disimpan"
+   },
+   "takecapture": {
+      "message": "Simpan Gambar Sekarang"
+   },
+   "takingcapture": {
+      "message": "Mengambil gambar"
+   },
+   "tosavemessage": {
+      "message": "Untuk menyimpan gambar, silahkan klik kanan dan pilih \"Save Image\""
+   },
+   "url": {
+      "message": "Alamat URL"
+   },
+   "visiblescreenshot": {
+      "message": "Hanya yang terlihat"
+   },
+   "wait": {
+      "message": "Tunggu"
+   },
+   "width": {
+      "message": "Lebar"
+   },
+   "zoom": {
+      "message": "Perbesar"
+   }
+}

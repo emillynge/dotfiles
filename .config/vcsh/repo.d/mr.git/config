@@ -1,0 +1,15 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	worktree = /home/emil
+	excludesfile = .gitignore.d/mr
+[vcsh]
+	vcsh = true
+[remote "origin"]
+	url = git://github.com/RichiH/vcsh_mr_template.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master

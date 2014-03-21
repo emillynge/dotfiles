@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "Tentang"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "Pergi"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "Hapus sejarah"
+   },
+   "defaultLocation": {
+      "description": "default location is Jakarta",
+      "message": "Jakarta"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of Jakarta",
+      "message": "-6.21"
+   },
+   "defaultLocationLink": {
+      "description": "location link of Jakarta",
+      "message": "id/Jakarta"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of Jakarta",
+      "message": "106.84"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "Maaf saya tidak bisa menemukan lokasimu saat ini"
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "Saya tidak mengerti lokasinya '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Google Maps"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "Lihat lokasi di peta, dan menjelajahi tempat-tempat menarik"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Google Maps dengan pencarian"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "Tunjukkan lokasi saya"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Dari sini"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Cari arah: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.com"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "Bantuan"
+   },
+   "hotspot1": {
+      "message": "Kantin"
+   },
+   "hotspot2": {
+      "message": "Cafe"
+   },
+   "hotspot3": {
+      "message": "Sushi"
+   },
+   "hotspot4": {
+      "message": "Restoran cepat saji"
+   },
+   "hotspot5": {
+      "message": "Hotel"
+   },
+   "hotspot6": {
+      "message": "ATM"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "Tempat menarik terdekat: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "Lokasi: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Ke sini"
+   }
+}

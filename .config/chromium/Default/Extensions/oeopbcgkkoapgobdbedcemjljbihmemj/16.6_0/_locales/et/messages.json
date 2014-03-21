@@ -1,0 +1,74 @@
+{
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "NEODSTRA\u0147UJTE"
+   },
+   "archiveLink": {
+      "message": "Arhiveeri"
+   },
+   "archiveLinkTitle": {
+      "message": "Arhiveeri kiri"
+   },
+   "composeLinkTitle": {
+      "message": "Koosta uus kiri"
+   },
+   "deleteLink": {
+      "message": "Kustuta"
+   },
+   "deleteLinkTitle": {
+      "message": "Kustuta kiri"
+   },
+   "fullLinkTitle": {
+      "message": "N\u00E4ita kogu kirja"
+   },
+   "languageName": {
+      "message": "Eesti keel"
+   },
+   "monthsArray": {
+      "message": "jaan,veeb,m\u00E4rts,apr,mai,juun,juul,aug,sep,okt,nov,dets"
+   },
+   "noUnreadText": {
+      "message": "Pole uusi kirju"
+   },
+   "oneUnreadText": {
+      "message": "lugemata kiri"
+   },
+   "openLinkTitle": {
+      "message": "Ava veebilehel"
+   },
+   "popupText": {
+      "message": "Sulle on uus kiri!"
+   },
+   "readLink": {
+      "message": "Loe"
+   },
+   "readLinkTitle": {
+      "message": "M\u00E4rgi loetuna"
+   },
+   "refreshLinkTitle": {
+      "message": "Uuenda k\u00F5iki postkaste"
+   },
+   "replyLinkTitle": {
+      "message": "Vasta kirjale"
+   },
+   "severalUnreadText": {
+      "message": "lugemata kirja"
+   },
+   "spamLink": {
+      "message": "R\u00E4mpspost"
+   },
+   "spamLinkTitle": {
+      "message": "M\u00E4rgi r\u00E4mpspostina"
+   },
+   "starLinkTitle": {
+      "message": "M\u00E4rgista kiri"
+   },
+   "summaryLinkTitle": {
+      "message": "N\u00E4ita kokkuv\u00F5tet"
+   },
+   "unreadLink": {
+      "message": "Lugemata"
+   },
+   "unreadLinkTitle": {
+      "message": "M\u00E4rgi lugemata"
+   }
+}

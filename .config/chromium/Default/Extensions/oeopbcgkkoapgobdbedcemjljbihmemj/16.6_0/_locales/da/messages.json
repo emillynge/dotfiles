@@ -1,0 +1,1007 @@
+{
+   "24hourMode": {
+      "message": "24 timers visning"
+   },
+   "24hourModeTitle": {
+      "message": "Vis\u00A024 timers\u00A0klokkesl\u00E6t\u00A0f.eks. 18:00"
+   },
+   "401": {
+      "message": "Uautoriseret!"
+   },
+   "403": {
+      "message": "Den email eller adgangskode du indtastede er forkert."
+   },
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "NEODSTRA\u0147UJTE"
+   },
+   "NAME_says": {
+      "message": "$1 siger"
+   },
+   "Xday": {
+      "message": "dag"
+   },
+   "Xdays": {
+      "message": "$1 dage"
+   },
+   "Xhour": {
+      "message": "$1 time"
+   },
+   "Xhours": {
+      "message": "$1 timer"
+   },
+   "Xline": {
+      "message": "$1 linie"
+   },
+   "Xlines": {
+      "message": "$1 linier"
+   },
+   "Xminute": {
+      "message": "$1 minut"
+   },
+   "Xminutes": {
+      "message": "$1 minutter"
+   },
+   "Xseconds": {
+      "message": "$1 sekunder"
+   },
+   "account": {
+      "message": "Konto"
+   },
+   "accounts": {
+      "message": "Konti"
+   },
+   "addEmailAlias": {
+      "message": "Tilf\u00F8j et alias til din email-adresse"
+   },
+   "addSpeechEngines": {
+      "message": "Tilf\u00F8j tale-motorer"
+   },
+   "advancedNotification": {
+      "message": "Avancerede notifikations-vindue"
+   },
+   "advancedNotificationToolTip": {
+      "message": "Underretter dig om \u003Cb\u003Ealle\u003C/b\u003E ul\u00E6ste emails, \u003Cb\u003El\u00E6s hele emails\u003C/b\u003E eller slet dem uden at \u00E5bne din browser eller en Gmail fane! Overf\u00F8rer den grundl\u00E6ggende funktionalitet fra toppen af popup-vinduet ind i den nederste del af notifikations-vinduet!"
+   },
+   "advancedNotificationTryItOut": {
+      "message": "Afpr\u00F8v det!"
+   },
+   "advancedNotificationTryItOutInstructions": {
+      "message": "Marker en (eller mindst to for denne demo) af dine emails som ul\u00E6ste, klik s\u00E5 her og vent for at se det avancerede notifikations-vindue, og pr\u00F8v forh\u00E5ndsvisning af email ved at klikke p\u00E5 resum\u00E9et!"
+   },
+   "alias": {
+      "message": "Alias"
+   },
+   "all": {
+      "message": "Alle"
+   },
+   "allMail": {
+      "message": "Alle mails"
+   },
+   "alreadyDonated": {
+      "message": "Allerede doneret?"
+   },
+   "alsoExtraFeaturesForGoogleCalendar": {
+      "message": "Don\u00E9r en gang og opl\u00E5s ogs\u00E5 de ekstra funktioner i min $1"
+   },
+   "alsoExtraFeaturesForGoogleCalendar2": {
+      "message": "Checker Plus for Google Calendar"
+   },
+   "alsoTryMy": {
+      "message": "Pr\u00F8v ogs\u00E5 min"
+   },
+   "amount": {
+      "message": "Bel\u00F8b"
+   },
+   "archiveLink": {
+      "message": "Arkiv\u00E9r"
+   },
+   "archiveLinkTitle": {
+      "message": "Arkiv\u00E9r mail"
+   },
+   "archive_read": {
+      "message": "Arkiver markerer som l\u00E6st"
+   },
+   "archive_readToolTip": {
+      "message": "Marker en mail som l\u00E6st, n\u00E5r du arkiverer den"
+   },
+   "autoAdjust": {
+      "message": "Automatisk justering"
+   },
+   "autoDetectAccounts": {
+      "message": "Denne app vil automatisk finde de konti du er logget ind p\u00E5."
+   },
+   "back": {
+      "message": "Tilbage"
+   },
+   "backToInbox": {
+      "message": "Tilbage til Indbakke"
+   },
+   "backgroundColor": {
+      "message": "Baggrundsfarve"
+   },
+   "brightness": {
+      "message": "Lysstyrke"
+   },
+   "button": {
+      "message": "Knap"
+   },
+   "cancel": {
+      "message": "Annuller"
+   },
+   "changeSummary": {
+      "message": "Skift resum\u00E9format"
+   },
+   "changeTheme": {
+      "message": "\u00C6ndre temaer"
+   },
+   "changeThisDomain": {
+      "message": "For at \u00E6ndre dette email-dom\u00E6ne skal du $1"
+   },
+   "changeThisDomain2": {
+      "message": "logge af og logge p\u00E5 som en anden bruger"
+   },
+   "changingIcon": {
+      "message": "\u00C6ndring af ikonet"
+   },
+   "chooseEndColor": {
+      "message": "V\u00E6lg slut farve"
+   },
+   "choosePaymentMethod": {
+      "message": "V\u00E6lg en betalingsmetode"
+   },
+   "chooseStartColor": {
+      "message": "V\u00E6lg start farve"
+   },
+   "clickToPreviewEmail": {
+      "message": "Klik her for at f\u00E5 vist email"
+   },
+   "close": {
+      "message": "Luk"
+   },
+   "closeAfterX": {
+      "message": "Luk efter"
+   },
+   "collapseEmailAccounts": {
+      "message": "Minimer email konti som standard"
+   },
+   "colors": {
+      "message": "Farver"
+   },
+   "compose": {
+      "message": "Skriv ny mail"
+   },
+   "composeLinkTitle": {
+      "message": "Skriv ny mail"
+   },
+   "contactHelp": {
+      "message": "Kontakt - Hj\u00E6lp"
+   },
+   "contacts": {
+      "message": "Kontakter"
+   },
+   "contactsMessage": {
+      "message": "Hold musen over billederne for at zoome ind"
+   },
+   "continue": {
+      "message": "Forts\u00E6t"
+   },
+   "continueToOptions": {
+      "message": "Forts\u00E6t til indstillinger"
+   },
+   "continueWithoutFeatures": {
+      "message": "Forts\u00E6t med at bruge denne udvidelse med masser af muligheder, men uden disse ekstra funktioner."
+   },
+   "continueWithoutFeaturesHeader": {
+      "message": "Forts\u00E6t uden ekstra funktioner"
+   },
+   "contrast": {
+      "message": "Kontrast"
+   },
+   "contributeToContinue": {
+      "message": "Lav et bidrag"
+   },
+   "conversationView": {
+      "message": "Samtale visning"
+   },
+   "creditCardOrPaypal": {
+      "message": "Du kan bruge dit kreditkort eller PayPal til"
+   },
+   "currentPage": {
+      "message": "aktuel side"
+   },
+   "custom": {
+      "message": "Brugerdefineret"
+   },
+   "customButtonsToolTip": {
+      "message": "V\u00E6lg din egen farve"
+   },
+   "d": {
+      "message": "d"
+   },
+   "dark": {
+      "message": "M\u00F8rk"
+   },
+   "darkToolTip": {
+      "message": "M\u00F8rk kontrast"
+   },
+   "dayAgo": {
+      "message": "$1 dag siden"
+   },
+   "daysAgo": {
+      "message": "$1 dage siden"
+   },
+   "daysLeft": {
+      "message": "$1 dage tilbage"
+   },
+   "delete": {
+      "message": "Slet"
+   },
+   "deleteLink": {
+      "message": "Slet"
+   },
+   "deleteLinkTitle": {
+      "message": "Slet mail"
+   },
+   "developingMore": {
+      "message": "og jeg arbejder h\u00E5rdt p\u00E5 flere af dine forslag..."
+   },
+   "display": {
+      "message": "Sk\u00E6rm"
+   },
+   "displayImagesBelow": {
+      "message": "Vis billeder nedenfor"
+   },
+   "donate": {
+      "message": "Don\u00E9r"
+   },
+   "donationRequired": {
+      "message": "Donation kr\u00E6ves"
+   },
+   "drawAttentionToBrowserTooltip": {
+      "message": "Dette sker kun hvis fokus ikke er p\u00E5 browseren. Nyttig, hvis du bruger flere arbejdsomr\u00E5der... i Windows: Chrome blinker i proceslinjen. \u00A0P\u00E5 Mac:\u00A0Chrome-ikonet hopper"
+   },
+   "dropshadow": {
+      "message": "Skygge"
+   },
+   "email": {
+      "message": "Email:"
+   },
+   "emailFrom_NAME": {
+      "message": "Email fra $1"
+   },
+   "emailPreview": {
+      "message": "Forh\u00E5ndsvisning af email"
+   },
+   "emailPreviewToolTip": {
+      "message": "Hvis denne indstilling er \u003Cb\u003Evalgt\u003C/b\u003E og du klikker et vilk\u00E5rligt sted p\u00E5 en email i popup-vinduet (f.eks. p\u00E5 resum\u00E9et), vil et st\u00F8rre forh\u00E5ndsvisnings-omr\u00E5de \u00E5bne.\u003Cbr\u003EHvis denne indstilling \u003Cb\u003Eikke\u003C/b\u003E er valgt vil klik \u00E5bne emailen p\u00E5 Gmail's webside istedet."
+   },
+   "emailSummary": {
+      "message": "Email resum\u00E9"
+   },
+   "enableLanguageDetection": {
+      "message": "Registrer sprog i email"
+   },
+   "enjoyingThisApp": {
+      "message": "... kan du lide det? $1 om det!"
+   },
+   "enterAnAmount": {
+      "message": "Du skal angive et bel\u00F8b!"
+   },
+   "ex": {
+      "message": "f.eks."
+   },
+   "example": {
+      "message": "eksempel"
+   },
+   "extraFeatures": {
+      "message": "Ekstra funktioner"
+   },
+   "extraFeaturesClicked": {
+      "message": "Du fors\u00F8gte at bruge en af disse ekstra funktioner..."
+   },
+   "forever": {
+      "message": "Altid"
+   },
+   "fullLinkTitle": {
+      "message": "Vis hele beskeden"
+   },
+   "general": {
+      "message": "Generelt"
+   },
+   "grantAccessAgain": {
+      "message": "Tildel adgang igen"
+   },
+   "grantedTo": {
+      "message": "Tildelt til"
+   },
+   "grayscale": {
+      "message": "Gr\u00E5toner"
+   },
+   "green": {
+      "message": "Gr\u00F8n"
+   },
+   "greenToolTip": {
+      "message": "Min genbrugs tema!"
+   },
+   "groupByLabels": {
+      "message": "Grupper emails efter etiketter"
+   },
+   "h": {
+      "message": "h"
+   },
+   "height": {
+      "message": "H\u00F8jde"
+   },
+   "helpMeTranslate": {
+      "message": "Kan du hj\u00E6lpe mig med overs\u00E6ttelser? $1 de korrekte!"
+   },
+   "helpMeTranslate2": {
+      "message": "Email mig"
+   },
+   "helpSupport": {
+      "message": "for at st\u00F8tte forfatteren af denne udvidelse!"
+   },
+   "hideByJason": {
+      "message": "Skjul 'af Jason Savard'"
+   },
+   "hideByJasonToolTip": {
+      "message": "Skjul \u003Ci\u003Eaf Jason Savard\u003C/i\u003E i popup-vinduet"
+   },
+   "hideMarkAsReadEmails": {
+      "message": "Skjul emails som du 'markerer som l\u00E6st'"
+   },
+   "hideMyName": {
+      "message": "Skjul mit navn 'af Jason Savard'"
+   },
+   "hideReadEmails": {
+      "message": "Skjul l\u00E6ste emails"
+   },
+   "hideUnreadCount": {
+      "message": "Skjul ul\u00E6st mail t\u00E6lleren"
+   },
+   "hideUnreadCountToolTip": {
+      "message": "Skjuler ul\u00E6st mail t\u00E6lleren fra ikonet"
+   },
+   "hourAgo": {
+      "message": "$1 time siden"
+   },
+   "hours": {
+      "message": "timer"
+   },
+   "hoursAgo": {
+      "message": "$1 timer siden"
+   },
+   "hoursLeft": {
+      "message": "$1 timer tilbage"
+   },
+   "icon": {
+      "message": "Ikon"
+   },
+   "iconClassic": {
+      "message": "Klassisk ikon"
+   },
+   "iconDefault": {
+      "message": "Standard ikon"
+   },
+   "iconDefault2WithDate": {
+      "message": "Standardikon med dags dato"
+   },
+   "iconMonochrome": {
+      "message": "Monokrom ikon"
+   },
+   "iconNew": {
+      "message": "Nyt ikon"
+   },
+   "iconNew2": {
+      "message": "M\u00F8rkt ikon"
+   },
+   "iconNew2WithDate": {
+      "message": "M\u00F8rkt ikon med dags dato"
+   },
+   "iconNewWithDate": {
+      "message": "Nyt ikon med dags dato"
+   },
+   "iconTooltip": {
+      "message": "Ikonet skal bruges til knappen popup"
+   },
+   "ignoreTheseAccounts": {
+      "message": "Ignorer disse konti"
+   },
+   "ignoreThisAccount": {
+      "message": "Ignorer denne konto"
+   },
+   "ignored": {
+      "message": "Ignoreret"
+   },
+   "imagesAreNotDisplayed": {
+      "message": "Billeder vises ikke."
+   },
+   "importantMail": {
+      "message": "Vigtig post"
+   },
+   "inVARhour": {
+      "message": "om $1 time"
+   },
+   "inVARhours": {
+      "message": "om $1 timer"
+   },
+   "inVARminutes": {
+      "message": "om $1 min"
+   },
+   "inbox": {
+      "message": "Indbakke"
+   },
+   "inboxFor": {
+      "message": "$1"
+   },
+   "invert": {
+      "message": "Inverter"
+   },
+   "keys": {
+      "message": "Genveje"
+   },
+   "labels": {
+      "message": "Etiketter"
+   },
+   "language": {
+      "message": "Sprog"
+   },
+   "languageName": {
+      "message": "Dansk"
+   },
+   "largest": {
+      "message": "st\u00F8rste"
+   },
+   "licenseOnlyValidFor": {
+      "message": "Licensen vil kun v\u00E6re gyldig for brugere, der logger ind deres Google-konto med en"
+   },
+   "linesInSummary": {
+      "message": "Resum\u00E9format"
+   },
+   "listenToYourEmail": {
+      "message": "Lyt til din email"
+   },
+   "loading": {
+      "message": "Indl\u00E6ser..."
+   },
+   "m": {
+      "message": "m"
+   },
+   "mailtoLinks": {
+      "message": "\u00C5bn mailto links med Gmail"
+   },
+   "man": {
+      "message": "Mand"
+   },
+   "markAllAsRead": {
+      "message": "Marker alle som l\u00E6st"
+   },
+   "markAllAsReadTitle": {
+      "message": "Marker alle som l\u00E6st"
+   },
+   "me": {
+      "message": "mig"
+   },
+   "meetMe": {
+      "message": "M\u00F8d mig"
+   },
+   "meetMeTitle": {
+      "message": "Se mig i en video!"
+   },
+   "min": {
+      "message": "min"
+   },
+   "minimumAmount": {
+      "message": "Du skal donere mindst $1"
+   },
+   "minutesAgo": {
+      "message": "$1 min siden"
+   },
+   "minutesLeft": {
+      "message": "$1 minutter tilbage"
+   },
+   "monitorThisLabel": {
+      "message": "Overv\u00E5g disse etiketter"
+   },
+   "monitorThisLabelToolTip": {
+      "message": "Bestemmer hvilke etiketter udvidelsen vil overv\u00E5ge for nye mails"
+   },
+   "monthsArray": {
+      "message": "jan,feb,mar,apr,maj,jun,jul,aug,sep,okt,nov,dec"
+   },
+   "more": {
+      "message": "mere"
+   },
+   "moreInfo": {
+      "message": "Mere info"
+   },
+   "multipleSelectionMac": {
+      "message": "Hold kommando-knappen nede for at v\u00E6lge flere indstillinger"
+   },
+   "multipleSelectionWindows": {
+      "message": "Hold ctrl-knappen nede for at v\u00E6lge flere indstillinger."
+   },
+   "multipleUserLicense": {
+      "message": "F\u00E5 en brugerlicens til din organisation"
+   },
+   "mustSignInToPay": {
+      "message": "Du skal logge ind p\u00E5 din Gmail og vente p\u00E5 at denne udvidelse indl\u00E6ser!"
+   },
+   "muteVoice": {
+      "message": "D\u00E6mp stemme"
+   },
+   "muteVoiceForToday": {
+      "message": "D\u00E6mp i dag"
+   },
+   "muteVoiceForTodayToolTip": {
+      "message": "D\u00E6mper stemme indtil i morgen kl. 07.00"
+   },
+   "muteVoiceForXh": {
+      "message": "D\u00E6mp i $1h"
+   },
+   "muteVoiceForXm": {
+      "message": "D\u00E6mp i $1m"
+   },
+   "muteVoiceWhileSleeping": {
+      "message": "D\u00E6mp stemme mens jeg sover"
+   },
+   "needHelp": {
+      "message": "Brug for hj\u00E6lp?"
+   },
+   "never": {
+      "message": "Aldrig"
+   },
+   "newFeature": {
+      "message": "Ny funktion!"
+   },
+   "next": {
+      "message": "N\u00E6ste"
+   },
+   "noUnreadText": {
+      "message": "Ingen ul\u00E6st mail"
+   },
+   "none": {
+      "message": "Ingen"
+   },
+   "notLoggedIn": {
+      "message": "Ikke logget ind"
+   },
+   "notSignedIn": {
+      "message": "Ikke logget ind"
+   },
+   "notWorking": {
+      "message": "Fungerer det ikke?"
+   },
+   "notificationFontSize": {
+      "message": "St\u00F8rrelse af notifikationstekst"
+   },
+   "notificationSound": {
+      "message": "Lyd\u00A0notifikationer"
+   },
+   "notificationTextToSpeech": {
+      "message": "Stemme notifikationer"
+   },
+   "notifications": {
+      "message": "Notifikationer"
+   },
+   "of": {
+      "message": "af"
+   },
+   "oneUnreadText": {
+      "message": "ul\u00E6st mail"
+   },
+   "onlyRemoveAfterDonation": {
+      "message": "Du kan kun fjerne donations-linket\u00A0efter at have foretaget en donation!"
+   },
+   "open": {
+      "message": "\u00C5bn"
+   },
+   "openComposeInTab": {
+      "message": "\u00C5bn skriv ny mail i en fane"
+   },
+   "openComposeInTabToolTip": {
+      "message": "\u00C5bn skriv nye mail i en fane i stedet for et lille popup-vindue (g\u00E6lder ogs\u00E5 for mailto links)"
+   },
+   "openComposeReplyActionInPopupWindow": {
+      "message": "\u00C5bn i popup-vindue"
+   },
+   "openComposeReplyActionInTab": {
+      "message": "\u00C5bn i fane"
+   },
+   "openGmailTab": {
+      "message": "\u00C5bn Gmail-fane"
+   },
+   "openGmailTabToolTip": {
+      "message": "Deaktiverer forh\u00E5ndsvisnings popup-vinduet (anbefales ikke) og \u00E5bner eller markerer den f\u00F8rste Gmail konto fane med ul\u00E6ste mails"
+   },
+   "openLabel": {
+      "message": "\u00C5bn etiket"
+   },
+   "openLinkTitle": {
+      "message": "\u00C5bn i webmail"
+   },
+   "openPopupPreview": {
+      "message": "\u00C5ben popup forh\u00E5ndsvisning"
+   },
+   "openPopupPreviewIfUnread": {
+      "message": "\u00C5ben popup forh\u00E5ndsvisning (hvis ul\u00E6st mail)"
+   },
+   "openPopupPreviewIfUnreadToolTip": {
+      "message": "Viser kun forh\u00E5ndsvisnings vinduet, n\u00E5r der er ul\u00E6ste mails"
+   },
+   "openPopupPreviewToolTip": {
+      "message": "Viser altid forh\u00E5ndsvisnings vinduet"
+   },
+   "openReply": {
+      "message": "\u00C5bn (besvar)"
+   },
+   "openThisLabel": {
+      "message": "\u00C5bn denne etiket"
+   },
+   "option": {
+      "message": "Indstilling"
+   },
+   "options": {
+      "message": "Indstillinger"
+   },
+   "or": {
+      "message": "eller"
+   },
+   "original": {
+      "message": "Original"
+   },
+   "paragraph": {
+      "message": "paragraf"
+   },
+   "password": {
+      "message": "Adgangskode:"
+   },
+   "popupText": {
+      "message": "Du har modtaget en mail!"
+   },
+   "positionFromLeft": {
+      "message": "Position fra venstre"
+   },
+   "positionFromTop": {
+      "message": "Position\u00A0fra toppen"
+   },
+   "preview": {
+      "message": "Eksempel"
+   },
+   "previewingMarksAsRead": {
+      "message": "Forh\u00E5ndsvisning markerer som l\u00E6st"
+   },
+   "previewingMarksAsReadToolTip": {
+      "message": "Marker en mail som l\u00E6st ved forh\u00E5ndsvisning i popup-vinduet"
+   },
+   "previous": {
+      "message": "Tidligere"
+   },
+   "priorityInbox": {
+      "message": "Prioritet indbakke"
+   },
+   "processing": {
+      "message": "Behandler"
+   },
+   "rateTitle": {
+      "message": "Hastigheden af talegenkendelse: ord pr. minut"
+   },
+   "readLink": {
+      "message": "L\u00E6s"
+   },
+   "readLinkTitle": {
+      "message": "Marker som l\u00E6st"
+   },
+   "readLinkTitleShort": {
+      "message": "Mark as read"
+   },
+   "referToAlreadyDonated": {
+      "message": "Der henvises til $1"
+   },
+   "referToAlreadyDonated2": {
+      "message": "allerede doneret"
+   },
+   "refresh": {
+      "message": "Opdater"
+   },
+   "refreshLinkTitle": {
+      "message": "Opdater alle indbakker"
+   },
+   "repeatSound": {
+      "message": "Gentag lyd notifikation hvert"
+   },
+   "repeatSound2": {
+      "message": "og stop efter"
+   },
+   "repeatSound3": {
+      "message": "gange"
+   },
+   "reply": {
+      "message": "Besvar"
+   },
+   "replyLinkTitle": {
+      "message": "Svar mail"
+   },
+   "replyingMarksAsRead": {
+      "message": "Besvarelse markerer som l\u00E6st"
+   },
+   "replyingMarksAsReadToolTip": {
+      "message": "Klik p\u00E5 knappen besvar for at markere emailen som l\u00E6st"
+   },
+   "saturation": {
+      "message": "M\u00E6tning"
+   },
+   "save": {
+      "message": "Gem"
+   },
+   "saved": {
+      "message": "Gemt!"
+   },
+   "search": {
+      "message": "S\u00F8g"
+   },
+   "securely": {
+      "message": "sikkert."
+   },
+   "seeVideo": {
+      "message": "Se video"
+   },
+   "selectQuickActionButtons": {
+      "message": "Vis eller skjul handlingsknapper"
+   },
+   "selectQuickActionButtonsToolTip": {
+      "message": "Bem\u00E6rk: Dette vil ikke skjule knapperne i den fulde email-visning!"
+   },
+   "sendPageLinkTitle": {
+      "message": "Send side link"
+   },
+   "sepia": {
+      "message": "Sepia"
+   },
+   "setDateTime": {
+      "message": "Angiv dato og klokkesl\u00E6t"
+   },
+   "setPositionAndSize": {
+      "message": "Indstil position og st\u00F8rrelse af popup-vindue"
+   },
+   "severalUnreadText": {
+      "message": "ul\u00E6ste mails"
+   },
+   "share": {
+      "message": "Del"
+   },
+   "shareSmallCase": {
+      "message": "Skriv"
+   },
+   "showAllEmails": {
+      "message": "Vis alle emails"
+   },
+   "showContactPhoto": {
+      "message": "Vis billeder af email kontakter"
+   },
+   "showDesktopNotifications": {
+      "message": "Skrivebords notifikationer"
+   },
+   "showDetails": {
+      "message": "Vis detaljer"
+   },
+   "showIconAnimation": {
+      "message": "Vis animation af ikon"
+   },
+   "showIconAnimationToolTip": {
+      "message": "Animerer ikonet n\u00E5r der er nye mails"
+   },
+   "showLabelsTitle": {
+      "message": "Vis etiketter"
+   },
+   "showMarkAsReadEmails": {
+      "message": "Viser fortsat emails\u00A0som du 'markerer som l\u00E6st'"
+   },
+   "showOptionsButton": {
+      "message": "Vis indstillinger-knappen"
+   },
+   "showRefresh": {
+      "message": "Vis opdateringsikonet"
+   },
+   "showRefreshTooltip": {
+      "message": "Viser opdateringsikonet"
+   },
+   "signIn": {
+      "message": "Log ind"
+   },
+   "signInAsUserOfOrg": {
+      "message": "Du skal $1 med din organisations email"
+   },
+   "signInAsUserOfOrg2": {
+      "message": "logge ud og logge ind p\u00E5 din Gmail"
+   },
+   "signInToYourAccount": {
+      "message": "Log p\u00E5 din konti f\u00F8rst og genindl\u00E6s derefter denne side!"
+   },
+   "smallest": {
+      "message": "mindste"
+   },
+   "somedayAt": {
+      "message": "$1 kl."
+   },
+   "sound": {
+      "message": "Lyd"
+   },
+   "spamLink": {
+      "message": "Spam"
+   },
+   "spamLinkTitle": {
+      "message": "Marker som spam"
+   },
+   "speechEngine": {
+      "message": "Tale-motor"
+   },
+   "standardNotification": {
+      "message": "HTML\u00A0notifikations-vindue"
+   },
+   "standardNotificationToolTip": {
+      "message": "Underretter dig om den sidste ul\u00E6ste e-mail \u003Cb\u003Emed grundl\u00E6ggende handlingsknapper\u003C/b\u003E"
+   },
+   "starLinkTitle": {
+      "message": "Tilf\u00F8j stjerne"
+   },
+   "staySignedIn": {
+      "message": "Forbliv logget ind"
+   },
+   "summary": {
+      "message": "resum\u00E9"
+   },
+   "summaryLinkTitle": {
+      "message": "Vis citeret tekst"
+   },
+   "supportAndRequestsPrioritized": {
+      "message": "for at st\u00F8tte mig og f\u00E5 dine anmodninger prioriteret!"
+   },
+   "testIt": {
+      "message": "Afpr\u00F8v det!"
+   },
+   "testOutPopupWindow": {
+      "message": "Afpr\u00F8v popup-vinduet!"
+   },
+   "textNotification": {
+      "message": "Tekst notifikations-vindue"
+   },
+   "textNotificationTitle": {
+      "message": "Email fra $1: $2"
+   },
+   "textNotificationToolTip": {
+      "message": "Underretter dig om den sidste ul\u00E6ste e-mail besked. Kompatibel med OS X Notifikations Center og Growl"
+   },
+   "theme": {
+      "message": "Tema"
+   },
+   "timeoutTryAgain": {
+      "message": "Timeout opstod ved kommunikation med $1, pr\u00F8v igen!"
+   },
+   "to": {
+      "message": "til"
+   },
+   "today": {
+      "message": "I dag"
+   },
+   "todayAt": {
+      "message": "I dag kl."
+   },
+   "tom": {
+      "message": "tom"
+   },
+   "tomorrow": {
+      "message": "I morgen"
+   },
+   "tomorrowAt": {
+      "message": "I morgen kl."
+   },
+   "undo": {
+      "message": "Fortryd"
+   },
+   "unlockFeatures": {
+      "message": "Opl\u00E5s disse funktioner og fremtidige funktioner med en engangs donation p\u00E5 et hvilket-som-helst bel\u00F8b, og de vil v\u00E6re tilg\u00E6ngelige med det samme!"
+   },
+   "unlockHeader": {
+      "message": "F\u00E5 de ekstra funktioner og st\u00F8t din udvikler"
+   },
+   "unreadLink": {
+      "message": "Ikke l\u00E6st"
+   },
+   "unreadLinkTitle": {
+      "message": "Marker som ikke l\u00E6st"
+   },
+   "unreadLinkTitleShort": {
+      "message": "Ul\u00E6st"
+   },
+   "unreadMail": {
+      "message": "Ul\u00E6st post"
+   },
+   "useTheseColors": {
+      "message": "Brug disse farver"
+   },
+   "voiceNotificationOnlyIfIdle": {
+      "message": "Kun hvis du er v\u00E6k fra computeren i mindst"
+   },
+   "voiceNotificationOnlyIfIdleTooltip": {
+      "message": "Brug denne indstilling hvis du kun vil h\u00F8re stemmen n\u00E5r du IKKE bruger din computer, mens du ikke sidder foran den, eller hvis den er i standby. Anbefalet af mig :)"
+   },
+   "volume": {
+      "message": "Lydstyrke"
+   },
+   "voythas": {
+      "message": "Voythas"
+   },
+   "voythasToolTip": {
+      "message": "Ikoner lavet af VoYtHAs"
+   },
+   "wantToStaySignedIn": {
+      "message": "Vil du forblive logget ind?"
+   },
+   "what": {
+      "message": "Hvad"
+   },
+   "when": {
+      "message": "Hvorn\u00E5r"
+   },
+   "wholeEmail": {
+      "message": "hel email"
+   },
+   "whyContribute": {
+      "message": "Hvorfor skal jeg bidrage?"
+   },
+   "whyContributeReason1": {
+      "message": "Jeg s\u00E6tter mange timer i at opdatere og supportere $1 ugentligt som respons p\u00E5 dine forslag"
+   },
+   "whyContributeReason1_1": {
+      "message": "alle mine udvidelser"
+   },
+   "whyContributeReason2": {
+      "message": "Jeg l\u00E6ser og giver hurtig feedback til dine kommentarer og vurderinger :)"
+   },
+   "whyContributeReason3": {
+      "message": "Du kan bidrage med ethvert bel\u00F8b og jeg vil v\u00E6re glad!"
+   },
+   "whyContributeReason4": {
+      "message": "Denne udvidelse bliver ved med at f\u00E5 gode $1, takket v\u00E6re dig!"
+   },
+   "whyContributeReason4_1": {
+      "message": "anmeldelser"
+   },
+   "whyContributeReason5": {
+      "message": "L\u00E6s mere om mig p\u00E5 $1"
+   },
+   "whyContributeReason5_1": {
+      "message": "JasonSavard.com/bio"
+   },
+   "whyContributeToCalendarReason1": {
+      "message": "V\u00E6r en mere produktiv Google bruger for dig eller din virksomhed"
+   },
+   "whyContributeToCalendarReason2": {
+      "message": "Meget billigere end $1"
+   },
+   "whyContributeToCalendarReason2_1": {
+      "message": "Microsoft Outlook"
+   },
+   "width": {
+      "message": "Bredde"
+   },
+   "woman": {
+      "message": "Kvinde"
+   },
+   "writeAboutMe": {
+      "message": "Pr\u00F8v min andre popul\u00E6re udvidelser!"
+   },
+   "xxenjoyingThisApp": {
+      "message": "... nyder du min app? S\u00E5 $1 det"
+   },
+   "xxshareSmallCase": {
+      "message": "del"
+   },
+   "yesterday": {
+      "message": "i g\u00E5r"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

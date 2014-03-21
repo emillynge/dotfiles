@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "M\u00E1s informaci\u00F3n"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "Ir"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "Borrar historial"
+   },
+   "defaultLocation": {
+      "description": "default location is Madrid",
+      "message": "Madrid"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of Madrid",
+      "message": "40.41"
+   },
+   "defaultLocationLink": {
+      "description": "location link of Madrid",
+      "message": "es/Madrid"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of Madrid",
+      "message": "-3.70"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "Lo siento, no pude determinar tu ubicaci\u00F3n actual."
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "No comprendo la ubicaci\u00F3n '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Google Maps"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "Busca lugares en el mapa y explora lugares de interes en el \u00E1rea"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Google Maps con B\u00FAsqueda Local"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "Mostrar mi ubicaci\u00F3n"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Desde Aqu\u00ED"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "C\u00F3mo llegar: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.es"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "Ayuda"
+   },
+   "hotspot1": {
+      "message": "Restaurante"
+   },
+   "hotspot2": {
+      "message": "Caf\u00E9"
+   },
+   "hotspot3": {
+      "message": "Museo"
+   },
+   "hotspot4": {
+      "message": "Comida R\u00E1pida"
+   },
+   "hotspot5": {
+      "message": "Hotel"
+   },
+   "hotspot6": {
+      "message": "ATM"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "Lugares de interes en el \u00E1rea: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "Ubicaci\u00F3n: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Hasta Aqu\u00ED"
+   }
+}

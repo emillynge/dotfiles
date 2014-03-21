@@ -1,0 +1,74 @@
+{
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "NEODSTRA\u0147UJTE"
+   },
+   "archiveLink": {
+      "message": "Archivova\u0165"
+   },
+   "archiveLinkTitle": {
+      "message": "Archivova\u0165 spr\u00E1vu"
+   },
+   "composeLinkTitle": {
+      "message": "Nap\u00EDsa\u0165 nov\u00FA spr\u00E1vu"
+   },
+   "deleteLink": {
+      "message": "Zmaza\u0165"
+   },
+   "deleteLinkTitle": {
+      "message": "Zmaza\u0165 spr\u00E1vu"
+   },
+   "fullLinkTitle": {
+      "message": "Zobrazi\u0165 cel\u00FA spr\u00E1vu"
+   },
+   "languageName": {
+      "message": "Sloven\u010Dina"
+   },
+   "monthsArray": {
+      "message": "jan,feb,mar,apr,m\u00E1j,j\u00FAn,j\u00FAl,aug,sep,okt,nov,dec"
+   },
+   "noUnreadText": {
+      "message": "\u017Diadne nov\u00E9 spr\u00E1vy"
+   },
+   "oneUnreadText": {
+      "message": "nov\u00E1 spr\u00E1va"
+   },
+   "openLinkTitle": {
+      "message": "Otvori\u0165 v prehliada\u010Di"
+   },
+   "popupText": {
+      "message": "M\u00E1te nov\u00FA spr\u00E1vu!"
+   },
+   "readLink": {
+      "message": "Pre\u010D\u00EDtan\u00E9"
+   },
+   "readLinkTitle": {
+      "message": "Ozna\u010Di\u0165 ako pre\u010D\u00EDtan\u00E9"
+   },
+   "refreshLinkTitle": {
+      "message": "Aktualizova\u0165 v\u0161etky schr\u00E1nky"
+   },
+   "replyLinkTitle": {
+      "message": "Odpoveda\u0165"
+   },
+   "severalUnreadText": {
+      "message": "nov\u00E9 spr\u00E1vy"
+   },
+   "spamLink": {
+      "message": "Spam"
+   },
+   "spamLinkTitle": {
+      "message": "Nahl\u00E1si\u0165 spam"
+   },
+   "starLinkTitle": {
+      "message": "Prida\u0165 hviezdi\u010Dku"
+   },
+   "summaryLinkTitle": {
+      "message": "Zobrazi\u0165 n\u00E1h\u013Ead"
+   },
+   "unreadLink": {
+      "message": "Nepre\u010D\u00EDtan\u00E9"
+   },
+   "unreadLinkTitle": {
+      "message": "Ozna\u010Di\u0165 ako nepre\u010D\u00EDtan\u00E9"
+   }
+}

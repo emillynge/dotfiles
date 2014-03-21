@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Cel\u00E1 str\u00E1nka"
+   },
+   "cancel": {
+      "message": "zru\u0161it"
+   },
+   "canceled": {
+      "message": "Sn\u00EDm\u00E1n\u00ED bylo zru\u0161eno!"
+   },
+   "cannotscroll": {
+      "message": "Nelze posouvat str\u00E1nku\u003Cbr\u003E\u003Cbr/\u003EZkuste znovu otev\u0159\u00EDt tuto z\u00E1lo\u017Eku"
+   },
+   "changeheaders": {
+      "message": "Zm\u011Bna z\u00E1hlav\u00ED a z\u00E1pat\u00ED"
+   },
+   "createimage": {
+      "message": " Vytv\u00E1\u0159\u00EDm obr\u00E1zek..."
+   },
+   "date": {
+      "message": "Datum"
+   },
+   "description": {
+      "message": "Rychl\u00E9 a jednoduch\u00E9 pro ulo\u017Een\u00ED JPG sn\u00EDmk\u016F libovoln\u00E9 webov\u00E9 str\u00E1nky.  Prvn\u00ED roz\u0161\u00ED\u0159en\u00ED, kter\u00E9 sn\u00EDm\u00E1 celou str\u00E1nku."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "M\u016F\u017Eete vyplnit hl\u00E1\u0161en\u00ED o chyb\u011B"
+   },
+   "footer": {
+      "message": "Z\u00E1pat\u00ED"
+   },
+   "header": {
+      "message": "Z\u00E1hlav\u00ED"
+   },
+   "height": {
+      "message": "v\u00FD\u0161ka"
+   },
+   "imagesize": {
+      "message": "Velikost obr\u00E1zku:"
+   },
+   "likeresult": {
+      "message": "L\u00EDb\u00ED se v\u00E1m v\u00FDsledek? M\u016F\u017Eete napsat p\u011Bkn\u00FD koment\u00E1\u0159 a ohodnotit p\u011Bti hv\u011Bzdi\u010Dkami"
+   },
+   "loadcapturescript": {
+      "message": "Na\u010D\u00EDt\u00E1m..."
+   },
+   "name": {
+      "message": "Roz\u0161\u00ED\u0159en\u00ED pro webov\u00E9 str\u00E1nky - WP Screenshot"
+   },
+   "noall": {
+      "message": "Nem\u016F\u017Eete posouvat tuto str\u00E1nku (Roz\u0161\u00ED\u0159en\u00ED nepracuje na intern\u00EDch str\u00E1nk\u00E1ch prohl\u00ED\u017Ee\u010De Chrome a v galerii roz\u0161\u00ED\u0159en\u00ED prohl\u00ED\u017Ee\u010De Chrome"
+   },
+   "noresize": {
+      "message": "Nem\u011Bnit velikost"
+   },
+   "openimage": {
+      "message": "Klikn\u011Bte zde pro otev\u0159en\u00ED obr\u00E1zku"
+   },
+   "or": {
+      "message": "nebo"
+   },
+   "preview": {
+      "message": "N\u00E1hled:"
+   },
+   "resize": {
+      "message": "Zm\u011Bnit velikost:"
+   },
+   "resizebefore": {
+      "message": "Zm\u011Bnit velikost okna p\u0159ed vytvo\u0159en\u00EDm sn\u00EDmku"
+   },
+   "takecapture": {
+      "message": "Vytvo\u0159it sn\u00EDmek"
+   },
+   "takingcapture": {
+      "message": "Vytvo\u0159it sn\u00EDmek"
+   },
+   "tosavemessage": {
+      "message": "Pro ulo\u017Een\u00ED obr\u00E1zku, klikn\u011Bte na n\u011Bj prav\u00FDm tla\u010D\u00EDtkem my\u0161i a zvolte \"Ulo\u017Eit obr\u00E1zek...\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Viditeln\u00E1 \u010D\u00E1st"
+   },
+   "wait": {
+      "message": "\u010Dekejt"
+   },
+   "width": {
+      "message": "\u0161\u00ED\u0159ka"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

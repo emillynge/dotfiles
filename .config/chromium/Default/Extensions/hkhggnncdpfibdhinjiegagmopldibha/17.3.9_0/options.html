@@ -1,0 +1,410 @@
+<html>
+<head>
+  <title>Checker Plus for Google Calendar - Options</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="stylesheet" href="css/common.css"/> 
+  <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.miniColors.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.miniColors.js"></script>
+  <script type="text/javascript" src="js/common.js"></script>
+  <script type="text/javascript" src="js/checkerPlusForCalendar.js"></script>
+  <script type="text/javascript" src="js/options.js"></script>
+  <style>
+  	body {font-family: arial, sans-serif;background: -webkit-gradient(linear, left top, left bottom, from(rgb(109, 192, 182)), to(rgb(109, 192, 182))) no-repeat;margin-bottom:20px}
+  	#title {font-size:20px;font-weight:bold;color:white}
+  	.optionNote {font-size:80%;color:gray}
+	#donate {text-align:center;font-size:17px;border-radius:15px;margin:15px auto;padding:10px}
+	#donate a {text-decoration:none;color:black}
+	#donate a:hover {text-decoration:underline}
+	#menu {position:relative;font-size:13px;font-weight:bold;float:left;text-align:left}
+	html[dir='rtl'] #menu {float:right;text-align:right}
+	#menu div:first-child {border-top:1px solid #ccc}
+	#menu div {border-left:1px solid #ccc;border-bottom:1px solid #ccc;padding:10px;background:#eee;box-shadow:-1px 1px 5px #ccc}
+	#menu div:hover, #menu .active {color:white;background:#6BACCF;cursor:pointer}
+	fieldset {background:white;border-radius:10px;border:1px solid #bbb}
+	#notifications {padding-left:10px}
+	#notifications td {margin:0;padding:0}
+	.optionsSection {border-left:1px solid #ccc;margin-left:0px;float:left;display:none;text-align:left;padding-top:10px;padding-left:16px}
+	html[dir='rtl'] .optionsSection {border-left:none;border-right:1px solid #ccc;margin-right:0px;float:right;padding-right:16px;text-align:right;float:right}
+	.optionsSection.active {display:block}
+	.optionsSection, .optionsSection td {font-size:14px}
+	.playWrapper {border:0;padding:9px}
+	.play {-webkit-filter:drop-shadow(1px 1px 3px #333)}
+	.playWrapper:active img {-webkit-filter:drop-shadow(1px 1px 3px #fff)}
+	#save {padding:5px}
+	#note {display:none;color:gray}
+	#status {border-radius:10px;margin-top:1px;background:#eefFBC;padding:5px;display:none;border:1px solid black}
+	*[msgToolTip]:hover {text-shadow:1px 1px 2px #999}
+	.help:visited {color:black}
+	#footer {color:gray}
+	#footer a {color:#555}
+	#colorGrid {display:none;margin-top:5px;border:2px solid #ddd;border-radius:5px;width:114px;z-index:2}
+	.color {cursor:pointer;width:17px;line-height:15px;display:block;float:left;border:1px inset gray}
+	
+	#debug div {margin:5px 0}	
+	
+	.hiddenCalendar {color:#aaa}
+	
+	#richNotificationOptions > div {margin:3px 0}	
+	.notifOptions {border:1px solid #ccc;border-radius:5px;margin:5px 0;padding:5px}
+	
+	input:hover {xxoutline:1px solid gray}
+
+	.donationFeature {opacity:0.4}
+
+	*[mustDonate]:hover {outline:none}
+	
+	.notificationTypes {margin:7px 0}
+	
+	label {display:inline-block;max-width:600px}
+	
+	.rangeLabel {margin-left:5px;font-size:12px;color:gray}
+	input[type='range'] {height:10px;width:75px}
+
+	.testItOut {margin-left:3px;font-size:10px}	
+	
+	#topRightNav {position:absolute;right:10px;top:7px;font-size:13px}
+	html[dir='rtl'] #topRightNav {left:10px;right:auto}
+	
+	#accessNotGrantedWarning {display:none;width: 400px;margin: 10px auto;background:yellow;padding:2px;border-radius:3px}
+	
+  </style>
+</head>
+<body>
+
+<div style="text-align:center">
+	<div style="font-size:20px;padding:20px">
+		<img id="headerLogo" src="images/icons/icon-48-white.png" align="absmiddle"> <span id="title">Checker Plus for Google Calendar</span>
+	</div>
+	
+	<div id="accessNotGrantedWarning">Access not granted! Please see the <a id="accountsSectionLink" href="javascript:;" style="font-size:100%">Accounts</a> section</div>
+	
+	<fieldset style="box-shadow:3px 3px 5px #555;margin:0 auto;width:840px;text-align:center;padding:10px 10px;position:relative">
+		<div id="menu">
+			<div optionsSection="notifications" msg="notifications">Notifications</div>
+			<div optionsSection="general" msg="general">General</div>
+			<div optionsSection="accounts" msg="accounts">Accounts</div>
+			<div optionsSection="button" msg="button">Button</div>
+			<div optionsSection="debug" msg="debug">Debug</div>
+			<div id="ANTPWidgetMenu" class="hide" optionsSection="widget" msg="widget">Widget</div>
+		</div>
+		<div id="topRightNav"><a href="http://jasonsavard.com/wiki/Checker_Plus_for_Google_Calendar_changelog?ref=CalendarOptions">Changelog</a> &bull; <a href="donate.html" msg="donate">donate</a> &bull; <a href="http://jasonsavard.com/forum/categories/checker-plus-for-google-calendar-feedback?ref=CalendarOptions" msg="feedback">Feedback</a> &bull; <a href="http://jasonsavard.com/wiki/Checker_Plus_for_Google_Calendar" msg="help">Help</a></div>
+		<table id="notificationsSection" class="optionsSection" cellpadding=1>
+		<colgroup>
+			<col width=20/>
+		</colgroup>		
+		<tr>
+			<td valign="top">
+				<input type="checkbox" id="notificationSound" pref="notificationSound" default="true" opensOptions="notificationSoundOptions">
+			</td>
+			<td valign="top">
+				<label for='notificationSound' msg="notificationSound" msgToolTip="notificationSoundTitle">Notification sound</label>
+				<div id="notificationSoundOptions" class="hide" style="border-radius:5px;margin:10px 0;padding:5px;border:1px solid #ccc;background:-webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#f3f3f3))">
+					<div class="nowrap"><span msg="sound">sssound</span>: <select id="sn_audio" pref="sn_audio"><option value="ding.ogg" msg="ding">ddDing</option><option value="custom" msg="custom">Custom</option></select> <span class="rangeLabel" msg="volume">vol</span>: <input id="notificationSoundVolume" pref="notificationSoundVolume" type="range"> <a id="playNotificationSound" class="playWrapper" href="#" title="Play notification sound"><img class="play" src="/images/play.png" alt="Play" /></a></div>
+					<div><input id="sn_audio_src" type="file" accept="audio/*" /> <input type="hidden" id="sn_audio_enc" pref="sn_audio_raw"/></div>								
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<input type="checkbox" id="notificationTextToSpeech" pref="notificationTextToSpeech" opensOptions="voiceNotificationOptions"> 
+			</td>
+			<td valign="top">
+				<label for='notificationTextToSpeech' msg="notificationTextToSpeech" msgToolTip="notificationTextToSpeechTitle">notificationTextToSpeech</label>
+				<div id="voiceNotificationOptions" class="hide" style="">
+					<table style='width:100%;border-radius:5px;margin:10px 0;padding:5px;border:1px solid #ccc;background:-webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#f3f3f3))'>
+					<tr>
+						<td colspan=10>
+							<div><span msg="speechEngine">vvoice</span>: <select id="voice" pref="voice"></select> <input id="voiceTestText" style="margin-left:5px;padding-left:2px;width:100px;font-style:italic" type="text" msgValue="voiceTest"/> <a id="playVoice" class="playWrapper" href="javascript:;" title="Play"><img class="play" src="images/play.png" alt="Play" /></a>							
+							<div style="margin:5px 5px 5px 0;padding:5px 5px 5px 0;border-radius:5px">
+								<span class="rangeLabel" msg="volume">vol</span>: <input id="voiceSoundVolume" pref="voiceSoundVolume" type="range"> <span class="rangeLabel" msg="pitch">pitch</span>: <input id="pitch" pref="pitch" type="range" min=0 max=2 step="0.1"> <span class="rangeLabel" msg="rate">rate</span>: <input id="rate" pref="rate" type="range" min="0.1" max="2" step="0.1" msgTitle="rateTitle"></div>
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="checkbox" id="voiceNotificationOnlyIfIdle" pref="voiceNotificationOnlyIfIdle" default="true">
+						</td>
+						<td class="nowrap">
+							<label for='voiceNotificationOnlyIfIdle' msg="voiceNotificationOnlyIfIdle" msgToolTip="voiceNotificationOnlyIfIdleTooltip">voiceNotificationOnlyIfIdle</label>: <select id="voiceNotificationOnlyIfIdleInterval" pref="voiceNotificationOnlyIfIdleInterval" default="15"><option value="15" msg="Xseconds" msgArg1="15">1mmmm</option><option value="30" msg="Xseconds" msgArg1="30">30 seconds</option><option value="60" msg="Xminute" msgArg1="1">1 minutes</option><option value="120" msg="Xminutes" msgArg1="2">2 minutes</option></select>
+						</td>
+					</tr>
+					<!--tr>
+						<td><input type="checkbox" id="languageDetection" origins="languageDetection"></td>
+						<td><label for="languageDetection" msg="enableLanguageDetection" msgToolTip="enableLanguageDetectionTooltip">Enable language detection</label></td>
+					</tr-->
+					</table>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+				<input type="checkbox" id="showDesktopNotification" pref="desktopNotification" default="true" opensOptions="desktopNotificationOptions"></td><td valign="top"><label for='showDesktopNotification' msg="showDesktopNotifications" msgToolTip="showDesktopNotificationsTitle">Show desktop notifications</label> <a style="margin-left:7px" target="_blank" href="http://jasonsavard.com/wiki/Desktop_notifications">More info</a>
+				<div id="desktopNotificationOptions" class="hide" style="margin-top:5px">
+					<div class="notificationTypes">
+						<div><input type="radio" id="textNotification" name="notificationWindowType" pref="notificationWindowType" value="text" default="rich" /> <label for="textNotification" msg="textNotification">textNotification</label> <a class="testItOut" id="testOutTextNotification" href="javascript:;" msg="testIt">Test it out</a></div>
+						<div><input type="radio" id="richNotification" name="notificationWindowType" pref="notificationWindowType" value="rich" default="rich" /> <label for="richNotification" msg="richNotification">richNotification</label> <a class="testItOut" id="testOutRichNotification" href="javascript:;" msg="testIt">Test it out</a></div>
+					</div>
+					<div id="richNotificationOptions" class="notifOptions hide">
+						<div><input id="groupNotifications" pref="notificationGrouping" type="radio" name="notificationGrouping" value="groupNotifications" default="groupNotifications"/> <label for="groupNotifications">Group all events into one notification</label></div>
+						<div><input id="individualNotifications" pref="notificationGrouping" type="radio" name="notificationGrouping" value="individualNotifications" default="groupNotifications"/> <label for="individualNotifications">Show each event in an individual notification</label></div>
+						<div>Hide after <select style="width:110px" pref="showNotificationDuration" default="25"><option value="7" msg="Xseconds" msgArg1="7">7sec</option><option value="25" msg="Xseconds" msgArg1="25">25sec</option><option disabled>To Never close, select Text Notification above</option></select></div>
+						<div msgToolTip="pendingNotificationsIntervalToolTip">Show pending notifications reminder every: <select id="pendingNotificationsInterval" pref="pendingNotificationsInterval" default="15"><option value="">Never</option><option value="5" msg="Xminutes" msgArg1="5">5minutes</option><option value="10" msg="Xminutes" msgArg1="10">10minutes</option><option value="15" msg="Xminutes" msgArg1="15">15minutes</option><option value="30" msg="Xminutes" msgArg1="30">30minutes</option><option value="60" msg="Xminutes" msgArg1="60">60minutes</option></select> <a class="testItOut" id="testPendingNotifications" href="javascript:;" msg="testIt">Test it out</a></div>
+						<div>Clicking anywhere on notification: <i>Opens more snooze times...</i></div>
+						<div>Clicking X on notification: <i>Dismisses events</i></div>
+						<div>
+							Notification button #1:
+							<select pref="notificationButton1" default="hours_1">
+								<option value="" style="color:gray">Hide button</option>
+								<option disabled style="color:gray">--</option>
+								<option class="snoozeOption" value="minutes_5" msg="Xminutes" msgArg1="5">5 minutes</option><option class="snoozeOption" value="minutes_10" msg="Xminutes" msgArg1="10">10 minutes</option><option class="snoozeOption" value="minutes_15" msg="Xminutes" msgArg1="15">15 minutes</option><option class="snoozeOption" value="minutes_30" msg="Xminutes" msgArg1="30">30 minutes</option><option class="snoozeOption" value="minutes_45" msg="Xminutes" msgArg1="45">45 minutes</option><option class="snoozeOption" value="hours_1" msg="Xhour" msgArg1="1">1 hour</option><option class="snoozeOption" value="hours_2" msg="Xhours" msgArg1="2">2 hours</option><option class="snoozeOption" value="hours_4" msg="Xhours" msgArg1="4">4 hours</option><option class="snoozeOption" value="hours_8" msg="Xhours" msgArg1="8">8 hours</option><option class="snoozeOption" value="days_1" msg="Xday" msgArg1="1">1 day</option><option class="snoozeOption" value="days_2" msg="Xdays" msgArg1="2">2 days</option><option class="snoozeOption" value="days_7" msg="Xdays" msgArg1="7">7 days</option>
+								<option disabled style="color:gray">--</option>
+								<option value="snoozeTimes">More snooze times...</option>
+								<option disabled style="color:gray">--</option>
+								<option value="location|hangout">Show location or source or join video call</option>
+								<option disabled style="color:gray">--</option>
+								<option value="dismiss" msg="dismiss">Dismisss</option>
+							</select>
+						</div>
+						<div>
+							Notification button #2:
+							<select pref="notificationButton2" default="location|hangout">
+								<option value="" style="color:gray">Hide button</option>
+								<option disabled style="color:gray">--</option>
+								<option class="snoozeOption" value="minutes_5" msg="Xminutes" msgArg1="5">5 minutes</option><option class="snoozeOption" value="minutes_10" msg="Xminutes" msgArg1="10">10 minutes</option><option class="snoozeOption" value="minutes_15" msg="Xminutes" msgArg1="15">15 minutes</option><option class="snoozeOption" value="minutes_30" msg="Xminutes" msgArg1="30">30 minutes</option><option class="snoozeOption" value="minutes_45" msg="Xminutes" msgArg1="45">45 minutes</option><option class="snoozeOption" value="hours_1" msg="Xhour" msgArg1="1">1 hour</option><option class="snoozeOption" value="hours_2" msg="Xhours" msgArg1="2">2 hours</option><option class="snoozeOption" value="hours_4" msg="Xhours" msgArg1="4">4 hours</option><option class="snoozeOption" value="hours_8" msg="Xhours" msgArg1="8">8 hours</option><option class="snoozeOption" value="days_1" msg="Xday" msgArg1="1">1 day</option><option class="snoozeOption" value="days_2" msg="Xdays" msgArg1="2">2 days</option><option class="snoozeOption" value="days_7" msg="Xdays" msgArg1="7">7 days</option>
+								<option disabled style="color:gray">--</option>
+								<option value="snoozeTimes">More snooze times...</option>
+								<option disabled style="color:gray">--</option>
+								<option value="location|hangout">Show location or source or join video call</option>
+								<option disabled style="color:gray">--</option>
+								<option value="dismiss" msg="dismiss">Dismisss</option>
+							</select>
+						</div>
+						<div style="color:gray;font-size:11px;font-style:italic">* Chrome has placed a 2 button limit!</div>
+						<div>Show calendar names: <select pref="showCalendarInNotification" default="onlyNonPrimary"><option value="never">Never</option><option value="onlyNonPrimary">Only non-primary calendars</option><option value="always">Always</option></select></div>
+						<label>Notification font size:</label> <select pref="richNotificationFontSize" default="small"><option value="small">small</option><option value="normal">normal</option></select>
+					</div>
+					<div><input type="checkbox" id="doNotShowNotificationsForAlldayEvents" pref="doNotShowNotificationsForAlldayEvents"> <label for='doNotShowNotificationsForAlldayEvents' msg="doNotShowNotificationsForAlldayEvents" msgToolTip="doNotShowNotificationsForAlldayEventsTitle">Do not show notifications for all day events</label></div>
+					<div><input type="checkbox" id="doNotShowPastNotifications" pref="doNotShowPastNotifications"> <label for='doNotShowPastNotifications' msg="doNotShowPastNotifications" msgToolTip="doNotShowPastNotificationsTitle">Do not show past notifications</label></div>
+					<div><input type="checkbox" id="doNotShowNotificationsForRepeatingEvents" pref="doNotShowNotificationsForRepeatingEvents"> <label for='doNotShowNotificationsForRepeatingEvents' msg="doNotShowNotificationsForRepeatingEvents">doNotShowNotificationsForRepeatingEvents</label></div>
+					<div><input type="checkbox" id="doNotShowNotificationsWhenBrowserClosed" pref="doNotShowNotificationsWhenBrowserClosed"> <label for='doNotShowNotificationsWhenBrowserClosed' msg="doNotShowNotificationsWhenBrowserClosed" msgToolTip="doNotShowNotificationsWhenBrowserClosedTooltip">doNotShowNotificationsWhenBrowserClosed</label></div>
+					<div><input type="checkbox" id="onlyPopups" pref="onlyPopups"> <label for='onlyPopups' msgToolTip="remindersBeforeEventHelpTitle"><span msg="remindersBeforeEvent">Only show reminders for events with a</span> <span msg="remindersBeforeEventPopupReminder">popup reminder</span></label></div>
+					<div><input type="checkbox" id="onlyPopupsForOwner" pref="onlyPopupsForOwner"> <label for='onlyPopupsForOwner' msg="onlyPopupsForOwner" msgToolTip="onlyPopupsForOwnerTooltip">Only show notifications for events from calendars I own</label></div>
+					<div><input type="checkbox" id="drawAttentionToBrowser" pref="drawAttentionToBrowser"> <label for='drawAttentionToBrowser' msg="drawAttentionToBrowser" msgToolTip="drawAttentionToBrowserTooltip">drawAttention</label></div>
+					<div style="margin:4px 0">						
+						<a id="excludeCalendarsCheckboxChecking" href="#"><span msg="excludeCalendarFrom">Exclude calendars from</span> <span id="checking" msg="excludeCalendarFrom3">checking</span></a> <span class="optionNote" msg="excludeCalendarsFromNotificationsNote">including button</span>
+						<div id="excludeCalendarsWrapper" style="display:none;padding-left:20px">
+							<div style="padding:4px"></div>
+							<div style="float:left;padding-right:10px">
+								<b>1.</b> <span msg="selectACalendar">Select a calendar</span>
+								<br>
+								<b>2.</b> <a id="excludeCalendar" href="javascript:;" msg="excludeCalendar">Exclude calendar</a>
+							</div>
+							<select id="hideCalendars" style="float:left;height:150px" multiple></select>
+						</div>
+					</div>
+				</div>
+			</td>
+		</tr>
+		</table>
+		<div id="generalSection" class="optionsSection">
+			<span msgToolTip="languageTooltip"><label for='lang' msg="language" msgToolTip="langTooltip">lang</label> <select id="lang" pref="lang">
+				<option value="ar">‫العربية</option>
+				<option value="ca">català</option>
+				<option value="cs">čeština</option>
+				<option value="de">Deutsch</option>
+				<option value="en">English</option>
+				<option value="es">español</option>
+				<option value="fa">فارسی</option>
+				<option value="fr">français</option>
+				<option value="he">עברית</option>
+				<option value="it">italiano</option>
+				<option value="hu">magyar</option>
+				<option value="nl">Nederlands</option>
+				<option value="pl">polski</option>
+				<option value="pt">português</option>
+				<option value="pt-BR">português (Brasil)</option>
+				<option value="sv">svenska</option>
+				<option value="ru">pусский</option>
+				<option value="tr">Türkçe</option>
+				<option value="ja">日本語</option>
+				<option value="zh-CN">简体中文</option>
+				<option value="zh-TW">繁體中文</option>
+				<option value="ko">한국어</option>
+			</select></span> <span id="helpMeTranslate" class="hide" style="color:green;background:#FFFFCC" msg="helpMeTranslate">correct he trnatinastion.. <a msg="helpMeTranslate2" href='http://jasonsavard.com/wiki/Translating_extensions'>Email me</a> the correct ones!"></span>
+			<br><br>
+			<table>
+				<!--tr valign="top"><td><input type="checkbox" id="highlightDateAndTimes" pref="highlightDateAndTimes"></td><td><label for='highlightDateAndTimes' msg="highlightDateAndTimes" msgToolTip="highlightDateAndTimesToolTip">highlightDateAndTimes</label> <div id="highlightDateAndTimesWarning" class="hide" style="color:green;font-style:italic;font-size:12px" msg="highlightDateAndTimesWarning"></div></td></tr-->
+				<tr id="runInBackgroundWrapper" valign=top>
+					<td style="width:15px">
+						<input type="checkbox" id="runInBackground" permissions="background" />
+					</td>
+					<td style="width:300px">
+						<label for="runInBackground" msg="runInBackground" msgToolTip="runInBackgroundToolTip">runin backgrojd</label>
+						<div id="backgroundAppsWarning" class="hide">
+							<ol>
+								<li msg="runInBackgroundWarning1">Please read carefully aboutttt <a target="_blank" href="http://support.google.com/chrome/bin/answer.py?answer=1184722" msg="runInBackgroundWarning1b">background appssss</a></li>
+								<li msg="runInBackgroundWarning2">If you disabled background apps in Chrome you can reeeee-enable them by reading the <a target="_blank" href="http://support.google.com/chrome/bin/answer.py?answer=1184722" msg="runInBackgroundWarning2b">last clickable section</a></li>
+								<li msg="runInBackgroundWarning3">You might have to use theeee <a target="_blank" href="http://support.google.com/mail/bin/answer.py?answer=8494" msg="runInBackgroundWarning3b">stay signed innnn</a> from the Gmaillll login page</li>
+							</ol>
+						</div>
+					</td>
+				</tr>
+				<tr valign="top"><td><input type="checkbox" id="24hourMode" pref="24hourMode"></td><td><label for='24hourMode' msg="24hourMode" msgToolTip="24hourModeTitle">24 Hour</label></td></tr>
+				<tr valign="top">
+					<td>
+						<input type="checkbox" id="showHeader" pref="showHeader" default="true" opensOptions="showHeaderOptions"></td><td valign="top"><label for='showHeader' msg="showHeader" msgToolTip="showHeaderTooltip">showHeader</label>
+						<div id="showHeaderOptions" class="hide" gaCategory="showHeaderOptions">
+							<table>
+								<tr><td><input type="checkbox" id="showQuickAdd" pref="showQuickAdd" default="true"></td><td><label for='showQuickAdd' msg="showQuickAdd" msgToolTip="showQuickAddTooltip">Remove 'Quick Add' sign in</label> (<a id="quickAddMoreInfo" msg="moreInfo" href="javascript:;">More info</a>)</td></tr>
+								<!--tr><td><input type="checkbox" id="showViewDropDown" pref="showViewDropDown" default="true"></td><td><label for='showViewDropDown' msg="showViewDropDown" msgToolTip="showViewDropDownTooltip">showViewDropDown</label></td></tr-->
+								<tr><td><input type="checkbox" id="showRefresh" pref="showRefresh" default="true"></td><td><label for='showRefresh' msg="showRefresh" msgToolTip="showRefreshTooltip">showRefresh</label></td></tr>
+								<tr><td><input type="checkbox" id="showOpenCalendar" pref="showOpenCalendar" default="true"></td><td><label for='showOpenCalendar' msg="showOpenCalendar" msgToolTip="showOpenCalendarTooltip">showOpenCalendar</label></td></tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+				<tr valign="top"><td><input type="checkbox" id="showContextMenuItem" pref="showContextMenuItem" default="true"></td><td><label for='showContextMenuItem' msg="showContextMenuItem" msgToolTip="showContextMenuItemTooltip">context menu</label></td></tr>
+			   	<tr valign="top"><td><input type="checkbox" id="hideByJason" pref="hideByJason" mustDonate="true"/></td><td><label for="hideByJason" msg="hideByJason" mustDonate="true">hideByJason</label></td></tr>
+				<tr valign="top"><td><input type="checkbox" id="removeShareLinks" pref="removeShareLinks" mustDonate="true"></td><td><label for='removeShareLinks' mustDonate="true" msg="removeShareLinks" msgToolTip="removeShareLinksTooltip">Remove donation link</label></td></tr>
+				<!--tr id="removeDonationOption"><td><input type="checkbox" id="removeDonationLink" pref="removeDonationLink" mustDonate="true"></td><td><label for='removeDonationLink' msg="removeDonationLink" msgToolTip="removeDonationLinkTitle" mustDonate="true">Remove donation link</label></td></tr-->
+				<tr><td colspan=2><select id="maxDaysAhead" pref="maxDaysAhead" default="2"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="14">14</option><option value="21">21</option></select> <label for='maxDaysAhead' msg="maxDaysAhead" msgToolTip="maxDaysAheadTitle">Number of days to look ahead</label></td></tr>
+				<tr id="eventColorsWrapper" class="hide" valign="top">
+					<td><input type="checkbox" id="eventColors" pref="eventColors" mustDonate="true"></td>
+					<td><label msgHTML="eventColors" msgToolTip="eventColorsToolTip" for="eventColors" mustDonate="true">event colors</label></td>
+				</tr>
+				<tr valign="top">
+					<td><input type="checkbox" id="customizeCalendar"></td>
+					<td><label msg="customizeCalendar" msgToolTip="customizeCalendarTitle" for="customizeCalendar">Change the height, width, visible calendars, colors, etc.</label></td>
+				</tr>
+				<tr valign="top" id="customizedCalendarWrapper" class="hide">
+					<td>&nbsp;</td>			
+					<td style="border:1px solid #fff;border-radius:10px;padding:1px" valign="top">
+						<a name="customized" href="#"></a>
+						<div id="calendarHelperWrapper">
+							<div style="color:gray">* <span msg="optionToCustomizeWith">Option to customize it with the</span> <a id="calendarHelper" target="_blank" href="#" msg="calendarHelper">Calendar Helper</a> <span msg="pasteHTML">and paste the HTML below</span></div>
+							<textarea id="customizedCalendar" pref="customizedCalendar" rows=3 cols=55></textarea>
+						</div>
+					</td>
+				</tr>
+				<tr valign="top"><td><input type="checkbox" id="highlightCurrentDay" pref="highlightCurrentDay" default="true"></td><td><label for='highlightCurrentDay' msg="highlightCurrentDay" msgToolTip="highlightCurrentDayTooltip">highlightCurrentDay</label></td></tr>
+				<tr valign="top"><td><input type="checkbox" id="highlightWeekends" pref="highlightWeekends"></td><td><label for='highlightWeekends' msg="highlightWeekends" msgToolTip="highlightWeekendsTitle">highlightWeekends</label></td></tr>
+				<tr valign="top"><td><input type="checkbox" id="pastDays" pref="pastDays"></td><td><label for='pastDays' msg="pastDays" msgToolTip="pastDaysTitle">pastDays</label></td></tr>
+				<tr valign="top"><td><input type="checkbox" id="showWeekNumbers" pref="showWeekNumbers"></td><td><label for='showWeekNumbers' msg="showWeekNumbers">showWeekNumbers</label></td></tr>
+				<tr valign="top"><td><input type="checkbox" id="ssl" pref="ssl2" default="true"></td><td><label for='ssl' msg="ssl" msgToolTip="sslTitle">Always use SSL</label></td></tr>
+				<!--tr><td colspan=2><label for='timeout' msg="timeout" msgToolTip="timeoutTooltip">Timeout</label>: <select id="timeout" pref="timeout" default="45"><option value="45" msg="Xseconds" msgArg1="45">45 seconds</option><option value="60" msg="Xseconds" msgArg1="60">60 seconds</option><option value="120" msg="Xseconds" msgArg1="120">120 seconds</option></select> <span class="optionNote">(<span msg="timeoutNote">change only...</span>)</span></td></tr-->
+				<tr>
+					<td colspan=2 msgToolTip="hideHoursToolTip">Hide morning hours before <select pref="hideMorningHoursBefore" default="0" mustDonate="true"><option value="0">12pm</option><option value="0:30">12:30am</option><option value="1">1am</option><option value="1:30">1:30am</option><option value="2">2am</option><option value="2:30">2:30am</option><option value="3">3am</option><option value="3:30">3:30am</option><option value="4">4am</option><option value="4:30">4:30am</option><option value="5">5am</option><option value="5:30">5:30am</option><option value="6">6am</option><option value="6:30">6:30am</option><option value="7">7am</option><option value="7:30">7:30am</option><option value="8">8am</option><option value="8:30">8:30am</option><option value="9">9am</option><option value="9:30">9:30am</option><option value="10">10am</option></select> and night times after <select pref="hideNightHoursAfter" default="24" mustDonate="true"><option value="5pm">5pm</option><option value="5:30pm">5:30pm</option><option value="6pm">6pm</option><option value="6:30pm">6:30pm</option><option value="7pm">7pm</option><option value="7:30pm">7:30pm</option><option value="8pm">8pm</option><option value="8:30pm">8:30pm</option><option value="9pm">9pm</option><option value="9:30pm">9:30pm</option><option value="10pm">10pm</option><option value="10:30pm">10:30pm</option><option value="11pm">11pm</option><option value="11:30pm">11:30pm</option><option value="24">12am</option></select></td>
+				</tr>
+			</table>
+		</div>
+		<div id="accountsSection" class="optionsSection">
+		
+			<div id="oauthNotGranted">
+				<div id="defaultAccount" class="hide">
+					Your current <a target="_blank" href="http://jasonsavard.com/wiki/Checker_Plus_for_Google_Calendar#Using_calendars_from_multiple_accounts">default account</a> <span id="defaultAccountEmail" style="font-weight:bold;color:rgba(0, 171, 194, 0.92)">blah@blah.com</span> has not been granted access!
+				</div>
+				<button id="grantAccessButton" style="margin:20px;padding:5px;border-radius:3px;cursor:pointer">Grant access</button> <a target="_blank" href="http://jasonsavard.com/wiki/Granting_access">More info</a>
+				<br><br>
+			</div>	
+		
+			<div id="oauthOptions">				
+				<div id="grantedTo" style="color:gray;font-size:11px">
+					<span msg="grantedTo">Granted to</span>: <span id="emailsGrantedPermissionToContacts"></span> <a id="grantAccessAgain" href="javascript:;" msg="grantAccessAgain">Grant access again</a> &bull; <a id="revokeAccess" href="#">Revoke access</a>
+				</div>
+				<br>
+				<div style="margin-bottom:4px">When signed out of Google Calendar the <b>extension</b> will...</div>
+				<div><input type="radio" pref="signedOutOfGoogleCalendarAction" name="signedOutOfGoogleCalendarAction" id="signedOutOfGoogleCalendarAction2" value="signOut" default="signOut"/> <label for="signedOutOfGoogleCalendarAction2">Sign out <span style="color:gray;font-size:11px">(will not revoke access)</span></label></div>
+				<div><input type="radio" pref="signedOutOfGoogleCalendarAction" name="signedOutOfGoogleCalendarAction" id="signedOutOfGoogleCalendarAction1" value="staySignedIn" default="signOut"/> <label for="signedOutOfGoogleCalendarAction1">Stay signed in</label></div>
+			</div>
+		</div>
+		<div id="buttonSection" class="optionsSection">
+			<table>
+				<tr>
+					<td colspan=2 style="font-size:11px;padding-left:7px">Offline | Online</td>					
+				</tr>
+				<tr id="badgeIcons">
+					<td colspan=2>
+						<div class="iconDiv"><input type="radio" name="icon" pref="badgeIcon" id="iconDefault" value="default" default="default"><label for="iconDefault" msgToolTip="iconTooltip"><img src="images/icons/icon-19_default_offline.png"/> <img src="images/icons/icon-19_default.png"/> <sup msg="iconDefault" style="color:black !important">Default</sup></label></div>
+						<div class="iconDiv"><input type="radio" name="icon" mustDonate="true" pref="badgeIcon" id="iconDefault2WithDate" value="default2WithDate" default="default"><label for="iconDefault2WithDate" msgToolTip="iconTooltip" mustDonate="true"><img src="images/icons/icon-19_default2WithDate_offline.png"/> <img src="images/icons/icon-19_default2WithDate.png"/> <sup msg="iconDefault2WithDate">Default</sup></label></div>
+						<!--div class="iconDiv" id="moreIcons" style="margin-bottom:15px"><input type="radio" name="icon" disabled style="visibility:hidden"><a style="text-decoration:none" href="javascript:;"><u msg="more">moree</u><small>▼</small></a></div-->
+						<div id="moreIconsWrapper">
+							<div class="iconDiv"><input type="radio" name="icon" pref="badgeIcon" id="iconClassic" value="classic" default="default"><label for="iconClassic" msgToolTip="iconTooltip"><img src="images/icons/icon-19_classic_offline.png"/> <img src="images/icons/icon-19_classic.png"/> <sup msg="iconClassic" style="color:black !important">Classic</sup></label></div>
+							<div class="iconDiv"><input type="radio" name="icon" mustDonate="true" pref="badgeIcon" id="iconNew" value="new" default="default"><label for="iconNew" msgToolTip="iconTooltip" mustDonate="true"><img src="images/icons/icon-19_new_offline.png"/> <img src="images/icons/icon-19_new.png"/> <sup msg="iconNew">New</sup></label></div>
+							<div class="iconDiv"><input type="radio" name="icon" mustDonate="true" pref="badgeIcon" id="iconNewWithDate" value="newWithDate" default="default"><label for="iconNewWithDate" msgToolTip="iconTooltip" mustDonate="true" ><img src="images/icons/icon-19_newWithDate_offline.png"/> <img src="images/icons/icon-19_newWithDate.png"/> <sup msg="iconNewWithDate">New WithDate</sup></label></div>
+							<div class="iconDiv"><input type="radio" name="icon" mustDonate="true" pref="badgeIcon" id="iconNew2" value="new2" default="default"><label for="iconNew2" msgToolTip="iconTooltip" mustDonate="true"><img src="images/icons/icon-19_new2_offline.png"/> <img src="images/icons/icon-19_new2.png"/> <sup msg="iconNew2">New2</sup></label></div>
+							<div class="iconDiv"><input type="radio" name="icon" mustDonate="true" pref="badgeIcon" id="iconNew2WithDate" value="new2WithDate" default="default"><label for="iconNew2WithDate" msgToolTip="iconTooltip" mustDonate="true"><img src="images/icons/icon-19_new2WithDate_offline.png"/> <img src="images/icons/icon-19_new2WithDate.png"/> <sup msg="iconNew2WithDate">New2</sup></label></div>
+							<div class="iconDiv"><input type="radio" name="icon" mustDonate="true" pref="badgeIcon" id="iconMonochrome" value="monochrome" default="default"><label for="iconMonochrome" msgToolTip="iconTooltip" mustDonate="true"><img src="images/icons/icon-19_monochrome_offline.png"/> <img src="images/icons/icon-19_monochrome.png"/> <sup msg="iconMonochrome">Monochrome</sup></label></div>
+						</div>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td>
+						<input type="checkbox" id="showEventTimeOnBadge" pref="showEventTimeOnBadge" default="true" opensOptions="showEventTimeOnBadgeOptions"></td><td valign="top"><label for='showEventTimeOnBadge' msg="showEventTimeOnBadge" msgToolTip="showEventTimeOnBadgeTooltip">showEventTimeOnBadge</label>
+						<div id="showEventTimeOnBadgeOptions" class="hide">
+							<table>
+								<tr><td><input type="checkbox" id="showMinutesLeftInBadge" pref="showMinutesLeftInBadge" default="true"></td><td><label for='showMinutesLeftInBadge' msg="showMinutesLeftInBadge" msgToolTip="showMinutesLeftInBadgeTitle">Show minutes remaining instead of time</label></td></tr>
+								<tr><td><input type="checkbox" id="showHoursLeftInBadge" pref="showHoursLeftInBadge"></td><td><label for='showHoursLeftInBadge' msg="hoursRemaining" msgToolTip="hoursRemainingTitle">Show hours remaining instead of time of event</label></td></tr>
+								<tr><td><input type="checkbox" id="showDaysLeftInBadge" pref="showDaysLeftInBadge" default="true"></td><td><label for='showDaysLeftInBadge' msg="daysRemaining" msgToolTip="daysRemainingToolTip">Show days remaining instead of time of event</label></td></tr>
+								<tr><td><input type="checkbox" id="showTimeSpecificEventsBeforeAllDay" pref="showTimeSpecificEventsBeforeAllDay"></td><td><label for='showTimeSpecificEventsBeforeAllDay' msg="showTimeSpecificEventsBeforeAllDay" msgToolTip="showTimeSpecificEventsBeforeAllDayTooltip">showTimeSpecificEventsBeforeAllDay</label></td></tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+				<tr valign="top">
+					<td>
+						<input type="checkbox" id="showDayOnBadge" pref="showDayOnBadge" opensOptions="showDayOnBadgeOptions"></td><td valign="top"><label for='showDayOnBadge' msg="showDayOnBadge" msgToolTip="showDayOnBadgeTooltip">showDayOnBadge</label>
+						<div id="showDayOnBadgeOptions" class="hide">
+							<table>
+								<tr><td><input type="checkbox" id="showDayOnBadgeExceptWhenMinutesLeft" pref="showDayOnBadgeExceptWhenMinutesLeft" default="true"></td><td><label for='showDayOnBadgeExceptWhenMinutesLeft' msg="showDayOnBadgeExceptWhenMinutesLeft">Show minutes remaining instead of time</label></td></tr>
+								<tr><td><input type="checkbox" id="showDayOnBadgeExceptWhenHoursLeft" pref="showDayOnBadgeExceptWhenHoursLeft"></td><td><label for='showDayOnBadgeExceptWhenHoursLeft' msg="showDayOnBadgeExceptWhenHoursLeft">Show hours remaining instead of time of event</label></td></tr>
+								<tr><td><input type="checkbox" id="showDayOnBadgeExceptWhenDaysLeft" pref="showDayOnBadgeExceptWhenDaysLeft"></td><td><label for='showDayOnBadgeExceptWhenDaysLeft' msg="showDayOnBadgeExceptWhenDaysLeft">showTimeSpecificEventsBeforeAllDay</label></td></tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+				<tr valign="top"><td><input type="checkbox" id="popupGoogleCalendarWebsite" pref="popupGoogleCalendarWebsite"></td><td><label for='popupGoogleCalendarWebsite' msg="popupGoogleCalendarWebsite" msgToolTip="popupGoogleCalendarWebsiteHelpTitle">popupGoogleCalendarWebsite</label></td></tr>
+				<tr valign="top"><td><input type="checkbox" id="showButtonTooltip" pref="showButtonTooltip" default="true"></td><td><label for='showButtonTooltip' msg="showButtonTooltip" msgToolTip="showButtonTooltipTooltip">tooltip</label></td></tr>
+				<tr valign="top"><td><input type="checkbox" id="excludeRecurringEventsButtonIcon" pref="excludeRecurringEventsButtonIcon"></td><td><label for='excludeRecurringEventsButtonIcon' msg="excludeRecurringEventsButtonIcon" msgToolTip="excludeRecurringEventsButtonIconTooltip">excludeRecurringEventsButtonIcon</label></td></tr>
+				<tr valign="top"><td></td><td colspan=2 style="font-style:italic">To exclude from notifications refer to <a class="notificationsTabLink" href="#">Notifications section</a> &gt; Do not show notifications for repeating events</td></tr>
+				<tr valign="top"><td><input type="checkbox" id="excludeHiddenCalendarsFromButton" pref="excludeHiddenCalendarsFromButton" default="true"></td><td><label for='excludeHiddenCalendarsFromButton' msg="excludeHiddenCalendarsFromButton" msgToolTip="excludeHiddenCalendarsFromButtonToolTip">excludeHiddenCalendarsFromButton</label></td></tr>
+				<tr valign="top"><td></td><td colspan=2 style="font-style:italic">To exclude calendars from button refer to the <a class="notificationsTabLink" href="#">Notifications section</a> &gt; Exclude calendars from notification</td></tr>
+			</table>
+		</div>
+		<div id="debugSection" class="optionsSection">
+			<div style="font-weight:bold;color:red" msg="forProblemSolving">For problem solving only!</div>
+			<br>
+			<div>&bull; <a id="saveSyncOptions" href="#">Save options</a> or <a id="loadSyncOptions" href="#">Load options</a> via signed in Chrome user</div>
+			<div>&bull; <a id="fetchCalendarSettings" href="#">Load Google Calendar settings into extension</a></div>
+			<div>&bull; <a id="clearCache" href="#" msg="clearCache">Clear extension cache</a></div>
+			<br>
+			<div><input type="checkbox" id="showConsoleMessages"> <label for='showConsoleMessages' msg="showConsoleMessages" msgToolTip="showConsoleMessagesTitle">showConsoleMessages</label></div>
+			
+			<div id="testSection" style="display:none">
+				<div><input id="testMode" type="checkbox" pref="testMode"> <label for='testMode'>Test mode</label></div>
+				<div>
+					<a id="exportLocalStorage" style="vertical-align:top" href="#">Export localStorage</a> &bull; <a id="importLocalStorage" href="#">Import localStorage</a><br>
+					<textarea id="localStorageText" placeholder="[Paste LocalStorage JSON string here]" rows=5 style="margin-top:5px;width:400px"></textarea>
+				</div>
+			</div>			
+		</div>
+		<div id="widgetSection" class="optionsSection">
+	   		<div>Widget options for Awesome New Tab Page (ANTP):</div>
+	   		<br>
+	  		<span msg="backgroundColor">backgrund color</span>: <input id="widgetColor" type="hidden" name="colorLight" value="#e6d0a1" class="color-picker"/>
+	  		<br><br>
+	  		<div>
+	  			<input id="widgetShowCalendar" type="checkbox" pref="widgetShowCalendar"/> <label msg="showCalendar" for="widgetShowCalendar">show calndar</label>
+	  		</div>
+	  		<div>
+	  			<input id="widgetShowLogo" type="checkbox" pref="widgetShowLogo"/> <label msg="showLogo" for="widgetShowLogo">show logo</label>
+	  		</div>
+	  		<div>
+	  			<input id="widgetShowTime" type="checkbox" pref="widgetShowTime"/> <label msg="showTime" for="widgetShowTime">show time</label>
+	  		</div>
+		</div>
+	</fieldset>
+</div>
+
+</body>
+</html>

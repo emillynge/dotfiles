@@ -1,0 +1,74 @@
+{
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "NEODSTRA\u0147UJTE"
+   },
+   "archiveLink": {
+      "message": "Arhiviraj"
+   },
+   "archiveLinkTitle": {
+      "message": "Arhiviraj sporo\u010Dilo"
+   },
+   "composeLinkTitle": {
+      "message": "Novo sporo\u010Dilo"
+   },
+   "deleteLink": {
+      "message": "Izbri\u0161i"
+   },
+   "deleteLinkTitle": {
+      "message": "Izbri\u0161i sporo\u010Dilo"
+   },
+   "fullLinkTitle": {
+      "message": "Prika\u017Ei celo sporo\u010Dilo"
+   },
+   "languageName": {
+      "message": "Sloven\u0161\u010Dina"
+   },
+   "monthsArray": {
+      "message": "jan,feb,mar,apr,maj,jun,jul,avg,sep,okt,nov,dec"
+   },
+   "noUnreadText": {
+      "message": "Ni neprebranih sporo\u010Dil"
+   },
+   "oneUnreadText": {
+      "message": "neprebrano sporo\u010Dilo"
+   },
+   "openLinkTitle": {
+      "message": "Odpri v novem zavihku"
+   },
+   "popupText": {
+      "message": "Prejeli ste novo sporo\u010Dilo!"
+   },
+   "readLink": {
+      "message": "Prebrano"
+   },
+   "readLinkTitle": {
+      "message": "Ozna\u010Di kot prebrano"
+   },
+   "refreshLinkTitle": {
+      "message": "Osve\u017Ei vse"
+   },
+   "replyLinkTitle": {
+      "message": "Odgovori"
+   },
+   "severalUnreadText": {
+      "message": "neprebranih sporo\u010Dil"
+   },
+   "spamLink": {
+      "message": "Vsiljena po\u0161ta"
+   },
+   "spamLinkTitle": {
+      "message": "Ozna\u010Di kot vsiljeno po\u0161to"
+   },
+   "starLinkTitle": {
+      "message": "Ozna\u010Di z zvezdico"
+   },
+   "summaryLinkTitle": {
+      "message": "Prika\u017Ei povzetek"
+   },
+   "unreadLink": {
+      "message": "Neprebrano"
+   },
+   "unreadLinkTitle": {
+      "message": "Ozna\u010Di kot neprebrano"
+   }
+}

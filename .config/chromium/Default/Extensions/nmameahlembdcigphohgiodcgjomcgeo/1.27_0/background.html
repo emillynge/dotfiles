@@ -1,0 +1,38 @@
+<html>
+<head>
+  <script src="js/options.js"></script>
+  <!-- This file is packaged with the extension then re-fetched from the
+  server for updates. Bitter experience has taught us that we can't depend on
+  the server resource loading correctly. -->
+  <script src="js/desktop_notifications.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    window.options.init();
+    var current = window.options.current;
+
+    function requestResource(source, callback) {
+      var script  = document.createElement('script');
+      script.src  = source;
+      script.type = 'text/javascript';
+      script.async = true;
+      script.onload = script.onerror = callback;
+      script.onreadystatechange = function() {
+        if (this.readyState in {loaded: 1, complete: 1}) {
+          callback();
+        }
+      };
+      document.getElementsByTagName('head')[0].appendChild(script);
+    }
+  </script>
+</head>
+<body>
+  <script type="text/javascript" charset="utf-8">
+    var source = current.protocol + current.domain +
+      '/desktop_notifications/rsrc.php';    
+    requestResource(source, function() {
+        DesktopNotifications.protocol = current.protocol;
+        DesktopNotifications.domain = current.domain;
+        DesktopNotifications.start(current.refreshTime);
+    });
+  </script>
+</body>
+</html>

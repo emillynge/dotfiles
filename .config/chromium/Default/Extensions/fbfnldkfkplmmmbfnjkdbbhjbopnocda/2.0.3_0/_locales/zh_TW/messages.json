@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "\u95DC\u4E8E"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "\u53BB"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "\u6E05\u9664\u6B77\u53F2"
+   },
+   "defaultLocation": {
+      "description": "default location is Taipei City",
+      "message": "\u81FA\u5317\u5E02"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of Ketagalen Blvd in Taipei",
+      "message": "25.04"
+   },
+   "defaultLocationLink": {
+      "description": "location link of Taipei",
+      "message": "\u81FA\u5317\u5E02"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of Ketagalen Blvd in Taipei",
+      "message": "121.52"
+   },
+   "errFindme": {
+      "description": "show error message if fails to determine the user's location",
+      "message": "\u5C0D\u4E0D\u8D77\uFF0C\u7121\u6CD5\u78BA\u5B9A\u4F60\u7684\u7576\u524D\u5730\u5740"
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "\u7121\u6CD5\u627E\u5230\u9019\u4E00\u5730\u9EDE '$DEST$'. ",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Google\u5730\u5716"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "\u5728\u5730\u5716\u4E0A\u67E5\u627E\u5730\u9EDE\uFF0C\u700F\u89BD\u5468\u570D\u7684\u597D\u53BB\u8655"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Google\u5730\u5716 + \u751F\u6D3B\u901A"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "\u986F\u793A\u6211\u7684\u4F4D\u7F6E"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "\u5F9E\u9019\u91CC"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "\u53D6\u5F97\u8DEF\u7DDA\uFF1A "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.com.tw"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "\u5E6B\u52A9"
+   },
+   "hotspot1": {
+      "message": "\u5C0F\u5403"
+   },
+   "hotspot2": {
+      "message": "\u9EDE\u5FC3"
+   },
+   "hotspot3": {
+      "message": "\u901F\u98DF\u5E97"
+   },
+   "hotspot4": {
+      "message": "\u66F8\u5E97"
+   },
+   "hotspot5": {
+      "message": "\u767E\u8CA8\u516C\u53F8"
+   },
+   "hotspot6": {
+      "message": "ATM"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "\u641C\u5C0B\u9644\u8FD1\u5730\u5340: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "\u5730\u9EDE\uFF1A"
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "\u5230\u9019\u91CC"
+   }
+}

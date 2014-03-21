@@ -1,0 +1,19 @@
+@import url(//www.google.com/cloudprint/client/closure.css);
+@import url(//www.google.com/cloudprint/client/printing.css);
+@import url(//www.google.com/css/modules/buttons/g-button-chocobo.css);
+
+img { padding: 15px 0; }
+ul { list-style-type: none; margin: 0; }
+ul li { line-height:16px; margin-top:15px; padding-left:24px; }
+ul li#ss1 { background:url('/images/icons/feature/bullet_1-b16.png') no-repeat; }
+ul li#ss2 { background:url('/images/icons/feature/bullet_2-b16.png') no-repeat; }
+ul li#ss3 { background:url('/images/icons/feature/bullet_3-b16.png') no-repeat; }
+ul li#ss4 { background:url('/images/icons/feature/bullet_4-b16.png') no-repeat; }
+.hidden { display: none; }
+#butterbar{ background-color:#ffffd9; border:1px solid #d2d26a; margin-bottom:1em; padding:.5em .3em; text-align:center }
+#butterbar p{ margin-bottom:0 }
+p#hr { padding-top: 15px; border-top: 1px solid #DDD; }
+.right { float: right; margin: 0 0 20px 30px; }
+.right p { width: 250px; }
+.modal-dialog-content { font-size: 14px; }
+.g-button { cursor: pointer; }

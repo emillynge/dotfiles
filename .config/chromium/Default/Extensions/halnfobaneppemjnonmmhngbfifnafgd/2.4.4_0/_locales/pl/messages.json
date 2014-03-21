@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "t\u0142o"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Przesu\u0144 do ty\u0142u o znak"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Przesu\u0144 do ty\u0142u o akapit"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Przesu\u0144 do ty\u0142u o zdanie"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Przesu\u0144 do ty\u0142u o wyraz"
+   },
+   "chromevis_capitals_text": {
+      "message": "W przypadku wielkich liter u\u017Cyj kombinacji Shift+[klawisz]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Prze\u0142\u0105cz mi\u0119dzy lup\u0105 wy\u015Brodkowan\u0105 a wyjustowan\u0105"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Zmniejsz rozmiar tekstu"
+   },
+   "chromevis_description": {
+      "message": "Umo\u017Cliwia powi\u0119kszenie dowolnego zaznaczonego tekstu i zmian\u0119 jego koloru. Zaznaczenie mo\u017Cna przesuwa\u0107 w obr\u0119bie strony za pomoc\u0105 myszy lub klawiatury."
+   },
+   "chromevis_format_text": {
+      "message": "Skr\u00F3ty powinny by\u0107 w nast\u0119puj\u0105cym formacie: [modyfikator]+[klawisz]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Przesu\u0144 do przodu o znak"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Przesu\u0144 do przodu o akapit"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Przesu\u0144 do przodu o zdanie"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Przesu\u0144 do przodu o wyraz"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Zwi\u0119ksz rozmiar tekstu"
+   },
+   "chromevis_name": {
+      "message": "Chrome Vis (od Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Przywr\u00F3\u0107 warto\u015Bci domy\u015Blne"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Zapisz"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "W\u0142\u0105cz/wy\u0142\u0105cz lup\u0119"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Prze\u0142\u0105cz mi\u0119dzy lup\u0105 zakotwiczon\u0105 a ruchom\u0105"
+   },
+   "chromevis_textcolor_label": {
+      "message": "tekst"
+   },
+   "chromevis_title_text": {
+      "message": "Skr\u00F3ty klawiaturowe lupy"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "pl"
+   }
+}

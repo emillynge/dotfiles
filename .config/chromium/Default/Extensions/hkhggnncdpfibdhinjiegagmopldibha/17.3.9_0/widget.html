@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/checkerPlusForCalendar.js"></script>	
+	<script type="text/javascript" src="js/widget.js"></script>
+    <link href="css/jquery-ui.custom.css" rel="stylesheet" type="text/css"> 
+    <style>
+   	html, body {
+      	user-select: none;
+      	-webkit-user-select: none;
+      	cursor: default;
+      	height: 100%;
+      	width: 100%;
+      	overflow: hidden;
+      	margin: 0;
+      	padding: 0;
+      	font-family: "Segoe UI", "Droid Sans", Arial, sans-serif;
+      	font-size:13px;
+      	color: black;
+   	}
+   	html.ANTP {background-color: #202020; /* #1B84C6 start color */}
+	.widget {
+		position:relative;
+		width: 100%;
+		padding: 0;
+		margin-left:3px;
+	}
+	html.popup .widget {width:99%}
+	
+	html.popup .events {overflow: auto;max-height: 261px;}
+	
+	#time {z-index:10000;text-shadow:1px 1px 3px white;position:absolute;top:-23px;right:3px;font-size:11px}
+	
+    #bar {
+      	position:absolute;
+      	xxbackground-color: rgba(0, 0, 0, 0.7);
+      	height:49px;
+      	width:100%;
+      	cursor:pointer;
+	}
+      
+    #count {
+		text-shadow: 1px 1px 1px white;
+		border-radius: 5px;
+		margin-top: -12px;
+		margin-right: 4px;
+		color: rgb(181,0,0);
+		font-weight: bold;
+		font-size: 45px;
+		float: right;
+    }
+      
+    #loading {display:none;text-align:center;margin-top:4px;font-weight:bold;font-size:20px}
+      
+    #logoCanvas {z-index:9999;position:absolute;bottom:3px;right:3px;cursor:pointer}
+      
+    #loggedOut {display:none;text-align:center}
+    #loggedOut a {color:white}
+
+	/* plus removed background from actual datepicker .css line ....   .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {  xxbackground */
+    .ui-datepicker {width:97%}
+    .ui-widget-header {background:transparent !important;color:black;border-color:transparent}
+    .ui-widget-header .ui-icon {xxbackground:none}
+    .ui-widget-content {xxbackground-color:transparent;background:transparent;border:none}
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {border-radius:8px;border-color:transparent;color:black}
+    
+    #calendar {border-bottom: 1px solid #bbb;margin-bottom:6px}
+    .dayHeader {font-weight:bold}
+    .dayHeader:not(:first-child) {margin-top:9px}
+    
+    .event:hover {cursor:pointer;text-decoration:underline}
+      
+    </style>
+</head>
+
+<body>
+	<canvas id="logoCanvas"></canvas>
+	<div id="calendar"></div>
+	<div class="widget">
+		<div id="time">abc</div>
+		<div class="events"></div>
+	</div>
+    <div id="loggedOut"><a href="https://mail.google.com" target="_top">Sign in</a> to your Gmail</div>
+</body>
+</html>

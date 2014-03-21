@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "All page screenshot"
+   },
+   "cancel": {
+      "message": "\uCDE8\uC18C"
+   },
+   "canceled": {
+      "message": "Taking capture canceled!"
+   },
+   "cannotscroll": {
+      "message": "Cannot scroll the page\u003Cbr\u003E\u003Cbr/\u003ETry to reopen this tab"
+   },
+   "changeheaders": {
+      "message": "Change Header and Footer"
+   },
+   "createimage": {
+      "message": " Creating the image file..."
+   },
+   "date": {
+      "message": "Date"
+   },
+   "description": {
+      "message": "\uC6F9\uD398\uC774\uC9C0 \uC2A4\uD06C\uB9B0\uC0F7."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "You can file a bug report"
+   },
+   "footer": {
+      "message": "Footer"
+   },
+   "header": {
+      "message": "Header"
+   },
+   "height": {
+      "message": "height"
+   },
+   "imagesize": {
+      "message": "\uC774\uBBF8\uC9C0 \uD06C\uAE30:"
+   },
+   "likeresult": {
+      "message": "Like the result? You can write a nice comment, and give 5 stars"
+   },
+   "loadcapturescript": {
+      "message": "Loading Capture Script..."
+   },
+   "name": {
+      "message": "\uC2A4\uD06C\uB9B0\uC0F7 - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "Cannot scroll this page (Extensions cannot work on internal Chrome pages nor on Chrome extensions gallery)"
+   },
+   "noresize": {
+      "message": "No resize"
+   },
+   "openimage": {
+      "message": "\uC774\uBBF8\uC9C0\uB97C \uC5F4\uB824\uBA74 \uD074\uB9AD\uD558\uC138\uC694:"
+   },
+   "or": {
+      "message": "or"
+   },
+   "preview": {
+      "message": "\uBBF8\uB9AC\uBCF4\uAE30:"
+   },
+   "resize": {
+      "message": "Resize to: "
+   },
+   "resizebefore": {
+      "message": "Resize window before the capture"
+   },
+   "takecapture": {
+      "message": "Take Capture Now"
+   },
+   "takingcapture": {
+      "message": "Taking capture"
+   },
+   "tosavemessage": {
+      "message": "To save the Image, right click on it and choose \"Save Image\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Visible screenshot"
+   },
+   "wait": {
+      "message": "\uB300\uAE30"
+   },
+   "width": {
+      "message": "width"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Captura tota la p\u00E0gina"
+   },
+   "cancel": {
+      "message": "Cancel\u00B7lar"
+   },
+   "canceled": {
+      "message": "Captura Cancel\u00B7lada!"
+   },
+   "cannotscroll": {
+      "message": "No pot despla\u00E7ar-se per la p\u00E0gina de MedlinePlus \u003Cbr/\u003E Intenta obrir aquesta pestanya"
+   },
+   "changeheaders": {
+      "message": "Canvi de cap\u00E7alera i peu d'imatge"
+   },
+   "createimage": {
+      "message": " Crear el fitxer d'imatge ..."
+   },
+   "date": {
+      "message": "Data"
+   },
+   "description": {
+      "message": "R\u00E0pid i simple soluci\u00F3 per guardar captures de pantalla  de qualsevol p\u00E0gina web. La primera ampliaci\u00F3 que captura tota la p\u00E0gina."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Pot presentar un informe d'error"
+   },
+   "footer": {
+      "message": "Peu"
+   },
+   "header": {
+      "message": "Cap\u00E7alera"
+   },
+   "height": {
+      "message": "Al\u00E7ada"
+   },
+   "imagesize": {
+      "message": "Mida d'imatge:"
+   },
+   "likeresult": {
+      "message": "T'agrada el resultat? Pots escriure un comentari agradable, i donar 5 estrelles"
+   },
+   "loadcapturescript": {
+      "message": "Carregant ... Captura de seq\u00FC\u00E8ncia"
+   },
+   "name": {
+      "message": "webpage screenshoot cat - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "No es pot despla\u00E7ar aquesta p\u00E0gina (Les extensions no poden treballar en les p\u00E0gines internes ni en les extensions de Chrome Chrome galeria)"
+   },
+   "noresize": {
+      "message": "No canviar la mida"
+   },
+   "openimage": {
+      "message": "Feu clic aqu\u00ED per obrir la imatge"
+   },
+   "or": {
+      "message": "o b\u00E9"
+   },
+   "preview": {
+      "message": "Vista pr\u00E8via:"
+   },
+   "resize": {
+      "message": "Canviar la mida a: "
+   },
+   "resizebefore": {
+      "message": "Redimensionar la finestra abans de la captura"
+   },
+   "takecapture": {
+      "message": "Prendre Captura Ara"
+   },
+   "takingcapture": {
+      "message": "Prenent la Captura"
+   },
+   "tosavemessage": {
+      "message": "Per guardar la imatge, feu clic dret sobre ell i seleccioneu \"Guardar imatge \""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Captura de pantalla visible"
+   },
+   "wait": {
+      "message": "Esperar"
+   },
+   "width": {
+      "message": "Amplada"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

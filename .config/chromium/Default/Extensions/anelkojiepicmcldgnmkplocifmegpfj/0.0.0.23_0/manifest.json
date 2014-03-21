@@ -1,0 +1,24 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://from-dust.ubisoft.com/"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAiy8poBg08K3Lb8c2Lu6HhCOJhSyw5Rvj5W0hKhSKuPDIISSiU2cNPehngAIc0ktuz185oT5DXCr5fKljVzGZGzS6VzW9ExtbuSZeJFnFisEhCEiMVO8OPJCHMy0pKr8Ag2EUWk4AUrG/yHcX94NMpGV/+NYEVnfotZ8E1oD0twIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "19.0.1084.30",
+   "name": "__MSG_appName__",
+   "permissions": [ "unlimitedStorage" ],
+   "requirements": {
+      "3D": {
+         "features": [ "webgl" ]
+      }
+   },
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.23"
+}

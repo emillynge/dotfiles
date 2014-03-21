@@ -1,0 +1,1016 @@
+{
+   "200": {
+      "message": "problema intermitente, por favor, tente novamente!"
+   },
+   "24hourMode": {
+      "message": "exibi\u00E7\u00E3o de tempo de 24 horas"
+   },
+   "24hourModeTitle": {
+      "message": "Mostra tempo em 24 horas ou seja. 18:00"
+   },
+   "401": {
+      "message": "No autorizado!"
+   },
+   "403": {
+      "message": "E-mail ou senha digitada est\u00E1 incorreta."
+   },
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "DO NOT REMOVE"
+   },
+   "Xminute": {
+      "message": "$1 minuto"
+   },
+   "Xminutes": {
+      "message": "$1 minutos"
+   },
+   "Xseconds": {
+      "message": "$1 segundos"
+   },
+   "aboutMe": {
+      "message": "Sobre mim"
+   },
+   "account": {
+      "message": "Account"
+   },
+   "addCalendar": {
+      "message": "Adicionar calend\u00E1rio"
+   },
+   "addCalendarTitle": {
+      "message": "Adicionar agenda via URL privada"
+   },
+   "addToGoogleCalendar": {
+      "message": "Adicionar ao calend\u00E1rio do Google"
+   },
+   "addedForSomeday": {
+      "message": "Adicionado $1 para $2"
+   },
+   "addedForSomedayAt": {
+      "message": "Adicionado $1 para $2 a $3"
+   },
+   "addedForToday": {
+      "message": "Adicionado $1 para hoje"
+   },
+   "addedForTodayAt": {
+      "message": "Adicionado $1 para $2"
+   },
+   "addedForTomorrow": {
+      "message": "Adicionado $1 para amanh\u00E3"
+   },
+   "addedForTomorrowAt": {
+      "message": "Adicionado $1 para amanh\u00E3 a $2"
+   },
+   "addedTimedEventInThePast": {
+      "message": "J\u00E1 passou o tempo deste evento! Gostaria de me mudar para o mesmo tempo amanh\u00E3?"
+   },
+   "agenda": {
+      "message": "Agenda"
+   },
+   "agendaOnly": {
+      "message": "Agenda apenas"
+   },
+   "alertMe": {
+      "message": "o me alerta ..."
+   },
+   "all": {
+      "message": "Todos os"
+   },
+   "alreadyDonated": {
+      "message": "J\u00E1 doou?"
+   },
+   "amount": {
+      "message": "Quantidade"
+   },
+   "andMyExtensions": {
+      "message": "e minhas extens\u00F5es"
+   },
+   "backgroundOfNotification": {
+      "message": "Cor de fundo do popup de notifica\u00E7\u00E3o"
+   },
+   "backgroundOfNotificationTooltip": {
+      "message": "Define a cor de plano de fundo do popup de notifica\u00E7\u00E3o"
+   },
+   "byEmailSubject": {
+      "message": "por assunto de email?"
+   },
+   "calendar": {
+      "message": "Calend\u00E1rio"
+   },
+   "calendarHelper": {
+      "message": "Calend\u00E1rio auxiliar"
+   },
+   "calendarViewAgenda": {
+      "message": "Modo de exibi\u00E7\u00E3o calend\u00E1rio: Agenda"
+   },
+   "calendarViewAgendaTitle": {
+      "message": "Quando voc\u00EA clicar no \u00EDcone do calend\u00E1rio nesta ir\u00E1 mostrar-lhe um pequeno calend\u00E1rio com os eventos abaixo em um formato de ordem de trabalhos"
+   },
+   "calendarViewRegular": {
+      "message": "Modo de exibi\u00E7\u00E3o calend\u00E1rio: Regular"
+   },
+   "calendarViewRegularTitle": {
+      "message": "Quando voc\u00EA clicar no \u00EDcone do calend\u00E1rio nesta ir\u00E1 mostrar-lhe um calend\u00E1rio com os eventos marcados no calend\u00E1rio"
+   },
+   "calendarViewTitle": {
+      "message": "Selecione a exibi\u00E7\u00E3o da agenda padr\u00E3o"
+   },
+   "canceledInAppPurchase": {
+      "message": "Tentar em vez de PayPal? ou entrar em contato comigo para perguntas em"
+   },
+   "cannotUpdateEventsInThePast": {
+      "message": "Ocorreu um problema! No momento n\u00E3o consigo atualizar eventos que aconteceram no passado, eu posso actualiza\u00E7\u00E3o eventos hoje ou no futuro imediato. Voc\u00EA pode usar a p\u00E1gina da Web do Google Calendar para eventos do passado!"
+   },
+   "changeThisDomain": {
+      "message": "Para alterar este dom\u00EDnio de e-mail agora $1"
+   },
+   "changeThisDomain2": {
+      "message": "sair e entrar como um usu\u00E1rio diferente"
+   },
+   "changeView": {
+      "message": "Alterar vista"
+   },
+   "changingIcon": {
+      "message": "Alterar \u00EDcone"
+   },
+   "choosePaymentMethod": {
+      "message": "Escolha um m\u00E9todo de pagamento"
+   },
+   "clearCache": {
+      "message": "Cache de extens\u00E3o clara"
+   },
+   "contact": {
+      "message": "contato"
+   },
+   "continue": {
+      "message": "Continuar"
+   },
+   "continueWithoutFeatures": {
+      "message": "Continue a utilizar esta extens\u00E3o com muitas op\u00E7\u00F5es, mas sem esses recursos extras."
+   },
+   "continueWithoutFeaturesHeader": {
+      "message": "Continuar sem recursos extras"
+   },
+   "contributeToContinue": {
+      "message": "Dar um contributo"
+   },
+   "copyPrivateAddress": {
+      "message": "Copie o endere\u00E7o privado (XML) de um calend\u00E1rio para a \u00E1rea de transfer\u00EAncia."
+   },
+   "copyPrivateAddressTitle": {
+      "message": "Em seu calend\u00E1rio de Google p\u00E1gina do lado esquerdo est\u00E1 a sua lista de calend\u00E1rio, clique no bot\u00E3o de seta para baixo junto ao calend\u00E1rio de sua escolha e, em seguida, selecione configura\u00E7\u00F5es de calend\u00E1rio. Ao lado de 'Endere\u00E7o privado' selecione XML e copie o endere\u00E7o para a \u00E1rea de transfer\u00EAncia. Nota: Se voc\u00EA n\u00E3o conseguir localizar o endere\u00E7o' privado' no n\u00EDvel de administrador do dom\u00EDnio dever\u00E1 alterar defini\u00E7\u00F5es do servi\u00E7o do calend\u00E1rio"
+   },
+   "createDeleteEvents": {
+      "message": "Criar ou excluir eventos dentro do modo de exibi\u00E7\u00E3o de m\u00EAs"
+   },
+   "createEvent": {
+      "message": "Criar evento"
+   },
+   "creditCardOrPaypal": {
+      "message": "Voc\u00EA pode usar seu cart\u00E3o de cr\u00E9dito ou PayPal para"
+   },
+   "currentPage": {
+      "message": "p\u00E1gina atual"
+   },
+   "customizeCalendar": {
+      "message": "Altere: Altura, Largura, Calend\u00E1rios Vis\u00EDveis, Cores, etc."
+   },
+   "customizeCalendarTitle": {
+      "message": "No calend\u00E1rio pop-up, voc\u00EA deve definir o 'View' para 'Personalizar'"
+   },
+   "customized": {
+      "message": "Personalizado"
+   },
+   "d": {
+      "message": "d"
+   },
+   "daysAgo": {
+      "message": "muitos dias"
+   },
+   "daysLeft": {
+      "message": "restan $1 dias"
+   },
+   "delete": {
+      "message": "Excluir"
+   },
+   "description": {
+      "message": "Exibe o de mensagens na sua Caixa de entrada do Gmail. Voc\u00EA tamb\u00E9m pode clicar no bot\u00E3o para abrir a sua caixa de entrada"
+   },
+   "developingMore": {
+      "message": "e eu estou trabalhando em v\u00E1rias das suas sugest\u00F5es..."
+   },
+   "dismiss": {
+      "message": "Finalizar"
+   },
+   "dismissAll": {
+      "message": "Finalizar todos"
+   },
+   "doNotNotifyMeOfUpdates": {
+      "message": "N\u00E3o me notificar de troca"
+   },
+   "doNotShowNotificationsForAlldayEvents": {
+      "message": "N\u00E3o mostrar as notifica\u00E7\u00F5es para eventos de dia inteiro"
+   },
+   "doNotShowNotificationsForAlldayEventsTitle": {
+      "message": "N\u00E3o mostrar as notifica\u00E7\u00F5es para eventos de dia inteiro"
+   },
+   "doNotShowNotificationsWhenBrowserClosed": {
+      "message": "N\u00E3o Mostrar notifica\u00E7\u00F5es quando o janela do navegador \u00E9 fechada"
+   },
+   "doNotShowNotificationsWhenBrowserClosedTooltip": {
+      "message": "Seu navegador Chrome ainda ser\u00E1 executado em segundo plano com uma bandeja do \u00EDcone, mas, as notifica\u00E7\u00F5es n\u00E3o ser\u00E3o mostradas!"
+   },
+   "doNotShowPastNotifications": {
+      "message": "N\u00E3o mostrar as notifica\u00E7\u00F5es de eventos no passado"
+   },
+   "doNotShowPastNotificationsTitle": {
+      "message": "N\u00E3o mostre todas as notifica\u00E7\u00F5es que ocorreram antes de voc\u00EA abrir seu navegador. \u00DAtil ao alterar computadores muitas vezes"
+   },
+   "donateButton": {
+      "message": "https://www.paypal.com/pt_BR/i/btn/btn_donate_SM.gif"
+   },
+   "drawAttentionToBrowser": {
+      "message": "Piscar Chrome na barra de tarefas no Windows ou saltar o \u00EDcone do Chrome em um Mac (Beta)"
+   },
+   "drawAttentionToBrowserTooltip": {
+      "message": "Isso acontecer\u00E1 somente se o foco n\u00E3o \u00E9 no navegador. \u00DAtil se utilizar v\u00E1rios espa\u00E7os de trabalho... no Windows: aplicativo Chrome pisca na barra de tarefas. No Mac: Salta para o \u00EDcone do Chrome"
+   },
+   "editEventDetails": {
+      "message": "Editar evento"
+   },
+   "email": {
+      "message": "Email:"
+   },
+   "enableLanguageDetection": {
+      "message": "Ativar a detec\u00E7\u00E3o de idioma"
+   },
+   "enableLanguageDetectionToolTip": {
+      "message": "Fale na l\u00EDngua do seu lembrete usando este servi\u00E7o de detec\u00E7\u00E3o de idioma!"
+   },
+   "enablePrivateAddressTitle": {
+      "message": "Ir para a se\u00E7\u00E3o de configura\u00E7\u00F5es de servi\u00E7o de calend\u00E1rio em pain\u00E9is de controle e, em seguida, Selecionar op\u00E7\u00E3o 'Compartilhar todas as informa\u00E7\u00F5es e forasteiros podem alterar os calend\u00E1rios'"
+   },
+   "enterATitle": {
+      "message": "Voc\u00EA deve digitar um t\u00EDtulo!"
+   },
+   "enterAnAmount": {
+      "message": "Voc\u00EA deve inserir um valor!"
+   },
+   "errorAddingEvent": {
+      "message": "Adicionar evento de erro! Possivelmente devido a nenhuma conex\u00E3o com a internet!"
+   },
+   "errorGettingCalendar": {
+      "message": "Calend\u00E1rio come\u00E7ar problema, verifique a URL e tente novamente! (Erro: $1)"
+   },
+   "errorGettingCalendarUnauthorized": {
+      "message": "N\u00E3o autorizado! Voc\u00EA deve primeiramente entrar seu calend\u00E1rio de Google Apps, abrindo uma nova aba"
+   },
+   "eventAdded": {
+      "message": "Evento adicionado"
+   },
+   "eventCreated": {
+      "message": "Evento criado"
+   },
+   "eventDeleted": {
+      "message": "Evento que foi exclu\u00EDdo"
+   },
+   "eventDescription": {
+      "message": "Descri\u00E7\u00E3o"
+   },
+   "eventUpdated": {
+      "message": "O evento foi atualizado"
+   },
+   "eventsAndSnoozes": {
+      "message": "Snoozes e eventos"
+   },
+   "ex": {
+      "message": "por exemplo"
+   },
+   "example": {
+      "message": "exemplo"
+   },
+   "excludeCalendar": {
+      "message": "Excluir calend\u00E1rio"
+   },
+   "excludeCalendarFrom": {
+      "message": "Excluir calend\u00E1rios das"
+   },
+   "excludeCalendarFrom2": {
+      "message": "vis\u00F5es Agenda e Calend\u00E1rio"
+   },
+   "excludeCalendarFrom3": {
+      "message": "'Bot\u00E3o \u00CDcone' e 'Notifica\u00E7\u00F5es'"
+   },
+   "excludeCalendarFromTitle": {
+      "message": "Clique em 'Exibir' para ocultar calend\u00E1rios espec\u00EDficos do modo de exibi\u00E7\u00E3o calend\u00E1rio/agenda ou clique em 'verificar' para excluir eventos do bot\u00E3o \u00EDcone e notifica\u00E7\u00F5es de calend\u00E1rios espec\u00EDficos"
+   },
+   "excludeCalendarsCheckboxChecking": {
+      "message": "Por favor clique no link \u00E0 direita nesta op\u00E7\u00E3o"
+   },
+   "excludeRecurringEventsButtonIcon": {
+      "message": "Excluir eventos repetidos do 'Bot\u00E3o \u00CDcone'"
+   },
+   "excludeRecurringEventsButtonIconTooltip": {
+      "message": "Quaisquer eventos definidos para ser repetida n\u00E3o v\u00E3o aparecer no \u00EDcone do bot\u00E3o, mas voc\u00EA ainda receber\u00E1 suas notifica\u00E7\u00F5es"
+   },
+   "excluded": {
+      "message": "Exclu\u00EDdo"
+   },
+   "extensionUpdated": {
+      "message": "Extension foi atualizado"
+   },
+   "extraFeatures": {
+      "message": "Recursos extras"
+   },
+   "failureWithInAppPurchase": {
+      "message": "Cancelada ou falha com transa\u00E7\u00E3o! Tentar em vez de PayPal?"
+   },
+   "failureWithPayPalPurchase": {
+      "message": "Cancelada ou falha com transa\u00E7\u00E3o! Experimentar o Google Checkout?"
+   },
+   "forProblemSolving": {
+      "message": "Para resolu\u00E7\u00E3o de problemas apenas"
+   },
+   "forSuggestions": {
+      "message": "para sugest\u00F5es ou saber mais"
+   },
+   "forever": {
+      "message": "Para sempre"
+   },
+   "googleAppsCalendars": {
+      "message": "Calend\u00E1rios de Google Apps"
+   },
+   "googleAppsCalendarsForce": {
+      "message": "For\u00E7a m\u00FAltiplo entrada do Google usar como padr\u00E3o sempre seus calend\u00E1rios de Google Apps"
+   },
+   "googleAppsCalendarsTitle": {
+      "message": "Marque esta op\u00E7\u00E3o somente se voc\u00EA tem e quer usar o Google Apps para empresas ou educa\u00E7\u00E3o calend\u00E1rio. Note, isso ir\u00E1 desabilitar o calend\u00E1rio de Google regular verifica\u00E7\u00E3o!"
+   },
+   "googleAppsNote": {
+      "message": "Isso desativar\u00E1 a regular Google Calendar verificando"
+   },
+   "h": {
+      "message": "h"
+   },
+   "help": {
+      "message": "Ajuda"
+   },
+   "helpMeTranslate": {
+      "message": "Voc\u00EA pode me ajudar com as tradu\u00E7\u00F5es? $1 os corretos!"
+   },
+   "helpMeTranslate2": {
+      "message": "Correio eletr\u00F3nico a mim"
+   },
+   "helpSupport": {
+      "message": "para ajudar a apoiar o autor desta extens\u00E3o!"
+   },
+   "highlightCurrentDay": {
+      "message": "Detaque o Dia Corrente"
+   },
+   "highlightCurrentDayTooltip": {
+      "message": "Quando voc\u00EA ver o calend\u00E1rio no m\u00EAs exibir o dia atual ser\u00E1 brevemente pulsate"
+   },
+   "highlightWeekends": {
+      "message": "Destaque os Finais de Semana"
+   },
+   "highlightWeekendsTitle": {
+      "message": "Tons levemente os finais de semana, mas, apenas em 'Regular' m\u00EAs calendar exibir"
+   },
+   "hours": {
+      "message": "horas"
+   },
+   "hoursAgo": {
+      "message": "$1 horas atr\u00E1s"
+   },
+   "hoursLeft": {
+      "message": "restan $1 horas"
+   },
+   "hoursRemaining": {
+      "message": "Mostrar horas restantes em vez da hora do evento"
+   },
+   "hoursRemainingTitle": {
+      "message": "Se o evento for mais no dia e menos de 24 horas de dist\u00E2ncia, ent\u00E3o as horas \u00E0 esquerda ser\u00E1 mostrado ex. 4 h"
+   },
+   "iconClassic": {
+      "message": "\u00CDcone padr\u00E3o com data atual"
+   },
+   "iconDefault": {
+      "message": "\u00CDcone padr\u00E3o"
+   },
+   "iconDefault2WithDate": {
+      "message": "\u00CDcone padr\u00E3o com data atual"
+   },
+   "iconMonochrome": {
+      "message": "\u00CDcone monocrom\u00E1tico"
+   },
+   "iconNew": {
+      "message": "Novo \u00EDcone"
+   },
+   "iconNew2": {
+      "message": "\u00CDcone do escuro"
+   },
+   "iconNew2WithDate": {
+      "message": "\u00CDcone escuro com data atual"
+   },
+   "iconNewWithDate": {
+      "message": "\u00CDcone novo com data atual"
+   },
+   "iconTooltip": {
+      "message": "O \u00EDcone a ser usado para o bot\u00E3o pop-up"
+   },
+   "inVARhour": {
+      "message": "em $1 horas"
+   },
+   "inVARhours": {
+      "message": "em $1 dias"
+   },
+   "inVARminutes": {
+      "message": "em $1 min"
+   },
+   "keepHoveringOverTheBluePlusOne": {
+      "message": "Manter pairando sobre o azul 1 at\u00E9 que o texto aparece em seguida, clique para compartilhar no Google "
+   },
+   "language": {
+      "message": "L\u00EDngua"
+   },
+   "languageToolTip": {
+      "message": "Altera o idioma de notifica\u00E7\u00E3o display e voz. Nota: Voc\u00EA pode ver muitas l\u00EDnguas ao mesmo tempo porque estas s\u00E3o as regras: ele ir\u00E1 exibir o que eu tenho traduzido na l\u00EDngua escolhida aqui, se eu n\u00E3o tiver traduzido algumas palavras ele ir\u00E1 procurar por ele no idioma do seu navegador, se eu n\u00E3o tiver traduzido aqueles indicar\u00C3 \u00A1-lo em ingl\u00EAs. Nota: Para alterar o calend\u00E1rio de linguagem no pop-up usar as configura\u00E7\u00F5es do calend\u00E1rio de Google."
+   },
+   "largest": {
+      "message": "maior"
+   },
+   "licenseOnlyValidFor": {
+      "message": "A licen\u00E7a s\u00F3 ser\u00E1 v\u00E1lida para os usu\u00E1rios que assinam em seu calend\u00E1rio de Google com um"
+   },
+   "loading": {
+      "message": "Carga ..."
+   },
+   "logEventsAndSnoozes": {
+      "message": "Eventos de log e snoozes"
+   },
+   "longerSnoozeTimes": {
+      "message": "Tempos mais longos de soneca"
+   },
+   "m": {
+      "message": "m"
+   },
+   "maxDaysAhead": {
+      "message": "N\u00FAmero de dias para olhar \u00E0 frente"
+   },
+   "maxDaysAheadTitle": {
+      "message": "N\u00FAmero m\u00E1ximo de dias para mostrar uma contagem regressiva no \u00EDcone"
+   },
+   "meetMe": {
+      "message": "Me encontrar"
+   },
+   "meetMeTitle": {
+      "message": "Me ver em um v\u00EDdeo!"
+   },
+   "min": {
+      "message": "min"
+   },
+   "minimumAmount": {
+      "message": "Voc\u00EA deve doar pelo menos $1"
+   },
+   "minimumDonationForGoogleCheckout": {
+      "message": "0.50"
+   },
+   "minutesAgo": {
+      "message": "$1 minutos atr\u00E1s"
+   },
+   "minutesLeft": {
+      "message": "restan $1 minutos "
+   },
+   "missingOptions": {
+      "message": "Faltam op\u00E7\u00F5es? As tradu\u00E7\u00F5es s\u00E3o ruins? Contato"
+   },
+   "missingOptions2": {
+      "message": "para sugest\u00F5es!"
+   },
+   "month": {
+      "message": "M\u00EAs"
+   },
+   "more": {
+      "message": "mais"
+   },
+   "moreInfo": {
+      "message": "Mais informa\u00E7\u00F5es"
+   },
+   "multipleUserLicense": {
+      "message": "Obter uma licen\u00E7a de usu\u00E1rio m\u00FAltiplo para sua organiza\u00E7\u00E3o"
+   },
+   "mustAddCalendar": {
+      "message": "Se voc\u00EA habilitar o Google Apps voc\u00EA deve adicionar um calend\u00E1rio!"
+   },
+   "mustClickShareLinks": {
+      "message": "Use qualquer ac\u00E7\u00E3o concatena\u00E7\u00E3o abaixo o calend\u00E1rio pop-up uma vez e, em seguida, voc\u00EA pode remov\u00EA-los todos aqui!"
+   },
+   "mustSignInToPay": {
+      "message": "Voc\u00EA deve entrar no seu calend\u00E1rio de Google e esperar por esta extens\u00E3o para carregar!"
+   },
+   "myPreference": {
+      "message": "minha prefer\u00EAncia"
+   },
+   "needHelp": {
+      "message": "Precisa de ajuda?"
+   },
+   "noDetails": {
+      "message": "sem detalhes"
+   },
+   "noPermissionOnEvent": {
+      "message": "Problema movendo esse evento, voc\u00EA pode n\u00E3o ter permiss\u00E3o!"
+   },
+   "notLoggedIn": {
+      "message": "N\u00E3o registrado"
+   },
+   "notTaxExempt": {
+      "message": "Eu n\u00E3o sou uma organiza\u00E7\u00E3o isenta de impostos"
+   },
+   "notificationDateFormat": {
+      "message": "dddd, d mmm"
+   },
+   "notificationFontSize": {
+      "message": "Tamanho do texto de notifica\u00E7\u00E3o"
+   },
+   "notificationFontSizeTooltip": {
+      "message": "Define o tamanho da fonte do t\u00EDtulo do evento na notifica\u00E7\u00E3o pop-up. Defina o menor para quando h\u00E1 um t\u00EDtulo longo evento e defina o maior para quando h\u00E1 um t\u00EDtulo curto evento"
+   },
+   "notificationSound": {
+      "message": "Som de notifica\u00E7\u00E3o"
+   },
+   "notificationSoundTitle": {
+      "message": "Reproduz um som se voc\u00EA habilitar as notifica\u00E7\u00F5es acima quando ocorrem os eventos"
+   },
+   "notificationTextToSpeech": {
+      "message": "Notifica\u00E7\u00E3o de voz"
+   },
+   "notificationTextToSpeechTitle": {
+      "message": "O t\u00EDtulo do seu evento ser\u00E1 falado em voz alta usando texto em fala, muito bem quando o computador est\u00E1 na sala ao lado!"
+   },
+   "notificationZoom": {
+      "message": "Zoom de janela de notifica\u00E7\u00E3o"
+   },
+   "notificationZoomTooltip": {
+      "message": "Use essa op\u00E7\u00E3o para reduzir o 'todos' o texto na janela de notifica\u00E7\u00E3o (\u00FAtil para aqueles com alta escala de DPI)"
+   },
+   "offlineMode": {
+      "message": "Modo off-line"
+   },
+   "offlineModeTitle": {
+      "message": "Seja notificado de eventos sem uma conex\u00E3o com a internet! Aviso: Seus eventos ser\u00E3o salvos neste computador!"
+   },
+   "omniboxDefault": {
+      "message": "jantar 19h"
+   },
+   "omniboxDefaultTom": {
+      "message": "am 8 de despertar"
+   },
+   "onlyPopupsForOwner": {
+      "message": "Mostrar somente notifica\u00E7\u00F5es para eventos de calend\u00E1rios que possuo"
+   },
+   "onlyPopupsForOwnerTooltip": {
+      "message": "Notifica\u00E7\u00F5es s\u00F3 ir\u00E3o mostrar eventos de calend\u00E1rios que voc\u00EA \u00E9 o propriet\u00E1rio. Isso geralmente significa que os calend\u00E1rios em 'Meus calend\u00E1rios' e n\u00E3o de calend\u00E1rios compartilhados ou na se\u00E7\u00E3o 'Outros calend\u00E1rios'"
+   },
+   "onlyRemoveAfterDonation": {
+      "message": "Voc\u00EA s\u00F3 pode remover o link de doa\u00E7\u00E3o depois de fazer uma doa\u00E7\u00E3o!"
+   },
+   "openCalendar": {
+      "message": "Calend\u00E1rio aberto"
+   },
+   "option": {
+      "message": "Op\u00E7\u00E3o"
+   },
+   "optionToCustomizeWith": {
+      "message": "Uso o"
+   },
+   "options": {
+      "message": "Op\u00E7\u00F5es"
+   },
+   "or": {
+      "message": "ou"
+   },
+   "orPayUsing_": {
+      "message": "Ou voc\u00EA pode pagar usando"
+   },
+   "origins_languageDetection": {
+      "message": "*://*.DetectLanguage.com/*"
+   },
+   "password": {
+      "message": "Password:"
+   },
+   "pastDays": {
+      "message": "Esmae\u00E7a os Dias Passados"
+   },
+   "pastDaysTitle": {
+      "message": "Cinza fora os \u00FAltimos dias do calend\u00E1rio, mas, apenas na exibi\u00E7\u00E3o de calend\u00E1rio de m\u00EAs 'Regular'"
+   },
+   "pasteHTML": {
+      "message": "e cole o HTML abaixo"
+   },
+   "pastePrivateAddress": {
+      "message": "Cole o endere\u00E7o privado (XML) do calend\u00E1rio aqui"
+   },
+   "pollingInterval": {
+      "message": "Intervalo de sondagem"
+   },
+   "pollingIntervalTooltip": {
+      "message": "O intervalo no qual buscar eventos no seu calend\u00E1rio de Google e o bot\u00E3o Atualizar"
+   },
+   "popupGoogleCalendarWebsite": {
+      "message": "Fa\u00E7a o Bot\u00E3o \u00CDcone abrir o website do Google Agenda, ao inv\u00E9s do Popup"
+   },
+   "popupGoogleCalendarWebsiteHelpTitle": {
+      "message": "Ao clicar no \u00EDcone do bot\u00E3o abra site Google Calend\u00E1rio em vez de janela pop-up pequena. (Segurando CTRL ao clicar no \u00EDcone tamb\u00E9m far\u00E1 isso!)"
+   },
+   "poweredByGoogle": {
+      "message": "Psto por Google"
+   },
+   "problemCommunicatingTryAgain": {
+      "message": "Erro: $1 problema comunica\u00E7\u00E3o com $2, por favor, tente novamente!"
+   },
+   "problemSigningIn": {
+      "message": "Problema entrar! Possivelmente devido a nenhuma conex\u00E3o com a internet!"
+   },
+   "processing": {
+      "message": "Processamento"
+   },
+   "quickAdd": {
+      "message": "Adicionar r\u00E1pida"
+   },
+   "quickAddDefaultText": {
+      "message": "ex. Pepe Jantar 9:00"
+   },
+   "quickAddTitle": {
+      "message": "por exemplo, futebol em 20 min."
+   },
+   "recentlyAddedEvent": {
+      "message": "Ocorreu um problema! Se voc\u00EA recentemente adicionou este evento atrav\u00E9s da p\u00E1gina da Web, em seguida, clique no \u00EDcone Atualizar ou ent\u00E3o por favor, use a p\u00E1gina da Web do Google Calendar!"
+   },
+   "refresh": {
+      "message": "Refresh"
+   },
+   "rememberQuickAdd": {
+      "message": "Lembre-se de 'Quick Add' sinal em"
+   },
+   "rememberQuickAddTitle": {
+      "message": "Nota: Isto s\u00F3 salvar\u00E1 o AuthKey de Google, mas n\u00E3o seu sinal credenciais"
+   },
+   "remindersBeforeEvent": {
+      "message": "Mostrar somente as notifica\u00E7\u00F5es de eventos com um"
+   },
+   "remindersBeforeEventHelpTitle": {
+      "message": "Em seu calend\u00E1rio de Google p\u00E1gina do lado esquerdo est\u00E1 a sua lista de calend\u00E1rio, clique no bot\u00E3o de seta para baixo junto ao calend\u00E1rio de sua escolha e, em seguida, selecione 'Notifica\u00E7\u00F5es'. Em seguida, adicione o lembrete 'Pop-up' e definir uma hora de lembrete. Nota: Voc\u00EA tamb\u00E9m pode substituir esta op\u00E7\u00E3o para cada evento ao adicionar ou edit\u00E1-los"
+   },
+   "remindersBeforeEventPopupReminder": {
+      "message": "lembrete de 'pop-up'"
+   },
+   "remove": {
+      "message": "Remover"
+   },
+   "removeDonationLink": {
+      "message": "Remover o link de doa\u00E7\u00E3o"
+   },
+   "removeDonationLinkTitle": {
+      "message": "Isto ir\u00E1 remover o link de doa\u00E7\u00E3o sob o calend\u00E1rio"
+   },
+   "removeQuickAdd": {
+      "message": "Remover 'Adicionar r\u00E1pido'"
+   },
+   "removeQuickAddTitle": {
+      "message": "Ocultar recurso 'Quick Add'"
+   },
+   "removeShareLinks": {
+      "message": "Remover o compartilhamento de links"
+   },
+   "removeShareLinksTooltip": {
+      "message": "Remove o Facebook, Twitter links etc abaixo o calend\u00E1rio pop-up"
+   },
+   "removeTitle": {
+      "message": "Remover o calend\u00E1rio"
+   },
+   "repeatSound": {
+      "message": "Repetir o som de notifica\u00E7\u00E3o cada"
+   },
+   "repeatSound2": {
+      "message": "e parar ap\u00F3s"
+   },
+   "repeatSound3": {
+      "message": "vezes"
+   },
+   "repeatSoundTooltip": {
+      "message": "Repete a notifica\u00E7\u00E3o ou o som de voz, se a janela de pop-up de notifica\u00E7\u00E3o n\u00E3o tenha sido despedida"
+   },
+   "reschedule": {
+      "message": "Reschedule"
+   },
+   "runInBackground": {
+      "message": "Executar em segundo plano quando o Google Chrome \u00E9 fechado"
+   },
+   "runInBackgroundToolTip": {
+      "message": "Continue a receber notifica\u00E7\u00F5es mesmo quando o navegador for fechado! Recomendo esse procedimento apenas para usu\u00E1rios avan\u00E7ados."
+   },
+   "runInBackgroundWarning1": {
+      "message": "Por favor, leia cuidadosamente cerca de $1"
+   },
+   "runInBackgroundWarning1b": {
+      "message": "apps de plano de fundo"
+   },
+   "runInBackgroundWarning2": {
+      "message": "Se tiver desactivado o apps de plano de fundo no Chrome voc\u00EA pode reativ\u00E1-las lendo a $1"
+   },
+   "runInBackgroundWarning2b": {
+      "message": "\u00FAltima se\u00E7\u00E3o clickable"
+   },
+   "runInBackgroundWarning3": {
+      "message": "Talvez voc\u00EA precise usar o $1 da p\u00E1gina de login do Gmail"
+   },
+   "runInBackgroundWarning3b": {
+      "message": "estadia assinado em"
+   },
+   "save": {
+      "message": "Guardar"
+   },
+   "saveSettings": {
+      "message": "Salvar configura\u00E7\u00F5es"
+   },
+   "saved": {
+      "message": "Salvos!"
+   },
+   "saving": {
+      "message": "Salvando..."
+   },
+   "securely": {
+      "message": "com seguran\u00E7a."
+   },
+   "seeUpdates": {
+      "message": "Veja troca"
+   },
+   "seeVideo": {
+      "message": "Veja o v\u00EDdeo"
+   },
+   "selectACalendar": {
+      "message": "Selecione um calend\u00E1rio"
+   },
+   "selectCalendar": {
+      "message": "Primeiro voc\u00EA deve selecionar um calend\u00E1rio!"
+   },
+   "setDateTime": {
+      "message": "Definir a data/hora"
+   },
+   "share": {
+      "message": "Compartilhar"
+   },
+   "showAgendaOptions": {
+      "message": "Adicionar link para menu 'Op\u00E7\u00F5es' na vis\u00E3o Agenda"
+   },
+   "showAgendaOptionsTitle": {
+      "message": "Mostrar link op\u00E7\u00F5es na agenda"
+   },
+   "showButtonTooltip": {
+      "message": "Mostrar a dica de ferramenta quando o mouse sobre o \u00EDcone do bot\u00E3o"
+   },
+   "showButtonTooltipTooltip": {
+      "message": "Mostrar os eventos pr\u00F3ximos quando paira sobre o \u00EDcone do bot\u00E3o"
+   },
+   "showConsoleMessages": {
+      "message": "Mensagens de registro no Console de Javascript"
+   },
+   "showConsoleMessagesTitle": {
+      "message": "Significava para depura\u00E7\u00E3o somente e pode abrandar a extens\u00E3o um pouco!"
+   },
+   "showContextMenuItem": {
+      "message": "Visualizar menu de contexto item por clique bot\u00E3o direito em"
+   },
+   "showContextMenuItemTooltip": {
+      "message": "Adiciona um item de menu quando voc\u00EA clique direito em qualquer p\u00E1gina da Web ou a p\u00E1gina Web de e-mail rapidamente adicion\u00E1-lo ao seu calend\u00E1rio"
+   },
+   "showDataFeeds": {
+      "message": "Mostrar calend\u00E1rio dados feeds"
+   },
+   "showDayOnBadge": {
+      "message": "Visualizar dia atual da semana no \u00EDcone do bot\u00E3o"
+   },
+   "showDayOnBadgeExceptWhenDaysLeft": {
+      "message": "Excepto quando o pr\u00F3ximo evento \u00E9 dia de dist\u00E2ncia"
+   },
+   "showDayOnBadgeExceptWhenHoursLeft": {
+      "message": "Excepto quando o pr\u00F3ximo evento \u00E9 horas de dist\u00E2ncia"
+   },
+   "showDayOnBadgeExceptWhenMinutesLeft": {
+      "message": "Excepto quando o pr\u00F3ximo evento est\u00E1 a minutos de dist\u00E2ncia"
+   },
+   "showDayOnBadgeTooltip": {
+      "message": "Em vez de contagem regressiva para a exibi\u00E7\u00E3o do pr\u00F3xima evento do dia atual da semana como 'Ter\u00E7a' etc. Nota: Voc\u00EA tamb\u00E9m pode listar exce\u00E7\u00F5es!"
+   },
+   "showDesktopNotifications": {
+      "message": "Mostrar notifica\u00E7\u00F5es desktop"
+   },
+   "showDesktopNotificationsTitle": {
+      "message": "Habilitar esta op\u00E7\u00E3o para mostrar uma notifica\u00E7\u00E3o quando ocorrer um evento no seu calend\u00E1rio"
+   },
+   "showEventTimeOnBadge": {
+      "message": "Visualizar a hora do evento no \u00EDcone do bot\u00E3o"
+   },
+   "showEventTimeOnBadgeTooltip": {
+      "message": "Exibir o tempo at\u00E9 o pr\u00F3ximo evento sobre o \u00EDcone"
+   },
+   "showHeader": {
+      "message": "Mostrar o cabe\u00E7alho superior na janela pop-up"
+   },
+   "showHeaderTooltip": {
+      "message": "Exibe o Adicionar r\u00E1pido e outros comandos na parte superior do popup"
+   },
+   "showMinutesLeftInBadge": {
+      "message": "Mostrar minutos do fim, em vez da hora do evento"
+   },
+   "showMinutesLeftInBadgeTitle": {
+      "message": "Se o evento est\u00E1 vindo logo em seguida, mostrar os minutos restantes"
+   },
+   "showOpenCalendar": {
+      "message": "Mostrar \u00EDcone de calend\u00E1rio aberto"
+   },
+   "showOpenCalendarTooltip": {
+      "message": "Shows de abrir o \u00EDcone do calend\u00E1rio"
+   },
+   "showQuickAdd": {
+      "message": "Mostrar 'Adicionar r\u00E1pido'"
+   },
+   "showQuickAddTooltip": {
+      "message": "Exibe o r\u00E1pido adicionar \u00E1rea de entrada de texto na parte superior esquerda"
+   },
+   "showRefresh": {
+      "message": "Mostrar \u00EDcone de atualiza\u00E7\u00E3o"
+   },
+   "showRefreshTooltip": {
+      "message": "Mostra o \u00EDcone de atualiza\u00E7\u00E3o"
+   },
+   "showTimeSpecificEventsBeforeAllDay": {
+      "message": "Mostrar eventos espec\u00EDficos de tempo antes de eventos de dia inteiro"
+   },
+   "showTimeSpecificEventsBeforeAllDayTooltip": {
+      "message": "Se amanh\u00E3 voc\u00EA tem um evento de dia inteiro e um evento de 10 am mostrar\u00E1 10 am em vez de 1 d"
+   },
+   "showViewDropDown": {
+      "message": "Mostrar exibi\u00E7\u00E3o suspensa"
+   },
+   "showViewDropDownTooltip": {
+      "message": "Exibe a lista de dropdown 'Vista' (Nota: voc\u00EA precisa ver isso para alterar a exibi\u00E7\u00E3o inicialmente, depois voc\u00EA pode ocult\u00E1-lo:)"
+   },
+   "signIn": {
+      "message": "Entrar"
+   },
+   "signInAsUserOfOrg": {
+      "message": "Voc\u00EA deve r $1 com e-mail da organiza\u00E7\u00E3o"
+   },
+   "signInAsUserOfOrg2": {
+      "message": "sair e entrar no seu calend\u00E1rio"
+   },
+   "smallest": {
+      "message": "menor"
+   },
+   "snooze": {
+      "message": "Soneca"
+   },
+   "snoozeAll": {
+      "message": "Snooze todos"
+   },
+   "somedayAt": {
+      "message": "$1 em"
+   },
+   "ssl": {
+      "message": "Sempre use SSL"
+   },
+   "sslTitle": {
+      "message": "Sempre use criptografia SSL ao acessar o Google Calendar"
+   },
+   "staySignedIn": {
+      "message": "Estadia assinado em"
+   },
+   "successful": {
+      "message": "Sucesso"
+   },
+   "supportAndRequestsPrioritized": {
+      "message": "para me apoiar e obter suas solicita\u00E7\u00F5es priorizadas!"
+   },
+   "testDescription": {
+      "message": "Descri\u00E7\u00E3o do ensaio"
+   },
+   "testEvent": {
+      "message": "Evento de teste"
+   },
+   "testIt": {
+      "message": "Test\u00E1-lo!"
+   },
+   "thankYouForYourContribution": {
+      "message": "As caracter\u00EDsticas s\u00E3o agora desbloqueada. Obrigado pela sua contribui\u00E7\u00E3o!"
+   },
+   "thankYouForYourContribution2": {
+      "message": "Fechar esta janela e divirta-se!"
+   },
+   "timeout": {
+      "message": "Atraso de tempo limite"
+   },
+   "timeoutNote": {
+      "message": "Alter\u00E1-lo apenas se voc\u00EA tiver lotes de calend\u00E1rios ou eventos"
+   },
+   "timeoutTooltip": {
+      "message": "Pode eliminar o sinal no problema, aument\u00E1-la somente se voc\u00EA tiver 10 ou mais calend\u00E1rios ou se voc\u00EA tiver lotes de eventos)"
+   },
+   "timeoutTryAgain": {
+      "message": "Tempo limite ocorreu durante a comunica\u00E7\u00E3o com $1, por favor, tente novamente!"
+   },
+   "toSeeCalendar": {
+      "message": "para ver o calend\u00E1rio!"
+   },
+   "today": {
+      "message": "Hoje"
+   },
+   "todayAt": {
+      "message": "Hoje em"
+   },
+   "tom": {
+      "message": "Tom"
+   },
+   "tomorrow": {
+      "message": "Amanh\u00E3"
+   },
+   "tomorrowAt": {
+      "message": "Amanh\u00E3, \u00E0s"
+   },
+   "undo": {
+      "message": "Desfazer"
+   },
+   "unlockFeatures": {
+      "message": "Desbloquear esses recursos e outras com um uma doa\u00E7\u00E3o de tempo de qualquer quantia e eles estar\u00E3o imediatamente dispon\u00EDveis!"
+   },
+   "unlockHeader": {
+      "message": "Obter os recursos extras"
+   },
+   "view": {
+      "message": "Ver"
+   },
+   "voiceNotificationOnlyIfIdle": {
+      "message": "Somente se voc\u00EA estiver longe do computador por, pelo menos"
+   },
+   "voiceNotificationOnlyIfIdleTooltip": {
+      "message": "Use esta op\u00E7\u00E3o se voc\u00EA deseja apenas ouvir a voz quando seu n\u00E3o usando seu computador ou ele est\u00E1 em marcha lenta"
+   },
+   "volume": {
+      "message": "volume"
+   },
+   "wantToStaySignedIn": {
+      "message": "Quer ficar assinado em?"
+   },
+   "week": {
+      "message": "Semana"
+   },
+   "what": {
+      "message": "O qu\u00EA"
+   },
+   "when": {
+      "message": "Quando"
+   },
+   "whyContribute": {
+      "message": "Por que eu deveria contribuir?"
+   },
+   "whyContributeReason1": {
+      "message": "Eu coloquei muitas horas atualizando e $1 de apoio semanal em resposta \u00E0s vossas sugest\u00F5es"
+   },
+   "whyContributeReason1_1": {
+      "message": "todas as minhas extens\u00F5es"
+   },
+   "whyContributeReason2": {
+      "message": "Eu li e fornecer feedback r\u00E1pido para seus coment\u00E1rios e avalia\u00E7\u00F5es atrav\u00E9s do meu 1 $:)"
+   },
+   "whyContributeReason3": {
+      "message": "Voc\u00EA pode contribuir com qualquer quantia e eu vou ser feliz!"
+   },
+   "whyContributeReason4": {
+      "message": "Esta extens\u00E3o est\u00E1 ficando cada vez grande $1, gra\u00E7as a voc\u00EA!"
+   },
+   "whyContributeReason4_1": {
+      "message": "Avalia\u00E7\u00F5es"
+   },
+   "whyContributeReason5": {
+      "message": "Saiba mais sobre mim em $1"
+   },
+   "whyContributeReason5_1": {
+      "message": "JasonSavard.com/bio"
+   },
+   "whyContributeToCalendarReason1": {
+      "message": "Ser um usu\u00E1rio de Google Calendar mais produtivo para voc\u00EA ou sua empresa"
+   },
+   "whyContributeToCalendarReason2": {
+      "message": "Muito mais barato do que r $1"
+   },
+   "whyContributeToCalendarReason2_1": {
+      "message": "Microsoft Outlook"
+   },
+   "writeAboutMe": {
+      "message": "Tente minhas outras extens\u00F5es populares!"
+   },
+   "writeSomethingNice": {
+      "message": "Substitua este texto com um coment\u00E1rio agrad\u00E1vel sobre este app ou como ou por que voc\u00EA us\u00E1-lo"
+   },
+   "yesterday": {
+      "message": "ontem"
+   }
+}

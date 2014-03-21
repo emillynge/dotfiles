@@ -1,0 +1,1 @@
+var staticPlugin=new Toolbar({plugins:defaultPlugins,element:document.getElementById("toolbarContainer"),namespace:"demo1",position:"static",page_title:"mytitle",lines:2,type:"image",requestImage:function(a){a($("#justImage"))},requestText:function(a){alert("you asked to get the text");a()}});

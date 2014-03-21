@@ -1,0 +1,173 @@
+{
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "DO NOT REMOVE"
+   },
+   "agenda": {
+      "message": "Napt\u00E1r"
+   },
+   "agendaOnly": {
+      "message": "Napirend csak"
+   },
+   "alertMe": {
+      "message": "vagy a riaszt\u00E1si nekem ..."
+   },
+   "archiveLink": {
+      "message": "Archiv\u00E1l\u00E1s"
+   },
+   "archiveLinkTitle": {
+      "message": "Lev\u00E9l archiv\u00E1l\u00E1sa"
+   },
+   "calendarViewTitle": {
+      "message": "V\u00E1lassza ki az alap\u00E9rtelmezett napt\u00E1r n\u00E9zet"
+   },
+   "changeView": {
+      "message": "N\u00E9zet m\u00F3dos\u00EDt\u00E1sa"
+   },
+   "composeLinkTitle": {
+      "message": "\u00DAj lev\u00E9l \u00EDr\u00E1sa"
+   },
+   "customized": {
+      "message": "Testreszabott"
+   },
+   "d": {
+      "message": "n"
+   },
+   "daysAgo": {
+      "message": "napja"
+   },
+   "daysLeft": {
+      "message": "$1 nap van h\u00E1tra"
+   },
+   "deleteLink": {
+      "message": "T\u00F6rl\u00E9s"
+   },
+   "deleteLinkTitle": {
+      "message": "Lev\u00E9l t\u00F6rl\u00E9se"
+   },
+   "description": {
+      "message": "Megjelen\u00EDti az olvasatlan \u00FCzeneteket a Google Mail be\u00E9rkez\u0151 levelei k\u00F6z\u00F6tt. A gombra kattintva is megnyithatja a be\u00E9rkez\u0151 leveleit"
+   },
+   "fullLinkTitle": {
+      "message": "Teljes \u00FCzenet megtekint\u00E9se"
+   },
+   "h": {
+      "message": "\u00F3"
+   },
+   "helpSupport": {
+      "message": "a seg\u00EDts\u00E9gk\u00E9r\u00E9s a szerz\u0151 e meghosszabb\u00EDt\u00E1s!"
+   },
+   "hoursAgo": {
+      "message": "$1 \u00F3r\u00E1ja"
+   },
+   "hoursLeft": {
+      "message": "$1 \u00F3ra van h\u00E1tra"
+   },
+   "inVARhour": {
+      "message": "$1 \u00F3ra alatt"
+   },
+   "inVARhours": {
+      "message": "$1 \u00F3ra"
+   },
+   "inVARminutes": {
+      "message": "$1 perc"
+   },
+   "languageName": {
+      "message": "Magyar"
+   },
+   "m": {
+      "message": "p"
+   },
+   "min": {
+      "message": "perc"
+   },
+   "minutesAgo": {
+      "message": "$1 perce"
+   },
+   "minutesLeft": {
+      "message": "$1 perc van h\u00E1tra"
+   },
+   "month": {
+      "message": "H\u00F3nap"
+   },
+   "monthsArray": {
+      "message": "jan,feb,m\u00E1r,\u00E1pr,m\u00E1j,j\u00FAn,j\u00FAl,aug,szept,okt,nov,dec"
+   },
+   "noUnreadText": {
+      "message": "Nincs olvasatlan lev\u00E9l"
+   },
+   "oneUnreadText": {
+      "message": "olvasatlan lev\u00E9l"
+   },
+   "openCalendar": {
+      "message": "Napt\u00E1r megnyit\u00E1s\u00E1hoz"
+   },
+   "openLinkTitle": {
+      "message": "Megnyit\u00E1s a Gmailben"
+   },
+   "popupText": {
+      "message": "\u00DAj leveled \u00E9rkezett!"
+   },
+   "quickAdd": {
+      "message": "Gyors hozz\u00E1ad\u00E1sa"
+   },
+   "quickAddDefaultText": {
+      "message": "e.g., 7pm vacsora Bob"
+   },
+   "readLink": {
+      "message": "Olvasott"
+   },
+   "readLinkTitle": {
+      "message": "Megjel\u00F6l\u00E9s olvasottnak"
+   },
+   "refresh": {
+      "message": "Friss\u00EDt\u00E9s"
+   },
+   "refreshLinkTitle": {
+      "message": "\u00D6sszes mailbox friss\u00EDt\u00E9se"
+   },
+   "replyLinkTitle": {
+      "message": "V\u00E1lasz k\u00FCld\u00E9se"
+   },
+   "save": {
+      "message": "Ment\u00E9s"
+   },
+   "severalUnreadText": {
+      "message": "olvasatlan lev\u00E9l"
+   },
+   "showAgendaOptions": {
+      "message": "Megjelen\u00EDt\u00E9s be\u00E1ll\u00EDt\u00E1sok link napirendre tekintettel"
+   },
+   "spamLink": {
+      "message": "Spam"
+   },
+   "spamLinkTitle": {
+      "message": "Megjel\u00F6l\u00E9s spamk\u00E9nt"
+   },
+   "starLinkTitle": {
+      "message": "Lev\u00E9l csillagoz\u00E1sa"
+   },
+   "summaryLinkTitle": {
+      "message": "\u00D6sszegz\u00E9s megtekint\u00E9se"
+   },
+   "today": {
+      "message": "Ma"
+   },
+   "tomorrow": {
+      "message": "Holnap"
+   },
+   "unreadLink": {
+      "message": "Olvasatlan"
+   },
+   "unreadLinkTitle": {
+      "message": "Megjel\u00F6l\u00E9s olvasatlannak"
+   },
+   "view": {
+      "message": "N\u00E9zd meg"
+   },
+   "week": {
+      "message": "H\u00E9t"
+   },
+   "yesterday": {
+      "message": "tegnap"
+   }
+}

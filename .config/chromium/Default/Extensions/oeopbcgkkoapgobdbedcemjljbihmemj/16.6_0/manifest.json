@@ -1,0 +1,47 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/browserButtons/default/not_logged_in.png",
+         "38": "images/browserButtons/default/not_logged_in_retina.png"
+      },
+      "default_title": "Checker Plus for Gmail\u2122"
+   },
+   "commands": {
+      "markAsReadInNotificationWindow": {
+         "description": "Mark email as read in notification window",
+         "suggested_key": {
+            "default": "Ctrl+Q",
+            "mac": "MacCtrl+Shift+Q"
+         }
+      },
+      "openEmailDisplayedInNotificationWindow": {
+         "description": "Open email displayed in notification window",
+         "suggested_key": {
+            "default": "Alt+Shift+O",
+            "mac": "MacCtrl+Shift+O"
+         }
+      }
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com https://www.google.com https://wallet.google.com https://www.paypalobjects.com https://jasonsavard.com https://apps.jasonsavard.com https://omahaproxy.appspot.com; object-src 'self' https://www.youtube.com",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/icons/icon_128.png",
+      "16": "images/icons/icon_16.png",
+      "32": "images/icons/icon_32.png",
+      "48": "images/icons/icon_48.png",
+      "64": "images/icons/icon_64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC94SVmzmU9No+O2964dDMD6YG0zg1XYfYWOg8UvB0cyrIACdtgETb+hcD0LWvmAiHb5UG9vLd8NxT0X17HYu1fJHFEdgLnoQsUxOb3mmEIzey5v5qtZAtF6mYSelGROQIveE6KLPxCoip535DAlengyLZdFlPZrsgxFQGncYZypwIDAQAB",
+   "manifest_version": 2,
+   "name": "Checker Plus for Gmail\u2122",
+   "optional_permissions": [ "background", "*://*/*", "*://*.detectlanguage.com/*", "*://*.jasonsavard.com/*", "*://*.googleusercontent.com/*" ],
+   "options_page": "options.html",
+   "permissions": [ "alarms", "tts", "idle", "notifications", "storage", "tabs", "webRequest", "webRequestBlocking", "*://*.google.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "16.6",
+   "web_accessible_resources": [ "widget.html", "options.html", "donate.html", "images/icons/icon_48.png" ]
+}

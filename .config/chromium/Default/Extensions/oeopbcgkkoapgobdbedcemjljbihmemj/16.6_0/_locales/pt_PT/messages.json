@@ -1,0 +1,80 @@
+{
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "DO NOT REMOVE"
+   },
+   "aboutMe": {
+      "message": "Sobre mim"
+   },
+   "archiveLink": {
+      "message": "Arquivar"
+   },
+   "archiveLinkTitle": {
+      "message": "Arquivar mensagem"
+   },
+   "composeLinkTitle": {
+      "message": "Compor mensagem"
+   },
+   "deleteLink": {
+      "message": "Eliminar"
+   },
+   "deleteLinkTitle": {
+      "message": "Eliminar mensagem"
+   },
+   "description": {
+      "message": "Visualizar novos e-mails, receber notifica\u00E7\u00F5es via desktop ou ler ou excluir e-mails sem necessidade de abri-los entre"
+   },
+   "fullLinkTitle": {
+      "message": "Mostrar toda a mensagem"
+   },
+   "languageName": {
+      "message": "Portugu\u00EAs (Portugal)"
+   },
+   "monthsArray": {
+      "message": "jan,fev,mar,abr,mai,jun,jul,ago,set,out,nov,dez"
+   },
+   "noUnreadText": {
+      "message": "Sem mensagens novas"
+   },
+   "oneUnreadText": {
+      "message": "mensagem nova"
+   },
+   "openLinkTitle": {
+      "message": "Abrir mensagem"
+   },
+   "popupText": {
+      "message": "Recebeste uma nova mensagem!"
+   },
+   "readLink": {
+      "message": "Lidas"
+   },
+   "readLinkTitle": {
+      "message": "Marcar como lida"
+   },
+   "refreshLinkTitle": {
+      "message": "Actualizar caixas de correio"
+   },
+   "replyLinkTitle": {
+      "message": "Responder \u00E0 mensagem"
+   },
+   "severalUnreadText": {
+      "message": "mensagens novas"
+   },
+   "spamLink": {
+      "message": "Spam"
+   },
+   "spamLinkTitle": {
+      "message": "Marcar como spam"
+   },
+   "starLinkTitle": {
+      "message": "Estrela"
+   },
+   "summaryLinkTitle": {
+      "message": "Mostrar sum\u00E1rio"
+   },
+   "unreadLink": {
+      "message": "N\u00E3o lidas"
+   },
+   "unreadLinkTitle": {
+      "message": "Marcar como n\u00E3o lida"
+   }
+}

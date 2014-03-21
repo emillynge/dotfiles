@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "fons"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "P\u0101rvietot atpaka\u013C par vienu rakstz\u012Bmi"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "P\u0101rvietot atpaka\u013C par vienu rindkopu"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "P\u0101rvietot atpaka\u013C par vienu teikumu"
+   },
+   "chromevis_backwardword_label": {
+      "message": "P\u0101rvietot atpaka\u013C par vienu v\u0101rdu"
+   },
+   "chromevis_capitals_text": {
+      "message": "Lielajiem burtiem izmantojiet \"Shift+[Tausti\u0146\u0161]\""
+   },
+   "chromevis_centerlens_label": {
+      "message": "P\u0101rsl\u0113gt centr\u0113tu/taisnotu lupu"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Samazin\u0101t teksta lielumu"
+   },
+   "chromevis_description": {
+      "message": "Palieliniet jebkuru iez\u012Bm\u0113to tekstu un mainiet t\u0101 kr\u0101su. Lai b\u012Bd\u012Btu iez\u012Bm\u0113to apgabalu pa lapu, izmantojiet peli vai tastat\u016Bru."
+   },
+   "chromevis_format_text": {
+      "message": "Sa\u012Bsn\u0113m j\u0101b\u016Bt \u0161\u0101d\u0101 form\u0101t\u0101: \"[Modifikatora tausti\u0146\u0161]+[Tausti\u0146\u0161]\""
+   },
+   "chromevis_forwardchar_label": {
+      "message": "P\u0101rvietot uz priek\u0161u par vienu rakstz\u012Bmi"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "P\u0101rvietot uz priek\u0161u par vienu rindkopu"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "P\u0101rvietot uz priek\u0161u par vienu teikumu"
+   },
+   "chromevis_forwardword_label": {
+      "message": "P\u0101rvietot uz priek\u0161u par vienu v\u0101rdu"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Palielin\u0101t teksta lielumu"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (nodro\u0161ina Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Atjaunot noklus\u0113jumus"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Saglab\u0101t"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Iesl\u0113gt/izsl\u0113gt lupu"
+   },
+   "chromevis_stylelens_label": {
+      "message": "P\u0101rsl\u0113gt fiks\u0113tu/nefiks\u0113tu lupu"
+   },
+   "chromevis_textcolor_label": {
+      "message": "teksts"
+   },
+   "chromevis_title_text": {
+      "message": "Lupas \u012Bsin\u0101jumtausti\u0146i"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "lv"
+   }
+}

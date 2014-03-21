@@ -1,0 +1,63 @@
+{
+   "api_console_project_id": "545443912834",
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/browseraction.png",
+      "default_popup": "popup.html",
+      "default_title": "Webpage Screenshot"
+   },
+   "commands": {
+      "entire_page_screenshot": {
+         "description": "Entire Page Screenshot"
+      },
+      "visible_screenshot": {
+         "description": "visible screenshot"
+      }
+   },
+   "container": "GOOGLE_DRIVE",
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://www.googleapis.com https://cdn.extensionanalytics.com https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "homepage_url": "http://www.webpagescreenshot.info",
+   "icons": {
+      "128": "images/icon128.png",
+      "48": "images/icon48.png"
+   },
+   "intents": {
+      "http://webintents.org/edit": [ {
+         "disposition": "window",
+         "href": "editor.html",
+         "title": "Webpage Screenshot",
+         "type": [ "image/jpeg", "image/png" ]
+      } ],
+      "http://webintents.org/pick": [ {
+         "disposition": "inline",
+         "href": "pick.html",
+         "title": "Webpage Screenshot",
+         "type": [ "image/jpeg", "image/png" ]
+      } ],
+      "http://webintents.org/save": [ {
+         "disposition": "window",
+         "href": "editor.html",
+         "title": "Webpage Screenshot",
+         "type": [ "image/jpeg", "image/png" ]
+      } ],
+      "http://webintents.org/share": [ {
+         "disposition": "window",
+         "href": "editor.html",
+         "title": "Webpage Screenshot",
+         "type": [ "image/jpeg", "image/png" ]
+      } ]
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDmHwTAssBDL/qESBgmOKpWSLjVbJV5lttArXpL0MXyJkrXkWhNyLieAzfDJRsM2P/ivMCeAFQfRcoiTETj/L1PwXF96QdzsMqnyPmTK4ecQEQ3bVHOKnzlCFLyKD8cMSUpAzgcTXuklU28KQBhb2jqWv+pv5UyqwSlBgAFQxamfQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "optional_permissions": [ "storage", "unlimitedStorage", "webNavigation", "webRequest", "tabs", "file://*/*", "http://*/*", "https://*/*", "pageCapture", "clipboardWrite", "webRequest" ],
+   "options_page": "options.html",
+   "permissions": [ "tts" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "13.7",
+   "web_accessible_resources": [ "pluginDev/icons/googleimages.png", "pluginDev/icons/copy.png", "pluginDev/icons/blogger.png", "pluginDev/icons/email.png", "pluginDev/icons/evernote.png", "pluginDev/icons/facebook.png", "pluginDev/icons/gmail.png", "pluginDev/icons/googledrive.png", "pluginDev/icons/gplus.png", "pluginDev/icons/microsoft.png", "pluginDev/icons/myspace.png", "pluginDev/icons/newwindow.png", "pluginDev/icons/pinterest.png", "pluginDev/icons/print.png", "pluginDev/icons/qrcode.png", "pluginDev/icons/search.png", "pluginDev/icons/tineye.png", "pluginDev/icons/translate.png", "pluginDev/icons/twitter.png", "pluginDev/icons/vk.png", "pluginDev/icons/webpagescreenshot.png", "pluginDev/icons/wordpress.png", "pluginDev/icons/crop.png", "pluginDev/icons/speak.png", "pluginDev/icons/share.png", "pluginDev/icons/tumblr.png", "pluginDev/icons/highlight.png", "pluginDev/icons/enlarge.png", "pluginDev/icons/ensmall.png", "pluginDev/icons/erase.png", "pluginDev/icons/edittext.png", "pluginDev/icons/help.png", "pluginDev/icons/left.png", "pluginDev/icons/right.png", "pluginDev/icons/del.png", "pluginDev/icons/digg.png", "pluginDev/icons/dropbox.png", "pluginDev/icons/save.png", "gapi.js", "pluginDev/icons/fast.png", "pluginDev/icons/pitch.png", "pluginDev/jquery-ui-1.9.2.custom.min.css", "SelectionBar/pagestyles.css" ]
+}

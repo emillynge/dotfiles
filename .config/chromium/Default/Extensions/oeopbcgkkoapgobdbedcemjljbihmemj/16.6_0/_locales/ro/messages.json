@@ -1,0 +1,74 @@
+{
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "NEODSTRA\u0147UJTE"
+   },
+   "archiveLink": {
+      "message": "Arhiveaz\u0103"
+   },
+   "archiveLinkTitle": {
+      "message": "Arhiveaz\u0103 email"
+   },
+   "composeLinkTitle": {
+      "message": "Scrie\u021Bi un mesaj"
+   },
+   "deleteLink": {
+      "message": "\u0218terge"
+   },
+   "deleteLinkTitle": {
+      "message": "\u0218terge email"
+   },
+   "fullLinkTitle": {
+      "message": "Arat\u0103 mesaj complet"
+   },
+   "languageName": {
+      "message": "Rom\u00E2n\u0103"
+   },
+   "monthsArray": {
+      "message": "ian,feb,mar,apr,mai,iun,iul,aug,sep,oct,noi,dec"
+   },
+   "noUnreadText": {
+      "message": "Niciun mesaj necitit"
+   },
+   "oneUnreadText": {
+      "message": "mesaj necitit"
+   },
+   "openLinkTitle": {
+      "message": "Deschide \u00EEn webmail"
+   },
+   "popupText": {
+      "message": "Ave\u021Bi un mesaj nou!"
+   },
+   "readLink": {
+      "message": "Citit"
+   },
+   "readLinkTitle": {
+      "message": "Marcheaz\u0103 conversa\u021Bia  ca citit\u0103"
+   },
+   "refreshLinkTitle": {
+      "message": "Actualiza\u021Bi toate cutiile po\u0219tale"
+   },
+   "replyLinkTitle": {
+      "message": "R\u0103spunde"
+   },
+   "severalUnreadText": {
+      "message": "mesaje necitite"
+   },
+   "spamLink": {
+      "message": "Spam"
+   },
+   "spamLinkTitle": {
+      "message": "Raporta\u021Bi ca spam"
+   },
+   "starLinkTitle": {
+      "message": "Marca\u021Bi conversa\u021Bia cu stea"
+   },
+   "summaryLinkTitle": {
+      "message": "Arat\u0103 sumar"
+   },
+   "unreadLink": {
+      "message": "Necitit"
+   },
+   "unreadLinkTitle": {
+      "message": "Marcheaz\u0103 conversa\u021Bia ca necitit\u0103"
+   }
+}

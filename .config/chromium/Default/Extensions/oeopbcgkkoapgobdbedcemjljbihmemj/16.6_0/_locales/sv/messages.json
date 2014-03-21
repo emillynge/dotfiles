@@ -1,0 +1,779 @@
+{
+   "200": {
+      "message": "\u00C5terkommande problem, f\u00F6rs\u00F6k igen!"
+   },
+   "24hourMode": {
+      "message": "24 timmars tidsvisning"
+   },
+   "24hourModeTitle": {
+      "message": "Visa tiden i 24 timmars dvs. 18:00"
+   },
+   "401": {
+      "message": "Obeh\u00F6riga!"
+   },
+   "403": {
+      "message": "Den e-post eller l\u00F6senordet du angav \u00E4r felaktigt."
+   },
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "DO NOT REMOVE"
+   },
+   "Xminute": {
+      "message": "$1 minut"
+   },
+   "Xminutes": {
+      "message": "$1 minuter"
+   },
+   "aboutMe": {
+      "message": "Om mig"
+   },
+   "account": {
+      "message": "Konto"
+   },
+   "addCalendar": {
+      "message": "L\u00E4gg till kalender"
+   },
+   "addCalendarTitle": {
+      "message": "L\u00E4gg till kalender via privata webbadress"
+   },
+   "addToGoogleCalendar": {
+      "message": "L\u00E4gg till p\u00E5 Google Kalender"
+   },
+   "addedForSomeday": {
+      "message": "La $1 f\u00F6r $2"
+   },
+   "addedForSomedayAt": {
+      "message": "La $1 f\u00F6r $2 @ $3"
+   },
+   "addedForToday": {
+      "message": "La $1 f\u00F6r idag"
+   },
+   "addedForTodayAt": {
+      "message": "La $1 f\u00F6r $2"
+   },
+   "addedForTomorrow": {
+      "message": "La till $1 i morgon"
+   },
+   "addedForTomorrowAt": {
+      "message": "La till $1 i morgon @ $2"
+   },
+   "agenda": {
+      "message": "Program"
+   },
+   "agendaOnly": {
+      "message": "Program endast"
+   },
+   "alertMe": {
+      "message": "eller varna mig ..."
+   },
+   "all": {
+      "message": "Alla"
+   },
+   "alreadyDonated": {
+      "message": "Redan vann?"
+   },
+   "amount": {
+      "message": "Belopp"
+   },
+   "andMyExtensions": {
+      "message": "och mina extensions"
+   },
+   "archiveLink": {
+      "message": "Arkivera"
+   },
+   "archiveLinkTitle": {
+      "message": "Arkivera mail"
+   },
+   "backgroundOfNotification": {
+      "message": "Bakgrundsf\u00E4rg f\u00F6r anm\u00E4lan popup"
+   },
+   "backgroundOfNotificationTooltip": {
+      "message": "Anger bakgrundsf\u00E4rgen f\u00F6r anm\u00E4lan popup"
+   },
+   "calendar": {
+      "message": "Kalender"
+   },
+   "calendarHelper": {
+      "message": "Kalender"
+   },
+   "calendarViewAgenda": {
+      "message": "Kalendervy: Agenda"
+   },
+   "calendarViewAgendaTitle": {
+      "message": "N\u00E4r du klickar p\u00E5 kalenderikonen H\u00E4r visas en liten kalender med f\u00F6ljande aktiviteter i en agenda format"
+   },
+   "calendarViewRegular": {
+      "message": "Kalendervy: Regelbundna"
+   },
+   "calendarViewRegularTitle": {
+      "message": "N\u00E4r du klickar p\u00E5 kalenderikonen detta kommer att visa en kalender med evenemang som markerats under kalender\u00E5ret"
+   },
+   "calendarViewTitle": {
+      "message": "V\u00E4lj din standardvyn f\u00F6r kalendern"
+   },
+   "changeView": {
+      "message": "\u00C4ndra visning"
+   },
+   "changingIcon": {
+      "message": "Byta ikon"
+   },
+   "closePopupsAfterAWhile": {
+      "message": "St\u00E4ng anm\u00E4lningar automatiskt efter"
+   },
+   "closePopupsAfterAWhileTitle": {
+      "message": "Popup anm\u00E4lningar kommer att st\u00E4ngas automatiskt efter x"
+   },
+   "composeLinkTitle": {
+      "message": "Skapa nytt mail"
+   },
+   "contact": {
+      "message": "kontakta"
+   },
+   "contactHelp": {
+      "message": "Kontakt - Hj\u00E4lp"
+   },
+   "continue": {
+      "message": "Forts\u00E4tt"
+   },
+   "continueWithoutFeatures": {
+      "message": "Forts\u00E4tt att anv\u00E4nda denna f\u00F6rl\u00E4ngning med massor av m\u00F6jligheter men utan dessa extra funktioner."
+   },
+   "copyPrivateAddress": {
+      "message": "Kopiera privat adress (XML) i en kalender till klippbordet."
+   },
+   "copyPrivateAddressTitle": {
+      "message": "I ditt Google Kalender-sida till v\u00E4nster \u00E4r din kalender klickar du p\u00E5 ned\u00E5tpilen bredvid kalendern som du v\u00E4ljer, v\u00E4ljer Kalenderinst\u00E4llningar. F\u00F6rutom 'privat adress' v\u00E4lj XML och kopiera adressen till klippbordet. Obs: Om du inte kan hitta 'Privat adress' och sedan p\u00E5 den dom\u00E4n admin-niv\u00E5 m\u00E5ste du \u00E4ndra service-inst\u00E4llningar i kalendern"
+   },
+   "createDeleteEvents": {
+      "message": "Skapa eller ta bort h\u00E4ndelser inom m\u00E5nadsvyn"
+   },
+   "createEvent": {
+      "message": "Skapa h\u00E4ndelse"
+   },
+   "creditCardOrPaypal": {
+      "message": "Du kan anv\u00E4nda ditt kreditkort eller PayPal f\u00F6r att"
+   },
+   "currencyCode": {
+      "message": "SEK"
+   },
+   "currencySymbol": {
+      "message": ""
+   },
+   "currentPage": {
+      "message": "aktuell sida"
+   },
+   "customizeCalendar": {
+      "message": "\u00C4ndra h\u00F6jd, bredd, synliga kalendrar, f\u00E4rger, etc."
+   },
+   "customizeCalendarTitle": {
+      "message": "I popup-kalender m\u00E5ste du st\u00E4lla in 'Visa' till 'Anpassa'"
+   },
+   "customized": {
+      "message": "Anpassa"
+   },
+   "d": {
+      "message": "d"
+   },
+   "daysAgo": {
+      "message": "dagar sedan"
+   },
+   "daysLeft": {
+      "message": "$1 dagarna kvar"
+   },
+   "delete": {
+      "message": "Radera"
+   },
+   "deleteLink": {
+      "message": "Radera"
+   },
+   "deleteLinkTitle": {
+      "message": "Radera mail"
+   },
+   "description": {
+      "message": "Visar hur m\u00E5nga ol\u00E4sta meddelanden du har i inkorgen i Google Mail. Du kan ocks\u00E5 klicka p\u00E5 knappen om du vill \u00F6ppna inkorgen"
+   },
+   "developingMore": {
+      "message": "och jag jobbar p\u00E5 flera av dina f\u00F6rslag ..."
+   },
+   "dismiss": {
+      "message": "Avf\u00E4rda"
+   },
+   "dismissAll": {
+      "message": "Avskeda alla"
+   },
+   "doNotShowNotificationsForAlldayEvents": {
+      "message": "Visa inte anm\u00E4lningar f\u00F6r heldagsh\u00E4ndelser"
+   },
+   "doNotShowNotificationsForAlldayEventsTitle": {
+      "message": "Visa inte anm\u00E4lningar f\u00F6r heldagsh\u00E4ndelser"
+   },
+   "doNotShowNotificationsWhenBrowserClosed": {
+      "message": "Visa inte meddelanden n\u00E4r webbl\u00E4saren st\u00E4ngs"
+   },
+   "doNotShowNotificationsWhenBrowserClosedTooltip": {
+      "message": "Din webbl\u00E4sare Chrome fortfarande k\u00F6rs i bakgrunden med en bricka i ikonen, MEN, kommer anm\u00E4lningarna inte visas!"
+   },
+   "doNotShowPastNotifications": {
+      "message": "Visa inte anm\u00E4lningar f\u00F6r h\u00E4ndelser i det f\u00F6rflutna"
+   },
+   "doNotShowPastNotificationsTitle": {
+      "message": "Visa inte alla anm\u00E4lningar som intr\u00E4ffade innan du \u00F6ppnade webbl\u00E4saren. Anv\u00E4ndbar n\u00E4r du byter dator ofta"
+   },
+   "email": {
+      "message": "E-post:"
+   },
+   "enablePrivateAddressTitle": {
+      "message": "G\u00E5 till kalender inst\u00E4llningar f\u00F6r tj\u00E4nsten avsnitt i kontrollpaneler, v\u00E4lj sedan 'kan dela all information, och utomst\u00E5ende \u00E4ndra i kalendrar' alternativet"
+   },
+   "enterATitle": {
+      "message": "Du m\u00E5ste ange en titel!"
+   },
+   "enterAnAmount": {
+      "message": "Du m\u00E5ste ange ett belopp!"
+   },
+   "errorAddingEvent": {
+      "message": "Fel vid till\u00E4gg av evenemang! M\u00F6jligen p\u00E5 grund av ingen internetuppkoppling!"
+   },
+   "errorGettingCalendar": {
+      "message": "Problem att f\u00E5 kalendern Kontrollera adressen och f\u00F6rs\u00F6k igen! (Fel: $1)"
+   },
+   "errorGettingCalendarUnauthorized": {
+      "message": "Obeh\u00F6riga! Du m\u00E5ste f\u00F6rst logga in p\u00E5 ditt Google Apps Kalender genom att \u00F6ppna en ny flik"
+   },
+   "eventAdded": {
+      "message": "Event la"
+   },
+   "eventCreated": {
+      "message": "Event skapade"
+   },
+   "eventDeleted": {
+      "message": "h\u00E4ndelse raderas"
+   },
+   "eventDescription": {
+      "message": "Beskrivning"
+   },
+   "eventsAndSnoozes": {
+      "message": "Evenemang och snooze"
+   },
+   "excludeCalendar": {
+      "message": "Uteslut kalender"
+   },
+   "excludeCalendarFrom": {
+      "message": "Uteslut kalendrar fr\u00E5n"
+   },
+   "excludeCalendarFrom2": {
+      "message": "dagordning och kalendervy"
+   },
+   "excludeCalendarFrom3": {
+      "message": "knappen ikonen och anm\u00E4lningar"
+   },
+   "excludeCalendarFromTitle": {
+      "message": "Klicka p\u00E5 'Visa' f\u00F6r att d\u00F6lja specifika kalendrar fr\u00E5n din kalender / agenda eller s\u00E5 klickar du 'kontroll' f\u00F6r att utesluta h\u00E4ndelser fr\u00E5n knappen ikonen och anm\u00E4lningar fr\u00E5n vissa kalendrar"
+   },
+   "excludeCalendarsCheckboxChecking": {
+      "message": "Klicka p\u00E5 l\u00E4nken till h\u00F6ger i detta alternativ"
+   },
+   "excluded": {
+      "message": "Omfattas inte"
+   },
+   "extraFeatures": {
+      "message": "Extra funktioner"
+   },
+   "forSuggestions": {
+      "message": "f\u00F6r f\u00F6rslag eller veta mer"
+   },
+   "fullLinkTitle": {
+      "message": "Visa hela mailet"
+   },
+   "googleAppsCalendars": {
+      "message": "Google Apps kalendrar"
+   },
+   "googleAppsCalendarsForce": {
+      "message": "Force Googles flera Logga in f\u00F6r att alltid standard till ditt Google Apps kalendrar"
+   },
+   "googleAppsCalendarsTitle": {
+      "message": "Endast kontrollera detta om du har och vill anv\u00E4nda Google Apps f\u00F6r f\u00F6retag eller utbildning Kalender. Obs, kommer detta att st\u00E4nga av ordinarie Google Kalender kontroll!"
+   },
+   "googleAppsNote": {
+      "message": "Detta kommer att st\u00E4nga av vanliga Google Kalender kontroll"
+   },
+   "h": {
+      "message": "t"
+   },
+   "helpSupport": {
+      "message": "Som st\u00F6d till f\u00F6rfattaren av denna utvidgning!"
+   },
+   "highlightCurrentDay": {
+      "message": "Markera aktuell dag"
+   },
+   "highlightCurrentDayTooltip": {
+      "message": "N\u00E4r du ser kalendern i m\u00E5nadsvyn den aktuella dagen kommer kortfattat pulsera"
+   },
+   "highlightWeekends": {
+      "message": "Markera helger"
+   },
+   "highlightWeekendsTitle": {
+      "message": "L\u00E4tt nyanser under veckoslutet, men endast i '\u00E5terkommande' Visa m\u00E5nad kalender"
+   },
+   "hours": {
+      "message": "timmar"
+   },
+   "hoursAgo": {
+      "message": "$1 timmarna sedan"
+   },
+   "hoursLeft": {
+      "message": "$1 timmarna kvar"
+   },
+   "hoursRemaining": {
+      "message": "Visa timmar kvar i st\u00E4llet f\u00F6r tidpunkten f\u00F6r h\u00E4ndelsen"
+   },
+   "hoursRemainingTitle": {
+      "message": "Om h\u00E4ndelsen \u00E4r vidare i dag och mindre \u00E4n 24 timmar bort, l\u00E4mnade sedan timmarna visas ex. 4h"
+   },
+   "iconClassic": {
+      "message": "Classic-symbolen"
+   },
+   "iconDefault": {
+      "message": "Standardikon"
+   },
+   "iconDefault2WithDate": {
+      "message": "Default ikon med dagens datum"
+   },
+   "iconMonochrome": {
+      "message": "Monokrom ikon"
+   },
+   "iconNew": {
+      "message": "Ny ikon"
+   },
+   "iconNew2": {
+      "message": "Dark ikon"
+   },
+   "iconNew2WithDate": {
+      "message": "Dark ikon med dagens datum"
+   },
+   "iconNewWithDate": {
+      "message": "Ny ikon med dagens datum"
+   },
+   "iconTooltip": {
+      "message": "Ikonen som ska anv\u00E4ndas f\u00F6r popup-knappen"
+   },
+   "inVARhour": {
+      "message": "om $1 timme"
+   },
+   "inVARhours": {
+      "message": "om $1 timmar"
+   },
+   "inVARminutes": {
+      "message": "om $1 min"
+   },
+   "languageName": {
+      "message": "Svenska"
+   },
+   "loading": {
+      "message": "Laddar ..."
+   },
+   "longerSnoozeTimes": {
+      "message": "L\u00E4ngre snooze g\u00E5nger"
+   },
+   "m": {
+      "message": "m"
+   },
+   "maxDaysAhead": {
+      "message": "Antal dagar att blicka fram\u00E5t"
+   },
+   "maxDaysAheadTitle": {
+      "message": "Maximalt antal dagar f\u00F6r att visa en nedr\u00E4kning p\u00E5 ikonen"
+   },
+   "min": {
+      "message": "min"
+   },
+   "minimumAmount": {
+      "message": "Du m\u00E5ste donera minst $1"
+   },
+   "minimumDonation": {
+      "message": "6.00"
+   },
+   "minutesAgo": {
+      "message": "$1 minuter sedan"
+   },
+   "minutesLeft": {
+      "message": "$1 minuter kvar"
+   },
+   "missingOptions": {
+      "message": "Saknar du alternativ? \u00C4r \u00F6vers\u00E4ttningarna d\u00E5ligt? Kontakta"
+   },
+   "missingOptions2": {
+      "message": "f\u00F6r f\u00F6rslag!"
+   },
+   "month": {
+      "message": "M\u00E5nad"
+   },
+   "monthsArray": {
+      "message": "jan,feb,mar,apr,maj,jun,jul,aug,sep,okt,nov,dec"
+   },
+   "more": {
+      "message": "mer"
+   },
+   "moreInfo": {
+      "message": "Mer info"
+   },
+   "mustAddCalendar": {
+      "message": "Om du aktiverar Google Apps m\u00E5ste du l\u00E4gga till en kalender!"
+   },
+   "mustClickShareLinks": {
+      "message": "Anv\u00E4nd n\u00E5gon andel l\u00E4nken under popup-kalender en g\u00E5ng och sedan kan du ta bort dem alla h\u00E4r!"
+   },
+   "myPreference": {
+      "message": "min preferens"
+   },
+   "nameNoTM": {
+      "message": "Checker Plus for Gmail"
+   },
+   "needHelp": {
+      "message": "Beh\u00F6ver du hj\u00E4lp?"
+   },
+   "noUnreadText": {
+      "message": "Inga ol\u00E4sta mail"
+   },
+   "notLoggedIn": {
+      "message": "Inte inloggad"
+   },
+   "notTaxExempt": {
+      "message": "Jag \u00E4r inte en skattebefriad organisation"
+   },
+   "notificationFontSize": {
+      "message": "Storlek anm\u00E4lan text"
+   },
+   "notificationFontSizeTooltip": {
+      "message": "St\u00E4ller in teckenstorleken av h\u00E4ndelsen titel i popup anm\u00E4lan"
+   },
+   "notificationSound": {
+      "message": "Anm\u00E4lan ljud"
+   },
+   "notificationSoundTitle": {
+      "message": "Spelar ett ljud n\u00E4r du aktiverar meddelanden ovan n\u00E4r h\u00E4ndelser intr\u00E4ffar"
+   },
+   "notificationTextToSpeech": {
+      "message": "R\u00F6stmeddelandefunktionen"
+   },
+   "notificationTextToSpeechTitle": {
+      "message": "Titeln p\u00E5 ditt evenemang kommer att l\u00E4sas upp h\u00F6gt med hj\u00E4lp av text till tal, bra n\u00E4r datorn \u00E4r i rummet bredvid!"
+   },
+   "offlineMode": {
+      "message": "Offline-l\u00E4ge"
+   },
+   "offlineModeTitle": {
+      "message": "F\u00E5 anm\u00E4lda h\u00E4ndelser utan en internetuppkoppling! Varning: Din h\u00E4ndelser sparas p\u00E5 den h\u00E4r datorn!"
+   },
+   "oneUnreadText": {
+      "message": "ol\u00E4st mail"
+   },
+   "onlyPopupsForOwner": {
+      "message": "Visa bara meddelanden om h\u00E4ndelser fr\u00E5n kalendrar jag \u00E4ger"
+   },
+   "onlyPopupsForOwnerTooltip": {
+      "message": "Anm\u00E4lningar kommer endast att visa h\u00E4ndelser fr\u00E5n kalendrar som du \u00E4ger. Detta inneb\u00E4r i allm\u00E4nhet kalendrar under 'Mina kalendrar' och inte fr\u00E5n kalendrar som delas eller fr\u00E5n 'Andra kalendrar' avsnittet"
+   },
+   "onlyRemoveAfterDonation": {
+      "message": "Du kan bara ta bort l\u00E4nken donation efter att ha gjort en donation!"
+   },
+   "openCalendar": {
+      "message": "\u00D6ppna kalender"
+   },
+   "openLinkTitle": {
+      "message": "\u00D6ppna i webbmail"
+   },
+   "option": {
+      "message": "Alternativ"
+   },
+   "optionToCustomizeWith": {
+      "message": "Anv\u00E4nd"
+   },
+   "options": {
+      "message": "Alternativ"
+   },
+   "or": {
+      "message": "eller"
+   },
+   "orPayUsing_": {
+      "message": "Eller du kan betala med"
+   },
+   "password": {
+      "message": "L\u00F6senord:"
+   },
+   "pastDays": {
+      "message": "Gray ut senaste dagarna"
+   },
+   "pastDaysTitle": {
+      "message": "Gray ut de senaste dagarna i kalendern, men bara i 'Vanlig' m\u00E5nad kalendervy"
+   },
+   "pasteHTML": {
+      "message": "och klistra in HTML-koden nedan"
+   },
+   "pastePrivateAddress": {
+      "message": "Klistra in privat adress (XML) i kalendern h\u00E4r"
+   },
+   "pollingInterval": {
+      "message": "Avs\u00F6kningsintervall"
+   },
+   "pollingIntervalTooltip": {
+      "message": "Intervallet p\u00E5 sig att h\u00E4mta h\u00E4ndelser fr\u00E5n Google Kalender och att uppdatera knappen"
+   },
+   "popupGoogleCalendarWebsite": {
+      "message": "G\u00F6r knappen f\u00F6r att \u00F6ppna Google Kalender-webbplatsen i st\u00E4llet f\u00F6r popup"
+   },
+   "popupGoogleCalendarWebsiteHelpTitle": {
+      "message": "N\u00E4r du klickar p\u00E5 knappen ikonen \u00F6ppna Google Kalender-webbplatsen i st\u00E4llet f\u00F6r sm\u00E5 popup-f\u00F6nster. (H\u00E5ll nere Ctrl n\u00E4r du klickar p\u00E5 ikonen kommer ocks\u00E5 att g\u00F6ra det!)"
+   },
+   "popupText": {
+      "message": "Du har ol\u00E4st mail!"
+   },
+   "poweredByGoogle": {
+      "message": "Drivs av Google"
+   },
+   "problemCommunicatingTryAgain": {
+      "message": "Fel: $1 problem i kommunikationen med $2, var god f\u00F6rs\u00F6k igen!"
+   },
+   "problemSigningIn": {
+      "message": "Problem att logga in! M\u00F6jligen p\u00E5 grund av ingen internetuppkoppling!"
+   },
+   "quickAdd": {
+      "message": "Snabb-till\u00E4gg:"
+   },
+   "quickAddDefaultText": {
+      "message": "t.ex. 19:00 Middag p\u00E5 Bob's"
+   },
+   "quickAddTitle": {
+      "message": "t.ex. 'Fotboll i 20 min'"
+   },
+   "readLink": {
+      "message": "L\u00E4s"
+   },
+   "readLinkTitle": {
+      "message": "Markera som l\u00E4st"
+   },
+   "refresh": {
+      "message": "Uppdatera"
+   },
+   "refreshLinkTitle": {
+      "message": "Uppdatera alla mailboxar"
+   },
+   "rememberQuickAdd": {
+      "message": "Kom ih\u00E5g att 'Snabbtill\u00E4gg' logga in"
+   },
+   "rememberQuickAddTitle": {
+      "message": "OBS: Detta kommer bara sparar Google AuthKey men inte din logga in referenser"
+   },
+   "remindersBeforeEvent": {
+      "message": "Visa bara meddelanden om h\u00E4ndelser med en"
+   },
+   "remindersBeforeEventHelpTitle": {
+      "message": "I ditt Google Kalender-sida till v\u00E4nster \u00E4r din kalender klickar du p\u00E5 ned\u00E5tpilen bredvid kalendern som du v\u00E4ljer, och v\u00E4lj sedan 'Meddelanden'. Tills\u00E4tt sedan de 'Pop-up' p\u00E5minnelse och st\u00E4lla in en p\u00E5minnelse tid. Notera: Du kan \u00E4ven \u00E5sidos\u00E4tta detta alternativ f\u00F6r varje h\u00E4ndelse n\u00E4r du l\u00E4gger till eller redigerar dem"
+   },
+   "remindersBeforeEventPopupReminder": {
+      "message": "'Pop-up' p\u00E5minnelse"
+   },
+   "remove": {
+      "message": "Ta bort"
+   },
+   "removeDonationLink": {
+      "message": "Ta bort donation l\u00E4nk"
+   },
+   "removeDonationLinkTitle": {
+      "message": "Detta tar bort Donera l\u00E4nken under kalendern"
+   },
+   "removeQuickAdd": {
+      "message": "Ta bort 'Snabbtill\u00E4gg'"
+   },
+   "removeQuickAddTitle": {
+      "message": "D\u00F6lj 'Snabbtill\u00E4gg' funktionen"
+   },
+   "removeShareLinks": {
+      "message": "Ta bort delar l\u00E4nkar"
+   },
+   "removeShareLinksTooltip": {
+      "message": "Tar bort Facebook, Twitter l\u00E4nkar mm under popup-kalendern"
+   },
+   "removeTitle": {
+      "message": "Ta bort kalender"
+   },
+   "replyLinkTitle": {
+      "message": "Svara p\u00E5 mailet"
+   },
+   "reschedule": {
+      "message": "Oml\u00E4ggning"
+   },
+   "save": {
+      "message": "Spara"
+   },
+   "saveSettings": {
+      "message": "Spara inst\u00E4llningar"
+   },
+   "saved": {
+      "message": "Sparade!"
+   },
+   "saving": {
+      "message": "Sparar ..."
+   },
+   "securely": {
+      "message": "ordentligt."
+   },
+   "seeVideo": {
+      "message": "Se video"
+   },
+   "selectACalendar": {
+      "message": "V\u00E4lj en kalender"
+   },
+   "selectCalendar": {
+      "message": "F\u00F6rst m\u00E5ste du v\u00E4lja en kalender!"
+   },
+   "sendPageLinkTitle": {
+      "message": "Skicka l\u00E4nk till sidan"
+   },
+   "severalUnreadText": {
+      "message": "ol\u00E4sta mail"
+   },
+   "showAgendaOptions": {
+      "message": "Visa alternativ l\u00E4nken i agendavyn"
+   },
+   "showAgendaOptionsTitle": {
+      "message": "Visa alternativ l\u00E4nken i agendavyn"
+   },
+   "showConsoleMessages": {
+      "message": "Log messages in Javascript Console (for debugging only)"
+   },
+   "showConsoleMessagesTitle": {
+      "message": "Avsedd f\u00F6r fels\u00F6kning och f\u00E5r bromsa utbyggnaden lite!"
+   },
+   "showDesktopNotifications": {
+      "message": "Visa skrivbordet anm\u00E4lningar"
+   },
+   "showDesktopNotificationsTitle": {
+      "message": "Aktivera detta f\u00F6r att visa ett meddelande n\u00E4r en h\u00E4ndelse i kalendern intr\u00E4ffar"
+   },
+   "showEventTimeOnBadge": {
+      "message": "Visa tid av evenemang p\u00E5 knappen ikon"
+   },
+   "showEventTimeOnBadgeTooltip": {
+      "message": "Visa tid till n\u00E4sta h\u00E4ndelse ovanp\u00E5 ikonen"
+   },
+   "showHeader": {
+      "message": "Visa upp huvudet i popup-f\u00F6nster"
+   },
+   "showHeaderTooltip": {
+      "message": "Visar Snabb-till\u00E4gg och andra kommandon p\u00E5 \u00F6vre delen av popup"
+   },
+   "showMinutesLeftInBadge": {
+      "message": "Visa minuter kvar ist\u00E4llet f\u00F6r tid f\u00F6r h\u00E4ndelsen"
+   },
+   "showMinutesLeftInBadgeTitle": {
+      "message": "Om h\u00E4ndelsen kommer snart d\u00E5 att visa minuter kvar"
+   },
+   "showOpenCalendar": {
+      "message": "Visa \u00F6ppen kalenderikonen"
+   },
+   "showOpenCalendarTooltip": {
+      "message": "Visar \u00F6ppna kalenderikonen"
+   },
+   "showQuickAdd": {
+      "message": "Visa 'Snabbtill\u00E4gg'"
+   },
+   "showQuickAddTooltip": {
+      "message": "Visar sammanfattning l\u00E4gga textinmatningsomr\u00E5det h\u00F6gst upp till v\u00E4nster"
+   },
+   "showRefresh": {
+      "message": "Visa uppdateringsikon"
+   },
+   "showRefreshTooltip": {
+      "message": "Visar uppdateringsikon"
+   },
+   "showTimeSpecificEventsBeforeAllDay": {
+      "message": "Visa tid specifika h\u00E4ndelser f\u00F6re heldagsh\u00E4ndelser"
+   },
+   "showTimeSpecificEventsBeforeAllDayTooltip": {
+      "message": "Om ni i morgon har ett hela dagen h\u00E4ndelse och en h\u00E4ndelse 10:00 kommer det att visa 10:00 ist\u00E4llet f\u00F6r 1D"
+   },
+   "showViewDropDown": {
+      "message": "Visa Visa dropdown"
+   },
+   "showViewDropDownTooltip": {
+      "message": "Visar 'Visa' dropdown lista (Obs: Du m\u00E5ste se det h\u00E4r f\u00F6r att \u00E4ndra vyn fr\u00E5n b\u00F6rjan, d\u00E4refter kan du d\u00F6lja den:)"
+   },
+   "signIn": {
+      "message": "Logga in"
+   },
+   "snooze": {
+      "message": "Snooze"
+   },
+   "spamLink": {
+      "message": "Skr\u00E4ppost"
+   },
+   "spamLinkTitle": {
+      "message": "Rapportera skr\u00E4ppost"
+   },
+   "ssl": {
+      "message": "Anv\u00E4nd alltid SSL"
+   },
+   "sslTitle": {
+      "message": "Anv\u00E4nd alltid SSL-kryptering n\u00E4r Google Kalender"
+   },
+   "starLinkTitle": {
+      "message": "Stj\u00E4rnm\u00E4rk mail"
+   },
+   "staySignedIn": {
+      "message": "Forts\u00E4tt vara inloggad"
+   },
+   "successful": {
+      "message": "Framg\u00E5ngsrik"
+   },
+   "summaryLinkTitle": {
+      "message": "Visa sammanfattning"
+   },
+   "supportAndRequestsPrioritized": {
+      "message": "att st\u00F6dja mig och f\u00E5 dina \u00F6nskem\u00E5l prioriteras!"
+   },
+   "timeout": {
+      "message": "F\u00F6rdr\u00F6jningsintervall"
+   },
+   "timeoutTooltip": {
+      "message": "Kan eliminera logga in problem, \u00F6ka det bara om du har 10 eller fler kalendrar eller om du har massor av h\u00E4ndelser)"
+   },
+   "timeoutTryAgain": {
+      "message": "Timeout intr\u00E4ffade n\u00E4r den kommunicerar med $1, f\u00F6rs\u00F6k igen!"
+   },
+   "toSeeCalendar": {
+      "message": "att se din kalender!"
+   },
+   "today": {
+      "message": "Idag"
+   },
+   "tomorrow": {
+      "message": "I morgon"
+   },
+   "unlockFeatures": {
+      "message": "L\u00E5s upp dessa funktioner och framtida de med en donation av n\u00E5got belopp och de kommer att vara omedelbart tillg\u00E4ngliga!"
+   },
+   "unreadLink": {
+      "message": "Ol\u00E4s"
+   },
+   "unreadLinkTitle": {
+      "message": "Markera som ol\u00E4st"
+   },
+   "view": {
+      "message": "Visa"
+   },
+   "week": {
+      "message": "Vecka"
+   },
+   "what": {
+      "message": "Vad"
+   },
+   "when": {
+      "message": "N\u00E4r"
+   },
+   "writeAboutMe": {
+      "message": "\u00C4r du bra p\u00E5 att skriva eller blogga?"
+   },
+   "yesterday": {
+      "message": "ig\u00E5r"
+   }
+}

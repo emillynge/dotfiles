@@ -1,0 +1,20 @@
+{
+   "browser_tool": {
+      "message": "Browser \u0434\u0443\u0433\u043C\u0435"
+   },
+   "options_saved": {
+      "message": "\u041F\u0440\u043E\u043C\u0435\u043D\u0435 \u0441\u0443 \u0441\u0430\u0447\u0443\u0432\u0430\u043D\u0435"
+   },
+   "save_button": {
+      "message": "\u0421\u0430\u0447\u0443\u0432\u0430\u0458"
+   },
+   "support": {
+      "message": "\u041F\u043E\u0434\u0440\u0448\u043A\u0430"
+   },
+   "toolbar_icons": {
+      "message": "Chrome \u0438\u043A\u043E\u043D\u0438\u0446\u0430"
+   },
+   "website_button": {
+      "message": "\u0414\u0443\u0433\u043C\u0435 \u0437\u0430 \u0441\u0430\u0458\u0442\u043E\u0432\u0435"
+   }
+}

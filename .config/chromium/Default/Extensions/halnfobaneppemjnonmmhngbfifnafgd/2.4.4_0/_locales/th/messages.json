@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "\u0E1E\u0E37\u0E49\u0E19\u0E2B\u0E25\u0E31\u0E07"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "\u0E40\u0E25\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E1B\u0E02\u0E49\u0E32\u0E07\u0E2B\u0E25\u0E31\u0E07\u0E17\u0E35\u0E25\u0E30\u0E2D\u0E31\u0E01\u0E29\u0E23"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "\u0E40\u0E25\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E1B\u0E02\u0E49\u0E32\u0E07\u0E2B\u0E25\u0E31\u0E07\u0E17\u0E35\u0E25\u0E30\u0E22\u0E48\u0E2D\u0E2B\u0E19\u0E49\u0E32"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "\u0E40\u0E25\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E1B\u0E02\u0E49\u0E32\u0E07\u0E2B\u0E25\u0E31\u0E07\u0E17\u0E35\u0E25\u0E30\u0E1B\u0E23\u0E30\u0E42\u0E22\u0E04"
+   },
+   "chromevis_backwardword_label": {
+      "message": "\u0E40\u0E25\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E1B\u0E02\u0E49\u0E32\u0E07\u0E2B\u0E25\u0E31\u0E07\u0E17\u0E35\u0E25\u0E30\u0E04\u0E33"
+   },
+   "chromevis_capitals_text": {
+      "message": "\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E15\u0E31\u0E27\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E43\u0E2B\u0E0D\u0E48 \u0E01\u0E14 Shift+[Key]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "\u0E27\u0E32\u0E07\u0E40\u0E25\u0E19\u0E2A\u0E4C\u0E15\u0E23\u0E07\u0E01\u0E25\u0E32\u0E07/\u0E15\u0E32\u0E21\u0E15\u0E33\u0E41\u0E2B\u0E19\u0E48\u0E07\u0E17\u0E35\u0E48\u0E40\u0E25\u0E37\u0E2D\u0E01"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "\u0E25\u0E14\u0E02\u0E19\u0E32\u0E14\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
+   },
+   "chromevis_description": {
+      "message": "\u0E02\u0E22\u0E32\u0E22\u0E41\u0E25\u0E30\u0E40\u0E1B\u0E25\u0E35\u0E48\u0E22\u0E19\u0E2A\u0E35\u0E02\u0E2D\u0E07\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E17\u0E35\u0E48\u0E40\u0E25\u0E37\u0E2D\u0E01 \u0E43\u0E0A\u0E49\u0E40\u0E21\u0E32\u0E2A\u0E4C\u0E2B\u0E23\u0E37\u0E2D\u0E41\u0E1B\u0E49\u0E19\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E40\u0E25\u0E37\u0E48\u0E2D\u0E19\u0E2A\u0E48\u0E27\u0E19\u0E17\u0E35\u0E48\u0E40\u0E25\u0E37\u0E2D\u0E01\u0E1A\u0E19\u0E2B\u0E19\u0E49\u0E32"
+   },
+   "chromevis_format_text": {
+      "message": "\u0E17\u0E32\u0E07\u0E25\u0E31\u0E14\u0E04\u0E27\u0E23\u0E21\u0E35\u0E23\u0E39\u0E1B\u0E41\u0E1A\u0E1A\u0E14\u0E31\u0E07\u0E19\u0E35\u0E49: [Modifier]+[Key]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "\u0E40\u0E25\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E1B\u0E02\u0E49\u0E32\u0E07\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E25\u0E30\u0E15\u0E31\u0E27\u0E2D\u0E31\u0E01\u0E29\u0E23"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "\u0E40\u0E25\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E1B\u0E02\u0E49\u0E32\u0E07\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E25\u0E30\u0E22\u0E48\u0E2D\u0E2B\u0E19\u0E49\u0E32"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "\u0E40\u0E25\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E1B\u0E02\u0E49\u0E32\u0E07\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E25\u0E30\u0E1B\u0E23\u0E30\u0E42\u0E22\u0E04"
+   },
+   "chromevis_forwardword_label": {
+      "message": "\u0E40\u0E25\u0E37\u0E48\u0E2D\u0E19\u0E44\u0E1B\u0E02\u0E49\u0E32\u0E07\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E25\u0E30\u0E04\u0E33"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E02\u0E19\u0E32\u0E14\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (\u0E42\u0E14\u0E22 Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "\u0E04\u0E37\u0E19\u0E04\u0E48\u0E32\u0E40\u0E23\u0E34\u0E48\u0E21\u0E15\u0E49\u0E19"
+   },
+   "chromevis_savebutton_label": {
+      "message": "\u0E1A\u0E31\u0E19\u0E17\u0E36\u0E01"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "\u0E40\u0E1B\u0E34\u0E14/\u0E1B\u0E34\u0E14\u0E40\u0E25\u0E19\u0E2A\u0E4C"
+   },
+   "chromevis_stylelens_label": {
+      "message": "\u0E22\u0E36\u0E14\u0E40\u0E25\u0E19\u0E2A\u0E4C\u0E44\u0E27\u0E49\u0E1A\u0E19\u0E2A\u0E38\u0E14/\u0E27\u0E32\u0E07\u0E25\u0E2D\u0E22\u0E40\u0E2B\u0E19\u0E37\u0E2D\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
+   },
+   "chromevis_textcolor_label": {
+      "message": "\u0E02\u0E49\u0E2D\u0E04\u0E27\u0E32\u0E21"
+   },
+   "chromevis_title_text": {
+      "message": "\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E40\u0E25\u0E19\u0E2A\u0E4C\u0E41\u0E1B\u0E49\u0E19\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E25\u0E31\u0E14"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "th"
+   }
+}

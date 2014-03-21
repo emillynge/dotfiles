@@ -1,0 +1,354 @@
+<html>
+<head>
+	<title>Checker Plus for Google Calendar</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+	<link href="css/common.css" rel="stylesheet" type="text/css"> 
+	<link href="css/main.css" rel="stylesheet" type="text/css"> 
+	<link href="css/fullcalendar.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/inputs.css" /> 
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+	<script type="text/javascript" src="js/jquery.icalendar.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/checkerPlusForCalendar.js"></script>
+	<script type="text/javascript" src="js/fullcalendar.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+	<style>
+		::-webkit-scrollbar {width:12px;height:12px}
+		::-webkit-scrollbar:hover {border:1px solid #aaa}
+		::-webkit-scrollbar-thumb {background-color:rgba(0,0,0,.2);border-radius:13px}
+		xxhtml.loaded ::-webkit-scrollbar-thumb {background-color:rgba(0,0,0,.2)}
+		::-webkit-scrollbar-thumb:hover {background:rgba(0,0,0,0.4)}
+		::-webkit-scrollbar-button {width:0;height:0;display:none}
+		::-webkit-scrollbar-corner {background-color:transparent}
+		xxhtml.loaded ::-webkit-scrollbar-corner {background-color:#aaa}
+	
+		body {margin:0;font-family: Arial,sans-serif;font-size:14px;display:none;overflow:hidden}
+		
+		a:visited {color:blue}
+		a {font-family:Arial, sans-serif;font-size:13px}
+		
+		textarea, select, input[type='text'], input[type='password'] {border: 1px solid;border-color:#c0c0c0 #d9d9d9 #d9d9d9}		
+		textarea:focus, select:focus, input:focus {border:1px solid;border-color:orange}
+	
+		#headerTitle {display:none;position:absolute;left:33%}
+		#logo {vertical-align:top}
+		#title {color: #666;font-size: 110%;font-weight: bold;text-decoration: none;text-shadow:none}
+		#title:focus {outline:none}
+		#title:hover {text-decoration:underline}
+		#by {font-size:11px;color:black;margin-left:2px;text-decoration:none}
+		#jasonsavard {font-size:11px;color:#15c;text-decoration:none}
+		#jasonsavard:hover {text-decoration:underline}
+		
+		#topStatusMessageWrapper {top:39px}
+		#toolbar > a {opacity:0.7;padding:4px}
+		#toolbar > a:hover {opacity:1}
+		#processing, #loading {right:0;font-size:14px;color:white;background:#C44;padding:2px;z-index:5000}
+    	#processing {display:none;position:fixed;_position:absolute;top:0px}
+		#loading {position:absolute;display:none}
+		#betaLoading {top:50%}
+		#betaLoading .statusMessage {font-size:16px;background:#eee;border-radius:5px;padding:5px;color:black;font-weight:bold}
+		#donate:hover {text-decoration:underline}
+		#alarmDetails {clear:both;display:none;border-radius:5px;background:#E3E9FF;padding:5px;margin-bottom:8px}
+		.menu {box-shadow:0 2px 40px rgba(0,0,0,.4);z-index:5001;margin:0;right:30px;text-align:left;display:none;position:absolute;border:1px solid #ccc;border-radius:5px;background:white}
+		#shareMenu {right:70px}
+		.shareIcon img {width:36px}
+		.menu ul {margin:0;padding:0;list-style-type:none}
+		#optionsSubMenu, #visibleCalendarsMenu {vertical-align:top;display:inline-block;max-height:500px}
+		.menu.visible #optionsSubMenu, .menu.visible #visibleCalendarsMenu {overflow-y:auto !important}
+		#optionsSubMenu {border-left:1px solid #eee;border-bottom:1px solid #eee}
+		.menu a {color:black;text-decoration:none}
+		.menu li {margin-bottom:1px;padding:2px 25px;white-space: nowrap}
+		.menu li:hover {cursor:pointer;background:#eee}
+		.menu li.selected {background-image:url("images/checkmark.png");background-repeat:no-repeat;xxfont-weight:bold}
+		.menu li.ddSection {padding-left:3px}
+		.menu li.ddSection a {xxborder-bottom:1px solid #555}
+		.menu li.doNotSelect a {font-style:italic}
+		.menu li.doNotSelect:hover {background:none;cursor:default}
+		.menu li.doNotSelect:hover a {cursor:default}
+		
+		.visibleCalendarColor, .visibleCalendarLabel {display:inline-block}
+		.visibleCalendarColor {margin:0 5px;border: 1px solid #ccc;width: 10px;height: 10px}
+		#visibleCalendars li {padding-left:3px}
+		.visibleCalendarLabel {text-overflow: ellipsis;max-width:140px;overflow-x: hidden}
+		
+		#login {display:none;background:#E8EEFA;padding:5px;border:1px solid lightblue}
+		#calendar {border-width:0;padding-top:10px}
+
+    	#eventFromPage {clear:both;text-align:left;margin:0;background:#3B5998;border-radius:5px;padding:3px 7px}
+    	#quickAddWrapper {margin-top:-4px;margin-left:0;border-radius:5px;padding:3px 7px}
+    	#quickAddWrapper.selected {xxbox-shadow:1px 1px 5px #ccc;background: -webkit-gradient(linear, left bottom, left top, from(#fff), to(#e7e7e7));border:1px solid #ccc}
+		#quickAdd {margin:1px 0 0 0;width:170px;vertical-align:top;text-indent:2px;min-height:0;padding-bottom:2px}
+		#quickAddDropdown {max-width:155px;display:none}
+		#quickAddDropdown:focus {outline:none;border-color:#ccc}
+		#quickAddCalendars {display:none;max-width:100px;margin:0 4px;border-color:#aaa;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAICAYAAAAbQcSUAAAAWklEQVQokWNgoAOIAuI0PDiKaJMSgYCZmfkbkPkfHYPEQfJEG/b//3+FBQsWLGRjY/uJbBCIDxIHyRNtGDYDyTYI3UA+Pr4vFBmEbODbt2+bKDYIyUBWYtQBAIRzRP/XKJ//AAAAAElFTkSuQmCC")}
+		
+		#save {display:none}
+		#bubbleCalendar {-webkit-appearance: menulist;background-image:none;padding-right:0}
+    	
+    	#eventFromPage {width:400px;margin:0 auto}
+    	#eventDetails {color:white}
+    	#eventTitle {font-weight:bold}
+    	#eventDate {color:#ddd;font-size:70%}
+    	
+    	#bottomRightAd {text-decoration:none}
+    	#bottomRightAd:hover {text-decoration:underline}
+    	
+		.speechInputWrapper {position:relative;display:inline}
+		
+		.bubble {
+			z-index:30;width:350px;display:none;position:absolute;border-radius:20px;top:100px;left:100px;background:white;padding:20px 10px 10px 10px;border:1px solid #aaa;box-shadow:0 8px 12px -6px black;
+		}
+		.bubble.visible {
+			display:block;
+		}
+		
+		html.withAnimation .bubble {
+			opacity:0;
+			-webkit-transition: 300ms ease-in-out;
+			-webkit-transition-property: scale;
+			-webkit-transform:scale(0.01);
+			-webkit-animation-delay: 2s;
+		}
+		html.withAnimation .bubble.visible {
+			opacity:1;
+			-webkit-transform:scale(1);
+		}
+		
+		#createEventBubble table {width:350px;font-family: Arial, sans-serif;font-size:13px}
+    	.bubbleCloseButton {right:13px;top:13px;padding:4px;width:11px;height:11px;cursor: pointer;position: absolute;background: url(images/close.png) no-repeat center center}
+    	#bubbleEditEventDetails {text-decoration:none}
+    	#bubbleEditEventDetails:hover {text-decoration:underline}
+    	
+    	#bubbleWhat {text-indent:2px}
+    	
+    	#betaCalendar {margin-top:38px}
+    	.fc-state-highlight {border:1px solid black !important}
+    	.fc-grid .fc-day-number {float:left;font-size:12px}
+    	.fc-state-highlight .fc-day-number {font-weight:bold} 
+    	.fc-rtl .fc-event-inner {direction:rtl}    	
+    	.fc-header-title {margin-top: 5px;font-size:11px}
+    	.fc-view-month {overflow-y: auto}
+    	.fc-view-month .hiddenEvents {visibility:hidden;background-color:white !important}
+    	.moreLink {display:none;position:absolute;top:0;right:0;font-weight:bold;padding-left:3px;padding-bottom:2px;background:white;color:#333;font-size:90%}
+    	.fc-view-month .moreLink {display:block}
+    	
+    	.fcSnoozerEvent {opacity:0.5}
+    	.fcSnoozerEvent .fc-event-title {background-image:url("images/snoozes.png");background-repeat:no-repeat;padding-left:18px}
+    	.fcDeclinedEvent .fc-event-title {text-decoration:line-through;opacity:0.7}
+
+    	.timeline {position: absolute;left: 59px;border: none;border-top: 1px solid red;width: 100%;margin: 0;padding: 0;z-index: 999;}
+    	
+    	#clickedEventDetails {padding:10px;font-family: Arial, sans-serif;font-size: 13px;}
+    	#clickedEventDetails a {text-decoration:none}
+    	#clickedEventDetails a:hover {text-decoration:underline}    	
+    	#clickedEventEditDetails {float:right;white-space:nowrap;font-weight:bold}
+    	
+    	#clickedEventTitle {font-weight:bold;font-size:15px;margin-bottom:8px;cursor:pointer}
+    	#clickedEventDate {margin-bottom:10px}
+    	.clickedEventSubDetailsLabel {margin:1px 8px 1px 0;font-weight:bold;display:inline-block;width:70px;vertical-align:top}
+    	.clickedEventSubDetails {display:inline-block;width: 217px;text-overflow: ellipsis;overflow-x: hidden;}
+    	#clickedEventLocationMapLink {margin-left:2px}
+    	#clickedEventAttendeesWrapper .clickedEventSubDetails a {color:gray}
+    	
+    	#reducedDonation:hover {text-decoration:underline;color:blue !important;cursor:pointer}
+    	
+    	#pendingNotificationsIcon {height: 19px;-webkit-animation: 0.7s ease-in-out 0s normal none 3 swing;-webkit-transform-origin: center top;}
+
+		@-webkit-keyframes spin {
+			to {
+				-webkit-transform: rotate(1turn);
+			}
+		}
+		
+		.rotate {
+			-webkit-animation: spin 1s linear infinite;
+		}
+    	
+    	@-webkit-keyframes swing {
+    		0%   {-webkit-transform: rotate(0deg)}
+			25%  {-webkit-transform: rotate(-15deg)}
+    		50%  {-webkit-transform: rotate(0deg)}
+			75%  {-webkit-transform: rotate(15deg)}
+			100% {-webkit-transform: rotate(0deg)}
+		}
+
+		@media screen and (min-width: 620px) { /* MUST MATCH Javascript below... */
+			#headerTitle {display:inline-block}
+		}
+
+
+		body.wide {width:800px}
+		html .fc, html .fc table {font-size:0.92em}
+		html .fc-event {font-size: 0.91em;line-height:1.03em}
+    	
+		html.smaller .fc, html.smaller .fc table {font-size: 0.76em}  /* before it was from 0.9 */
+		html.smaller .fc-event {font-size: 1.2em;line-height:0.95em}
+
+   		.fc-view-month {max-height:489px}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.01) and (-webkit-max-device-pixel-ratio: 1.3) {
+			body.wide {width:627px}
+			.fc-view-month {max-height:368px}		
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.31) and (-webkit-max-device-pixel-ratio: 1.5) {
+			body.wide {width:520px}
+			.fc-view-month {max-height:285px}
+		}
+
+		/* For Mac Retina displays let's only handle zoom up to 1.90 (the defaults above and outside the @media blocks will be used instead) because 2 is for retina displays and aparently the width of the popup width is 800px whereas when zooming on a pc changes the popup width shrinks */
+		@media only screen and (-webkit-min-device-pixel-ratio: 1.51) and (-webkit-max-device-pixel-ratio: 1.90) {
+			body.wide {width:400px}
+			.fc-view-month {max-height:180px}
+		}
+
+	</style>
+</head>
+<body>
+
+	<div id="stretcher" class="hide" style="width:2000px"></div>
+
+	<div id="processing" msg="processing">Processing<span>...</span></div>
+	<div id="topStatusMessageWrapper" class="statusMessageWrapper">
+		<div id="statusMessage" class="statusMessage">Added for _____</div>
+	</div>
+	<div id="wrapper" style="width:600px;display:none">
+		<div id="headerWrapper" style="text-align:center">
+			<div id="header" style="padding-top:4px">
+				<div class="nowrap" style="float:left" id="quickAddWrapper">
+					<select id="quickAddDropdown"></select><div class="speechInputWrapper"><input id="quickAdd" dir="auto" autofocus="autofocus" placeholder="hello test" type="text"/></div><select id="quickAddCalendars" title="calendar"></select><button id="save" msg="save" ga="IGNORE" class="gccpGoogleButton" style="margin:0;padding:3px 8px" type="submit">Save</button>
+				</div>
+				<div id="headerTitle">
+					<img id="logo" src="/images/icons/icon-16.png"/> <a id="title" target="_blank" href="http://jasonsavard.com/wiki/Checker_Plus_for_Google_Calendar?ref=CalendarChecker">Checker Plus for Google Calendar&trade;</a><br><span id="by">by <a id="jasonsavard" target="_blank" href="http://jasonsavard.com?ref=CalendarChecker">Jason Savard</a></span>
+   				</div>
+				<div id="toolbar" style="float:right;padding-right:2px;height:20px">
+					<a id="pendingNotifications" class="hide" title="Pending notifications" href="#"><img id="pendingNotificationsIcon" valign="top" src='images/bell_badge.png'/></a>&nbsp;<a id="share" msgTitle="share" href="#"><img valign="top" src='images/share.png'/></a><a id="options" msgTitle="options" href="#"><img valign="top" src='images/options.png'/></a><a id="refresh" msgTitle="refresh" href="#"><img valign="top" src='images/refresh.png'/></a><a id="openCalendar" href="http://www.google.com/calendar"></a><a id="close" msgTitle="closeEsc" href="#"><img valign="top" src='images/close.png'/></a>
+					<div id="loading" msg="loading">Loading...</div>
+					<div id="optionsMenu" class="menu">
+						<ul id="visibleCalendarsMenu">
+							<li val="SEP" class="ddSection doNotSelect" style="margin-top:3px"><a href="#">Visible calendars</a>:</li>
+							<div id="visibleCalendarsOldLookWarning" class="hide" style="margin:3px;padding:2px;width:150px;background:yellow;border-radius:2px">For 'Old looks' please use <b>Customize</b> above or else try the <span style="white-space:nowrap">'New looks'</span> and then click these calendars</div>
+							<div id="visibleCalendarsNoAuthWarning" class="hide" style="margin:3px;padding:2px;width:150px;background:yellow;border-radius:2px">You must grant access! Please see the <a target="_blank" style="color:blue;text-decoration:underline" href="options.html#accounts" style="font-size:100%">Accounts</a> section</div>
+							<span id="visibleCalendars"></span>
+						</ul>
+						<ul id="optionsSubMenu">
+							<li val="SEP" class="ddSection doNotSelect" style="text-align:right;margin-bottom:-16px;margin-right:3px;padding-right:3px"><a href="#" style="display:inline-block;cursor:pointer"><img src="images/close.png"/></a></li>
+							<li val="SEP" class="ddSection doNotSelect"><a href="#" msg="oldLooks">Old looks</a>:</li>
+							<li val="agendaOnly"><a msg="agenda" href="#">Agenda</a></li>
+							<li val="week"><a msg="week" href="#">Week</a></li>
+							<li val="month"><a msg="month" href="#">Month</a></li>
+							<li val="customized"><a msg="customized" href="#">Customize</a></li>
+							<li val="SEP" class="ddSection doNotSelect"  style="margin-top:6px;padding-top:5px;border-top:1px solid #ddd"><a href="#" msg="newLooks">New looks</a>: <span style="font-style:italic;font-size:11px;color:gray">(Recommended)</span></li>
+							<li val="newLookSmall"><a href="#" msg="small">Small</a></li>
+							<li val="newLookNormal"><a href="#" msg="normal">Normal</a></li>
+							<li val="newLook"><a href="#" msg="wide">Wide</a></li>
+							<li val="SEP" class="ddSection doNotSelect" style="margin-top:6px;padding-top:5px;border-top:1px solid #ddd"></li>
+							<li val="showSnoozedEvents"><a href="#">Snoozed events</a></li>
+							<li val="openSnoozedEvents" style="display:none"><a msg="openSnoozedEvents" href="#">open snoozed events</a></li>
+							<li val="SEP" class="ddSection doNotSelect" style="margin-top:6px;padding-top:5px;border-top:1px solid #ddd"></li>
+							<li val="optionsPage"><a msg="options" href="#">Options</a></li>
+							<li val="extraFeatures"><a msg="extraFeatures" href="#">extra features</a></li>
+							<li val="changelog"><a msg="changelog" href="#">Changelog</a></li>
+							<li val="discoverMyApps"><a msg="discoverMyApps" href="#">Discover my apps</a></li>
+							<li val="feedback"><a msg="feedback" href="#">Feedback</a></li>
+							<li val="followMe"><a msg="followMe" href="#">Follow me</a></li>
+							<li val="aboutMe"><a msg="aboutMe" href="#">About me</a></li>
+							<li val="help"><a msg="help" href="#">Help</a></li>
+						</ul>
+					</div>
+					<div id="shareMenu" class="menu">
+						<ul>
+							<li val="SEP" class="ddSection doNotSelect" style="text-align:right;margin-bottom:0px;margin-right:3px;padding-right:3px"><a href="#" style="display:inline-block;cursor:pointer"><img src="images/close.png"/></a></li>
+							<li val="googlePlus" class="shareIcon" title="Google+"><img src="/images/shareIcons/Google-Plus.png"/></li>
+							<li val="facebook" class="shareIcon" title="Facebook"><img src="/images/shareIcons/Facebook.png"/></li>
+							<li val="twitter" class="shareIcon" title="Twitter"><img src="/images/shareIcons/Twitter.png"/></li>
+							<li val="pinterest" class="shareIcon" title="Pinterest"><img src="/images/shareIcons/Pinterest.png"/></li>
+							<li val="linkedin" class="shareIcon" title="Linkedin"><img src="/images/shareIcons/Linkedin.png"/></li>
+							<li val="tumblr" class="shareIcon" title="Tumblr"><img src="/images/shareIcons/Tumblr.png"/></li>
+							<li val="reddit" class="shareIcon" title="Reddit"><img src="/images/shareIcons/reddit.png"/></li>
+						</ul>
+					</div>
+				</div>
+				<div id="eventWrapper" class="hide">
+					<div style="padding:9px">&nbsp;</div>
+					<table id="eventFromPage">
+					<tr id="grantFacebookPermissionWrapper" class="hide">
+						<td style="text-align:center">
+							<button id="grantFacebookPermission" class="gccpGoogleButton" type="submit"><nobr msg="allowThisExtensionToReadYourFacebookEvent">allowThisExtensionToReadYourFacebookEvent</nobr></button>						
+						</td>
+					</tr>					
+					<tr id="eventDetailsWrapper" class="hide">
+						<td width="80%"><span id="eventDetails"><span id="eventTitle">Loading Facebook event...</span><br><span id="eventDate"></span></span></td>
+						<td valign="top"><button id="addICalEvent" class="gccpGoogleButton" type="submit"><span><span><nobr msg="addToGoogleCalendar">Add to Google Calendar</nobr></span></span></button></td>
+					</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div id="calendarWrapper" style="display:none;width:100%;height:530px;overflow-x:hidden">		
+			<iframe id="calendar" width="100%" height="530" frameborder="0" scrolling="no"></iframe>
+		</div>
+		
+		<div id="betaLoading" class="statusMessageWrapper">
+			<div msg="loading" class="statusMessage">loading</div>
+		</div>		
+		<div id='betaCalendar' class="hide"></div>
+		
+		<div id="bottomArea" class="hide">
+			<div id="reducedDonation" style="font-size:13px;opacity:0;color:green;padding:5px 0 0 3px;display:inline-block" title="Hide this note permanently by clicking it."><img height=16 src="images/thumbs_up.png"/> <span msg="reducedDonationAd_popup">Good news long time user! You can get the latest <a id="extraFeaturesLink" msg="extraFeatures" href="#" style="text-transform:lowercase;font-weight:bold;text-decoration:underline">extra features</a> for only 50&cent;</span></div>
+			<div id="bottomRightAdWrapper" style="text-align:right;display:inline-block;float:right;opacity:0;padding-top:6px">
+				<a id="bottomRightAd" href="#" style="color:blue"><span>Try my <span style="color:blue">Checker Plus for Gmail <img style="vertical-align:top;margin-top:-3px" src="images/checkerPlusForGmail.png" height=24/></span></span></a>
+			</div>
+		</div>
+	</div>
+	<div id="signedOut" class="hide" style="text-align:center;margin:10px;width:120px">
+		<nobr><a id="signedOutCalendarSignIn" style="font-size:130%" target="_blank" href="http://www.google.com/calendar" msg="signIn">Sign in</a><br><a target="_blank" href="https://support.google.com/accounts/answer/20758" msg="wantToStaySignedIn" style="display:block;margin:4px;font-size:10px">Want to stay signedin...?</a></nobr>
+	</div>
+	<div id="grantAccess" class="hide" style="text-align:center;margin:10px;min-width:260px">
+		<div>Access not granted!<br>Please see the <a target="_blank" href="options.html?accessNotGranted=true#accounts" style="font-size:100%">account</a> options.</div>
+	</div>
+	<div id="createEventBubble" class="bubble">
+		<div class="bubbleCloseButton"></div>
+		<form id="createEventBubbleForm" name="blah" action="#" method="post" border="0" style="margin:0;padding:0">
+			<table>
+				<colgroup><col width="85px"></colgroup>
+				<tr><td width="60'"><span msg="when">When</span>: </td><td id="bubbleDate"></td></tr>
+				<tr><td valign="top" style="padding-top:8px"><span msg="what">wwwhat</span>: <span style="float:right"><input id="bubbleWhatRadio" name="bubbleWhat" type="radio" checked value="1"></span></td><td><div class="speechInputWrapper"><input id="bubbleWhat" style="width:96%" dir="auto" type="text"></div></td></tr>
+				<tr><td valign="top"><span style="float:right"><input id="bubbleWhatRadio2" name="bubbleWhat" type="radio" value="2"></span></td><td valign="top"><input id="bubbleWhat2" style="width: 96%; box-sizing: border-box; padding-left: 20px; opacity: 0.3" type="text"></td></tr>
+				<tr id="bubbleDescriptionWrapper"><td valign="top"><span msg="eventDescription">descr</span>: </td><td><textarea id="bubbleDescription" dir="auto" style="width:96%;font-size:10px"></textarea></td></tr>
+				<tr><td valign="top" style="padding-top:8px"><span msg="calendar">calendar</span>: </td><td><select id="bubbleCalendar" class="custom-appearance" style="width:90%;margin-top:4px"></select></td></tr>
+				<tr><td colspan="10" style="text-align:center;padding-top:10px"><button id="bubbleCreateEvent" class="gccpGoogleButton custom-appearance" style="margin-right:10px" type="submit" msg="createEvent">Create event</button> <a href="javascript:;" id="bubbleEditEventDetails" class="lk" style="white-space:nowrap"><span msg="editEventDetails">Edit event details</span> <strong>»</strong></a></td></tr>
+			</table>
+		</form>
+	</div>
+	<div id="clickedEventDetails" class="bubble">
+		<div style="padding:10px 20px">
+			<div class="bubbleCloseButton"></div>
+			<div id="clickedEventTitle"></div>
+			<div id="clickedEventDate"></div>
+			<div id="clickedEventLocationWrapper" class="hide">
+				<span class="clickedEventSubDetailsLabel" msg="where">where</span> <div class="clickedEventSubDetails"><span id="clickedEventLocation"></span> <a id="clickedEventLocationMapLink" target="_blank" href="#" msg="map">Map</a></div>
+			</div>
+			<div id="clickedEventVideoWrapper" class="hide">
+				<span class="clickedEventSubDetailsLabel" msg="videoCall">videocall</span> <div class="clickedEventSubDetails"><img style="vertical-align: bottom" src="images/Google+.png"/> <a id="clickedEventVideoLink" target="_blank" href="#">Join Google+ hangout</a></div>
+			</div>
+			<div id="clickedEventSourceWrapper" class="hide">
+				<span class="clickedEventSubDetailsLabel" msg="source">eventSource</span> <div class="clickedEventSubDetails"><img id="eventSourceLogo" style="width:15px;vertical-align: top;margin-top:1px" src="images/gmail.png"/> <a id="clickedEventSourceLink" target="_blank" href="#">sourceTitle</a></div>
+			</div>
+			<div id="clickedEventAttendeesWrapper" class="hide">
+				<span class="clickedEventSubDetailsLabel" msg="who">who</span> <div class="clickedEventSubDetails"></div>
+			</div>
+			<div id="clickedEventDescriptionWrapper" class="hide">
+				<span class="clickedEventSubDetailsLabel" msg="eventDescription">description</span> <div class="clickedEventSubDetails"></div>
+			</div>
+			
+			<div style="border-bottom:1px solid #ccc;margin:8px 0"></div>
+			<a id="clickedEventDelete" style="float:left" href="javascript:;" msg="delete">delete</a>
+			<a id="clickedEventEditDetails" href="javascript:;"><span msg="editEventDetails">Edit event details</span> <strong>»</strong></a>
+		</div>
+	</div>
+</body>
+</html>

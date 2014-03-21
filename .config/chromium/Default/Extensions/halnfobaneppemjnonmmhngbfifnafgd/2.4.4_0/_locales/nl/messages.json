@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "achtergrond"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "E\u00E9n teken teruggaan"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "E\u00E9n paragraaf teruggaan"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "E\u00E9n zin teruggaan"
+   },
+   "chromevis_backwardword_label": {
+      "message": "E\u00E9n woord teruggaan"
+   },
+   "chromevis_capitals_text": {
+      "message": "Gebruik Shift + [toets] voor hoofdletters"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Schakelen tussen gecentreerde/uitgevulde lens"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Lettergrootte kleiner maken"
+   },
+   "chromevis_description": {
+      "message": "Vergroot geselecteerde tekst en wijzig de kleur. Gebruik de muis of het toetsenbord om het selectiegedeelte naar andere delen van de pagina te verplaatsen."
+   },
+   "chromevis_format_text": {
+      "message": "Snelkoppelingen hebben de volgende indeling: [Aanpassingstoets]+[Toets]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "E\u00E9n teken vooruit gaan"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "E\u00E9n paragraaf vooruit gaan"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "E\u00E9n zin vooruit gaan"
+   },
+   "chromevis_forwardword_label": {
+      "message": "E\u00E9n woord vooruit gaan"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Lettergrootte groter maken"
+   },
+   "chromevis_name": {
+      "message": "ChromeVisual (van Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Standaardwaarden herstellen"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Opslaan"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Lens in-/uitschakelen"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Schakelen tussen vastgezette/zwevende lens"
+   },
+   "chromevis_textcolor_label": {
+      "message": "tekst"
+   },
+   "chromevis_title_text": {
+      "message": "Sneltoetsen voor de lens"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "nl"
+   }
+}

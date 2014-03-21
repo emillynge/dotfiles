@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "\u05E8\u05E7\u05E2"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "\u05D7\u05D6\u05D5\u05E8 \u05DC\u05EA\u05D5 \u05D4\u05E7\u05D5\u05D3\u05DD"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "\u05D7\u05D6\u05D5\u05E8 \u05D0\u05D7\u05D5\u05E8\u05D4 \u05E4\u05E1\u05E7\u05D4 \u05D0\u05D7\u05E8 \u05E4\u05E1\u05E7\u05D4"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "\u05D7\u05D6\u05D5\u05E8 \u05DC\u05DE\u05E9\u05E4\u05D8 \u05D4\u05E7\u05D5\u05D3\u05DD"
+   },
+   "chromevis_backwardword_label": {
+      "message": "\u05D7\u05D6\u05D5\u05E8 \u05DC\u05DE\u05D9\u05DC\u05D4 \u05D4\u05E7\u05D5\u05D3\u05DE\u05EA"
+   },
+   "chromevis_capitals_text": {
+      "message": "\u05DC\u05D0\u05D5\u05EA\u05D9\u05D5\u05EA \u05E8\u05D9\u05E9\u05D9\u05D5\u05EA, \u05D4\u05E9\u05EA\u05DE\u05E9 \u05D1-Shift+\u200F[Key]"
+   },
+   "chromevis_centerlens_label": {
+      "message": "\u05D4\u05D7\u05DC\u05E3 \u05E2\u05D3\u05E9\u05D4 \u05DE\u05DE\u05D5\u05E8\u05DB\u05D6\u05EA/\u05DE\u05D9\u05D5\u05E9\u05E8\u05EA"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "\u05D4\u05E7\u05D8\u05DF \u05D2\u05D5\u05D3\u05DC \u05D8\u05E7\u05E1\u05D8"
+   },
+   "chromevis_description": {
+      "message": "\u05D4\u05D2\u05D3\u05DC \u05D5\u05E9\u05E0\u05D4 \u05D0\u05EA \u05D4\u05E6\u05D1\u05E2 \u05E9\u05DC \u05D8\u05E7\u05E1\u05D8 \u05E0\u05D1\u05D7\u05E8. \u05D4\u05E9\u05EA\u05DE\u05E9 \u05D1\u05E2\u05DB\u05D1\u05E8 \u05D0\u05D5 \u05D1\u05DE\u05E7\u05DC\u05D3\u05EA \u05DB\u05D3\u05D9 \u05DC\u05D4\u05D6\u05D9\u05D6 \u05D0\u05EA \u05D4\u05D1\u05D7\u05D9\u05E8\u05D4 \u05D1\u05D3\u05E3."
+   },
+   "chromevis_format_text": {
+      "message": "\u05DE\u05E7\u05E9\u05D9 \u05E7\u05D9\u05E6\u05D5\u05E8 \u05E6\u05E8\u05D9\u05DB\u05D9\u05DD \u05DC\u05D4\u05D9\u05D5\u05EA \u05D1\u05E4\u05D5\u05E8\u05DE\u05D8 \u05D6\u05D4: [Modifier]\u200F+[Key]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "\u05D4\u05EA\u05E7\u05D3\u05DD \u05EA\u05D5 \u05D0\u05D7\u05E8 \u05EA\u05D5"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "\u05D4\u05EA\u05E7\u05D3\u05DD \u05DC\u05E4\u05E1\u05E7\u05D4 \u05D4\u05D1\u05D0\u05D4"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "\u05D4\u05EA\u05E7\u05D3\u05DD \u05DE\u05E9\u05E4\u05D8 \u05D0\u05D7\u05E8 \u05DE\u05E9\u05E4\u05D8"
+   },
+   "chromevis_forwardword_label": {
+      "message": "\u05D4\u05EA\u05E7\u05D3\u05DD \u05DC\u05DE\u05D9\u05DC\u05D4 \u05D4\u05D1\u05D0\u05D4"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "\u05D4\u05D2\u05D3\u05DC \u05D2\u05D5\u05D3\u05DC \u05D8\u05E7\u05E1\u05D8"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (\u05DE\u05D0\u05EA Google)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "\u05E9\u05D7\u05D6\u05E8 \u05D1\u05E8\u05D9\u05E8\u05D5\u05EA \u05DE\u05D7\u05D3\u05DC"
+   },
+   "chromevis_savebutton_label": {
+      "message": "\u05E9\u05DE\u05D5\u05E8"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "\u05D4\u05E4\u05E2\u05DC/\u05DB\u05D1\u05D4 \u05E2\u05D3\u05E9\u05D4"
+   },
+   "chromevis_stylelens_label": {
+      "message": "\u05D4\u05D7\u05DC\u05E3 \u05E2\u05D3\u05E9\u05D4 \u05DE\u05E2\u05D5\u05D2\u05E0\u05EA/\u05E6\u05E4\u05D4"
+   },
+   "chromevis_textcolor_label": {
+      "message": "\u05D8\u05E7\u05E1\u05D8"
+   },
+   "chromevis_title_text": {
+      "message": "\u05DE\u05E7\u05E9\u05D9 \u05E7\u05D9\u05E6\u05D5\u05E8 \u05DC\u05E2\u05D3\u05E9\u05D4"
+   },
+   "direction": {
+      "message": "rtl"
+   },
+   "locale": {
+      "message": "iw"
+   }
+}

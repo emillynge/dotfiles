@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Tutta la pagina"
+   },
+   "cancel": {
+      "message": "cancellare"
+   },
+   "canceled": {
+      "message": "Operazione di cattura annullata !"
+   },
+   "cannotscroll": {
+      "message": "Impossibile scorrere la pagina\u003Cbr\u003E\u003Cbr/\u003EProva a riaprire questa scheda"
+   },
+   "changeheaders": {
+      "message": "Cambire l' intestazione a pi\u00E8 di pagina"
+   },
+   "createimage": {
+      "message": " Creazione File immagine..."
+   },
+   "date": {
+      "message": "Data"
+   },
+   "description": {
+      "message": "Sistema veloce e semplice per salvare schermate di qualsiasi pagina web. Questa \u00E9 la prima estensione che cattura l'intera pagina."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "Puoi informarci di un problema"
+   },
+   "footer": {
+      "message": "Fondo Pagina"
+   },
+   "header": {
+      "message": "Intestazione"
+   },
+   "height": {
+      "message": "altezza"
+   },
+   "imagesize": {
+      "message": "DImensione Immagine:"
+   },
+   "likeresult": {
+      "message": "Piaciuto il risultato? Puoi lasciare un commento positivo, lascia 5 stelle"
+   },
+   "loadcapturescript": {
+      "message": "Caricamento script di cattura..."
+   },
+   "name": {
+      "message": "Instantanea pagina - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "Non \u00E9 possibile scorrere questa pagina (il programma non pu\u00F3 funzionare all' interno di Chrome.)"
+   },
+   "noresize": {
+      "message": "Non ridimensionare"
+   },
+   "openimage": {
+      "message": "Clicca qui per aprire l'immagine"
+   },
+   "or": {
+      "message": "o"
+   },
+   "preview": {
+      "message": "Anteprima:"
+   },
+   "resize": {
+      "message": "Ridimensiona a:"
+   },
+   "resizebefore": {
+      "message": "Ridimensiona finestra prima della Cattura"
+   },
+   "takecapture": {
+      "message": "Cattura Immagine Ora"
+   },
+   "takingcapture": {
+      "message": "Cattura"
+   },
+   "tosavemessage": {
+      "message": "Per salvare l'immagine, clicca sul tasto destro e scegli \"Salva Immagine\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Porzione visibile"
+   },
+   "wait": {
+      "message": "attendere.."
+   },
+   "width": {
+      "message": "larghezza"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

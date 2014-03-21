@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/jquery.min.js", "js/common.js", "js/checkerPlusForDrive.js", "js/difflib.js", "js/diffview.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon19.png",
+      "default_popup": "popup.html",
+      "default_title": "Checker Plus for Google Drive\u2122"
+   },
+   "content_security_policy": "script-src 'self' https://www.google-analytics.com https://accounts.google.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon19.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDoceEusuLB2uc89H6upSDAJDIit60KX6scSXHE3yVMaQbtAJULhhSAe3BOiaIMragRhol+lUjMOvqw8M+7Ogf/he+rpkE4parrE+u/x2tecRnGIqkhJ+0XAH4Qv84lx2tn/rALKsNlhb5BRWHKZZqtI5KSfk8kNnstz2XVCCRzBQIDAQAB",
+   "manifest_version": 2,
+   "name": "Checker Plus for Google Drive\u2122",
+   "optional_permissions": [ "background" ],
+   "options_page": "options.html",
+   "permissions": [ "alarms", "idle", "tabs", "storage", "notifications", "https://accounts.google.com/o/oauth2/token", "https://ssl.gstatic.com/*", "https://docs.google.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.4.5",
+   "web_accessible_resources": [ "images/icon128.png", "images/driveIcons/*", "popup.html" ]
+}

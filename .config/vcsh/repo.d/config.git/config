@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	worktree = /home/emil
+	excludesfile = .gitignore.d/config
+[vcsh]
+	vcsh = true

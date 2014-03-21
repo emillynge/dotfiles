@@ -1,0 +1,14 @@
+{
+   "background": {
+      "scripts": [ "jquery.js", "background.js" ]
+   },
+   "description": "Awesome XKCD widget for Awesome New Tab Page, with awesome zooming. [ANTP]",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxa/HE/FhbRKjFsbBgX1PabjmZLZbkGuVW8mO127DIC4Qr8FHG9fvItLEfmgxzzGA14c+Old0eaxnQw9qJyjyz/NKQtXSPDlLqBtyIm8QYUqTuXkTDncTA3UglQ0h28joFW+jsqw8pvwmoC9yztlwLsJY+s2cKRfjRC06j00yLmwIDAQAB",
+   "name": "Awesome XKCD Widget [ANTP]",
+   "permissions": [ "*://xkcd.com/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2012.134.4.0"
+}

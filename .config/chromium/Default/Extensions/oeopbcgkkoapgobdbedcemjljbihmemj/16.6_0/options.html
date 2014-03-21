@@ -1,0 +1,808 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Checker Plus for Gmail&trade; - Options</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		
+		<link rel="stylesheet" type="text/css" media="screen" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="css/checkerPlusForGmail.css" />
+		<link rel="stylesheet" type="text/css" media="screen" href="css/jquery.miniColors.css" />
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/encoder.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+   		<script type="text/javascript" src="js/checkerPlusForGmail.js"></script>
+		<script type="text/javascript" src="js/mailaccount.class.js"></script>
+		<script type="text/javascript" src="js/jquery.miniColors.js"></script>
+		<script type="text/javascript" src="js/options.js"></script>
+		<style>
+			body {font-family: arial, sans-serif;font-size: 80%;background:#7B8794;color: #fff;}
+			body a, body a:visited {color: #fff;text-decoration: none;border-bottom: 1px dotted #fff}
+			body a:hover {border-bottom: 1px solid #fff;}
+			h1 {margin-top: 0;}
+			h1.title {font-size:20px}
+			
+			#optionsWrapper a, #optionsWrapper a:visited {color:blue;border-bottom: 1px dotted black}
+
+			#poll {width:100px}
+
+			.playWrapper {border:0 !important;padding:9px}
+			.play {-webkit-filter:drop-shadow(1px 1px 3px #333)}
+			.playWrapper:active img {-webkit-filter:drop-shadow(1px 1px 3px #fff)}
+			
+			#icon_selection img {margin-left:1px;vertical-align:bottom}
+
+			fieldset {border-radius:5px}
+			legend {padding-right:5px}
+			fieldset.options {border:1px solid transparent;padding-top:0;padding-bottom:0;border-radius:5px}
+			fieldset.selected {padding-bottom:5px;margin-bottom:8px;border:1px solid #ccc;background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#f3f3f3));box-shadow:2px 2px 5px #555}
+			fieldset.selected legend {padding-bottom:5px;border-radius:4px}
+			fieldset .subOptions input {margin-left:6px}
+			
+			fieldset.selected fieldset legend {background:#fafafa;padding-bottom:0}
+			fieldset.selected fieldset.selected legend {padding-bottom:5px}
+			
+			.singleOption {margin-left:18px}
+			
+			#emails {width:100%;padding:2px} 
+			
+			#emailsSettings {padding:7px}
+			
+			#welcome {margin:0 auto;padding:20px 10px;width:650px;font-size:16px;border-radius:5px;box-shadow:2px 2px 2px gray;background:lightyellow;color:black}
+			xx#welcome button {color:black}
+			xx#welcome button:hover {cursor:pointer;text-shadow:none !important;text-decoration:underline}
+			
+			.notificationTypeWrapper a.testItOut {-webkit-transition:all .281s;color:#555 !important;opacity:1;font-size:11px}
+			.notificationTypeWrapper:hover a.testItOut {color:blue !important}
+			
+			#main {margin: 0 auto;margin-top:20px;text-align: center}
+			#main input {margin-top: 5px;}
+			table {border-width: 5px;border-color: gray;border-collapse: separate;background-color: #fff;color: #000;position: relative;text-align: left}
+			html[dir='rtl'] table {text-align:right}
+			table a, table a:visited {color: #000;text-decoration: none;border-bottom: 1px dotted #000;}
+			table a:hover {border-bottom: 1px solid #000;}
+			td {margin:0;padding:0}
+			form {margin: 0 auto;padding: 0;}
+			#languages {font-size:90%;height:20px;width:110px}
+			#tabContentWrapper {min-width:700px;text-align:left;display:inline-block;color:#000;background-color:#fff;box-shadow:3px 3px 5px #555;border-radius:5px;margin:0 auto}
+			html[dir='rtl'] #tabContentWrapper {text-align:right}
+			.tabContent {min-width:90%;min-height:250px;margin-left:0px;float: left;padding:20px 30px 30px 30px}
+			html[dir='rtl'] .tabContent {float:right}
+			ul.menu {padding:0;margin:0;list-style-type: none;min-width:100px}
+			ul.menu li {padding: 0;list-style: none;display:inline-block}
+			ul.menu li a {-webkit-transition:background-color .281s;line-height: 25px;border-radius:5px 5px 0 0;padding:6px 8px 8px 8px;border: 0 !important;background: #ddd;font-size:100%;font-weight: bold;color:black !important}
+			html.antp ul.menu li a {padding:6px 4px 8px 4px}
+			ul.menu li a:hover, ul.menu li a.active {background-color:white;color:white;text-shadow:none}
+			
+			button.button {box-shadow: 2px 2px 1px gray}
+			button.button:hover {opacity:1 !important;cursor:pointer !important;box-shadow: 2px 2px 1px black}
+			
+			#backgroundAppsWarning a {color:blue;text-decoration:underline;border-bottom:none}
+			*[msg]:hover, *[msgToolTip]:hover {opacity:1;text-shadow:1px 1px 2px #999}
+			
+			#ANTPWidgetMenu {display:none}
+			html.antp #ANTPWidgetMenu {display:inline-block}
+			
+			.newFeature {margin-left:10px;white-space:nowrap;color:green;font-weight:bold;text-shadow:1px 1px 2px #999;opacity:1 !important}
+			.donationFeature {opacity:0.4}
+			
+			.previewing {opacity:1}
+			
+			#showButtons .buttonWrapper {margin-right:16px}
+			.button {padding:2px 8px;cursor:auto !important}
+			.button:hover {background:#eee;border:1px solid #ccc;opacity:0.55 !important}
+			
+			.themeWrapper {margin-right:15px}
+			.previewTheme {font-size:10px;color:black !important}
+			
+			.buttonWrapper label {opacity:1}
+			
+			.rangeLabel {margin-left:5px;font-size:12px;color:gray}
+			input[type='range'] {height:10px;width:50px}
+			
+			#colorMail {margin:10px 0;width:97%;border-radius:5px 5px 0 0;border:1px solid #ccc}
+			#colorMail, #colorEmail, #colorSender, #colorSubject, #colorMessage {padding:3px}
+			#colorEmail {border-bottom:1px solid #ccc;padding-bottom:5px}			
+			#colorEmail, #colorSender, #colorSubject {font-weight:bold}		
+			
+			.miniColors-trigger {border-bottom:0 !important}
+			.miniColors-trigger:hover {border-bottom:0 !important}
+			
+			.filters {display:none;float:left;list-style-type:none;margin-top:5px;padding-left:15px}
+			.filters li {margin:7px 0}
+			.filters label {width:80px;display:inline-block}
+			.filters input {width:120px;vertical-align:top}
+			
+			#popupWindowOptions {margin-left:-12px}
+			#popupWindowOptions .positionAndSize {background:transparent}
+			#popupWindowOptions .positionAndSize input {width:40px;margin:0 10px}
+			
+			.keys {border-collapse: collapse;margin-top:8px}
+			.keys td {margin:0;padding:5px;border:1px solid black}
+			.keys td:first-child {font-weight:bold}
+			.keysCheckbox {margin-top:16px !important;vertical-align:top}
+			
+			.sound {font-size: 14px;xxfont-family:arial}
+			
+			#voice {min-width:182px}
+			
+			#monitorLabelsHeaders {margin-bottom:6px}
+			#monitorLabelsHeaders > span {display:inline-block;margin-left:3px}
+			#monitorLabelsHeaders > span > span {border-bottom:1px solid black}
+			
+			.monitorLabelLine {height:21px;white-space:nowrap}
+			.monitorLabelLine.disabledLine .label {opacity:0.3}
+			.monitorLabelLine.disabledLine .sound {display:none}
+			.monitorLabelLine.disabledLine .notification {display:none}
+			.monitorLabelLine.disabledLine .voice {display:none}
+			
+			#monitorLabels {box-shadow: 2px 2px 5px #555;border-radius:4px;background:white;display:inline-block;vertical-align:top;height:200px;width:99%;padding:4px 2px 10px 2px;border:1px solid #ddd;overflow-x:hidden;overflow-y:auto}
+			#monitorLabelsWrapper.disabledSound .soundHeader, #monitorLabelsWrapper.disabledSound .sound {display:none}
+			#monitorLabelsWrapper.disabledNotification .notificationHeader, #monitorLabelsWrapper.disabledNotification .notification {display:none}
+			#monitorLabelsWrapper.disabledVoice .voiceHeader, #monitorLabelsWrapper.disabledVoice .voice {display:none}
+			
+			#monitorLabels input, #monitorLabels select {vertical-align:top}
+			
+			.monitorHeader {margin-left:8px !important}
+			.monitorHeader, #monitorLabels .enabled {width:50px}
+			.labelHeader, #monitorLabels .label {width:156px;display:inline-block}
+			#monitorLabels .label {margin-top:4px;cursor:pointer;overflow-x:hidden;text-overflow: ellipsis;white-space: nowrap;xxwidth:63px}
+			.soundHeader, .sound {width:130px;display:inline-block}
+			.monitorLabelLine .sound:focus {background:#eee}
+			.notificationHeader , .monitorLabelLine .notification {width:74px;display:inline-block}
+			.voiceHeader , .monitorLabelLine .voice {width:137px;display:inline-block}
+			
+			#soundUploader {z-index: 100;display:none;position:fixed;left:38%;top:200px;width:400px;background:white;box-shadow:0 0 91px #000;border-radius:5px;padding:20px;color:black}			
+			#soundUploaderDropZone {margin:0 auto;padding-top:12px;border:4px dashed #bbb;width:91%}
+			#soundUploaderDropZone.dragover {background:yellow}
+			
+			#selectSoundFileButton {-webkit-box-shadow: none;display: inline-block;margin:7px 0 20px 0;padding:4px;border-radius:2px;box-shadow: none;background-color: #4d90fe;background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);border: 1px solid #3079ed;color: #fff;border-bottom:1px dotted blue;cursor:pointer}
+				
+			#refreshLabels {opacity:0.5;margin:-2px 0 0 2px;padding:5px;width:10px;cursor:pointer;vertical-align: top;}
+			#refreshLabels:hover {opacity:1}
+			
+			#richNotificationOptions select {width:120px}
+			
+			#open_label {max-width:130px}
+						
+			.warning {margin:0 auto 8px auto;text-align:center;display:none;background:white;border-radius:5px;padding:5px;color:red;width:500px;border:1px solid black}
+
+			#loading {z-index:1000;position: fixed;left:45%;top:285px;box-shadow:1px 1px 1px #eee;width:100px;height: auto;background:rgb(255, 255, 160);box-shadow:2px 2px 2px gray;padding:7px;text-align:center;color:black;border-radius:3px}
+			
+			.buttonLabel {display:inline-block;min-width:193px;text-align:right}
+
+			#topRight {color:white;position:absolute;right:5px;top:5px;font-size:16px}
+			#topRight a {color:white;border-bottom:none}
+			#topRight a:hover {text-decoration:underline}
+
+		</style>
+   </head>
+
+<body>
+
+	<div id="loading" class="hide">Loading...</div>
+
+	<div id="topRight"><a href="http://jasonsavard.com/wiki/Checker_Plus_for_Gmail_changelog?ref=GmailOptions">Changelog</a> &bull; <a href="donate.html" msg="donate"></a> &bull; <a href="http://jasonsavard.com/wiki/Checker_Plus_for_Gmail?ref=GmailOptions" msg="help">Help - Contact</a></div>
+
+   	<div id="main">
+       <h1 class="title"><img id="headerLogo" style="vertical-align: middle;padding-bottom:2px;" src="images/icons/icon_48_white.png" alt="Icon" /> Checker Plus for Gmail&trade;</h1>
+       
+       <div id="welcome" class="hide">
+       		<div msgHTML="welcomeMessage">Welcome, please take a few days to explore this extension and all its many options and if you still have any issues please contact me via the Help link in the options page <u>before</u> writing a review, I might actually be able to help!</div>
+       		<div style="margin-top:5px;margin-right:5px;float:right;font-style:italic">Jason</div>
+       		<br><br>
+       		<button id="continueToOptions" class="button" style="padding:7px 9px" msg="continueToOptions">continue to options</button>       		
+       </div>
+       
+       <div id="optionsWrapper">
+       		
+       		<div id="soundUploader">
+       			<div id="closeSoundUploader" style="position:absolute;top:6px;right:6px;cursor:pointer"><img src="images/close.png"/></div>
+       			<div id="donationRequiredSoundUploader" msg="donationRequired" class="hide" style="font-weight:bold"></div>
+       			<br>
+       			<div id="soundUploaderDropZone">
+       				<div style="color:gray;font-size:18px;padding:10px">Drag sound file here</div>
+       				<div style="color:gray">Or, if you prefer...</div>
+	       			<div><label id="selectSoundFileButton" for="soundBrowse">Select a file from your computer</label></div>
+	       			<div style="color:gray">Or, <a target="_blank" href="http://jasonsavard.com/wiki/Sound_notifications_for_emails#Get_more_sounds">get more sounds</a></div>
+	       			<br><br>    	   			
+       			</div>      
+       			<br> 			
+       			<span style="font-size:11px"><a target="_blank" href="http://jasonsavard.com/wiki/Sound_notifications_for_emails#Sound_issues" msg="notWorking">notworking</a></span><div id="deleteAllCustomSoundsWrapper" class="hide" style="font-size:11px"><a href="javascript:;">Delete all custom sounds</a></div>
+       			<input id="soundBrowse" type="file" accept="audio/*" style="display:none" />
+       		</div>
+       		       
+	       <form>
+		   <ul id="mainMenu" class="menu">
+			   <li><a contentID="0" href="#" class="active" msg="notifications">Notifications</a></li>
+			   <li><a contentID="1" href="#" msg="general">General</a></li>
+			   <li><a contentID="2" href="#" msg="accountsAndLabels">Accounts / Labels</a></li>
+			   <li><a contentID="3" href="#" msg="display">Display</a></li>
+			   <li><a contentID="4" href="#" msg="keys">Keys</a></li>
+			   <li><a contentID="5" href="#" msg="voiceInput">voiceInput</a></li>
+			   <li id="ANTPWidgetMenu"><a id="ANTPWidgetMenuLink" contentID="6" href="#" title="Awesome New Tab Page Widget">ANTP Widget</a></li>
+			   <li><a contentID="7" href="#">Debug</a></li>
+		   </ul>	       
+	       <div id="tabContentWrapper">
+			   <div id="content_0" class="tabContent">
+					<fieldset class="options">
+						<legend><input type="checkbox" id="soundNotification" pref="soundNotification"> <label class="section" for='soundNotification' msg="notificationSound">Sound notifications</label></legend>
+						<div class="subOptions">
+							<div class="nowrap"><span msg="sound">sssound</span>: <span class='defaultSoundOptionWrapper'></span> <span class="rangeLabel" msg="volume">vol</span>: <input id="notificationSoundVolume" pref="notificationSoundVolume" type="range"> <a id="playNotificationSound" href="javascript:;" title="Play notification sound" class="playWrapper"><img class="play" src="images/play.png" alt="Play" /></a></div>
+						</div>
+					</fieldset>
+
+					<fieldset class="options">
+						<legend><input type="checkbox" id="voiceNotification" pref="voiceNotification"> <label class="section" for='voiceNotification' msg="notificationTextToSpeech">Voice notifications</label><span class="newFeature" msg="newFeature">New feature!</span></legend>
+						<div class="subOptions">
+							<div><span msg="speechEngine">vvoice</span>: <select id="voice" pref="voice"></select> <input id="voiceTestText" style="margin-left:5px;padding-left:2px;width:100px;font-style:italic" type="text" msgValue="voiceTest"/> <a id="playVoice" href="javascript:;" title="Play" class="playWrapper"><img class="play" src="images/play.png" alt="Play" /></a>
+							<div style="margin:7px 7px 7px 0;padding:5px">
+								<span class="rangeLabel" msg="volume">vol</span>: <input id="voiceSoundVolume" pref="voiceSoundVolume" type="range"> <span class="rangeLabel" msg="pitch">pitch</span>: <input id="pitch" pref="pitch" type="range" min=0 max=2 step="0.1"> <span class="rangeLabel" msg="rate">rate</span>: <input id="rate" pref="rate" type="range" min="0.1" max="2" step="0.1" msgTitle="rateTitle"></div>
+							</div>
+							<div><input type="checkbox" id="voiceNotificationOnlyIfIdle" pref="voiceNotificationOnlyIfIdle" /> <label for="voiceNotificationOnlyIfIdle" msg="voiceNotificationOnlyIfIdle" msgToolTip="voiceNotificationOnlyIfIdleTooltip">Only if you're away from your computer for atleast</label> <select id="voiceNotificationOnlyIfIdleInterval" pref="voiceNotificationOnlyIfIdleInterval"><option value="15" msg="Xseconds" msgarg1="15">15 seconds</option><option value="30" msg="Xseconds" msgarg1="30">30 seconds</option><option value="60" msg="Xminute" msgarg1="1">1 minute</option><option value="120" msg="Xminutes" msgarg1="2">2 minutes</option></select></div>
+							<div><label msg="hearEmail">Hear email</label>: <span class='defaultVoiceOptionWrapper' msgToolTip="hearEmailToolTip"></span></div>
+							<div><label msg="spokenWordsLimit">limit words</label>: <select pref="spokenWordsLimit" msgToolTip="spokenWordsLimitToolTip"><option msg="summary" value="summary">summary</option><option msg="paragraph" value="paragraph">paragraph</option><option msg="wholeEmail" value="wholeEmail">wholeEmail</option></select></div>
+							<div><input type="checkbox" id="muteVoice" pref="muteVoice" mustDonate="true" /> <label for="muteVoice" msg="muteVoiceWhileSleeping" mustDonate="true">muteVoice</label>: <span><select id="muteVoiceStart" pref="muteVoiceStart"></select> - <select id="muteVoiceEnd" pref="muteVoiceEnd" mustDonate="true"></select></span></div>
+							<!--div><input type="checkbox" id="languageDetection" origins="languageDetection"> <label for="languageDetection" msg="enableLanguageDetection" msgToolTip="enableLanguageDetectionToolTip">Enable language detection</label></div-->
+						</div>
+					</fieldset>
+
+					<fieldset class="options">
+						<legend><input type="checkbox" id="desktopNotification" pref="desktopNotification"> <label class="section" for='desktopNotification' msg="showDesktopNotifications">Desktop notifications</label> <a style="margin-left:7px" target="_blank" msg="moreInfo" href="http://jasonsavard.com/wiki/Desktop_notifications">More info</a></legend>
+						<div class="subOptions">
+							<div style="margin:5px 0">
+								<div class="notificationTypeWrapper">
+									<fieldset class="options">
+										<legend><input type="radio" id="textNotification" name="notificationWindowType" pref="notificationWindowType" value="text" /> <label for="textNotification" msg="textNotification">textNotification</label> <a class="testItOut" id="testOutTextNotification" href="javascript:;" msg="advancedNotificationTryItOut">Test it out</a></legend>
+										<div class="subOptions">
+											<div>
+												<span msg="closeAfterX">Close after</span>:
+										      	<select id="dn_timeout" pref="dn_timeout">
+										        	<option id="dn_timeout_3000" value="3000" msg="Xseconds" msgarg1="3">3 seconds</option>
+										          	<option id="dn_timeout_5000" value="5000" msg="Xseconds" msgarg1="5">5 seconds</option>
+										          	<option id="dn_timeout_10000" value="10000" msg="Xseconds" msgarg1="10">10 seconds</option>
+										          	<option id="dn_timeout_15000" value="15000" msg="Xseconds" msgarg1="15">15 seconds</option>
+										          	<option id="dn_timeout_60000" value="60000" msg="Xminute" msgarg1="1">1 minute</option>
+										          	<option id="dn_timeout_900000" value="900000" msg="Xminutes" msgarg1="15">15 minutes</option>
+										          	<option id="dn_timeout_3600000" value="3600000" msg="Xhour" msgarg1="1">1 hour</option>
+										          	<option id="dn_timeout_18000000" value="18000000" msg="Xhours" msgarg1="5">5 hours</option>
+										          	<option id="dn_timeout_0" value="0" msg="never">Never</option>
+										      	</select>
+											</div>
+										</div>
+									</fieldset>
+								</div>
+								<div class="notificationTypeWrapper" id="richNotificationOptions">
+									<fieldset class="options">
+										<legend><input type="radio" id="richNotification" name="notificationWindowType" pref="notificationWindowType" value="rich" /> <label for="richNotification" msg="richNotification">richNotification</label> <a class="testItOut" id="testOutRichNotification" href="javascript:;" msg="advancedNotificationTryItOut">Test it out</a></legend>
+										<div class="subOptions">
+											<div>
+												<div>
+													<span msg="closeAfterX">Close after</span>:
+													<select id="showNotificationDuration" pref="showNotificationDuration" style="width:100px" type="text"></select>
+													<span msg="closeAfterX_andThen">and then</span> <select id="notificationBehaviour" pref="notificationBehaviour" style="width:auto"><option msg="removeFromSystemTray" value="removeFromTray">remove from system tray</option><option msg="stayInTray" value="stayInTray">stay in system tray</option></select>
+												</div>												
+											</div>
+											<div>
+												<span class='buttonLabel' msg="clickingAnywhereOnNotification">Clicking anywhere on notification</span>:
+												<select pref="notificationClickAnywhere">
+													<option value="markAsRead" msg="readLink">mark as read</option>
+													<option value="archive" msg="archiveLink">archive</option>
+													<option value="open" msg="open">open</option>
+													<option value="openInNewTab">Open in new tab</option>
+													<option value="openInPopup">Open in popup</option>
+													<option value="reply">Reply&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(follows rules set in General > Compose & Reply Button)</option>
+													<option value="replyInPopup">Reply in popup</option>
+													<option value="star" msg="starLinkTitle">star</option>
+												</select>
+											</div>
+											<div>
+												<span class='buttonLabel' msg="notificationButton1">Notification button #1</span>:
+												<select pref="notificationButton1">
+													<option value="" style="color:gray">Hide button</option>
+													<option disabled style="color:gray">--</option>
+													<option value="markAsRead" msg="readLink">mark as read</option>
+													<option value="delete" msg="delete">delete</option>
+													<option value="archive" msg="archiveLink">archive</option>
+													<option value="open" msg="open">open</option>
+													<option value="openInNewTab">Open in new tab</option>
+													<option value="openInPopup">Open in popup</option>
+													<option value="reply">Reply&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(follows rules set in General > Compose & Reply Button)</option>
+													<option value="replyInPopup">Reply in popup</option>
+													<option value="star" msg="starLinkTitle">star</option>
+													<option value="spam" msg="spamLinkTitle">spam</option>
+												</select>
+											</div>
+											<div>
+												<span class='buttonLabel' msg="notificationButton2">Notification button #2</span>:
+												<select pref="notificationButton2">
+													<option value="" style="color:gray">Hide button</option>
+													<option disabled style="color:gray">--</option>
+													<option value="markAsRead" msg="readLink">mark as read</option>
+													<option value="delete" msg="delete">delete</option>
+													<option value="archive" msg="archiveLink">archive</option>
+													<option value="open" msg="open">open</option>
+													<option value="openInNewTab">Open in new tab</option>
+													<option value="openInPopup">Open in popup</option>
+													<option value="reply">Reply&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(follows rules set in General > Compose & Reply Button)</option>
+													<option value="replyInPopup">Reply in popup</option>
+													<option value="star" msg="starLinkTitle">star</option>
+													<option value="spam" msg="spamLinkTitle">spam</option>
+												</select>
+											</div>
+											<div style="text-align:center;color:gray;font-size:11px;font-style:italic">* <span msg="chromePlaced2ButtonLimit">Chrome has placed a 2 button limit!</span></div>
+											<fieldset class="options">
+												<legend><input id="showNotificationEmailImagePreview" type="checkbox" pref="showNotificationEmailImagePreview"/> <label for="showNotificationEmailImagePreview" msg="showNotificationEmailImagePreview">Show preview of first image inside email</label></legend>
+												<div class="subOptions">
+													<input type="checkbox" id="showHigherResolutionAttachments" origins="googleusercontent" /> <label for="showHigherResolutionAttachments" msg="showHigherResolutionAttachments">showHigherResolutionAttachments</label>
+												</div>
+											</fieldset>
+										</div>
+									</fieldset>
+								</div>
+							</div>
+							
+							<!--div><input type="checkbox" id="showEmailAccount" pref="showEmailAccount" /> <label for="showEmailAccount" msg="showEmailAccount">showEmailAccount</label></div-->
+						    <div><input type="checkbox" id="showNotificationsForOlderDateEmails" pref="showNotificationsForOlderDateEmails" /> <label for="showNotificationsForOlderDateEmails" msg="showNotificationsForOlderDateEmails">showNotificationsForOlderDateEmails</label></div>
+							<div><input type="checkbox" id="doNotShowNotificationIfGmailTabActive" pref="doNotShowNotificationIfGmailTabActive" /> <label for="doNotShowNotificationIfGmailTabActive" msg="doNotShowNotificationIfGmailTabActive">doNotShowNotificationIfGmailTabActive</label></div>
+							<div><span msg="display">Display</span> <select id="notificationDisplay" pref="notificationDisplay"></select></div>
+							<div><span msg="displaySenders_1">Display sender's</span> <select pref="notificationDisplayName"><option msg="firstNameOnly" value="firstNameOnly">first name only</option><option msg="firstAndLastName" value="fistAndLastName">first name & last name</option></select></div>
+						</div>
+					</fieldset>
+
+					<fieldset class="options">
+						<legend><input type="checkbox" id="showContactPhoto" pref="showContactPhoto"/> <label for="showContactPhoto" msg="showContactPhoto" msgToolTip="showContactPhotoToolTip">showContactPhoto</label><span class="newFeature" msg="newFeature">New feature!</span></legend>
+						<div class="subOptions">
+							<div msgToolTip="fetchContactsIntervalToolTip">
+				                  <span msg="fetchContactsEvery">Fetch contacts every</span>
+							      <select id="fetchContactsInterval" pref="fetchContactsInterval">
+							          <option value="24" msg="Xdays" msgarg1="1">1 day</option>
+							          <option value="48" msg="Xdays" msgarg1="2">15 seconds</option>
+							          <option value="168" msg="Xdays" msgarg1="7">1 minute</option>
+							          <option value="336" msg="Xdays" msgarg1="14">15 minutes</option>
+							          <option value="744" msg="Xdays" msgarg1="31">31 hour</option>
+							          <option value="9999999" msg="never">never</option>
+							      </select>
+							</div>
+							<div style="color:gray;font-size:10px;width:450px">
+								<span msg="grantedTo">Granted to</span>: <span id="emailsGrantedPermissionToContacts"></span> <a id="grantAccessAgain" href="javascript:;" msg="grantAccessAgain">Grant access again</a>
+							</div>
+						</div>
+					</fieldset>
+
+					<div id="runInBackgroundWrapper">
+						<input type="checkbox" id="runInBackground" class="singleOption" pref="runInBackground" /> <label for="runInBackground" msg="runInBackground" msgToolTip="runInBackgroundToolTip">runin backgrojd</label>
+						<div id="backgroundAppsWarning" class="hide">
+							<ol>
+								<li msg="runInBackgroundWarning1">Please read carefully aboutttt <a target="_blank" href="http://support.google.com/chrome/bin/answer.py?answer=1184722" msg="runInBackgroundWarning1b">background appssss</a></li>
+								<li msg="runInBackgroundWarning2">If you disabled background apps in Chrome you can reeeee-enable them by reading the <a target="_blank" href="http://support.google.com/chrome/bin/answer.py?answer=1184722" msg="runInBackgroundWarning2b">last clickable section</a></li>
+								<li msg="runInBackgroundWarning3">You might have to use theeee <a target="_blank" href="http://support.google.com/mail/bin/answer.py?answer=8494" msg="runInBackgroundWarning3b">stay signed innnn</a> from the Gmaillll login page</li>
+							</ol>
+						</div>
+					</div>
+			   </div>
+			   <div id="content_1" class="tabContent hide">
+					<div>
+						<label msg="language"></label>: <select id="languages" pref="language">
+							<option value="ar">‫العربية</option>
+							<option value="bg">български</option>
+							<option value="ca">català</option>
+							<option value="cs">čeština</option>
+							<option value="hr">Hrvatski</option>
+							<option value="da">dansk</option>
+							<option value="de">Deutsch</option>
+							<option value="et">eesti</option>
+							<option value="en">English</option>
+							<option value="en-GB">English (UK)</option>
+							<option value="es">español</option>
+							<option value="es-419">español (América latina)</option>
+							<option value="fa">فارسی</option>
+							<option value="fr">Français</option>
+							<option value="el">Ελληνικά</option>
+							<option value="he">עברית</option>
+							<option value="hi">हिंदी</option>
+							<option value="hu">Magyar</option>
+							<option value="it">Italiano</option>
+							<option value="lv">latviešu</option>
+							<option value="lt">lietuvių</option>
+							<option value="hu">magyar</option>
+							<option value="nl">Nederlands</option>
+							<option value="no">Norsk</option>
+							<option value="pl">polski</option>
+							<option value="pt-BR">português (Brasil)</option>
+							<option value="pt-PT">português (Portugal)</option>
+							<option value="ro">Română</option>
+							<option value="fi">Suomi</option>
+							<option value="sv">Svenska</option>
+							<option value="ru">pусский</option>
+							<option value="sr">Српски</option>
+							<option value="sk">Slovenčina</option>
+							<option value="sl">Slovenščina</option>
+							<option value="sv">Svenska</option>
+							<option value="th">Thai</option>
+							<option value="tr">Türkçe</option>
+							<option value="uk">Українська</option>
+							<option value="vi">Tiếng Việt</option>
+							<option value="ja">日本語</option>
+							<option value="zh-CN">简体中文</option>
+							<option value="zh-TW">繁體中文</option>
+							<option value="ko">한국어</option>
+						</select>
+					</div>
+					<br>
+					<div>
+						<input type="checkbox" id="showfull_read" pref="showfull_read" />
+						<label for="showfull_read" msg="previewingMarksAsRead" msgToolTip="previewingMarksAsReadToolTip">Previewing marks as read</label>
+					</div>
+					<div><input type="checkbox" id="archive_read" pref="archive_read" /> <label for="archive_read" msg="archive_read" msgToolTip="archive_readToolTip">Archive marks as read</label></div>
+					<div><input type="checkbox" id="replyingMarksAsRead" pref="replyingMarksAsRead" /> <label for="replyingMarksAsRead" msg="replyingMarksAsRead">replyingMarksAsRead</label></div>
+				   	<br>
+					<div>				   	
+				   		<input type="checkbox" id="24hourMode" pref="24hourMode"/> <label for='24hourMode' msg="24hourMode" msgToolTip="24hourModeTitle">24 Hour</label>
+				   	</div>
+					<div>				   	
+				   		<input type="checkbox" id="mailtoLinks" origins="mailtoLinks" /> <label for="mailtoLinks" msg="mailtoLinks" msgToolTip="mailtoLinksToolTip">Open mailto links with Gmail</label> <span style="font-style:italic;color:gray">(Note: Chrome settings can do this also now! <a target="_blank" href="http://support.google.com/chrome/bin/answer.py?answer=1382847">Read more</a>)</span>
+				   	</div>
+				   	
+				   	<br>
+				   	
+	               <fieldset class="options selected">
+	                  <legend msg="openComposeReplyAction">Compose and Reply buttons</legend>
+					  <div><input type="radio" name="openComposeReplyAction" id="openComposeReplyAction1" pref="openComposeReplyAction" value="tab" /> <label for="openComposeReplyAction1" msg="openComposeReplyActionInTab">openComposeReplyActionInTab</label></div>
+					  <div><input type="radio" name="openComposeReplyAction" id="openComposeReplyAction2" pref="openComposeReplyAction" value="popupWindow" /> <label for="openComposeReplyAction2" msg="openComposeReplyActionInPopupWindow">openComposeReplyActionInPopupWindow</label></div>
+					  <div><input type="checkbox" id="showSendAndArchiveButton" pref="showSendAndArchiveButton" /> <label msg="showSendAndArchiveButton" for="showSendAndArchiveButton">Show "Send &amp; Archive" buttonn</label></div>
+	               </fieldset>
+				   	
+				    <div id="popupWindowOptions">
+   						<fieldset id="setPositionAndSizeWrapper" class="options">
+							<legend><input id="setPositionAndSize" pref="setPositionAndSize" mustDonate="true" type="checkbox"/> <label msg="setPositionAndSize" for="setPositionAndSize">Default position and size</label></legend>
+							<div class="subOptions">
+						      	<table class="positionAndSize">
+						      	<tr>
+						      		<td><span msg="positionFromLeft">Position from left</span>: </td><td><input id="popupLeft" pref="popupLeft" type="text"/></td><td><span msg="width">Width</span>: </td><td><input id="popupWidth" pref="popupWidth" type="text"/></td>
+						      	</tr>
+						      	<tr>
+						      		<td><span msg="positionFromTop">Position from top</span>: </td><td><input id="popupTop" pref="popupTop" type="text"/></td><td><span msg="height">Height</span>: </td><td><input id="popupHeight" pref="popupHeight" type="text"/></td>
+						      	</tr>
+						      	<tr>
+						      		<td colspan=10 align="center" style="padding:3px 0"><a id="testOutPopupWindow" href="#" msg="testOutPopupWindow"></a></td>
+						      	</tr>
+						      	</table>						      	
+							</div>
+						</fieldset>
+				    </div>
+			   </div>
+			   <div id="content_2" class="tabContent hide">			   
+			   		<div id="autoDetectionClassicMessage" style="margin-bottom:13px">
+			   			<span msg="autoDetectAccounts">auto detct...</span> <a target="_blank" href="http://jasonsavard.com/wiki/Checker_Plus_for_Gmail#Auto-detecting_signed_in_accounts" msg="notWorking">Not worki</a>
+			   		</div>
+	               <fieldset id="emailsSettings" class="options selected" style="-webkit-user-select: none;">
+						<legend><span msg="emailAccounts">Email accounts</span></legend>
+
+						<div id="accountAddingWrapper" class="hide" style="margin-bottom:10px">							
+			   				<div><input id="addingMethodAutoDetect" pref="accountAddingMethod" name="accountAddingMethod" type="radio" value="autoDetect"/> <label for="addingMethodAutoDetect">Auto-detect signed in accounts</label> <a style="margin-left:5px" target="_blank" href="http://jasonsavard.com/wiki/Checker_Plus_for_Gmail#Auto-detecting_signed_in_accounts" msg="notWorking">Not worki</a></div>
+			   				<div><input id="addingMethodOauth" pref="accountAddingMethod" name="accountAddingMethod" type="radio" value="oauth"/> <label for="addingMethodOauth">Add accounts and stay signed in.</label> <span style="font-weight:bold">BETA - testing only</span></div>
+			   			</div>
+								
+		               	<fieldset class="options selected" style="width:577px;margin:2px 0 20px 0;padding: 12px;background:white">
+			               	<div id="addingMethodOauthExtraPermissionsWarning" style="display:none;margin-bottom:8px;color:#444"> <a href="#">Additional permissions</a> are required to add accounts. <button id="grantPermissionsForAddingMethodOauth" class="button">Grant permissions</button></div>
+		               		<div id="addingAccountsButtons" style="display:none;margin-bottom:7px"><button id="addAccount" class="button">Add Account</button>&nbsp;&nbsp;<a id="removeAccount" href="#" style="font-size:11px;display:inline-block;margin-left:4px;margin-top:4px;border-bottom:none">Remove Account</a> <a target="_blank" href="http://jasonsavard.com/wiki/Granting_access" style="float:right">Why grant access?</a></div>
+					   		<select id="emails" multiple><option id="signInToYourAccount" msg="signInToYourAccount"></option></select>
+				   			<label msg="openThisLabel">Open this label</label>: <select id="open_label"></select>&nbsp;&nbsp;<label msg="alias" for="alias" mustDonate="true">Alias</label>: <input id="alias" style="width:140px;text-indent:2px" msgToolTip="addEmailAliasToolTip" type="text" mustDonate="true"/>&nbsp;&nbsp;<input id="ignoreThisAccount" type="checkbox" style="display:none"/><label id="ignoreThisAccountLabel" msg="ignoreThisAccount" for="ignoreThisAccount" style="opacity:1;color:blue;cursor:pointer">ignore thise email</label>				   			
+					   	</fieldset>
+						
+					   	<div id="duplicateLabelWarning" class="warning" msg="duplicateLabelWarning">warning</div>
+					   	<div id="tooManyLabelsWarning" class="warning">I recommend monitoring less than 5 labels for faster polling and avoiding lockouts or consider using the <b>All mail</b> label instead!</div>
+					   	<div id="allMailAndMoreWarning" class="warning">If you select <b>All mail</b> then you don't have to select other labels or else you will get duplicates!</div>
+					   	
+					   	<div id="monitorLabelsWrapper">
+					   		<div id="monitorLabelsHeaders"><span class='monitorHeader'><span msg="monitor" msgToolTip="monitorThisLabelToolTip">Monitor</span></span> <span class='labelHeader'><span msg="label">Label</span> <img id="refreshLabels" src="images/refresh.png" title="Refresh labels"/></span> <span class='soundHeader'><span msg="sound" msgToolTip="notificationSound">Sound</span></span> <span class='notificationHeader'><span msg="notification" msgToolTip="showDesktopNotifications">Notification</span></span> <span class='voiceHeader'><span msg="voice" msgToolTip="notificationTextToSpeech">Voice</span></span></div>
+					   		<div id="monitorLabels"></div>
+					   	</div>		               	
+					   	
+					   	<br>
+					   	<fieldset class="options selected" style="background:white">
+						   	<legend><span msg="identifyEmailAccountsWithColors" msgToolTip="useTheseColorsToolTip" mustDonate="true">Identify this email account with your own colors</span><span class="newFeature" msg="newFeature">New feature!</span></legend>
+						   	<div id="colorMail" msgToolTip="useTheseColorsToolTip" mustDonate="true">
+						   		<div id="colorEmail"></div>
+						   		<div id="colorEmailMessageArea">
+						   			<div id="colorSender">Jason, me</div>
+						   			<div id="colorSubject" msg="colorSubject">Sample email to play with colors</div>
+						   			<div id="colorMessage" msg="colorMessage">A donation is required to save these colors!</div>
+						   		</div>
+						   	</div>
+						   	<span></span>
+						   						   	
+						   	<div style="float:left">
+						   		<input id="colorStart" type="hidden" name="colorLight" value="#e6d0a1" class="color-picker"/> <span msg="chooseStartColor">Choose the start color</span>
+						   	</div>
+						   	<div style="float:right">
+						   		<span msg="chooseEndColor">Choose the end color</span> <input id="colorEnd" type="hidden" name="colorLight" value="#b87500" class="color-picker" />
+						   	</div>
+						   	
+						   	<div style="text-align:center;clear:both;padding-top:7px"><input id="useColors" type="checkbox" pref="useColorsNOT_USED" mustDonate="true"/> <label for="useColors" msg="useTheseColors">Use these colors</label></div>
+					   	</fieldset>
+
+	               </fieldset>
+	               
+				   <br>
+				   <label msg="pollingInterval" msgToolTip="pollingIntervalTooltip">Polling interval</label>:  
+				   <select id="poll" pref="poll">
+				       <option id="poll_15000" value="15000" msg="Xseconds" msgarg1="15">15 seconds</option>
+				       <option id="poll_30000" value="30000" msg="Xseconds" msgarg1="30">30 seconds</option>
+				       <option id="poll_60000" value="60000" msg="Xminute" msgarg1="1">1 minute</option>
+				       <option id="poll_300000" value="300000" msg="Xminutes" msgarg1="5">5 minutes</option>
+				       <option id="poll_900000" value="900000" msg="Xminutes" msgarg1="15">15 minutes</option>
+				       <option id="poll_1800000" value="1800000" msg="Xminutes" msgarg1="30">30 minutes</option>
+				       <option id="poll_3600000" value="3600000" msg="Xhour" msgarg1="1">1 hour</option>
+				       <option id="poll_7200000" value="7200000" msg="Xhours" msgarg1="2">2 hours</option>
+				       <option id="poll_18000000" value="18000000" msg="Xhours" msgarg1="5">5 hours</option>
+				   </select>
+				   <br>
+	               <input type="checkbox" id="check_gmail_off" pref="check_gmail_off" /> <label for="check_gmail_off" msg="turnOffRegularGmailChecking">Turn off regular Gmail checking</label>
+	               <div id="ignoreTheseAccountsWrapper" class="hide">
+					   <br>
+				   		<span msg="ignoreTheseAccounts">Ignore</span>:
+				   		<br>
+				   		<span style="color:gray;font-size:10px"><span msg="commaSeparatedEmails">commma.a.a.</span> <span>jason@gmail.com, laura@gmail.com</span></span>
+				   		<br>
+				   		<textarea pref="ignoreEmails" style="width:350px;font-size:12px"></textarea>
+					</div>
+					<br>
+					<div style="text-align:center">
+				   		<button id="pollNow" class="button" style="height: 25px; margin-top:10px" msg="pollNow">Poll now</button>
+			   		</div>				   		
+				   	
+			   </div>
+			   <div id="content_3" class="tabContent hide">
+	               <fieldset class="options selected">
+	                  <legend msg="buttonClickAction">Button click action</legend>
+					      <div><input type="radio" name="preview_setting" id="preview_setting0" pref="preview_setting" value="0" /> <label for="preview_setting0" msg="openGmailTab" msgToolTip="openGmailTabToolTip">open gmail tab</label></div>
+					      <div><input type="radio" name="preview_setting" id="preview_setting1" pref="preview_setting" value="1" /> <label for="preview_setting1" msg="openPopupPreviewIfUnread" msgToolTip="openPopupPreviewIfUnreadToolTip">openPopupPreviewIfUnread</label></div>
+					      <div><input type="radio" name="preview_setting" id="preview_setting2" pref="preview_setting" value="2" /> <label for="preview_setting2" msg="openPopupPreview" msgToolTip="openPopupPreviewToolTip">openPopupPreview</label></div>
+					      <div id="twoTabsWarning" class="hide" style="margin-top:3px;color:red">You must restart the browser after selecting this to fix a 2 tab opening issue</div>
+	               </fieldset>
+	               <br>
+	               <fieldset class="options selected">
+	               		<legend msg="icon">Icon</legend>
+					   <div id="icon_selection">
+					   		<div style="display:inline-block">
+					   			<div><label><input type="radio" name="icon_set" value="default" pref="icon_set" /><img src="images/browserButtons/default/not_logged_in.png" /><img src="images/browserButtons/default/no_new.png" /><img src="images/browserButtons/default/new.png" /> <span msg="default">Default</span></label></div>
+					   			<div><label><input type="radio" name="icon_set" value="blue" pref="icon_set" /><img src="images/browserButtons/blue/not_logged_in.png" /><img src="images/browserButtons/blue/no_new.png" /><img src="images/browserButtons/blue/new.png" /> <span>Blue</span></label></div>
+				   			</div>
+					   		<div style="display:inline-block;margin-left:30px">
+					   			<div><label><input type="radio" name="icon_set" value="green" pref="icon_set" /><img src="images/browserButtons/green/not_logged_in.png" /><img src="images/browserButtons/green/no_new.png" /><img src="images/browserButtons/green/new.png" /> <span>Green</span></label></div>
+					   			<div><label><input type="radio" name="icon_set" value="yellow" pref="icon_set" /><img src="images/browserButtons/yellow/not_logged_in.png" /><img src="images/browserButtons/yellow/no_new.png" /><img src="images/browserButtons/yellow/new.png" /> <span>Yellow</span></label></div>
+						   	</div>
+					   		<div style="display:inline-block;margin-left:30px">
+					   			<div><label><input type="radio" name="icon_set" value="native" pref="icon_set" /><img src="images/browserButtons/native/not_logged_in.png" /><img src="images/browserButtons/native/no_new.png" /><img src="images/browserButtons/native/new.png" /> <span>Native</span></label></div>
+					   			<div><label><input type="radio" name="icon_set" value="mini" pref="icon_set" /><img src="images/browserButtons/mini/not_logged_in.png" /><img src="images/browserButtons/mini/no_new.png" /><img src="images/browserButtons/mini/new.png" /> <span>Mini</span></label></div>
+						   	</div>
+					   		<div style="display:inline-block;margin-left:30px;vertical-align:top">
+					   			<div><label><input type="radio" name="icon_set" value="osx" pref="icon_set" /><img src="images/browserButtons/osx/not_logged_in.png" /><img src="images/browserButtons/osx/no_new.png" /><img src="images/browserButtons/osx/new.png" /> <span>OSX</span></label></div>
+						   	</div>
+					   </div>
+					   <div style="margin-top:6px">
+							<input type="checkbox" id="animateButtonIcon" pref="animateButtonIcon" /> <label for="animateButtonIcon" msg="showIconAnimation" msgToolTip="showIconAnimationToolTip">showi con</label>
+							<span>&nbsp;&nbsp;</span>
+							<input type="checkbox" id="hide_count" pref="hide_count" /> <label for="hide_count" msg="hideUnreadCount" msgToolTip="hideUnreadCountToolTip">Hide unread mail count</label>
+						</div>
+				   </fieldset>
+				   <br>
+					<fieldset id="showButtons" class="options selected" style="xbackground:none">
+						<legend msg="actionButtons" msgToolTip="selectQuickActionButtonsToolTip">ation buttons</legend>
+						
+						<div style="margin-top:5px;margin-bottom:15px">
+							<span msg="theme">Theme</span>: <span class="themeWrapper" themeID="original"><input type="radio" name="buttons" id="original" value="original" pref="buttons" /> <label for="original" msg="default">default</label></span>
+					   		<span class="themeWrapper" themeID="green"><input type="radio" name="buttons" id="green" value="green" pref="buttons" mustDonate="true" /> <label for="green" msg="green">def</label> <a class="previewTheme" href="javascript:;" msg="preview">Preview</a></span>
+					   		<span class="themeWrapper" themeID="dark"><input type="radio" name="buttons" id="dark" value="dark" pref="buttons" mustDonate="true" /> <label for="dark" msg="dark">def</label> <a class="previewTheme" href="javascript:;" msg="preview">Preview</a></span>
+					   		<span class="themeWrapper" themeID="custom"><input type="radio" name="buttons" id="custom" value="custom" pref="buttons" mustDonate="true" /> <label for="custom" msg="custom" msgToolTip="customButtonsToolTip">def</label> <a class="previewTheme" href="javascript:;" msg="preview">Preview</a></span>
+				   		</div>
+					   		
+					   	<div style="clear:both">
+						   	<span class="buttonWrapper"><input type="checkbox" id="showStar" pref="showStar" mustDonate="true" /> <label for="showStar"><div class="icon star dark" msgTitle="starLinkTitle"></div></label></span>
+						   	<span class="buttonWrapper"><input type="checkbox" id="showArchive" pref="showArchive" mustDonate="true" /> <label for="showArchive"><div class="button archive" msgTitle="archiveLink"><div></div></div></label></span>
+						   	<span class="buttonWrapper"><input type="checkbox" id="showSpam" pref="showSpam" mustDonate="true" /> <label for="showSpam"><div class="button spam" msgTitle="spamLink"><div></div></div></label></span>
+						   	<span class="buttonWrapper"><input type="checkbox" id="showDelete" pref="showDelete" mustDonate="true" /> <label for="showDelete"><div class="button delete" msgTitle="deleteLink"><div></div></div></label></span>
+						   	<span class="buttonWrapper"><input type="checkbox" id="showReply" pref="showReply" /> <label for="showReply"><div class="button reply" msgTitle="reply"><div></div></div></label></span>
+						   	<span class="buttonWrapper"><input type="checkbox" id="showOpen" pref="showOpen" /> <label for="showOpen"><div class="button open" msgTitle="open"><div></div></div></label></span>
+						   	<!--div style="padding:3px"></div-->
+						   	<span class="buttonWrapper"><input type="checkbox" id="showMarkAsRead" pref="showMarkAsRead" mustDonate="true" /> <label for="showMarkAsRead"><div class="button markAsRead" msgTitle="readLinkTitle"><div msg="readLinkTitle">mark as readdd</div></div></label></span>
+						   	<span class="buttonWrapper"><input type="checkbox" id="showMarkAsUnread" pref="showMarkAsUnread" mustDonate="true" /> <label for="showMarkAsUnread"><div class="button markAsUnread"><div msg="unreadLinkTitle">mark as ureee</div></div></label></span>
+						</div>
+						
+					    <ul class="filters">
+					      <li>
+					        <label style="font-weight:bold" msg="colors">colors</label>
+					        <div style="display:inline-block;position:relative;height:13px">
+					        	<input id=hue-rotate pref="hue-rotate" type=range min=0 max=360 class="filter" style="position:absolute;top:0;z-index:10">
+					        	<div id="rainbow" style="margin-left:2px;margin-top:1px"></div>
+					        </div>
+					      </li>      
+					      
+					      <li>
+					        <label msg="grayscale">Grayscale</label>
+					        <input id=grayscale pref="grayscale" type=range min=0 max=100 class="filter">
+					      </li>
+					      
+					      <li>
+					        <label msg="sepia">Sepia</label>
+					        <input id=sepia pref="sepia" type=range min=0 max=100 class="filter">
+					      </li>  
+					      
+					      <li>
+					        <label msg="brightness">Brightness: </label>
+					        <input id=brightness pref="brightness" type=range min=65 max=100 class="filter">
+					      </li>    
+					    </ul>
+					    <ul class="filters">
+					      <li>
+					        <label msg="contrast">Contrast: </label>
+					        <input id=contrast pref="contrast" type=range min=100 max=255 class="filter">
+					      </li>   
+					      
+					      <li>
+					        <label msg="invert">Invert: </label>
+					        <input id=invert pref="invert" type=range min=0 max=100 class="filter">
+					      </li>       
+
+					      <li>
+					        <label msg="saturation">Saturation: </label>
+					        <input id=saturate pref="saturate" type=range min=100 max=1000 class="filter">
+					      </li>
+
+					      <li>
+					        <label msg="dropshadow">drop-shadow: </label>
+					        <input id=drop-shadow pref="drop-shadow" type=range min=0 max=5 class="filter">
+					      </li>
+					    </ul>
+
+					</fieldset>
+					<br>
+	               <fieldset class="options selected">
+	               		<legend msg="emailSummary">summary</legend>
+					   <div><input type="checkbox" id="showEOM" pref="showEOM" /> <label for="showEOM" msg="showEOM">showEOM</label></div>
+					   <div><input type="checkbox" id="hideSentFrom" pref="hideSentFrom" /> <label for="hideSentFrom" msg="hideSentFrom">hideSentFrom</label></div>
+					   <div>
+					   		<span msg="linesInSummary" mustDonate="true">Lines of text in the summary</span>: 
+					   		<select pref="linesInSummary" msgToolTip="linesInSummaryToolTip" style="width:150px" mustDonate="true">
+					   			<option value="0" msg="none">None</option>
+					   			<option value="1" msg="Xline" msgarg1="1">1</option>
+					   			<option value="2" msg="Xlines" msgarg1="2">2</option>
+					   			<option value="3" msg="Xlines" msgarg1="3">3</option>
+					   			<option value="4" msg="Xlines" msgarg1="4">4</option>
+					   			<option value="5" msg="Xlines" msgarg1="5">5</option>
+					   			<option value="auto" msg="autoAdjust">Auto adjust</option>
+					   			<option value="autoAndImages" msg="autoAdjustAndImages">Auto adjust and images</option>
+					   		</select>
+					   </div>
+					</fieldset>		
+					<fieldset class="options">
+						<legend style="margin-left:-14px"><input type="checkbox" id="emailPreview" pref="emailPreview"> <label class="section" for='emailPreview' msg="emailPreview">emailPreview</label></legend>
+						<div class="subOptions">
+						   <div id="alwaysDisplayExternalContentWrapper"><input type="checkbox" id="alwaysDisplayExternalContent" pref="alwaysDisplayExternalContent" /> <label for="alwaysDisplayExternalContent" msg="alwaysDisplayExternalContent">alwaysDisplayExternalContent</label></div>
+						   <div><input type="checkbox" id="showLeftColumnWhenPreviewingEmail" pref="showLeftColumnWhenPreviewingEmail" mustDonate="true" /> <label for="showLeftColumnWhenPreviewingEmail" msg="showLeftColumnWhenPreviewingEmail">showLeftColumnWhenPreviewingEmail</label></div>
+						</div>
+	               	</fieldset>
+				   <div><input type="checkbox" id="showTransitions" pref="showTransitions"/> <label for="showTransitions" msg="showTransitions">showTransitions</label></div>
+				   <div><input type="checkbox" id="groupByLabels" pref="groupByLabels"/> <label for="groupByLabels" msg="groupByLabels">groupByLabels</label></div>
+				   <div><input type="checkbox" id="showOptionsButton" pref="showOptionsButton"/> <label for="showOptionsButton"><span msg="showOptionsButton">showOptionsButton</span> <div id="options" msgTitle="options" style="display:inline-block;margin-left:2px"><img style="width:15px;vertical-align:bottom" src="images/options.png"/></div></label></div>
+				   <div><input type="checkbox" id="hideByJason" pref="hideByJason" mustDonate="true"/> <label for="hideByJason" msg="hideByJason">hideByJason</label></div>
+				   <div><input type="checkbox" id="showActionButtonsOnHover" pref="showActionButtonsOnHover" /> <label for="showActionButtonsOnHover" msg="showActionButtonsOnHover">showActionButtonsOnHover</label></div>
+				   <div><input type="checkbox" id="collapseEmailAccounts" pref="collapseEmailAccounts" /> <label for="collapseEmailAccounts" msg="collapseEmailAccounts">collapseEmailAccounts</label></div>
+					<fieldset class="options">
+						<legend style="margin-left:-14px"><input type="checkbox" id="rememeberReadEmails" pref="rememeberReadEmails"> <label class="section" for='rememeberReadEmails' msg="rememeberReadEmails">rememeberReadEmails</label></legend>
+						<div class="subOptions">
+							<div style="margin-left:20px;margin-top:3px;margin-bottom:13px;width:700px;background:lightyellow;border:1px solid gray;border-radius:3px;padding:3px">
+								<ul style="padding-left:25px">
+									<li>FYI, there will be issues with this feature and I might remove or stop supporting it!</li>
+									<li>When you restart Chrome the previously marked as read emails will be cleared from the extension memory</li>
+									<li>If you have unread emails, I will hide the read messages so you can focus on the new emails, but I'll add a link at top to 'Show all emails'</li>
+									<li>I'm only able to know the actions you take on an email within this extension, ie. Delete, Mark as read etc. and NOT the actions you take while on the Gmail page, therefore, if an email is no longer marked as "unread" I have to guess that you either deleted, read or marked it as read etc. in your Gmail page.</li>
+									<li>So it is up to you to <b>set the default behaviour</b> for these emails in my extension...</li>
+								</ul>
+								<input type="radio" id="readViaGmailPageHide" name="readViaGmailPage" pref="readViaGmailPage" value="hide" /> <label for="readViaGmailPageHide">I usually 'Delete' emails from my Gmail page</label>
+								<div style="margin-left:23px">(so always <b>hide</b> these emails in the extension)</div>
+								<input type="radio" id="readViaGmailPageShow" name="readViaGmailPage" pref="readViaGmailPage" value="show" /> <label for="readViaGmailPageShow">I usually leave emails as read and do not delete them from my Gmail page</label>
+								<div style="margin-left:23px">(so always <b>show</b> these emails in the extension)</div>
+							</div>
+							<input type="radio" id="hideMarkAsReadEmails" name="emailsMarkedAsRead" pref="emailsMarkedAsRead" value="hide" /> <label for="hideMarkAsReadEmails" msg="hideMarkAsReadEmails">hideMarkAsReadEmails</label>
+							<br>
+							<input type="radio" id="showMarkAsReadEmails" name="emailsMarkedAsRead" pref="emailsMarkedAsRead" value="show" /> <label for="showMarkAsReadEmails" msg="showMarkAsReadEmails">hideMarkAsReadEmails</label>
+						</div>
+	               	</fieldset>
+	               	<div><label msgToolTip="popupWindowZoomToolTip"><span>Popup window zoom</span>: <select pref="zoom"><option value="auto">Auto</option><option disabled> --</option><option value="25%">25%</option><option value="50%">50%</option><option value="75%">75%</option><option value="100%">100%</option><option value="110%">110%</option><option value="125%">125%</option><option value="150%">150%</option><option value="200%">200%</option></select></label></div>
+				</div>
+			   <div id="content_4" class="tabContent hide">
+			   		<br>
+			   		<span style="font-style:italic">* <span msgHTML="shortcutKeysHeader">These keys apply <b>only</b> for the top popup window that is activated by the button</span></span>				   		
+			   		<br><br>
+			   		<div><span msg="standard">Standard</span>...</div>
+			   		<table class='keys'>
+			   		<tr>
+			   			<td><a msg="keyboardShortcuts" target="_blank" href="http://jasonsavard.com/wiki/Checker_Plus_for_Gmail#Keyboard_shortcuts">keyboard shortcuts</a></td>
+			   		</tr>
+			   		</table>
+			   		<br><br>
+			   		<div><span msg="customToThisExtension">Custom to this extension</span>...</div>
+			   		<table class='keys'>
+			   		<tr>
+			   			<td msg="enter">Enter</td><td msg="showHideEmailPreview">Show/Hide email preview</td>
+			   		</tr>
+			   		<!--tr>
+			   			<td>a then r</td><td>Mark <b>A</b>ll as <b>R</b>ead</td>
+			   		</tr-->
+			   		<tr>
+			   			<td msg="esc">Esc</td><td msg="closesPopupWindow">Closes popup window</td>
+			   		</tr>
+			   		</table>
+			   		<br><br>
+			   		<div><span msg="exceptionsToChooseFrom">Exceptions to choose from</span>...</div>
+			   		<br>
+			   		
+			   		<input type="radio" id="keyboardException_R_reply" class='keysCheckbox' name="keyboardException_R" pref="keyboardException_R" value="reply" />
+			   		<label for="keyboardException_R_reply" style="display:inline-block">
+			   		<table class='keys'>
+			   		<tr>
+			   			<td>r</td><td msgHTML="replyR"><b>R</b>eply</td>
+			   		</tr>
+			   		</table>
+			   		</label>
+			   		
+			   		<input type="radio" id="keyboardException_R_markAsRead" class='keysCheckbox' name="keyboardException_R" pref="keyboardException_R" value="markAsRead" />
+			   		<label for="keyboardException_R_markAsRead" style="display:inline-block">
+			   		<table class='keys'>
+			   		<tr>
+			   			<td>r</td><td msgHTML="markAsReadR">Mark as <b>R</b>ead</td>
+			   		</tr>
+			   		</table>
+			   		</label>				   		
+			   </div>
+			   <div id="content_5" class="tabContent hide">
+			   		<br>
+			   		Voice Input 1.0 <b>BETA</b> <a target="_blank" href="http://jasonsavard.com/wiki/Voice_input">What is it?</a>
+			   		<br><br>
+			   		<div><input id="voiceInput" type="checkbox" pref="voiceInput"/> <label for="voiceInput" msgToolTip="enableVoiceInputToolTip">Enable voice input to compose emails</label></div>
+			   		<br>
+			   		<select id="voiceInputLanguage"></select>&nbsp;&nbsp; <select id="voiceInputDialect"></select>
+			   		<br><br>
+			   		<div><a target="_blank" href="http://jasonsavard.com/wiki/Voice_input#Voice_commands">Voice commands</a></div>
+			   </div>				   		
+			   <div id="content_6" class="tabContent hide">
+			   		<div>Widget options for Awesome New Tab Page (ANTP):</div>
+			   		<br>
+			   		<span msg="backgroundColor">backgrund color</span>: <input id="widgetColor" type="hidden" name="colorLight" value="#e6d0a1" class="color-picker"/>
+			   		<br><br>
+			   		<div>
+			   			<input id="widgetShowEmailAddresses" localStorage="widgetShowEmailAddresses" type="checkbox"/> <label for="widgetShowEmailAddresses">Show email addresses</label>
+			   		</div>
+			   		<div>
+			   			<input id="widgetShowEmailPreview" localStorage="widgetShowEmailPreview" type="checkbox"/> <label for="widgetShowEmailPreview">Show email previews</label>
+			   		</div>
+			   		<div>
+			   			<input id="widgetShowEmailSummary" localStorage="widgetShowEmailSummary" type="checkbox"/> <label for="widgetShowEmailSummary">Show email summary</label>
+			   		</div>
+			   </div>
+			   <div id="content_7" class="tabContent hide">
+			   		<div style="color:red;font-weight:bold;font-size:16px">WARNING: Do not change these settings unless your developer instructs you!</div>
+			   		<br>
+			   		<div>
+			   			Max unauthorized accounts: <select id="maxUnauthorizedAccount" localStorage="maxUnauthorizedAccount" default="1"><option value="1">1</option><option value="2">2</option><option value="3">3</option></select>
+			   		</div>
+			   		
+			   		<div style="margin:10px 0"><a id="saveSyncOptions" href="#">Save options</a> or <a id="loadSyncOptions" href="#">Load options</a> via signed in Chrome user</div>			   		
+
+   					<div id="testSection" style="display:none">
+						<a id="exportLocalStorage" style="vertical-align:top" href="#">Export localStorage</a> &bull; <a id="importLocalStorage" href="#">Import localStorage</a><br>
+						<a id="exportIndexedDB" style="vertical-align:top" href="#">Export IndexedDB</a> &bull; <a id="importIndexedDB" href="#">Import IndexedDB</a><br>						
+						<textarea id="jsonString" placeholder="[Paste JSON string here]" rows=5 style="margin-top:5px;width:400px"></textarea>
+					</div>			   		
+			   </div>
+			</div>				
+	       </form>
+	       <br><br>
+	       <div><span msg="alsoTryMy">Also try my</span> <a style="color:white;border-bottom-color:white" target="_blank" href="http://jasonsavard.com/checkerPlusForGoogleCalendar?ref=GmailChecker">Checker Plus for Google <b>Calendar&trade;</b></a></div>
+		</div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "\u041F\u0440\u043E"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "\u041F\u0435\u0440\u0435\u0439\u0442\u0438"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "\u0423\u0434\u0430\u043B\u0438\u0442\u044C \u0438\u0441\u0442\u043E\u0440\u0438\u044E"
+   },
+   "defaultLocation": {
+      "description": "default location is \u041C\u043E\u0441\u043A\u0432\u0430\u0301",
+      "message": "\u041C\u043E\u0441\u043A\u0432\u0430\u0301"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of \u041C\u043E\u0441\u043A\u0432\u0430\u0301",
+      "message": "55.75"
+   },
+   "defaultLocationLink": {
+      "description": "location link of \u041C\u043E\u0441\u043A\u0432\u0430\u0301",
+      "message": "ru/\u041C\u043E\u0441\u043A\u0432\u0430\u0301"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of \u041C\u043E\u0441\u043A\u0432\u0430\u0301",
+      "message": "37.61"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "\u041A \u0441\u043E\u0436\u0430\u043B\u0435\u043D\u0438\u044E \u044F \u043D\u0435 \u0441\u043C\u043E\u0433 \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0438\u0442\u044C \u0442\u0432\u043E\u0435 \u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0435\u0435 \u043C\u0435\u0441\u0442\u043E\u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u044F."
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "\u042F \u043D\u0435 \u043C\u043E\u0433\u0443 \u043F\u043E\u043D\u044F\u0442\u044C \u043C\u0435\u0441\u0442\u043E\u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435 '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "\u041A\u0430\u0440\u0442\u044B Google"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "\u041F\u043E\u0441\u043C\u043E\u0442\u0440e\u0442 \u043C\u0435\u0441\u0442\u043E\u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435 \u043D\u0430 \u043A\u0430\u0440\u0442\u0435, \u0430 \u0442\u0430\u043A \u0436\u0435 \u0438\u0437\u0443\u0447\u0438\u0442\u044C \u0434\u043E\u0441\u0442\u043E\u043F\u0440\u0438\u043C\u0435\u0447\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u0438"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "\u041A\u0430\u0440\u0442\u044B Google \u0438\u0437 \u043C\u0435\u0441\u0442\u043D\u043E\u0433\u043E \u043F\u043E\u0438\u0441\u043A\u0430"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "\u041F\u043E\u043A\u0430\u0437\u0430\u0442\u044C \u043C\u043E\u0435 \u043C\u0435\u0441\u0442\u043E \u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u044F"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "\u041E\u0442 \u0441\u044E\u0434\u0430"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "\u041C\u0430\u0440\u0448\u0440\u0443\u0442\u044B \u043F\u0440\u043E\u0435\u0437\u0434\u0430: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.ru"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "\u041F\u043E\u043C\u043E\u0449\u044C"
+   },
+   "hotspot1": {
+      "message": "\u0420\u0435\u0441\u0442\u043E\u0440\u0430\u043D"
+   },
+   "hotspot2": {
+      "message": "\u041A\u0430\u0444\u0435"
+   },
+   "hotspot3": {
+      "message": "\u041C\u0443\u0437\u0435\u0439"
+   },
+   "hotspot4": {
+      "message": "Fast Food"
+   },
+   "hotspot5": {
+      "message": "Hotel"
+   },
+   "hotspot6": {
+      "message": "\u0431\u0430\u043D\u043A\u043E\u043C\u0430\u0442"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "\u0420\u044F\u0434\u043E\u043C \u0441 \u0442\u043E\u0447\u043A\u043E\u0439 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u0430: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "\u0420\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "\u0421\u044E\u0434\u0430"
+   }
+}

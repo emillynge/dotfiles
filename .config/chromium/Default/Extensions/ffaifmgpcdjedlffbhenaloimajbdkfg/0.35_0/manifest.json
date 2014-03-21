@@ -1,0 +1,21 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "js": [ "pugcp.js" ],
+      "matches": [ "http://*.google.com/*", "https://*.google.com/*" ]
+   } ],
+   "description": "Now you can print any doc/pdf/txt/jpg/jpeg file, Gmail email, attachment or Google Docs document using Google Cloud Print\u2122.",
+   "icons": {
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDylJ9YyNbmKSrfx/pw2kx7C6rzFjkWT3FQR5SUN6Ye5KlOJ2w07CJ1a+pb7BU8Nf3rNzU7Igi2VQo4exav7agpN+NFy0cbObDeBzS8gyDmDZ99si1Ai9jVklVwgzh39Dn9xm76Y7R/7CAo0zhEB2RhXlJ8V9+S44Hj0XP2HKvtWwIDAQAB",
+   "name": "Print Using Google Cloud Print\u2122",
+   "page_action": {
+      "default_icon": "icon48.png",
+      "default_title": "Print Using Google Cloud Print\u2122",
+      "popup": "popup.html"
+   },
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.35"
+}

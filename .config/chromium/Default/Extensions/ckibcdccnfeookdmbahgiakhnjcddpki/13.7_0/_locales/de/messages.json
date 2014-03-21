@@ -1,0 +1,98 @@
+{
+   "allpage": {
+      "message": "Kompletter Screenshot"
+   },
+   "cancel": {
+      "message": "Abbrechen"
+   },
+   "canceled": {
+      "message": "Aufnahme abgebrochen!"
+   },
+   "cannotscroll": {
+      "message": "Kann Webseite nicht scrollen\u003Cbr\u003E\u003Cbr/\u003EVersuchen Sie den Tab neu zu \u00F6ffnen"
+   },
+   "changeheaders": {
+      "message": "Kopf- und Fu\u00DFzeile \u00E4ndern"
+   },
+   "createimage": {
+      "message": "Erstelle das Bild..."
+   },
+   "date": {
+      "message": "Datum"
+   },
+   "description": {
+      "message": "Schnelle und einfache Erweiterung um JPG-Screenshots von Webseiten zu erstellen. Lange Seiten k\u00F6nnen in einem Bild gespeichert ..."
+   },
+   "dir": {
+      "message": "ltr"
+   },
+   "filebug": {
+      "message": "einen Fehlerbericht senden"
+   },
+   "footer": {
+      "message": "Fu\u00DFzeile"
+   },
+   "header": {
+      "message": "Kopfzeile"
+   },
+   "height": {
+      "message": "H\u00F6he"
+   },
+   "imagesize": {
+      "message": "Aufl\u00F6sung:"
+   },
+   "likeresult": {
+      "message": "Gef\u00E4llt das Ergebnis? Sie k\u00F6nnen ein nettes Kommentar schreiben oder mit 5 Sternen bewerten"
+   },
+   "loadcapturescript": {
+      "message": "Lade Aufnahmescript..."
+   },
+   "name": {
+      "message": "Webseiten-Screenshot - Webpage Screenshot"
+   },
+   "noall": {
+      "message": "Kann Webseite nicht scrollen (Die Erweiterung funktioniert nicht in der Erweiterungsgallerie und auch nicht auf internen Chrome-Seiten)"
+   },
+   "noresize": {
+      "message": "Keine Gr\u00F6\u00DFen\u00E4nderung"
+   },
+   "openimage": {
+      "message": "Hier klicken um das Bild zu \u00F6ffnen"
+   },
+   "or": {
+      "message": "oder"
+   },
+   "preview": {
+      "message": "Vorschau:"
+   },
+   "resize": {
+      "message": "\u00C4ndere Gr\u00F6\u00DFe auf:"
+   },
+   "resizebefore": {
+      "message": "Fenstergr\u00F6\u00DFe vor der Aufnahme \u00E4ndern"
+   },
+   "takecapture": {
+      "message": "Bild jetzt aufnehmen"
+   },
+   "takingcapture": {
+      "message": "Aufnahme"
+   },
+   "tosavemessage": {
+      "message": "Um das Bild zu speichern, machen Sie einen Rechtsklick darauf und w\u00E4hlen Sie \"Bild speichern unter\""
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visiblescreenshot": {
+      "message": "Sichtbarer Screenshot"
+   },
+   "wait": {
+      "message": "Bitte warten..."
+   },
+   "width": {
+      "message": "Breite"
+   },
+   "zoom": {
+      "message": "Zoom"
+   }
+}

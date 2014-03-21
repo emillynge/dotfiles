@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "\uBC30\uACBD"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "\uAE00\uC790 \uB2E8\uC704\uB85C \uB4A4\uB85C \uC774\uB3D9"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "\uB2E8\uB77D \uB2E8\uC704\uB85C \uB4A4\uB85C \uC774\uB3D9"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "\uBB38\uC7A5 \uB2E8\uC704\uB85C \uB4A4\uB85C \uC774\uB3D9"
+   },
+   "chromevis_backwardword_label": {
+      "message": "\uB2E8\uC5B4 \uB2E8\uC704\uB85C \uB4A4\uB85C \uC774\uB3D9"
+   },
+   "chromevis_capitals_text": {
+      "message": "\uB300\uBB38\uC790\uB97C \uC785\uB825\uD558\uB824\uBA74 Shift+[\uD0A4]\uB97C \uC0AC\uC6A9\uD558\uC138\uC694."
+   },
+   "chromevis_centerlens_label": {
+      "message": "\uAC00\uC6B4\uB370 \uB9DE\uCDA4/\uC591\uCABD \uB9DE\uCDA4 \uB3CB\uBCF4\uAE30 \uC804\uD658"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "\uD14D\uC2A4\uD2B8 \uD06C\uAE30 \uCD95\uC18C"
+   },
+   "chromevis_description": {
+      "message": "\uC120\uD0DD\uD55C \uD14D\uC2A4\uD2B8\uB97C \uD655\uB300\uD558\uACE0 \uC0C9\uC0C1\uC744 \uBCC0\uACBD\uD569\uB2C8\uB2E4. \uC120\uD0DD\uD55C \uBD80\uBD84\uC744 \uD398\uC774\uC9C0\uC5D0\uC11C \uC774\uB9AC\uC800\uB9AC \uC774\uB3D9\uD558\uB824\uBA74 \uB9C8\uC6B0\uC2A4\uB098 \uD0A4\uBCF4\uB4DC\uB97C \uC0AC\uC6A9\uD558\uC138\uC694."
+   },
+   "chromevis_format_text": {
+      "message": "\uB2E8\uCD95\uD0A4\uB294 [\uC218\uC815\uC790]+[\uD0A4] \uD615\uC2DD\uC774\uC5B4\uC57C \uD569\uB2C8\uB2E4."
+   },
+   "chromevis_forwardchar_label": {
+      "message": "\uAE00\uC790 \uB2E8\uC704\uB85C \uC55E\uC73C\uB85C \uC774\uB3D9"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "\uB2E8\uB77D \uB2E8\uC704\uB85C \uC55E\uC73C\uB85C \uC774\uB3D9"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "\uBB38\uC7A5 \uB2E8\uC704\uB85C \uC55E\uC73C\uB85C \uC774\uB3D9"
+   },
+   "chromevis_forwardword_label": {
+      "message": "\uB2E8\uC5B4 \uB2E8\uC704\uB85C \uC55E\uC73C\uB85C \uC774\uB3D9"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "\uD14D\uC2A4\uD2B8 \uD06C\uAE30 \uD655\uB300"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis(Google \uC81C\uACF5)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "\uAE30\uBCF8\uAC12 \uBCF5\uC6D0"
+   },
+   "chromevis_savebutton_label": {
+      "message": "\uC800\uC7A5"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "\uB3CB\uBCF4\uAE30 \uC0AC\uC6A9/\uC0AC\uC6A9 \uC911\uC9C0"
+   },
+   "chromevis_stylelens_label": {
+      "message": "\uACE0\uC815/\uC774\uB3D9 \uB3CB\uBCF4\uAE30 \uC804\uD658"
+   },
+   "chromevis_textcolor_label": {
+      "message": "\uD14D\uC2A4\uD2B8"
+   },
+   "chromevis_title_text": {
+      "message": "\uB3CB\uBCF4\uAE30 \uD0A4\uBCF4\uB4DC \uB2E8\uCD95\uD0A4"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "ko"
+   }
+}

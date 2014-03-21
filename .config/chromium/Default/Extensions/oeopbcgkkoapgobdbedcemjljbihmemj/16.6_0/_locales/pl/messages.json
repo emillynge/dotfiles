@@ -1,0 +1,962 @@
+{
+   "200": {
+      "message": "Chwilowy problem, spr\u00F3buj jeszcze raz!"
+   },
+   "24hourMode": {
+      "message": "Tryb 24 godzinny"
+   },
+   "24hourModeTitle": {
+      "message": "Wy\u015Bwietlaj czas w trybie 24 godzinnym, np. 18:00"
+   },
+   "401": {
+      "message": "Brak autoryzacji"
+   },
+   "403": {
+      "message": "Wprowadzony email lub has\u0142o s\u0105 niepoprawne."
+   },
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "DO NOT REMOVE"
+   },
+   "NAME_says": {
+      "message": "$1 m\u00F3wi"
+   },
+   "Xday": {
+      "message": "dzie\u0144"
+   },
+   "Xdays": {
+      "message": "$1 dni"
+   },
+   "Xhour": {
+      "message": "$1 godzin\u0119"
+   },
+   "Xhours": {
+      "message": "$1 godzin"
+   },
+   "Xminute": {
+      "message": "$1 minuta"
+   },
+   "Xminutes": {
+      "message": "$1 minut"
+   },
+   "Xseconds": {
+      "message": "$1 sekund"
+   },
+   "aboutMe": {
+      "message": "o mnie"
+   },
+   "account": {
+      "message": "Konto"
+   },
+   "accounts": {
+      "message": "Konta"
+   },
+   "addSpeechEngines": {
+      "message": "Doda\u0107 aparat\u00F3w mowy"
+   },
+   "advancedNotification": {
+      "message": "Okno Zaawansowane powiadomienia"
+   },
+   "advancedNotificationToolTip": {
+      "message": "Powiadomienia o wszystkie nieprzeczytane wiadomo\u015Bci e-mail, przeczytaj ca\u0142y adres e-mail lub usun\u0105\u0107 bez otwierania przegl\u0105darki lub kart\u0119 Gmail! Zasadniczo sprowadza funkcjonalno\u015Bci okna podr\u0119czne g\u00F3rnego w dolnym oknie powiadomienia!"
+   },
+   "advancedNotificationTryItOut": {
+      "message": "Przetestowa\u0107 go out!"
+   },
+   "advancedNotificationTryItOutInstructions": {
+      "message": "Oznacz jednym (lub wi\u0119cej) jako nieprzeczytane wiadomo\u015Bci e-mail, a nast\u0119pnie kliknij tutaj i oczekiwania wy\u015Bwietli\u0107 okno Zaawansowane notyfikacji i wypr\u00F3bowa\u0107 Podgl\u0105d wiadomo\u015Bci e-mail klikaj\u0105c na podsumowanie wiadomo\u015Bci e-mail!"
+   },
+   "all": {
+      "message": "Wszystko"
+   },
+   "allMail": {
+      "message": "Wszystkie wiadomo\u015Bci"
+   },
+   "alreadyDonated": {
+      "message": "Czy przekaza\u0142e\u015B wsparcie?"
+   },
+   "alsoExtraFeaturesForGoogleCalendar": {
+      "message": "Wspom\u00F3\u017C nas raz a tak\u017Ce odblokowa\u0107 dodatkowych funkcji Moja $1"
+   },
+   "alsoExtraFeaturesForGoogleCalendar2": {
+      "message": "Sprawdzanie Plus dla us\u0142ugi Google Calendar"
+   },
+   "alsoTryMy": {
+      "message": "Ponadto spr\u00F3buj Moje"
+   },
+   "amount": {
+      "message": "Kwota"
+   },
+   "archiveLink": {
+      "message": "Archiwizuj"
+   },
+   "archiveLinkTitle": {
+      "message": "Archiwizuj wiadomo\u015B\u0107"
+   },
+   "archive_read": {
+      "message": "\"Dodaj do archiwum\" oznacza jako przeczytane"
+   },
+   "archive_readToolTip": {
+      "message": "Oznacz wiadomo\u015B\u0107 jako przeczytan\u0105 podczas archiwizacji"
+   },
+   "autoDetectAccounts": {
+      "message": "Ta aplikacja b\u0119dzie automatycznie wykrywa konta, kt\u00F3rego rejestrujesz si\u0119 w."
+   },
+   "back": {
+      "message": "Wstecz"
+   },
+   "backToInbox": {
+      "message": "Wr\u00F3\u0107 do skrzynki odbiorczej"
+   },
+   "backgroundOfNotification": {
+      "message": "Kolor t\u0142a powiadomienia w formie wyskakuj\u0105cego okna"
+   },
+   "backgroundOfNotificationTooltip": {
+      "message": "Ustawia kolor t\u0142a w wyskakuj\u0105cym oknie"
+   },
+   "button": {
+      "message": "Przycisk"
+   },
+   "buttonClickAction": {
+      "message": "Akcja kliknij przycisk"
+   },
+   "byEmailSubject": {
+      "message": "wed\u0142ug tematu maila?"
+   },
+   "canceledInAppPurchase": {
+      "message": "Mo\u017Ce spr\u00F3buj u\u017Cy\u0107 PayPal? lub skontaktuj si\u0119 ze mn\u0105 poprzez e-mail."
+   },
+   "changeThisDomain": {
+      "message": "By zmieni\u0107 teraz domen\u0119 email $1"
+   },
+   "changeThisDomain2": {
+      "message": "wyloguj si\u0119 i zaloguj si\u0119 jako inny u\u017Cytkownik"
+   },
+   "changingIcon": {
+      "message": "Zmiana ikony"
+   },
+   "chime": {
+      "message": "Chime"
+   },
+   "choosePaymentMethod": {
+      "message": "Wybierz p\u0142atno\u015B\u0107 kart\u0105 kredytow\u0105"
+   },
+   "clickToPreviewEmail": {
+      "message": "Kliknij, aby wy\u015Bwietli\u0107 podgl\u0105d wiadomo\u015Bci e-mail"
+   },
+   "close": {
+      "message": "Zamknij"
+   },
+   "closeAfterX": {
+      "message": "Zamknij po"
+   },
+   "commaSeparatedEmails": {
+      "message": "ie oddzielone przecinkami."
+   },
+   "compose": {
+      "message": "Redagowanie"
+   },
+   "composeLinkTitle": {
+      "message": "Napisz now\u0105 wiadomo\u015B\u0107"
+   },
+   "contactHelp": {
+      "message": "Kontakt - Pomoc"
+   },
+   "continue": {
+      "message": "Kontynuuj"
+   },
+   "continueWithoutFeatures": {
+      "message": "Nadal korzystaj z rozszerzenia z wieloma opcjami, ale bez dodatkowych funkcji."
+   },
+   "continueWithoutFeaturesHeader": {
+      "message": "Kontynuuj bez dodatkowych funckji"
+   },
+   "contributeToContinue": {
+      "message": "Przeka\u017C datek"
+   },
+   "conversationView": {
+      "message": "Widoku Konwersacja"
+   },
+   "conversationViewToolTip": {
+      "message": "Ustawia, czy wiadomo\u015Bci o tym samym temacie, by\u0142y zgrupowane razem"
+   },
+   "countryCode": {
+      "message": "USA"
+   },
+   "creditCardOrPaypal": {
+      "message": "Mo\u017Cesz u\u017Cy\u0107 swojej karty kredytowej lub zap\u0142aci\u0107 poprzez PayPal, aby "
+   },
+   "currencyCode": {
+      "message": "PLN"
+   },
+   "currencySymbol": {
+      "message": ""
+   },
+   "currentPage": {
+      "message": "obecna strona"
+   },
+   "custom": {
+      "message": "Niestandardowe"
+   },
+   "d": {
+      "message": "d"
+   },
+   "dayAgo": {
+      "message": "$1 dni temu"
+   },
+   "daysAgo": {
+      "message": "dni temu"
+   },
+   "daysLeft": {
+      "message": "pozosta\u0142o $1 dni"
+   },
+   "delete": {
+      "message": "Usu\u0144"
+   },
+   "deleteLink": {
+      "message": "Usu\u0144"
+   },
+   "deleteLinkTitle": {
+      "message": "Usu\u0144 wiadomo\u015B\u0107"
+   },
+   "developingMore": {
+      "message": "i pracuj\u0119 nad kolejnymi Waszymi sugestiami..."
+   },
+   "ding": {
+      "message": "Ding"
+   },
+   "doNotShowNotificationsWhenBrowserClosed": {
+      "message": "Nie pokazuj powiadomie\u0144 przy zamkni\u0119tym oknie przegl\u0105darki"
+   },
+   "doNotShowNotificationsWhenBrowserClosedTooltip": {
+      "message": "Google Chrome b\u0119dzie dzia\u0142a\u0142 w tle z ikon\u0105 w obszarze powiadomie\u0144, ALE powiadomienia NIE b\u0119d\u0105 pokazywane!"
+   },
+   "donate": {
+      "message": "Wspom\u00F3\u017C nas"
+   },
+   "donateButton": {
+      "message": "https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif"
+   },
+   "donationRequired": {
+      "message": "Oddawanie wymagane"
+   },
+   "drawAttentionToBrowser": {
+      "message": "Ikona Chrome miga w pasku zada\u0144 w Windows lub podskakuje na Macu (Beta)"
+   },
+   "drawAttentionToBrowserTooltip": {
+      "message": "W\u0142\u0105czy si\u0119 wy\u0142\u0105cznie wtedy, gdy na ekranie nie wida\u0107 przegl\u0105darki. U\u017Cyteczne, je\u015Bli korzysta si\u0119 z wielu przestrzeni roboczych. W Windows: miga ikona Chrome w pasku zada\u0144. Na Macu: ikona Chrome podskakuje"
+   },
+   "email": {
+      "message": "Email:"
+   },
+   "emailFrom_NAME": {
+      "message": "E-mail od $1"
+   },
+   "enableLanguageDetection": {
+      "message": "W\u0142\u0105cz funkcj\u0119 rozpoznawnaia j\u0119zyka"
+   },
+   "enableLanguageDetectionToolTip": {
+      "message": "M\u00F3w w j\u0119zyku, w kt\u00F3rym napisany jest e-mail dzi\u0119ki u\u017Cyciu tej funkcji rozpoznawania j\u0119zyka!"
+   },
+   "enterAnAmount": {
+      "message": "Muisz wpisa\u0107 kwot\u0119!"
+   },
+   "ex": {
+      "message": "np."
+   },
+   "example": {
+      "message": "przyk\u0142ad"
+   },
+   "extraFeatures": {
+      "message": "Dodatkowe funckje"
+   },
+   "failureWithInAppPurchase": {
+      "message": "Transakcja anulowana lub wyst\u0105pi\u0142 b\u0142\u0105d! Mo\u017Ce spr\u00F3buj poprzez PayPal?"
+   },
+   "failureWithPayPalPurchase": {
+      "message": "Transakcja anulowana lub wyst\u0105pi\u0142 b\u0142\u0105d! Czy chcesz u\u017Cy\u0107 Google Checkout?"
+   },
+   "fetchContactsEvery": {
+      "message": "Pobranie kontakty co"
+   },
+   "fetchContactsIntervalToolTip": {
+      "message": "Ustaw to do wy\u017Cszej warto\u015Bci, je\u015Bli masz wiele kontakt\u00F3w lub powolne internet"
+   },
+   "forever": {
+      "message": "Na zawsze"
+   },
+   "fullLinkTitle": {
+      "message": "Poka\u017C pe\u0142n\u0105 tre\u015B\u0107"
+   },
+   "general": {
+      "message": "Og\u00F3lne"
+   },
+   "grantAccessAgain": {
+      "message": "Udziel dost\u0119pu ponownie"
+   },
+   "grantAccessAgainToolTip": {
+      "message": "Przydatne tylko wtedy, gdy masz wiele rejestrowania kont i chcesz udzieli\u0107 uprawnie\u0144 do ka\u017Cdego z nich do zdj\u0119\u0107"
+   },
+   "grantedTo": {
+      "message": "Przyznane"
+   },
+   "h": {
+      "message": "g"
+   },
+   "hearEmailMessage": {
+      "message": "S\u0142uchaj wiadomo\u015Bci e-mail"
+   },
+   "hearEmailSubject": {
+      "message": "S\u0142ysze\u0107 tematu wiadomo\u015Bci e-mail"
+   },
+   "helpMeTranslate": {
+      "message": "Mo\u017Cesz pom\u00F3c mi w t\u0142umaczeniach? $1"
+   },
+   "helpMeTranslate2": {
+      "message": "Napisz do mnie maila!"
+   },
+   "helpSupport": {
+      "message": "by wesprze\u0107 autora tego rozszerzenia"
+   },
+   "hideUnreadCount": {
+      "message": "Ukryj licznik nieprzeczytanych wiadomo\u015Bci"
+   },
+   "hideUnreadCountToolTip": {
+      "message": "Ukryj liczb\u0119 nieprzeczytanych wiadomo\u015Bci z ikony dzia\u0142ania przegl\u0105darki"
+   },
+   "hourAgo": {
+      "message": "$1 Day Ago"
+   },
+   "hours": {
+      "message": "godziny"
+   },
+   "hoursAgo": {
+      "message": "$1 godziny temu"
+   },
+   "hoursLeft": {
+      "message": "pozosta\u0142o $1 godzin"
+   },
+   "icon": {
+      "message": "Ikona"
+   },
+   "iconClassic": {
+      "message": "Ikona klasyczna"
+   },
+   "iconDefault": {
+      "message": "Domy\u015Blna ikona"
+   },
+   "iconDefault2WithDate": {
+      "message": "Domy\u015Blna ikona z dzisiejsz\u0105 dat\u0105"
+   },
+   "iconMonochrome": {
+      "message": "Ikona monochromatyczna"
+   },
+   "iconNew": {
+      "message": "Nowa ikona"
+   },
+   "iconNew2": {
+      "message": "Ciemna ikona"
+   },
+   "iconNew2WithDate": {
+      "message": "Ciemna ikona z dzisiejsz\u0105 dat\u0105"
+   },
+   "iconNewWithDate": {
+      "message": "Nowa ikona z dzisiejsz\u0105 dat\u0105"
+   },
+   "iconTooltip": {
+      "message": "Ikona do u\u017Cycia z przyciskiem popup"
+   },
+   "ignoreTheseAccounts": {
+      "message": "Ignoruj tych rachunk\u00F3w"
+   },
+   "importantMail": {
+      "message": "Wa\u017Cna poczta"
+   },
+   "inVARhour": {
+      "message": "w przeci\u0105gu $1 godziny"
+   },
+   "inVARhours": {
+      "message": "w przeci\u0105gu $1 godziny"
+   },
+   "inVARminutes": {
+      "message": "w przeci\u0105gu $1 minuty"
+   },
+   "inbox": {
+      "message": "Skrzynka odbiorcza"
+   },
+   "inboxFor": {
+      "message": "$1"
+   },
+   "keepHoveringOverTheBluePlusOne": {
+      "message": "Najed\u017A na ikon\u0119 +1 i poczekaj, a\u017C wy\u015Bwietli si\u0119 napis i podziel si\u0119 nim na Google+"
+   },
+   "labels": {
+      "message": "Etykiety"
+   },
+   "language": {
+      "message": "J\u0119zyk"
+   },
+   "languageName": {
+      "message": "Polski"
+   },
+   "languageToolTip": {
+      "message": "Zmienia j\u0119zyk wy\u015Bwietlania oraz powiadomie\u0144 g\u0142osowych. Uwaga: mo\u017Cesz zobaczy\u0107 naraz wiele j\u0119zyk\u00F3w, ze wgl\u0119du na pewne regu\u0142y: 1. Wy\u015Bwietli to, co przet\u0142umaczy\u0142em na wybrany tu j\u0119zyk. 2. Je\u015Bli nie przet\u0142umaczy\u0142em jakich\u015B s\u0142\u00F3w, b\u0119dzie ich szuka\u0142 w j\u0119zyku Twojej przegl\u0105darki. 3. Je\u015Bli tych nie przet\u0142umaczy\u0142em, poka\u017Ce angielskie odpowiedniki. Uwaga: by zmieni\u0107 j\u0119zyk w wyskakuj\u0105cym okienku, u\u017Cyj ustawie\u0144 z Kalendarza Google."
+   },
+   "largest": {
+      "message": "najwi\u0119kszy"
+   },
+   "licenseOnlyValidFor": {
+      "message": "Licencja b\u0119dzie wa\u017Cna wy\u0142\u0105cznie dla u\u017Cytkownik\u00F3w, kt\u00F3rzy zaloguj\u0105 sie do swoich Kalendarzy Google przy pomocy"
+   },
+   "listenToYourEmail": {
+      "message": "Pos\u0142uchaj adres email"
+   },
+   "loading": {
+      "message": "\u0141aduj\u0119..."
+   },
+   "loadingSettings": {
+      "message": "\u0141adowanie ustawie\u0144"
+   },
+   "m": {
+      "message": "m"
+   },
+   "mailtoLinks": {
+      "message": "\u0141\u0105cza mailto otwarte z Gmail"
+   },
+   "mailtoLinksToolTip": {
+      "message": "Po klikni\u0119ciu \u0142\u0105cza mailto (zazwyczaj linki e-mail) zostanie otwarta \u00A0Gmail zamiast klienta poczty zwyk\u0142ej. Wymagane s\u0105 dodatkowe uprawnienia do analizowania tych \u0142\u0105czy w witrynach, kt\u00F3re odwiedzasz."
+   },
+   "man": {
+      "message": "M\u0119\u017Cczyzna"
+   },
+   "me": {
+      "message": "Me"
+   },
+   "meetMe": {
+      "message": "Spotkaj si\u0119 ze mn\u0105"
+   },
+   "meetMeTitle": {
+      "message": "Zobacz mnie na wideo!"
+   },
+   "min": {
+      "message": "min."
+   },
+   "minimumAmount": {
+      "message": "Muisz przekaza\u0107 minimum $1"
+   },
+   "minimumDonation": {
+      "message": "1.50"
+   },
+   "minimumDonationForGoogleCheckout": {
+      "message": "0.50"
+   },
+   "minutesAgo": {
+      "message": "$1 minuty temu"
+   },
+   "minutesLeft": {
+      "message": "pozosta\u0142o $1 minut"
+   },
+   "monitorThisLabel": {
+      "message": "Monitorowanie tych etykiet"
+   },
+   "monitorThisLabelToolTip": {
+      "message": "Okre\u015Bla, kt\u00F3re etykiety rozszerzenie b\u0119dzie monitorowa\u0107 nadesz\u0142a nowa poczta"
+   },
+   "monthsArray": {
+      "message": "Sty,Lut,Mar,Kwi,Maj,Cze,Lip,Sie,Wrz,Pa\u017A,Lis,Gru"
+   },
+   "more": {
+      "message": "wi\u0119cej"
+   },
+   "moreInfo": {
+      "message": "Wi\u0119cej informacji"
+   },
+   "multipleSelectionMac": {
+      "message": "Przytrzymaj przycisk polecenia, aby wybiera\u0107 spo\u015Br\u00F3d wielu opcji"
+   },
+   "multipleSelectionWindows": {
+      "message": "Przytrzymaj przycisk sterowania (ctrl), aby wybiera\u0107 spo\u015Br\u00F3d wielu opcji."
+   },
+   "multipleUserLicense": {
+      "message": "Zdob\u0105d\u017C licencj\u0119 dla wielu u\u017Cytkownik\u00F3w w Twojej firmie"
+   },
+   "mustSignInToPay": {
+      "message": "Musisz zalogowa\u0107 sie do swojego Kalendarza Google i poczeka\u0107 na za\u0142adowanie si\u0119 tego rozszerzenia!"
+   },
+   "needHelp": {
+      "message": "Potrzebujesz pomocy?"
+   },
+   "never": {
+      "message": "Nigdy nie"
+   },
+   "newFeature": {
+      "message": "Nowa funkcja!"
+   },
+   "next": {
+      "message": "Nast\u0119pny"
+   },
+   "noUnreadText": {
+      "message": "Brak nowych wiadomo\u015Bci"
+   },
+   "notLoggedIn": {
+      "message": "Niezalogowany"
+   },
+   "notSignedIn": {
+      "message": "Niezarejestrowany"
+   },
+   "notWorking": {
+      "message": "Nie dzia\u0142a?"
+   },
+   "notificationDateFormat": {
+      "message": "dddd, mmm d"
+   },
+   "notificationFontSize": {
+      "message": "Wielko\u015B\u0107 tekstu powiadomienia"
+   },
+   "notificationFontSizeTooltip": {
+      "message": "Ustawia wielko\u015B\u0107 czcionki tytu\u0142u wydarzenia w powiadomieniu w formie wyskakuj\u0105cego okna. Ustaw najmniejszy rozmiar, je\u015Bli tytu\u0142 jest d\u0142ugi i najwi\u0119kszy rozmiar, je\u015Bli tytu\u0142 jest kr\u00F3tki"
+   },
+   "notificationSound": {
+      "message": "D\u017Awi\u0119k powiadomienia"
+   },
+   "notificationTextToSpeech": {
+      "message": "Powiadomienie mow\u0105"
+   },
+   "notificationZoom": {
+      "message": "Powi\u0119kszenie okna powiadomie\u0144"
+   },
+   "notificationZoomTooltip": {
+      "message": "U\u017Cyj tego, by zmniejszy\u0107 tekst w okienku powiadomie\u0144 (przydatne dla tych, kt\u00F3rzy u\u017Cywaj\u0105 du\u017Cego rozmiaru DPI)"
+   },
+   "notifications": {
+      "message": "Powiadomienia"
+   },
+   "of": {
+      "message": "z"
+   },
+   "oneUnreadText": {
+      "message": "nieprzeczytana wiadomo\u015B\u0107"
+   },
+   "onlyRemoveAfterDonation": {
+      "message": "Link do wsparcia mo\u017Cesz usun\u0105\u0107 dopiero po dokonaniu wp\u0142aty!"
+   },
+   "open": {
+      "message": "Otw\u00F3rz"
+   },
+   "openComposeInTab": {
+      "message": "Otw\u00F3rz tworzenie nowej wiadomo\u015Bci na karcie"
+   },
+   "openComposeInTabToolTip": {
+      "message": "Tworzy now\u0105 wiadomo\u015B\u0107 na karcie zamiast w ma\u0142ym podr\u0119cznym oknie (stosuje si\u0119 r\u00F3wnie\u017C do \u0142\u0105cza mailto)"
+   },
+   "openGmailTab": {
+      "message": "Otw\u00F3rz kart\u0119 Gmail"
+   },
+   "openGmailTabToolTip": {
+      "message": "Wy\u0142\u0105cza okno podr\u0119czne podgl\u0105du (nie zalecane) i otwiera lub zaznacza pierwsz\u0105 kart\u0119 konta Gmail z nieprzeczytan\u0105 poczt\u0105"
+   },
+   "openLinkTitle": {
+      "message": "Otw\u00F3rz w nowym oknie"
+   },
+   "openPopupPreview": {
+      "message": "Podgl\u0105d okna podgl\u0105du"
+   },
+   "openPopupPreviewIfUnread": {
+      "message": "Otw\u00F3rz menu podr\u0119czne Podgl\u0105d (je\u015Bli istniej\u0105 nieprzeczytane wiadomo\u015Bci)"
+   },
+   "openPopupPreviewIfUnreadToolTip": {
+      "message": "Wy\u015Bwietla tylko w oknie podgl\u0105du, gdy istniej\u0105 nieprzeczytane wiadomo\u015Bci"
+   },
+   "openPopupPreviewToolTip": {
+      "message": "Zawsze wy\u015Bwietla okno podgl\u0105du"
+   },
+   "openReply": {
+      "message": "Otw\u00F3rz (odpowied\u017A.)"
+   },
+   "openThisLabel": {
+      "message": "Otw\u00F3rz etykieta"
+   },
+   "openThisLabelToolTip": {
+      "message": "Okre\u015Bla, gdzie u\u017Cytkownik zostanie skierowany, klikni\u0119cie ikony Skrzynka odbiorcza etykiety lub rozszerzenie"
+   },
+   "option": {
+      "message": "Opcje"
+   },
+   "options": {
+      "message": "Opcje"
+   },
+   "or": {
+      "message": "lub"
+   },
+   "paragraph": {
+      "message": "akapit"
+   },
+   "password": {
+      "message": "Has\u0142o:"
+   },
+   "pitch": {
+      "message": "Smo\u0142a"
+   },
+   "pollNow": {
+      "message": "Okre\u015Bla, kt\u00F3re etykiety rozszerzenie b\u0119dzie monitorowa\u0107 nadesz\u0142a nowa poczta"
+   },
+   "pollingAccounts": {
+      "message": "Sondowanie kont"
+   },
+   "pollingInterval": {
+      "message": "Cz\u0119stotliwo\u015B\u0107 od\u015Bwie\u017Cania"
+   },
+   "pollingIntervalTooltip": {
+      "message": "Cz\u0119stotliwo\u015B\u0107 pobierania wydarze\u0144 z Twojego kalendarza Google o od\u015Bwie\u017Cania przycisku"
+   },
+   "popupText": {
+      "message": "Masz now\u0105 wiadomo\u015B\u0107!"
+   },
+   "previewingMarksAsRead": {
+      "message": "Podgl\u0105d oznacza wiadomo\u015B\u0107 jako przeczytan\u0105"
+   },
+   "previewingMarksAsReadToolTip": {
+      "message": "Oznaczenie wiadomo\u015Bci jako przeczytan\u0105 po podgl\u0105dzie w oknie popup"
+   },
+   "previous": {
+      "message": "Poprzedni"
+   },
+   "priorityInbox": {
+      "message": "Priorytet skrzynki odbiorczej"
+   },
+   "processing": {
+      "message": "Przetwarzanie"
+   },
+   "rate": {
+      "message": "Stawki"
+   },
+   "rateTitle": {
+      "message": "Szybko\u015B\u0107 mowy: wyrazy na minut\u0119"
+   },
+   "readLink": {
+      "message": "Przeczytane"
+   },
+   "readLinkTitle": {
+      "message": "Oznacz jako przeczytane"
+   },
+   "readLinkTitleShort": {
+      "message": ""
+   },
+   "referToAlreadyDonated": {
+      "message": "Odnosz\u0105 si\u0119 do $1"
+   },
+   "referToAlreadyDonated2": {
+      "message": "ju\u017C podarowane"
+   },
+   "refresh": {
+      "message": "Od\u015Bwie\u017C"
+   },
+   "refreshLinkTitle": {
+      "message": "Od\u015Bwie\u017C wszystkie skrzynki"
+   },
+   "repeatSound": {
+      "message": "Powt\u00F3rz d\u017Awi\u0119k powiadomie\u0144 co"
+   },
+   "repeatSound2": {
+      "message": "i wy\u0142\u0105cz po"
+   },
+   "repeatSound3": {
+      "message": "razy"
+   },
+   "repeatSoundTooltip": {
+      "message": "Powtarza powiadomienie lub d\u017Awi\u0119k o ile nie zosta\u0142o odrzucone okienko powiadomie\u0144"
+   },
+   "reply": {
+      "message": "Odpowied\u017A"
+   },
+   "replyLinkTitle": {
+      "message": "Odpowiedz"
+   },
+   "replyingMarksAsRead": {
+      "message": "Replying znak\u00F3w jako przeczytane"
+   },
+   "replyingMarksAsReadToolTip": {
+      "message": "Klikaj\u0105c przycisk Odpowiedz spowoduje oznaczenie wiadomo\u015Bci e-mail jako przeczytane"
+   },
+   "runInBackground": {
+      "message": "Dzia\u0142anie w tle przy zamnki\u0119tej przegl\u0105darce Google Chrome"
+   },
+   "runInBackgroundToolTip": {
+      "message": "Otrzymuj powiadomienia nawet przy zamkni\u0119tej przegl\u0105darce! Opcja wy\u0142\u0105cznie dla do\u015Bwiadczonych u\u017Cytkownik\u00F3w."
+   },
+   "runInBackgroundWarning1": {
+      "message": "Przeczytaj uwa\u017Cnie o $1"
+   },
+   "runInBackgroundWarning1b": {
+      "message": "aplikacjach dzia\u0142aj\u0105cych w tle"
+   },
+   "runInBackgroundWarning2": {
+      "message": "Je\u015Bli wy\u0142\u0105czysz aplikacje dzia\u0142aj\u0105ce w tle w Google Chrome, mo\u017Cesz je w\u0142\u0105czy\u0107 ponownie czytaj\u0105c $1"
+   },
+   "runInBackgroundWarning2b": {
+      "message": "ostatni\u0105 pozycj\u0119 umo\u017Cliwiaj\u0105c\u0105 wybranie opcji"
+   },
+   "runInBackgroundWarning3": {
+      "message": "By\u0107 mo\u017Ce b\u0119dzie potrzebne u\u017Cycie $1 ze strony logowania Gmail"
+   },
+   "runInBackgroundWarning3b": {
+      "message": "opcji \"nie wylogowuj\""
+   },
+   "save": {
+      "message": "Zapisz"
+   },
+   "saved": {
+      "message": "Zapisane!"
+   },
+   "securely": {
+      "message": "bezpiecznie."
+   },
+   "seeVideo": {
+      "message": "Zobacz wideo"
+   },
+   "selectQuickActionButtons": {
+      "message": "Poka\u017C/Ukryj przyciski menu podr\u0119czne i okno Zaawansowane powiadomienia"
+   },
+   "selectQuickActionButtonsToolTip": {
+      "message": "Uwaga: To nie ukrywa przyciski w widoku pe\u0142nego e-mail!"
+   },
+   "sendPageLinkTitle": {
+      "message": "Wys\u0142a\u0107 \u0142\u0105cze do strony"
+   },
+   "setDateTime": {
+      "message": "Ustaw dat\u0119/czas"
+   },
+   "severalUnreadText": {
+      "message": "nieprzeczytane wiadomo\u015Bci"
+   },
+   "share": {
+      "message": "Podziel si\u0119"
+   },
+   "showButtonTooltip": {
+      "message": "Poka\u017C podpowied\u017A, kiedy naje\u017Cdzam na ikon\u0119"
+   },
+   "showButtonTooltipTooltip": {
+      "message": "Pokazuje nast\u0119pne wydarzenie, kiedy naje\u017Cdzasz na ikon\u0119"
+   },
+   "showContactPhoto": {
+      "message": "Poka\u017C zdj\u0119cia kontaktu w oknie podgl\u0105du"
+   },
+   "showContactPhotoToolTip": {
+      "message": "Je\u015Bli kontakt ma zdj\u0119cie b\u0119dzie pokaza\u0107, nawet doda\u0107 w\u0142asne zdj\u0119cia dla nich kontakt\u00F3w Google lub po prostu aktywowania ich obraz w formacie photo pusty w Gmail, aby doda\u0107 fotografii. Je\u015Bli nie zdj\u0119cie zostanie znaleziony, ni\u017C logo domy\u015Blne b\u0119d\u0105 wy\u015Bwietlane zamiast. Aby pobra\u0107 zdj\u0119cia kontakty s\u0105 wymagane uprawnienia."
+   },
+   "showDesktopNotifications": {
+      "message": "Pokazuj powiadomienia na pulpicie"
+   },
+   "showDetails": {
+      "message": "Poka\u017C szczeg\u00F3\u0142y"
+   },
+   "showEmailAccount": {
+      "message": "Zawsze pokazuj skrzynki odbiorczej konta email"
+   },
+   "showEmailAccountToolTip": {
+      "message": "Przydaje si\u0119, je\u015Bli sprawdzamy 2 lub wi\u0119cej rachunk\u00F3w. Wy\u015Bwietla bie\u017C\u0105ce konto e-mail skrzynki odbiorczej, kt\u00F3ra otrzyma\u0142a nowe zg\u0142oszenie nieprzeczytanych wiadomo\u015Bci e-mail"
+   },
+   "showIconAnimation": {
+      "message": "Poka\u017C ikon\u0119 animacji"
+   },
+   "showIconAnimationToolTip": {
+      "message": "Gdy nadejdzie nowa poczta, ikona animuje si\u0119 (wg ustawie\u0144)"
+   },
+   "showLabelsTitle": {
+      "message": "Poka\u017C etykiety"
+   },
+   "showRefresh": {
+      "message": "Poka\u017C ikon\u0119 od\u015Bwie\u017Cenia"
+   },
+   "showRefreshTooltip": {
+      "message": "Pokazuje ikon\u0119 od\u015Bwie\u017Cenia "
+   },
+   "signIn": {
+      "message": "Zaloguj si\u0119"
+   },
+   "signInAsUserOfOrg": {
+      "message": "Musisz $1 przy pomocy emaila Twojej firmy"
+   },
+   "signInAsUserOfOrg2": {
+      "message": "wylogowa\u0107 si\u0119 i zalogowa\u0107 sie do swojego kalendarza"
+   },
+   "signInToYourAccount": {
+      "message": "Najpierw zaloguj si\u0119 do Twojego konta, a nast\u0119pnie za\u0142aduj ponownie na tej stronie!"
+   },
+   "smallest": {
+      "message": "najmniejszy"
+   },
+   "somedayAt": {
+      "message": "$1 o"
+   },
+   "sound": {
+      "message": "D\u017Awi\u0119k"
+   },
+   "spamLink": {
+      "message": "Spam"
+   },
+   "spamLinkTitle": {
+      "message": "Oznacz jako spam"
+   },
+   "speechEngine": {
+      "message": "Aparat rozpoznawania mowy"
+   },
+   "spokenWordsLimit": {
+      "message": "Ograniczenie s\u0142owa wypowiadane"
+   },
+   "spokenWordsLimitToolTip": {
+      "message": "Mowy mo\u017Cna zatrzyma\u0107 dowolnym momencie, klikaj\u0105c przycisk lub najechanie wska\u017Anikiem myszy w oknie powiadomienia. Uwaga: W przypadku niekt\u00F3rych aparat\u00F3w mowy mo\u017Ce na\u0142o\u017Cy\u0107 ograniczenia spoken word"
+   },
+   "standardNotification": {
+      "message": "Oknie standardowych powiadomienia"
+   },
+   "standardNotificationToolTip": {
+      "message": "Wy\u015Bwietli ostatniego nieprzeczytane wiadomo\u015Bci e-mail z przycisk\u00F3w akcji podstawowe"
+   },
+   "starLinkTitle": {
+      "message": "Oznacz gwiazdk\u0105"
+   },
+   "staySignedIn": {
+      "message": "Nie wylogowuj"
+   },
+   "summary": {
+      "message": "Podsumowanie"
+   },
+   "summaryLinkTitle": {
+      "message": "Poka\u017C podsumowanie"
+   },
+   "supportAndRequestsPrioritized": {
+      "message": "aby mnie wesprze\u0107 i by Twoje pro\u015Bby zosta\u0142y zrealizowane w pierwszej kolejno\u015Bci!"
+   },
+   "testIt": {
+      "message": "Wypr\u00F3buj!"
+   },
+   "thankYouForYourContribution": {
+      "message": "Funkcje s\u0105 teraz odblokowane. Dzi\u0119kuj\u0119 za wsparcie!"
+   },
+   "thankYouForYourContribution2": {
+      "message": "Zamknij okno i ciesz si\u0119 korzystaniem z rozszerzenia!"
+   },
+   "timeout": {
+      "message": "Op\u00F3\u017Anienie czasu oczekiwania"
+   },
+   "timeoutTryAgain": {
+      "message": "Przekroczono czas po\u0142\u0105czenia z $1, spr\u00F3buj ponownie!"
+   },
+   "to": {
+      "message": "do"
+   },
+   "today": {
+      "message": "dzisiaj"
+   },
+   "todayAt": {
+      "message": "dzisiaj o"
+   },
+   "tom": {
+      "message": "jutro"
+   },
+   "tomorrow": {
+      "message": "jutro"
+   },
+   "tomorrowAt": {
+      "message": "jutro o"
+   },
+   "turnOffRegularGmailChecking": {
+      "message": "Wy\u0142\u0105cz regularne sprawdzanie Gmail i sprawdzaj\u0105 tylko Aplikacje Google"
+   },
+   "turnOffRegularGmailCheckingToolTip": {
+      "message": "Zignoruje Twoje konta @gmail.com!"
+   },
+   "undo": {
+      "message": "Cofnij"
+   },
+   "unlockFeatures": {
+      "message": "Odblokuj te i przysz\u0142e funkcje dzi\u0119ki jednorazowemu wsparciu. B\u0119d\u0105 dost\u0119pne natychmiast!"
+   },
+   "unlockHeader": {
+      "message": "Zdob\u0105d\u017A dodatkowe funkcje"
+   },
+   "unreadLink": {
+      "message": "Nieprzeczytane"
+   },
+   "unreadLinkTitle": {
+      "message": "Oznacz jako nieprzeczytane"
+   },
+   "unreadLinkTitleShort": {
+      "message": "Nieprzeczytane"
+   },
+   "unreadMail": {
+      "message": "Nieprzeczytana poczta"
+   },
+   "voiceNotificationOnlyIfIdle": {
+      "message": "Wy\u0142\u0105cznie, je\u015Bli nie siedzisz przed komputerem przynajmniej"
+   },
+   "voiceNotificationOnlyIfIdleTooltip": {
+      "message": "U\u017Cyj tej opcji, je\u015Bli chcesz us\u0142ysz\u0107 g\u0142os TYLKO GDY nie u\u017Cywasz komputera, lub jest on w stanie spoczynku"
+   },
+   "volume": {
+      "message": "g\u0142o\u015Bno\u015B\u0107"
+   },
+   "wantToStaySignedIn": {
+      "message": "Chcesz pozosta\u0107 zalogowanym?"
+   },
+   "what": {
+      "message": "Co"
+   },
+   "when": {
+      "message": "Kiedy"
+   },
+   "wholeEmail": {
+      "message": "ca\u0142a poczta e-mail"
+   },
+   "whyContribute": {
+      "message": "Dlaczego mam pom\u00F3c?"
+   },
+   "whyContributeReason1": {
+      "message": "Po\u015Bwi\u0119cam wiele godzin na aktualizacje i wsparcie $1 tygodniowo w odpowiedzi na Wasze sugestie"
+   },
+   "whyContributeReason1_1": {
+      "message": "wszystkich moich rozszerze\u0144"
+   },
+   "whyContributeReason2": {
+      "message": "Czytam i szybko odpowiadam na Wasze komentarze i recenzje przez m\u00F3j $1 :)"
+   },
+   "whyContributeReason3": {
+      "message": "Mo\u017Cesz przekaza\u0107 ile chcesz i b\u0119d\u0119 szcz\u0119\u015Bliwy!"
+   },
+   "whyContributeReason4": {
+      "message": "To rozszerzenie otrzymuje \u015Bwietne $1, dzi\u0119ki Tobie!"
+   },
+   "whyContributeReason4_1": {
+      "message": "recezje"
+   },
+   "whyContributeReason5": {
+      "message": "Dowiedz si\u0119 wi\u0119cej o mnie $1"
+   },
+   "whyContributeReason5_1": {
+      "message": "JasonSavard.com/bio"
+   },
+   "whyContributeToCalendarReason1": {
+      "message": "B\u0105d\u017A bardziej efektywnym u\u017Cytkowniekiem Kalendarza Google dla samego siebie i swojej firmy"
+   },
+   "whyContributeToCalendarReason2": {
+      "message": "Znacznie ta\u0144sze ni\u017C $1"
+   },
+   "whyContributeToCalendarReason2_1": {
+      "message": "Microsoft Outlook"
+   },
+   "woman": {
+      "message": "Kobieta"
+   },
+   "writeAboutMe": {
+      "message": "Wypr\u00F3buj moje inne popularne rozszerzenia!"
+   },
+   "writeSomethingNice": {
+      "message": "Zast\u0105p ten tekst jakim\u015B mi\u0142ym komentarzem na temat tego rozszerzenia lub napisz w jaki spos\u00F3b i dlaczego go u\u017Cywasz"
+   },
+   "yesterday": {
+      "message": "wczoraj"
+   },
+   "zoom": {
+      "message": "Powi\u0119kszenie"
+   }
+}

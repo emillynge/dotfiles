@@ -1,0 +1,106 @@
+{
+   "about": {
+      "description": "about link in the footer",
+      "message": "Despre"
+   },
+   "changePlaceButton": {
+      "description": "text on location change button",
+      "message": "Du-te"
+   },
+   "clearHistory": {
+      "description": "label to clear saved addresses",
+      "message": "Sterge istoric"
+   },
+   "defaultLocation": {
+      "description": "default location is Bucuresti",
+      "message": "Bucure\u0219ti"
+   },
+   "defaultLocationLat": {
+      "description": "latitude of Bucuresti",
+      "message": "44.43"
+   },
+   "defaultLocationLink": {
+      "description": "location link of Bucuresti",
+      "message": "ro/Bucuresti"
+   },
+   "defaultLocationLng": {
+      "description": "longitude of Bucuresti",
+      "message": "26.10"
+   },
+   "errFindme": {
+      "description": "error message if fails to determine the user's location",
+      "message": "Scuze, nu am putut determina locatia curenta."
+   },
+   "errGo2Dest": {
+      "description": "error message if fails to go to the destination",
+      "message": "Nu inteleg locatia '$dest$'.",
+      "placeholders": {
+         "dest": {
+            "content": "$1",
+            "example": "asdfqwer"
+         }
+      }
+   },
+   "extDefaultTitle": {
+      "description": "default title of the browser action",
+      "message": "Google Maps"
+   },
+   "extDescription": {
+      "description": "extension description",
+      "message": "Cauta locatii pe harta si exploreaza locurile de interes din imprejurimi"
+   },
+   "extName": {
+      "description": "extension name",
+      "message": "Cautare Locala cu Google Map"
+   },
+   "findMeTitle": {
+      "description": "title for locate.png",
+      "message": "Arata-mi o locatie"
+   },
+   "fromHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "De aici"
+   },
+   "getDirectionLabel": {
+      "desription": "label in the balloon info window",
+      "message": "Ob\u0163ine\u0163i indica\u0163ii: "
+   },
+   "googleMapURL": {
+      "description": "local google map address",
+      "message": "http://maps.google.ro"
+   },
+   "help": {
+      "description": "help link in the footer",
+      "message": "Ajutor"
+   },
+   "hotspot1": {
+      "message": "Restaurant"
+   },
+   "hotspot2": {
+      "message": "Cafebar"
+   },
+   "hotspot3": {
+      "message": "Muzeu"
+   },
+   "hotspot4": {
+      "message": "Fast Food"
+   },
+   "hotspot5": {
+      "message": "Hotel"
+   },
+   "hotspot6": {
+      "message": "Bancomat"
+   },
+   "hotspotTitle": {
+      "description": "title for hotspots",
+      "message": "Puncte de interes local: "
+   },
+   "locationInputLabel": {
+      "description": "label for the location input box",
+      "message": "Locatie: "
+   },
+   "toHereLabel": {
+      "desription": "label in the balloon info window",
+      "message": "P\u00E2n\u0103 aici"
+   }
+}

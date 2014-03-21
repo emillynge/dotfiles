@@ -1,0 +1,17 @@
+{
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "\u041D\u0415 \u0423\u0414\u0410\u041B\u042F\u0422\u042C"
+   },
+   "currencyCode": {
+      "message": "EUR"
+   },
+   "currencySymbol": {
+      "message": "\u20AC"
+   },
+   "minimumDonation": {
+      "message": "0.50"
+   },
+   "minimumDonationForGoogleCheckout": {
+      "message": "0.50"
+   }
+}

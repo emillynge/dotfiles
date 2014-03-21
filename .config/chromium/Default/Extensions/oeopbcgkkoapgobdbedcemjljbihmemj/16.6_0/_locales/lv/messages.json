@@ -1,0 +1,74 @@
+{
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "NEODSTRA\u0147UJTE"
+   },
+   "archiveLink": {
+      "message": "Arh\u012Bvs"
+   },
+   "archiveLinkTitle": {
+      "message": "Arhiv\u0113t e-pastu"
+   },
+   "composeLinkTitle": {
+      "message": "Rakst\u012Bt jaunu e-pastu"
+   },
+   "deleteLink": {
+      "message": "Dz\u0113st"
+   },
+   "deleteLinkTitle": {
+      "message": "Dz\u0113st e-pastu"
+   },
+   "fullLinkTitle": {
+      "message": "R\u0101d\u012Bt pilnskat\u0101"
+   },
+   "languageName": {
+      "message": "Latvie\u0161u"
+   },
+   "monthsArray": {
+      "message": "jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec"
+   },
+   "noUnreadText": {
+      "message": "Nav jaunu e-pastu"
+   },
+   "oneUnreadText": {
+      "message": "nelas\u012Bts e-pasts"
+   },
+   "openLinkTitle": {
+      "message": "Atv\u0113rt webpast\u0101"
+   },
+   "popupText": {
+      "message": "Pien\u0101cis e-pasts!"
+   },
+   "readLink": {
+      "message": "Las\u012Bts"
+   },
+   "readLinkTitle": {
+      "message": "Atz\u012Bm\u0113t k\u0101 las\u012Btu"
+   },
+   "refreshLinkTitle": {
+      "message": "P\u0101rbaud\u012Bt visus e-pastus"
+   },
+   "replyLinkTitle": {
+      "message": "Atbild\u0113t uz e-pastu"
+   },
+   "severalUnreadText": {
+      "message": "nelas\u012Bti e-pasti"
+   },
+   "spamLink": {
+      "message": "Spams"
+   },
+   "spamLinkTitle": {
+      "message": "Atz\u012Bm\u0113t k\u0101 las\u012Btu"
+   },
+   "starLinkTitle": {
+      "message": "Atz\u012Bm\u0113t k\u0101 favor\u012Btu"
+   },
+   "summaryLinkTitle": {
+      "message": "R\u0101d\u012Bt kopsavilkumu"
+   },
+   "unreadLink": {
+      "message": "Nelas\u012Bts"
+   },
+   "unreadLinkTitle": {
+      "message": "Atz\u012Bm\u0113t k\u0101 nelas\u012Btu"
+   }
+}

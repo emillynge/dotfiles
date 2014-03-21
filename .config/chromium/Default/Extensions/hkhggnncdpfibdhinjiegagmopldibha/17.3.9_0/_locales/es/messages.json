@@ -1,0 +1,797 @@
+{
+   "200": {
+      "message": "Problema intermitente, por favor intente de nuevo!"
+   },
+   "24hourMode": {
+      "message": "Mostrar la hora en formato de 24 horas"
+   },
+   "24hourModeTitle": {
+      "message": "Mostrar la hora en modo de 24 horas ex. 18:00"
+   },
+   "401": {
+      "message": "No autorizado!"
+   },
+   "403": {
+      "message": "El correo electr\u00F3nico o la contrase\u00F1a ingresados son incorrectos."
+   },
+   "LAST_ITEM_DO_NOT_REMOVE": {
+      "message": "NO QUITE"
+   },
+   "Xminute": {
+      "message": "$1 minuto"
+   },
+   "Xminutes": {
+      "message": "$1 minutos"
+   },
+   "aboutMe": {
+      "message": "Acerca de m\u00ED"
+   },
+   "account": {
+      "message": "Cuenta"
+   },
+   "addCalendar": {
+      "message": "A\u00F1adir calendario"
+   },
+   "addCalendarTitle": {
+      "message": "A\u00F1adir el calendario mediante URL privada "
+   },
+   "addToGoogleCalendar": {
+      "message": "A\u00F1adir a Google Calendar"
+   },
+   "addedForSomeday": {
+      "message": "A\u00F1adido $1 para $2"
+   },
+   "addedForSomedayAt": {
+      "message": "A\u00F1adido $1 para $2 a las $3"
+   },
+   "addedForToday": {
+      "message": "A\u00F1adido $1 para hoy"
+   },
+   "addedForTodayAt": {
+      "message": "A\u00F1adido $1 para $2"
+   },
+   "addedForTomorrow": {
+      "message": "A\u00F1adido $1 para ma\u00F1ana"
+   },
+   "addedForTomorrowAt": {
+      "message": "A\u00F1adido $1 para ma\u00F1ana a las $2"
+   },
+   "addedTimedEventInThePast": {
+      "message": "Ya ha pasado el tiempo de este evento! \u00BFDesea cambiar al mismo tiempo ma\u00F1ana?"
+   },
+   "agenda": {
+      "message": "Agenda"
+   },
+   "agendaOnly": {
+      "message": "S\u00F3lo Agenda"
+   },
+   "alertMe": {
+      "message": "o alertarme ..."
+   },
+   "all": {
+      "message": "Todos"
+   },
+   "alreadyDonated": {
+      "message": "Ya don\u00F3?"
+   },
+   "amount": {
+      "message": "Cantidad"
+   },
+   "andMyExtensions": {
+      "message": "y mis extensiones"
+   },
+   "backgroundOfNotification": {
+      "message": "Color de fondo de la ventana de notificaci\u00F3n"
+   },
+   "backgroundOfNotificationTooltip": {
+      "message": "Determina el color de fondo de la ventana de notificaci\u00F3n"
+   },
+   "calendar": {
+      "message": "Calendario"
+   },
+   "calendarHelper": {
+      "message": "Herramienta de ayuda de Google Calendar"
+   },
+   "calendarViewAgenda": {
+      "message": "Vista de calendario: Agenda"
+   },
+   "calendarViewAgendaTitle": {
+      "message": "Al hacer clic en el icono del calendario se mostrar\u00E1 un peque\u00F1o calendario con los eventos a continuaci\u00F3n en un formato de agenda"
+   },
+   "calendarViewRegular": {
+      "message": "Vista de calendario: Regular"
+   },
+   "calendarViewRegularTitle": {
+      "message": "Al hacer clic en el icono del calendario se mostrar\u00E1 un calendario con los eventos marcados en el mismo"
+   },
+   "calendarViewTitle": {
+      "message": "Seleccione la vista predeterminada del calendario"
+   },
+   "cannotUpdateEventsInThePast": {
+      "message": "Ha producido un problema! Actualmente no puedo actualizar eventos que ocurrieron en el pasado, puedo actualizar eventos hoy o en el futuro inmediato. Puede utilizar la p\u00E1gina Web de Google Calendar para eventos pasados!"
+   },
+   "changeView": {
+      "message": "Cambiar de vista"
+   },
+   "changingIcon": {
+      "message": "Cambiando el icono"
+   },
+   "choosePaymentMethod": {
+      "message": "Elegir un m\u00E9todo de pago"
+   },
+   "contact": {
+      "message": "Contacto"
+   },
+   "contactHelp": {
+      "message": "Contacto - ayuda"
+   },
+   "continue": {
+      "message": "Continuar"
+   },
+   "continueWithoutFeatures": {
+      "message": "Sigue usando esta extensi\u00F3n con muchas opciones pero sin estas caracter\u00EDsticas adicionales."
+   },
+   "contributeToContinue": {
+      "message": "Donar"
+   },
+   "copyPrivateAddress": {
+      "message": "Copiar la direcci\u00F3n privada (XML) de un calendario."
+   },
+   "copyPrivateAddressTitle": {
+      "message": "En su p\u00E1gina de Google Calendar a la izquierda est\u00E1 su lista de calendarios, haga clic en la flecha hacia abajo junto al calendario de su elecci\u00F3n, a continuaci\u00F3n, seleccione 'Configuraci\u00F3n del calendario'. A la derecha de 'Direcci\u00F3n Privada', haga clic en 'XML' y copie la URL. Nota: si no puede encontrar 'Direcci\u00F3n Privada' debe cambiar la configurac\u00F3n de servicio del calendario en el nivel de administrador del dominio."
+   },
+   "createDeleteEvents": {
+      "message": "Creaci\u00F3n y eliminaci\u00F3n de los acontecimientos dentro de la vista de mes"
+   },
+   "createEvent": {
+      "message": "Crear evento"
+   },
+   "creditCardOrPaypal": {
+      "message": "Usted puede utilizar su tarjeta de cr\u00E9dito o PayPal, para"
+   },
+   "currencyCode": {
+      "message": "EUR"
+   },
+   "currencyCodeForGoogleCheckout": {
+      "message": "EUR"
+   },
+   "currencySymbol": {
+      "message": "\u20AC"
+   },
+   "currencySymbolForGoogleCheckout": {
+      "message": "\u20AC"
+   },
+   "customizeCalendar": {
+      "message": "Cambiar el alto, ancho, calendarios visibles, colores, etc."
+   },
+   "customizeCalendarTitle": {
+      "message": "En el calendario que aparece al hacer click en el \u00EDcono, debe seleccionar la vista como 'Personalizado'"
+   },
+   "customized": {
+      "message": "Personalizado"
+   },
+   "d": {
+      "message": "d"
+   },
+   "day": {
+      "message": "D\u00EDa"
+   },
+   "daysAgo": {
+      "message": "d\u00EDas atr\u00E1s"
+   },
+   "daysArray": {
+      "message": "domingo,lunes,martes,mi\u00E9rcoles,jueves,viernes,s\u00E1bado"
+   },
+   "daysArrayShort": {
+      "message": "dom,lun,mar,mi\u00E9,jue,vie,s\u00E1b"
+   },
+   "daysLeft": {
+      "message": "quedan $1 d\u00EDas"
+   },
+   "delete": {
+      "message": "Suprimir"
+   },
+   "description": {
+      "message": "Consulte la hora de sus pr\u00F3ximas reuniones en todos sus Calendarios de Google y reciba en su escritorio notificaciones del evento"
+   },
+   "developingMore": {
+      "message": "y estoy trabajando en m\u00E1s de sus sugerencias..."
+   },
+   "discoverMyApps": {
+      "message": "Descubra mis apps"
+   },
+   "dismiss": {
+      "message": "Ignorarlo"
+   },
+   "dismissAll": {
+      "message": "Ignorar todas"
+   },
+   "doNotNotifyMeOfUpdates": {
+      "message": "No notificarme de cambios"
+   },
+   "doNotShowNotificationsForAlldayEvents": {
+      "message": "No mostrar notificaciones de eventos que se repiten todos los d\u00EDas"
+   },
+   "doNotShowPastNotifications": {
+      "message": "No mostrar notificaciones de eventos ya transcurridos"
+   },
+   "donateButton": {
+      "message": "https://www.paypal.com/es_ES/i/btn/btn_donate_SM.gif"
+   },
+   "editEventDetails": {
+      "message": "Editar evento"
+   },
+   "email": {
+      "message": "E-mail:"
+   },
+   "enterATitle": {
+      "message": "Debe escribir un t\u00EDtulo!"
+   },
+   "enterAnAmount": {
+      "message": "Debe introducir una cantidad!"
+   },
+   "errorAddingEvent": {
+      "message": "Error en la creaci\u00F3n! Quiz\u00E1s debido a su conexi\u00F3n a Internet!"
+   },
+   "errorGettingCalendar": {
+      "message": "Problema en la obtenci\u00F3n del calendario, consulte la direcci\u00F3n y vuelve a intentarlo! (Error: $1)"
+   },
+   "eventAdded": {
+      "message": "Evento agregado"
+   },
+   "eventCreated": {
+      "message": "Evento creado"
+   },
+   "eventDeleted": {
+      "message": "Evento eliminado"
+   },
+   "eventDescription": {
+      "message": "Descripci\u00F3n"
+   },
+   "eventsAndSnoozes": {
+      "message": "Eventos y posposiciones"
+   },
+   "example": {
+      "message": "ejemplo"
+   },
+   "excludeCalendar": {
+      "message": "Excluir calendario"
+   },
+   "excludeCalendarFrom": {
+      "message": "Excluir calendarios de"
+   },
+   "excludeCalendarFrom2": {
+      "message": "la vista de 'agenda' y 'calendario'"
+   },
+   "excludeCalendarFrom3": {
+      "message": "icono y notificaciones"
+   },
+   "excludeCalendarFromTitle": {
+      "message": "Haga click en 'ver' para ocultar calendarios espec\u00EDficos de su vista calendario/agenda o haga click en 'checking' para excluir eventos del icono y las notificaciones de calendarios espec\u00EDficos"
+   },
+   "excludeCalendarsCheckboxChecking": {
+      "message": "Por favor clickea en el link a la derecha de esta opci\u00F3n"
+   },
+   "excludeRecurringEventsButtonIcon": {
+      "message": "Excluir eventos repetidos del boton"
+   },
+   "excluded": {
+      "message": "Excluidos"
+   },
+   "extensionUpdated": {
+      "message": "Extensi\u00F3n actualizada"
+   },
+   "extraFeatures": {
+      "message": "Caracter\u00EDsticas adicionales"
+   },
+   "forSuggestions": {
+      "message": "para sugerencias o saber m\u00E1s"
+   },
+   "googleAppsCalendars": {
+      "message": "Google Apps Calendarios"
+   },
+   "googleAppsCalendarsForce": {
+      "message": "Forzar que aunque tengas multiples cuentas siempre sea por defecto tu Aplicaci\u00F3n de Calendario de Google"
+   },
+   "googleAppsCalendarsTitle": {
+      "message": "Marque esta casilla solamente si usted tiene y desea utilizar su calendario de Google Apps para Empresas o Educaci\u00F3n. Tenga en cuenta que esto deshabilitar\u00E1 la comprobaci\u00F3n peri\u00F3dica de Google Calendar!"
+   },
+   "googleAppsNote": {
+      "message": "Esto deshabilitar\u00E1 la comprobaci\u00F3n peri\u00F3dica de Google Calendar!"
+   },
+   "h": {
+      "message": "h"
+   },
+   "helpSupport": {
+      "message": "para ayudar a sostener el autor de esta extensi\u00F3n!"
+   },
+   "hideMyName": {
+      "message": "Ocultar mi nombre 'de Jason Savard'"
+   },
+   "highlightCurrentDay": {
+      "message": "Resaltar d\u00EDa actual"
+   },
+   "highlightCurrentDayTooltip": {
+      "message": "Cuando ve el calendario en la vista 'Mes', el d\u00EDa actual pulsar\u00E1 moment\u00E1neamente"
+   },
+   "highlightWeekends": {
+      "message": "En Google Calendar, destacar en gris los fines de semana"
+   },
+   "highlightWeekendsTitle": {
+      "message": "Muestra en gris los fines de semana s\u00F3lo en la vista de calendario 'Regular'"
+   },
+   "hours": {
+      "message": "horas"
+   },
+   "hoursAgo": {
+      "message": "hace $1 horas"
+   },
+   "hoursLeft": {
+      "message": "quedan $1 horas"
+   },
+   "hoursRemaining": {
+      "message": "Mostrar las horas restantes en lugar de la hora del evento"
+   },
+   "hoursRemainingTitle": {
+      "message": "Si el evento es m\u00E1s adelante en el d\u00EDa, la hora restante ser\u00E1 exhibido (4h) en lugar de (22:00) en el icono"
+   },
+   "iconClassic": {
+      "message": "Icono cl\u00E1sico"
+   },
+   "iconDefault": {
+      "message": "Icono por defecto"
+   },
+   "iconDefault2WithDate": {
+      "message": "Icono por defecto con la fecha actual"
+   },
+   "iconMonochrome": {
+      "message": "Icono monocromo"
+   },
+   "iconNew": {
+      "message": "Nuevo icono"
+   },
+   "iconNew2": {
+      "message": "Icono oscuro"
+   },
+   "iconNew2WithDate": {
+      "message": "Icono oscuro con la fecha actual"
+   },
+   "iconNewWithDate": {
+      "message": "Nuevo icono con la fecha actual"
+   },
+   "iconTooltip": {
+      "message": "El icono que mostrar\u00E1 el bot\u00F3n de la extensi\u00F3n"
+   },
+   "inVARhour": {
+      "message": "en $1 hora"
+   },
+   "inVARhours": {
+      "message": "en $1 horas"
+   },
+   "inVARminutes": {
+      "message": "en $1 min"
+   },
+   "keepHoveringOverTheBluePlusOne": {
+      "message": "Mantenga su cursor sobre el azul +1 hasta que el texto aparezca, luego hazle clic para compartir en Google+"
+   },
+   "language": {
+      "message": "Idioma"
+   },
+   "loading": {
+      "message": "Cargando ..."
+   },
+   "longerSnoozeTimes": {
+      "message": "Tiempos m\u00E1s largos de 'snooze' (posposici\u00F3n)"
+   },
+   "m": {
+      "message": "m"
+   },
+   "maxDaysAhead": {
+      "message": "Iniciar cuenta atr\u00E1s d\u00EDas antes del evento"
+   },
+   "meetMe": {
+      "message": "ver mi video"
+   },
+   "meetMeTitle": {
+      "message": "Verme en un video!"
+   },
+   "min": {
+      "message": "min"
+   },
+   "minimumAmount": {
+      "message": "Debe donar al menos $1"
+   },
+   "minutesAgo": {
+      "message": "hace $1 minutos"
+   },
+   "minutesLeft": {
+      "message": "quedan $1 minutos"
+   },
+   "missingOptions": {
+      "message": "\u00BFCrees que faltan algunas opciones? \u00BFLa traducci\u00F3n es incorrecta? \u00A1Env\u00EDame un correo a"
+   },
+   "missingOptions2": {
+      "message": "para hacer tus sugerencias!"
+   },
+   "month": {
+      "message": "Mes"
+   },
+   "monthsArray": {
+      "message": "enero,febrero,marzo,abril,mayo,junio,julio,agosto,septiembre,octubre,noviembre,diciembre"
+   },
+   "monthsArrayShort": {
+      "message": "ene,feb,mar,abr,may,jun,jul,ago,sep,oct,nov,dic"
+   },
+   "more": {
+      "message": "m\u00E1s"
+   },
+   "moreInfo": {
+      "message": "M\u00E1s informaci\u00F3n"
+   },
+   "mustAddCalendar": {
+      "message": "Si activa Google Apps, debe a\u00F1adir un calendario!"
+   },
+   "needHelp": {
+      "message": "\u00BFNecesita ayuda?"
+   },
+   "noPermissionOnEvent": {
+      "message": "Problema mover este evento, puede que no tenga permiso!"
+   },
+   "notLoggedIn": {
+      "message": "No logueado"
+   },
+   "notificationFontSize": {
+      "message": "Tama\u00F1o del texto de notificaci\u00F3n"
+   },
+   "notificationFontSizeTooltip": {
+      "message": "Determine el tama\u00F1o de la fuente del t\u00EDtulo del evento en la ventana de notificaci\u00F3n"
+   },
+   "notificationSound": {
+      "message": "Avisarme mediante un sonido al mostrar notificaci\u00F3n"
+   },
+   "notificationSoundTitle": {
+      "message": "Reproduce un sonido al sucederse el evento, si activa las notificaciones (arriba)"
+   },
+   "notificationTextToSpeech": {
+      "message": "Avisos de voz"
+   },
+   "offlineMode": {
+      "message": "Permitir el uso sin conexi\u00F3n a Internet"
+   },
+   "offlineModeTitle": {
+      "message": "Obtener los acontecimientos sin conexi\u00F3n a Internet! Nota: El evento ser\u00E1 grabado en este equipo!"
+   },
+   "omniboxDefault": {
+      "message": "Cena 7 pm"
+   },
+   "omniboxDefaultTom": {
+      "message": "8am despertar"
+   },
+   "onlyPopupsForOwner": {
+      "message": "S\u00F3lo mostrar notificaciones de calendarios de los que soy due\u00F1o"
+   },
+   "onlyPopupsForOwnerTooltip": {
+      "message": "Las notificaciones s\u00F3lo mostrar\u00E1n eventos de calendarios propios. Generalmente esto significa los calendarios en 'Mis calendarios' y no de calendarios que son compartidos o de la secci\u00F3n 'Otros calendarios'"
+   },
+   "onlyRemoveAfterDonation": {
+      "message": "Puede quitar el enlace para donar s\u00F3lo despu\u00E9s de hacer una donaci\u00F3n!"
+   },
+   "openCalendar": {
+      "message": "Abrir calendario"
+   },
+   "option": {
+      "message": "Opci\u00F3n"
+   },
+   "optionToCustomizeWith": {
+      "message": "Opci\u00F3n de personalizar con"
+   },
+   "options": {
+      "message": "Opciones"
+   },
+   "or": {
+      "message": "o"
+   },
+   "password": {
+      "message": "Contrase\u00F1a:"
+   },
+   "pastDays": {
+      "message": "En Google Calendar, destacar en gris los d\u00EDas pasados"
+   },
+   "pastDaysTitle": {
+      "message": "Muestra en gris los d\u00EDas pasados s\u00F3lo en la vista de calendario 'Regular'"
+   },
+   "pasteHTML": {
+      "message": "y pegue el c\u00F3digo HTML"
+   },
+   "pastePrivateAddress": {
+      "message": "Pegue la URL de las direcciones privadas (XML) de los calendarios aqu\u00ED"
+   },
+   "pollingInterval": {
+      "message": "Intervalo de censado"
+   },
+   "pollingIntervalTooltip": {
+      "message": "El intervalo en que se buscar\u00E1n eventos de su calendario y se actualizar\u00E1 el bot\u00F3n de la extensi\u00F3n"
+   },
+   "popupGoogleCalendarWebsite": {
+      "message": "Hacer que se abra el pagina de Google Calendario en vez de una ventana"
+   },
+   "poweredByGoogle": {
+      "message": "Con tecnolog\u00EDa de Google"
+   },
+   "problemCommunicatingTryAgain": {
+      "message": "Error: $1 problemas de comunicaci\u00F3n con $2, por favor intente de nuevo!"
+   },
+   "problemSigningIn": {
+      "message": "Problema de conexi\u00F3n! Quiz\u00E1s debido a su conexi\u00F3n a Internet!"
+   },
+   "processing": {
+      "message": "Transformaci\u00F3n"
+   },
+   "quickAdd": {
+      "message": "A\u00F1adir"
+   },
+   "quickAddDefaultText": {
+      "message": "ex. 9pm Cena con Pepe"
+   },
+   "recentlyAddedEvent": {
+      "message": "Ha producido un problema! Si recientemente agregado este evento a trav\u00E9s de la p\u00E1gina Web, a continuaci\u00F3n, haga clic en el icono Actualizar o bien, utilice la p\u00E1gina Web de Google Calendar!"
+   },
+   "reducedDonationAd_notification": {
+      "message": "Buenas noticias para usted! Los extras son s\u00F3lo $1 click para ver / ocultar esto."
+   },
+   "reducedDonationAd_popup": {
+      "message": "Buenas noticias para mis usuarios regulares! Usted puede obtener las $1 por s\u00F3lo 50&cent;"
+   },
+   "refresh": {
+      "message": "Actualizar"
+   },
+   "rememberQuickAdd": {
+      "message": "Recordar el inicio de sesi\u00F3n al crear eventos r\u00E1pidamente"
+   },
+   "remindersBeforeEvent": {
+      "message": "Ver los recordatorios de 'Google Calendar' antes de los acontecimientos."
+   },
+   "remindersBeforeEventHelpTitle": {
+      "message": "En su p\u00E1gina de Google Calendar a la izquierda est\u00E1 la lista de sus calendarios, haga clic en la flecha hacia abajo junto al calendario de su elecci\u00F3n, a continuaci\u00F3n, seleccione 'Notificaciones'. Luego agregue la 'ventana emergente' y fije una hora de aviso. Nota: Tambi\u00E9n puede cambiar esta opci\u00F3n para cada evento durante su creaci\u00F3n o edici\u00F3n"
+   },
+   "remindersBeforeEventPopupReminder": {
+      "message": "(ventana emergente)"
+   },
+   "remove": {
+      "message": "Eliminar"
+   },
+   "removeDonationLink": {
+      "message": "En la vista r\u00E1pida, ocultar el enlace para hacer una donaci\u00F3n al autor"
+   },
+   "removeDonationLinkTitle": {
+      "message": "Esto eliminar\u00E1 el v\u00EDnculo 'Haga una donaci\u00F3n' bajo el calendario"
+   },
+   "removeQuickAdd": {
+      "message": "Desactivar la funci\u00F3n de crear eventos r\u00E1pidamente"
+   },
+   "removeShareLinks": {
+      "message": "Quitar los link de compartir"
+   },
+   "removeTitle": {
+      "message": "Eliminar calendario"
+   },
+   "repeatSound": {
+      "message": "Notificaci\u00F3n de sonido se repita cada"
+   },
+   "repeatSound2": {
+      "message": "y parar despu\u00E9s de"
+   },
+   "repeatSound3": {
+      "message": "veces"
+   },
+   "repeatSoundTooltip": {
+      "message": "Repite la notificaci\u00F3n o el sonido de voz si la ventana de notificaci\u00F3n emergente no ha sido despedido"
+   },
+   "reschedule": {
+      "message": "Reprogramar"
+   },
+   "save": {
+      "message": "Guardar"
+   },
+   "saveSettings": {
+      "message": "Guardar"
+   },
+   "saved": {
+      "message": "Guardado!"
+   },
+   "saving": {
+      "message": "Guardando ..."
+   },
+   "securely": {
+      "message": "de forma segura."
+   },
+   "seeUpdates": {
+      "message": "Ver los cambios"
+   },
+   "seeVideo": {
+      "message": "Ver v\u00EDdeo"
+   },
+   "selectACalendar": {
+      "message": "Seleccione calendario"
+   },
+   "selectCalendar": {
+      "message": "Primero debe elegir un calendario!"
+   },
+   "setDateTime": {
+      "message": "Ajustar fecha y hora"
+   },
+   "share": {
+      "message": "Compartir"
+   },
+   "showAgendaOptions": {
+      "message": "Mostrar enlace 'opciones' en la vista de agenda"
+   },
+   "showAgendaOptionsTitle": {
+      "message": "Mostrar enlace de opciones en la vista de agenda"
+   },
+   "showConsoleMessages": {
+      "message": "Guardar mensajes en la consola Javascript (s\u00F3lo para debug)"
+   },
+   "showConsoleMessagesTitle": {
+      "message": "S\u00F3lo necesario para registro de errores y puede hacer m\u00E1s lenta la extensi\u00F3n!"
+   },
+   "showDesktopNotifications": {
+      "message": "Mostrar notificaciones de escritorio"
+   },
+   "showDesktopNotificationsTitle": {
+      "message": "Seleccione esta opci\u00F3n para mostrar una notificaci\u00F3n cuando se produce un evento en su calendario"
+   },
+   "showEventTimeOnBadge": {
+      "message": "Mostrar el tiempo del evento en el bot\u00F3n de la extensi\u00F3n"
+   },
+   "showEventTimeOnBadgeTooltip": {
+      "message": "uestra el tiempo hasta el pr\u00F3ximo evento sobre el icono"
+   },
+   "showHeader": {
+      "message": "Mostrar la barra de arriba en la ventana emergente"
+   },
+   "showHeaderTooltip": {
+      "message": "Muestra 'A\u00F1adir' y otros comandos en la parte superior de la ventana emergente"
+   },
+   "showOpenCalendar": {
+      "message": "Mostrar el icono de abrir calendario"
+   },
+   "showOpenCalendarTooltip": {
+      "message": "Muestra el icono de abrir calendario"
+   },
+   "showQuickAdd": {
+      "message": "Mostrar 'A\u00F1adir'"
+   },
+   "showQuickAddTooltip": {
+      "message": "Muestra la secci\u00F3n para a\u00F1adir texto arriba a la izquierda"
+   },
+   "showRefresh": {
+      "message": "Mostrar icono de actualizar"
+   },
+   "showRefreshTooltip": {
+      "message": "Muestra el icono de actualizaci\u00F3n"
+   },
+   "showTimeSpecificEventsBeforeAllDay": {
+      "message": "Mostrar el tiempo de los eventos especificos antes que todos los eventos"
+   },
+   "showViewDropDown": {
+      "message": "Mostrar vista de opciones"
+   },
+   "showViewDropDownTooltip": {
+      "message": "Muestra la lista de opciones 'Ver' (Nota: Necesita ver esto para poder cambiar tu vista inicialmente, luego puede esconderlo :)"
+   },
+   "signIn": {
+      "message": "Acceder"
+   },
+   "snooze": {
+      "message": "Posponer"
+   },
+   "snoozeAll": {
+      "message": "Posponer todas"
+   },
+   "ssl": {
+      "message": "Usar siempre una conexi\u00F3n segura mediante SSL"
+   },
+   "staySignedIn": {
+      "message": "Mantenerse logueado"
+   },
+   "successful": {
+      "message": "Exitoso"
+   },
+   "supportAndRequestsPrioritized": {
+      "message": "Contribuye con el desarrollo de esta extensi\u00F3n haciendo una donaci\u00F3n. \u00A1Tendremos en cuenta tus sugerencias de manera prioritaria!"
+   },
+   "timeout": {
+      "message": "Tiempo de retraso"
+   },
+   "timeoutTooltip": {
+      "message": "(Puede eliminar el problema de logueado, s\u00F3lo aum\u00E9ntelo si tiene 10 o m\u00E1s calendarios o si tiene muchos eventos)"
+   },
+   "timeoutTryAgain": {
+      "message": "Error de tiempo de espera durante la comunicaci\u00F3n con $1, por favor intente de nuevo!"
+   },
+   "toSeeCalendar": {
+      "message": "para ver tu calendario!"
+   },
+   "today": {
+      "message": "Hoy"
+   },
+   "tom": {
+      "message": "1d"
+   },
+   "tomorrow": {
+      "message": "Ma\u00F1ana"
+   },
+   "tomorrowAt": {
+      "message": "Ma\u00F1ana a las"
+   },
+   "undo": {
+      "message": "Deshacer"
+   },
+   "unlockFeatures": {
+      "message": "Desbloquea \u00E9stas y otras futuras caracter\u00EDsticas con una donaci\u00F3n \u00FAnica de cualquier cantidad y estar\u00E1n disponibles de inmediato."
+   },
+   "view": {
+      "message": "Ver"
+   },
+   "volume": {
+      "message": "volumen"
+   },
+   "week": {
+      "message": "Semana"
+   },
+   "what": {
+      "message": "Evento"
+   },
+   "when": {
+      "message": "Fecha"
+   },
+   "whyContribute": {
+      "message": "\u00BFPor qu\u00E9 debo participar?"
+   },
+   "whyContributeReason1": {
+      "message": "Le dedico muchas horas a la actualizaci\u00F3n semanal de $1 en respuesta a tus sugerencias"
+   },
+   "whyContributeReason1_1": {
+      "message": "todas mis extensiones"
+   },
+   "whyContributeReason2": {
+      "message": "Leo y proporciono informaci\u00F3n r\u00E1pida a tus comentarios y cr\u00EDticas a trav\u00E9s de mi $1 :)"
+   },
+   "whyContributeReason2_1": {
+      "message": "propio monitor de revisiones para esta extensi\u00F3n"
+   },
+   "whyContributeReason3": {
+      "message": "T\u00FA puedes contribuir con s\u00F3lo 1$ para desbloquear las caracter\u00EDsticas y ambos nos beneficiaremos de ello"
+   },
+   "whyContributeReason4": {
+      "message": "Esta extensi\u00F3n de Google Chrome tiene cada vez m\u00E1s $1 gracias a ti"
+   },
+   "whyContributeReason4_1": {
+      "message": "revisiones"
+   },
+   "whyContributeReason5": {
+      "message": "Para saber m\u00E1s acerca de m\u00ED, entra en $1"
+   },
+   "whyContributeReason5_1": {
+      "message": "JasonSavard.com"
+   },
+   "whyContributeToCalendarReason1": {
+      "message": "Ser un usuario de Google Calendar m\u00E1s productivo para usted o su empresa"
+   },
+   "whyContributeToCalendarReason2": {
+      "message": "Mucho m\u00E1s barato de $1"
+   },
+   "whyContributeToCalendarReason2_1": {
+      "message": "Microsoft Outlook"
+   },
+   "writeAboutMe": {
+      "message": "Probar mis otras extensiones populares!"
+   },
+   "writeSomethingNice": {
+      "message": "Reemplaza este texto con un comentario agradable sobre esta aplicaci\u00F3n"
+   },
+   "yesterday": {
+      "message": "Ayer"
+   }
+}

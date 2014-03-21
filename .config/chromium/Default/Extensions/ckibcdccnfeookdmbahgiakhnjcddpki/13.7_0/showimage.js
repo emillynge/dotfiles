@@ -1,0 +1,1 @@
+background=chrome.extension.getBackgroundPage().background;var showImage={load:function(){$("#bug")[background.lastImg.data.length>2000000?"show":"hide"]();var a=new Image();a.src=background.lastImg.data;a.onload=function(){$("#theimage").append(a)}}};$(showImage.load);

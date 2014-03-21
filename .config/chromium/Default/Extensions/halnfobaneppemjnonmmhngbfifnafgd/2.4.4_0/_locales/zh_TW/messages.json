@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "\u80CC\u666F"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "\u56DE\u5230\u4E0A\u4E00\u500B\u5B57\u6BCD"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "\u56DE\u5230\u4E0A\u4E00\u6BB5"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "\u56DE\u5230\u4E0A\u4E00\u53E5"
+   },
+   "chromevis_backwardword_label": {
+      "message": "\u56DE\u5230\u4E0A\u4E00\u500B\u5B57\u8A5E"
+   },
+   "chromevis_capitals_text": {
+      "message": "\u5982\u9700\u8F38\u5165\u5927\u5BEB\u5B57\u6BCD\uFF0C\u8ACB\u4F7F\u7528 Shift+[Key] \u9375 "
+   },
+   "chromevis_centerlens_label": {
+      "message": "\u5207\u63DB\u7F6E\u4E2D/\u5C0D\u9F4A\u900F\u93E1"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "\u7E2E\u5C0F\u6587\u5B57\u5927\u5C0F"
+   },
+   "chromevis_description": {
+      "message": "\u5C07\u4EFB\u4F55\u9078\u53D6\u7684\u6587\u5B57\u653E\u5927\u548C\u8B8A\u66F4\u984F\u8272\u3002\u4F7F\u7528\u6ED1\u9F20\u6216\u9375\u76E4\u9078\u53D6\u7DB2\u9801\u4E0A\u4EFB\u4F55\u6587\u5B57\u3002"
+   },
+   "chromevis_format_text": {
+      "message": "\u5FEB\u901F\u9375\u6A19\u6E96\u683C\u5F0F\uFF1A[Modifier]+[Key]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "\u524D\u5F80\u4E0B\u4E00\u500B\u5B57\u6BCD"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "\u524D\u5F80\u4E0B\u4E00\u6BB5"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "\u524D\u5F80\u4E0B\u4E00\u53E5"
+   },
+   "chromevis_forwardword_label": {
+      "message": "\u524D\u5F80\u4E0B\u4E00\u500B\u5B57\u8A5E"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "\u653E\u5927\u5B57\u9AD4\u5927\u5C0F"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (\u7531 Google \u63D0\u4F9B)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "\u56DE\u5FA9\u9810\u8A2D\u503C"
+   },
+   "chromevis_savebutton_label": {
+      "message": "\u5132\u5B58"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "\u5207\u63DB\u958B\u555F/\u95DC\u9589\u900F\u93E1"
+   },
+   "chromevis_stylelens_label": {
+      "message": "\u5207\u63DB\u9328\u5B9A/\u6D6E\u52D5\u900F\u93E1"
+   },
+   "chromevis_textcolor_label": {
+      "message": "\u6587\u5B57"
+   },
+   "chromevis_title_text": {
+      "message": "\u900F\u93E1\u9375\u76E4\u5FEB\u901F\u9375"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "zh-TW"
+   }
+}

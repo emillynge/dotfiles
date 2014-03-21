@@ -1,0 +1,21 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "images/icon19.png",
+      "default_popup": "popup.html",
+      "default_title": "Facebook Notifications"
+   },
+   "description": "Keep up with your friends, even when you're not on Facebook.",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmqQG2TCxmOiW+Xy6EozCnUH0LYgOBfTGffBc31r0c0fJg0cAdRH5WnIDuwHt99Bv70hnxALIK8EbJXSHXumczz860AX9T78pb6Ydne5JRcknEduDWFstgE9gfFIG3WmwCjAkyNdD+AsdoSTge3e+JARXyACdENwln+T2oumhV/QIDAQAB",
+   "name": "Facebook Notifications",
+   "options_page": "options.html",
+   "permissions": [ "http://*.facebook.com/*", "https://*.facebook.com/*", "notifications", "chrome://favicon/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.27"
+}

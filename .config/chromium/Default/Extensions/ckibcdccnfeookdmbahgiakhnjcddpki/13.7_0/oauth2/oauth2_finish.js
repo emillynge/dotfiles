@@ -1,0 +1,1 @@
+var url=decodeURIComponent(window.location.href.match(/&from=([^&]+)/)[1]);var index=url.indexOf("?");if(index>-1){url=url.substring(0,index)}window.setTimeout(function(){var b=OAuth2.lookupAdapterName(url);var a=new OAuth2(b,OAuth2.FINISH)},2000);

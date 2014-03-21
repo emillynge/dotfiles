@@ -1,0 +1,141 @@
+<html>
+<head>
+	<title>Jason Savard Apps</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link href="css/common.css" rel="stylesheet" /> 
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/checkerPlusForGmail.js"></script>
+	<script type="text/javascript" src="https://wallet.google.com/inapp/lib/buy.js"></script>
+  	<script type="text/javascript" src="js/donate.js"></script>
+  	
+	<style>
+	 	body {font-family: arial, sans-serif;font-size:90%;background: #7B8794}
+		ul {margin:0 auto;text-align:left;list-style-type:circle}
+	  	#title {font-size:20px;color:white}
+		#reasonsToDonate li {padding-bottom:4px}
+		fieldset {box-shadow:4px 4px 15px rgba(0,0,0, 0.3);display:inline-block;margin:0 auto;padding-top:10px;padding-bottom:20px;min-width:702px;border-radius:13px;background:#fcfcfc;border:1px solid #aaa;font-size:105%}
+		legend {box-shadow:3px 3px 15px #bbb;background:white;text-align:left;font-size:100%;font-weight:bold;margin-left:10px;padding:3px 5px;border:1px solid gray;border-radius:10px}
+		.moreFeatures {display:none}
+			
+		#paymentOptions {margin-top:10px;display:none}
+		
+		#extraFeaturesDetails {display:none}
+		#extraFeatures li {padding:2px 0}		
+		#extraFeatures li:hover {text-shadow:1px 1px 1px gray}
+		
+		#paymentMethods img {border:1px solid transparent;margin:0 10px;padding:2px 2px}
+		#paymentMethods img:hover, #paymentMethods .selected img {border:1px solid gray;border-radius:10px;box-shadow:2px 2px 2px gray}
+		#reasonsToDonateLink:hover {text-decoration:underline !important}
+		#licenseOptions {margin-top:8px}
+		#licenseOptions li {display:block}
+		
+		#amountError {margin-top:3px;color:red}
+
+		.newFeature {margin-left:5px;white-space:nowrap;color:green;text-shadow:1px 1px 2px #999;opacity:1 !important} 
+		
+		#topRight {color:white;position:absolute;right:5px;top:5px}
+		#topRight a {color:white;text-decoration:none;font-size:16px}
+		#topRight a:hover {text-decoration:underline}
+		
+	</style>
+</head>
+<body>
+	<div id="topRight"><a class="alreadyDonated" href="javascript:;" msg="alreadyDonated">Already donated?</a> &bull; <a href="http://jasonsavard.com/wiki/Extra_features_and_donations" msg="help">Contact &bull; Help</a></div>
+	<div style="text-align:center">
+		<div id="header">
+			<h1 id="title"><img src="images/icons/icon_48_white.png" align="absmiddle"/> Checker Plus for Gmail&trade;</h1>
+		</div>
+		<div id="noPaymentFound" class="hide" style="margin:0 auto;width:800px;background:yellow;border-radius:8px;padding:10px;margin-bottom:10px">
+			<span>No payment found for email</span>: <span id="noPaymentEmail" class="bold"></span>
+			<br>
+			<div>Make sure to sign into the Google account which you donated from, then try again!</div>
+			<span style="color:gray;font-style:italic">(If your donation is not recognized then please use the <a href="http://jasonsavard.com/alreadyDonatedForm">already donated form</a>)</span>
+		</div>
+		<div id="verifying" style="display:none;font-size:20px;padding:10px;width:100px;position:absolute;left:45%;top:40%;background:yellow;border:2px solid black;box-shadow:5px 5px 5px #aaa;border-radius:5px">Verifying...</div>
+		<fieldset id="extraFeatures">
+			<legend id="extraFeaturesLegend" msg="extraFeaturesClicked"></legend>
+			<div id="extraFeaturesDetails">
+				<ul class="nowrap" style="text-align:left;padding: 0 17px">
+					<li msg="selectQuickActionButtons">show hide some buttons</li>
+					<li msgToolTip="differentSoundsToolTip">Select sounds for different email accounts, labels or people <a msg="moreInfo" style="font-size:11px" target="_blank" href="http://jasonsavard.com/wiki/Checker_Plus_for_Gmail#Sound_notifications">More infooo</a> <span class="newFeature">Newest feature</span></li>
+					<li msg="addEmailAlias">Add an alias to your email address</li>
+					<li msg="identifyEmailAccountsWithColors" msgToolTip="useTheseColorsToolTip">identifyEmailAccountsWithColors</li>
+					<li><span msg="alsoExtraFeaturesForGoogleCalendar">alsoExtraFeaturesForGoogleCalendar <a msg="alsoExtraFeaturesForGoogleCalendar2" style="font-size:13px" target="_blank" href="http://jasonsavard.com/checkerPlusForGoogleCalendar?ref=GmailDonate">Checker Plus...</a></span> <span style="font-size:11px"> <a msg="moreInfo" target="_blank" href="http://jasonsavard.com/wiki/Already_Donated"></a></span></li>
+					<li msg="hideMyName">Hide 'by JasonSavard.com'</li>
+					<li msg="changeSummary" msgToolTip="linesInSummaryToolTip">change summary</li>
+					<li msg="changeTheme">change themes</li>
+					<li msg="muteVoiceWhileSleeping">mute voice</li>
+					<li msg="setPositionAndSize">position</li>
+					<li msg="developingMore">and I'm developing more...</li>
+					<!--li id="moreFeatures"><a ga="moreFeatures" href="javascript:;" msg="more">more</a>...</li-->
+				</ul>
+			</div>
+		</fieldset>
+		<br><br>
+		<div id="paymentOptions">
+			<div id="option1">
+				<fieldset>
+					<legend><span msg="option">Option</span> 1: <span class='headerTitle' msg="continueWithoutFeaturesHeader">continueWithoutFeatures</span></legend>
+					<span msg="continueWithoutFeatures">Continue using this extension <i>without</i> these extra features.</span>
+				</fieldset>
+				<div style="margin:10px;text-shadow:2px 2px 5px #ccc;font-weight:bold;text-transform:uppercase" msg="or">or</div>
+			</div>
+			<fieldset id="options2" style="width:702px"><!-- force this one not to be too big -->
+				<legend><span msg="option">Option</span> 2: <span class='headerTitle' msg="unlockHeader">support developer</span> <img height=25 align="absmiddle" style="border-radius:5px" src="/images/jason.png"/></legend>
+				<span msg="unlockFeatures">Unlock these features and future ones with a one time donation of any amount and they will be immediately available!</span>
+				&nbsp;<a id="reasonsToDonateLink" href="javascript:;" class="nowrap" style="text-decoration:none" msg="whyContribute">Why should I contribute?</a>
+				<br>
+				<ul id="reasonsToDonate" gaCategory="reasonsToDonateCat" style="position:relative;font-size:15px;margin:0 auto;margin-top:6px;border-radius:5px;width:90%;box-shadow:5px 5px 5px #aaa;display:none;background:lightyellow;border:1px solid orange;padding:5px 25px">
+					<div style="position:absolute;top:2px;right:2px"><a id="closeReasonsToDonate" style="text-decoration:none" href="javascript:;"><img style="padding:4px" src="images/close.png"/></a></div>
+					<li msg="whyContributeReason1">I put many hours updating and supporting <a msg="whyContributeReason1_1" href="http://jasonsavard.com" target="_blank">all my extensions</a> weekly in response to your suggestions</li>
+					<li msg="whyContributeReason2">I read and provide quick feedback to your comments and reviews</li>				
+					<li msg="whyContributeReason3">You can contribute only $1 to unlock the features and we'll both be happy!</li>
+					<li msg="whyContributeToCalendarReason1">Be a more productive Google Calendar user for you or your business</li>
+					<li msg="whyContributeToCalendarReason2">A lot cheaper than <a msg="whyContributeToCalendarReason2_1" target="_blank" href="http://office.microsoft.com/buy/redir/XT101852699.aspx">Microsoft Outlook</a></li>				
+					<li msg="whyContributeReason4">This extension keeps getting great <a id="reviews" msg="whyContributeReason4_1" target="_blank" href="javascript:;">reviews</a>, thanks to you!</li>
+					<li msg="whyContributeReason5">Find out more about me at <a msg="whyContributeReason5_1" href="http://jasonsavard.com/bio?meetJason" target="_blank">JasonSavard.com</a></li>
+					<li id="helpMeTranslate" class="hide" style="font-style:italic">Help me with my translation mistakes: <a href="http://jasonsavard.com/wiki/Translating_extensions">translating extensions</a></li>
+					<div style="position:absolute;bottom:2px;right:2px;text-align:right"><a ga="meetMe" msgTitle="meetMeTitle" href="http://jasonsavard.com?meetJason" target="_blank"><img id="me" style="opacity:0;width:71px;margin:0 3px 3px 0;border-radius:5px" src="/images/jason.png"/><br><span msg="meetMe">meetme</span><img style="vertical-align:bottom;margin-bottom:3px;margin-left:4px" src="images/play.png"/></a></div>
+				</ul>
+				<br>
+				<div id="contributeToContinueWrapper">
+					<a id="contributeToContinue" href="#" msg="contributeToContinue" class="niceButton"></a>
+					<div style="margin:13px 0;font-size:14px"><a id="multipleUserLicense" href="#" msg="multipleUserLicense">multipler user lcience</a></div>
+				</div>
+				<div id="multipleUserLicenseWrapper" class="hide">
+					<div id="licenseOnlyValidFor"><span msg="licenseOnlyValidFor">Valid only for a </span>...<br><div id="licenseDomain" style="font-weight:bold">@abc.com</div> <span id="changeThisDomain" class="nowrap" style="font-style:italic;font-size:12px">(<span msg="changeThisDomain">change this byyy <a class="signOutAndSignIn" href="javascript:;" msg="changeThisDomain2">signing outtt</a> domain</span>)</span></div>
+					<div id="signInAsUserOfOrg" class="hide"><span msg="signInAsUserOfOrg"><a msg="signInAsUserOfOrg2" class="signOutAndSignIn" href="javascript:;">signInAsUserOfOrg2</a>sign as a diff</span> <span class="nowrap"><span msg="example">example</span>: <span id="exampleEmail">abc@mycompany.com</span></span></div>
+					<select id="emailDomains" class="hide"></select>
+					<div id="licenseOptions">
+						<inputt will be generated/>
+					</div>
+				</div>
+				<div id="choosePaymentWrapper" class="hide">
+					<span msg="choosePaymentMethod">Choose a credit card payment method...</span>:
+					<div style="margin:13px"></div>
+					<div id="paymentMethods" class="nowrap"><a id="donateButton" href="javascript:;"><img alt="donate" align="absmiddle" height=50 style="margin-top:-6px;padding:1px 1px !important" src="images/paypal.png"></a> <a id="donateButtonGoogleCheckout" href="javascript:;"><img id="donateButtonGoogleCheckoutImage" style="margin-top:2px;padding:6px;height:30px" align="top" src="/images/buyWithGoogle.png"/></a> <a id="donateButtonGoogleCheckout" href="javascript:;"><img id="coinbaseButton" style="margin-top:2px;padding:6px;height:30px" align="top" src="/images/coinbase.png"/></a></div>
+					<div id="donateAmountDiv" style="display:none;padding-top:15px">
+						<span msg="amount">Amount</span>: <span id="singleCurrencyWrapper"><span style="font-size:13px;color:gray">(<span id="currencyCode">USD</span>)</span> <span id="currencySymbol">$</span></span><span id="multipleCurrencyWrapper" class="hide"><select id="multipleCurrency"></select></span> <input type="text" id="amount" size="6" maxlength="16" name="amount" style="text-align:right;padding:3px" autocomplete="off"> <a id="submitDonationAmount" msg="continue" class="niceButton" style="padding:3px 7px">Con</a>
+						<div id="amountError" class="hide"></div>
+					</div>
+				</div>
+				<div id="paymentFailure" class="hide" style="margin-top:8px;font-weight:bold;color:red"></div>
+			</fieldset>
+		</div>
+		<fieldset id="paymentComplete" class="hide" style="margin-top:10px;font-weight:bold;color:darkgreen">
+			<div style="margin-top:10px" msg="thankyouForYourContribution">thank you...</div>
+			<br>
+			<iframe id="thankYouVideo" width="560" height="315" src="about:blank" frameborder="0" allowfullscreen></iframe>
+			<br><br>
+			<a id="closeWindow" href="javascript:;" msg="thankYouForYourContribution2" class="niceButton"></a>
+			<!--div msg="thankYouForYourContribution2"><a id="closeWindow" msg="thankYouForYourContribution2Close" href="javascript:;">close</a>this window and...</div-->
+		</fieldset>
+	</div>
+
+	<form id="paypapInlineForm" class="hide" method="post">  
+		<input id="submitBtn" type="submit"	value="Pay with PayPal" /> 
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,80 @@
+{
+   "chromevis_backgroundcolor_label": {
+      "message": "arka plan"
+   },
+   "chromevis_backwardchar_label": {
+      "message": "Bir Karakter Geri Git"
+   },
+   "chromevis_backwardpar_label": {
+      "message": "Bir Paragraf Geri Git"
+   },
+   "chromevis_backwardsentence_label": {
+      "message": "Bir C\u00FCmle Geri Git"
+   },
+   "chromevis_backwardword_label": {
+      "message": "Bir Kelime Geri Git"
+   },
+   "chromevis_capitals_text": {
+      "message": "B\u00FCy\u00FCk harf i\u00E7in \u00DCst Karakter+[Tu\u015F] birle\u015Fimini kullan\u0131n"
+   },
+   "chromevis_centerlens_label": {
+      "message": "Ortalanm\u0131\u015F/Yaslanm\u0131\u015F Mercekler Aras\u0131nda Ge\u00E7i\u015F Yap"
+   },
+   "chromevis_decreasemag_label": {
+      "message": "Metin Boyutunu K\u00FC\u00E7\u00FClt"
+   },
+   "chromevis_description": {
+      "message": "Se\u00E7ilen herhangi bir metni b\u00FCy\u00FCt\u00FCn ve rengini de\u011Fi\u015Ftirin. Sayfa i\u00E7inde farkl\u0131 yerleri se\u00E7mek i\u00E7in fareyi veya klavyeyi kullan\u0131n."
+   },
+   "chromevis_format_text": {
+      "message": "K\u0131sayollar \u015Fu bi\u00E7imde olmal\u0131d\u0131r: [De\u011Fi\u015Ftirici]+[Tu\u015F]"
+   },
+   "chromevis_forwardchar_label": {
+      "message": "Bir Karakter \u0130leri Git"
+   },
+   "chromevis_forwardpar_label": {
+      "message": "Bir Paragraf \u0130leri Git"
+   },
+   "chromevis_forwardsentence_label": {
+      "message": "Bir C\u00FCmle \u0130leri Git"
+   },
+   "chromevis_forwardword_label": {
+      "message": "Bir Kelime \u0130leri Git"
+   },
+   "chromevis_gallery_description": {
+      "message": "This extension magnifies any selected text on a webpage.  The magnified text is displayed inside of a separate lens and preserves the original page layout. You can change both the lens text color and the lens background color.\u003Cbr/\u003E\u003Cbr/\u003ETwo lens display options:\u003Cbr/\u003E\u003Cbr/\u003E- the Anchored Lens, which is always at the top of the window\u003Cbr/\u003E\u003Cbr/\u003E- the Floating Lens, which floats immediately above the selected text\u003Cbr/\u003E\u003Cbr/\u003EYou can select text on a webpage using your mouse or with your keyboard. Activate the lens with the keyboard or by pressing the ChromeVis icon. Use the keyboard to move your selection around by paragraph, sentence, word, or character.\u003Cbr/\u003E\u003Cbr/\u003EFor a keyboard shortcut listing and to specify your own keyboard shortcuts, please refer to the ChromeVis options page.\u003Cbr/\u003E\u003Cbr/\u003ENOTE: This extension does not run on this page or any Chrome Extensions Gallery page."
+   },
+   "chromevis_gallery_tos_url": {
+      "message": "By installing this extension, you agree to the Terms of Service at https://chrome.google.com/extensions/intl/en/gallery_tos.html"
+   },
+   "chromevis_increasemag_label": {
+      "message": "Metin Boyutunu B\u00FCy\u00FCt"
+   },
+   "chromevis_name": {
+      "message": "ChromeVis (Google'dan)"
+   },
+   "chromevis_restorebutton_label": {
+      "message": "Varsay\u0131lanlar\u0131 Geri Y\u00FCkle"
+   },
+   "chromevis_savebutton_label": {
+      "message": "Kaydet"
+   },
+   "chromevis_showhidelens_label": {
+      "message": "Merce\u011Fi A\u00E7/Kapat"
+   },
+   "chromevis_stylelens_label": {
+      "message": "Ba\u011Flant\u0131l\u0131/Kayan Mercekler Aras\u0131nda Ge\u00E7i\u015F Yap"
+   },
+   "chromevis_textcolor_label": {
+      "message": "metin"
+   },
+   "chromevis_title_text": {
+      "message": "Mercek Klavye K\u0131sayollar\u0131"
+   },
+   "direction": {
+      "message": "ltr"
+   },
+   "locale": {
+      "message": "tr"
+   }
+}

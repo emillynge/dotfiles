@@ -1,0 +1,97 @@
+<html>
+<head>
+	<title>Calendar Reminders</title>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  	
+  	<link rel="icon" href="images/bell-32.png" sizes="32x32">
+	<link rel="icon" href="images/bell_48.png" sizes="64x64"/>
+  	
+  	<link rel="stylesheet" href="css/jquery-ui.custom.css"/> 
+  	<link rel="stylesheet" href="css/jquery.timepicker.css"/> 
+  	<link rel="stylesheet" href="css/common.css"/> 
+  	
+  	<script type="text/javascript" src="js/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+  	<script type="text/javascript" src="js/jquery.timepicker.min.js"></script>
+  	<script type="text/javascript" src="js/common.js"></script>
+  	<script type="text/javascript" src="js/checkerPlusForCalendar.js"></script>
+  	<script type="text/javascript" src="js/snoozePopup.js"></script>
+  	
+  	<style>
+  		body {font-family:arial;background:#eee;margin:0;padding:0}
+  		
+  		#events {overflow:auto;width:100%;text-align:center}
+  		body.more #events {opacity:0.2}
+  		.event {background:white;border:1px solid gray;margin:10px;border-radius:10px;text-align:center}
+  		.eventHeader {position:relative;text-align:left;height:40px;padding:9px 5px 5px 9%;border-bottom:1px solid #dedede;display:flex;align-items:center}
+  		.eventHeaderInner {flex:1}
+  		.source {display:none;font-size:11px;max-width:82%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;text-decoration:none}
+  		.source:hover {text-decoration:underline}
+  		.title {font-size:18px;text-decoration:none;color:black;max-width:62%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;display:inline-block}
+  		.title:hover {text-decoration:underline;color:blue;cursor:pointer}
+  		.timeElapsed {display:inline-block;color:gray;font-size:11px;vertical-align: top;margin-top: 3px;margin-left: 3px;}
+  		#snoozeButtons {display:inline-block;-webkit-user-select: none}
+  		
+  		.button {border-radius:8px;display:inline-block;padding:7px;text-align:center;font-size:13px;-webkit-transition:background 100ms ease-out}
+  		.button.selected, #dateTimeSnoozeButton:hover {background:#e1e1e1;cursor:pointer;box-shadow:3px 3px 3px gray}
+  		#dismissAll.button:hover {box-shadow:0 2px 10px rgba(0,0,0,.7);color:black}
+  		.button.ctrlKey.selected, #dateTimeSnoozeButton.ctrlKey.selected {background:yellow}
+
+  		.dismiss {-webkit-user-select:none;position:absolute;top:0px;right:0px;color:#aaa;font-size:12px;border-radius:0 8px 0 8px;padding:19px}
+  		.dismiss:hover {color:black;cursor:pointer;box-shadow:3px 3px 3px gray}
+
+  		.mustDonate {color:#ccc;font-style:italic}
+  		
+		#dateSnooze, #timeSnooze {width:75px;text-align:center}
+		
+		#dateTimeSnoozeButton {background:white;border:1px solid #ddd;padding:3px 5px;border-radius:3px}		
+		
+		#ui-datepicker-div {background:white;box-shadow:2px 4px 4px gray}
+		.ui-widget-header {color:black;background:white;border-color:gray}
+		.ui-state-hover {border-color:gray !important}
+		
+		.ui-datepicker-current {display:none}
+		.ui-datepicker-current, .ui-datepicker-close {background:white}
+		
+		#dateTimeSnoozeWrapper {display:none;position:fixed;left:23%;top:17px;text-align:center;padding:8px 26px;background:white;box-shadow:2px 4px 4px gray;border-top:1px solid #eee;border-left:1px solid #eee;border-radius:5px}
+		body.more #dateTimeSnoozeWrapper {display:block}
+		#dateTimeSnoozeWrapper.mustDonate {font-style:italic}
+		
+		.closeButton {
+			right: 2px;
+			top: 2px;
+			padding: 4px;
+			width: 11px;
+			height: 11px;
+			cursor: pointer;
+			position: absolute;
+			background: url(images/close.png) no-repeat center center;
+			background-size:7px 7px;
+		}
+		
+		.repeating {display:none;vertical-align: top;margin:5px 0px 5px 5px;opacity:0.3;-webkit-transition:opacity .2s ease-in}
+		.repeating:hover {opacity:1}
+		#dismissAll {margin:3px 3px 0 0;color:#aaa;border:1px solid #ddd;padding:2px 7px}
+		header {display:none;text-align:center;height:19px}
+	</style>
+	
+	<body>
+		<header>
+			<div id="dismissAll" class="button" msg="dismissAll">Dismiss All</div>
+		</header>
+		<div id="events"></div>
+		
+		<div class="eventTemplate hide">
+			<div class="eventHeader">
+				<div class="eventHeaderInner">
+					<div class="title"></div><img class="repeating" title="Recurring event" src="images/repeating.png"/> <div class='timeElapsed'></div><div><a class="source" target="_blank">http...</a></div><div class="button dismiss" msg="dismiss">Dismiss</div>
+				</div>
+			</div>
+			<div id="snoozeButtons"><div class="button" snoozeInMinutes="5">5<span msg="m">m</span></div><div class="button" snoozeInMinutes="15">15<span msg="m">m</span></div><div class="button" snoozeInMinutes="30">30<span msg="m">m</span></div><div class="button" snoozeInMinutes="60">1<span msg="h">h</span></div><div class="button" snoozeInMinutes="120">2<span msg="h">h</span></div><div class="button" snoozeInMinutes="240">4<span msg="h">h</span></div><div class="button" snoozeInMinutes="480">8<span msg="h">h</span></div><div class="button" msg="tomorrow" msgArg1="1" snoozeInDays="1">1</div><div class="button" snoozeInDays="2">2<span msg="d">d</span></div><div class="button" snoozeInDays="7">7<span msg="d">d</span></div><div class="button more" msg="more">More</div></div>
+		</div>
+		
+		<div id="dateTimeSnoozeWrapper"><input id="dateSnooze" type="text" placeholder="date"/> <input id="timeSnooze" type="timeSnooze" placeholder="time"/> <button id="dateTimeSnoozeButton">Snooze</button><div class="closeButton"></div></div>
+	</body>	
+	
+</head>
+</html>
